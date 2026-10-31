@@ -346,7 +346,13 @@ def T(id, name, reading, field, importance, short, detail, related=(), grades=(2
     }
     if example: d['example'] = example
     if system: d['system'] = system
-    if formula: d['formula'] = {'name': formula[0], 'tex': formula[1]}
+    for _fname, _fval in (('facts', facts), ('cautions', cautions), ('compare', compare)):
+        if _fval and not all(isinstance(x, str) for x in _fval):
+            raise ValueError(f'{_fname} は文字列のリストで渡すこと（(名称, 説明) ペア形式は不可）: term={id} {_fname}={_fval!r}')
+    if formula:
+        if not (isinstance(formula, (tuple, list)) and len(formula) == 2 and all(isinstance(x, str) and len(x) >= 2 for x in formula)):
+            raise ValueError(f'formula は (名称, TeX) の2要素タプルで渡すこと（文字列は不可）: term={id} formula={formula!r}')
+        d['formula'] = {'name': formula[0], 'tex': formula[1]}
     if aliases: d['aliases'] = list(aliases)
     if facts: d['facts'] = list(facts)
     if cautions: d['cautions'] = list(cautions)
@@ -778,7 +784,7 @@ TERMS = [
     T('choki-joto', '長期譲渡所得・短期譲渡所得', 'ちょうきじょうとしょとく', 'E', 3,
       '土地・建物の譲渡所得は、譲渡した年の1月1日における所有期間が5年を超えると長期、5年以下だと短期。',
       '税率は長期が所得税15％・住民税5％、短期が所得税30％・住民税9％（別途復興特別所得税）。',
-      ['kyojuyo-3000man']),
+      ['kyojuyo-3000man'], aliases=['長期譲渡所得', '短期譲渡所得']),
     T('tetsukekin', '解約手付', 'かいやくてつけ', 'E', 2,
       '相手方が履行に着手するまでなら、買主は手付を放棄、売主は倍額を現実に提供して契約を解除できる手付。',
       '宅地建物取引業者が自ら売主となり、買主が宅建業者でない場合、代金の20％を超える手付は受領できない。',
@@ -862,5 +868,5 @@ TERMS = [
       [], formula=('貸家建付地', '\\text{自用地評価額} \\times (1 - \\text{借地権割合} \\times \\text{借家権割合} \\times \\text{賃貸割合})')),
     T('jojo-kabushiki-hyoka', '上場株式の相続税評価', 'じょうじょうかぶしきのそうぞくぜいひょうか', 'F', 2,
       '上場株式は、課税時期の終値と、その月・前月・前々月の終値の月平均額のうち最も低い価額で評価する。',
-      '負担付贈与等で取得した場合は課税時期の終値で評価する。', []),
+      '負担付贈与等で取得した場合は課税時期の終値で評価する。', [], aliases=['上場株式の評価']),
 ]

@@ -26,7 +26,7 @@ from glossary_more_src import ALL_MORE  # noqa: E402
 
 TERMS.extend(ALL_MORE)  # 追加原稿を結合（explanations_src は TERMS を直接更新するため、その前に結合する）
 # 用語集拡充 第2弾（分野別ファイル。仕様：2026-10-31 の用語拡充・自動リンク強化）
-for _mod in ('glossary_x_a', 'glossary_x_b', 'glossary_x_c', 'glossary_x_d', 'glossary_x_e', 'glossary_x_f'):
+for _mod in ('glossary_x_a', 'glossary_x_b', 'glossary_x_c', 'glossary_x_d', 'glossary_x_e', 'glossary_x_f', 'glossary_x_g'):
     TERMS.extend(__import__(_mod).X_TERMS)
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
