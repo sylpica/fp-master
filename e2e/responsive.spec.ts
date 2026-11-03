@@ -4,6 +4,7 @@ import { expect, test } from '@playwright/test';
 const ROUTES = ['./', './#/practice', './#/challenge', './#/calc', './#/glossary', './#/cards', './#/review', './#/mock', './#/stats', './#/plan', './#/settings', './#/data', './#/law', './#/menu', './#/guide', './#/q/g3-202605-01', './#/q/j2-202409-24'];
 for (const width of [320, 375, 390, 430, 768, 1024, 1366, 1920]) {
   test(`横スクロールなし：幅${width}px`, async ({ page }) => {
+    test.setTimeout(120_000); // 17画面を順に開くため、遅いランナーでも既定の30秒で打ち切らない
     await page.setViewportSize({ width, height: 800 });
     const bad: string[] = [];
     for (const r of ROUTES) {
