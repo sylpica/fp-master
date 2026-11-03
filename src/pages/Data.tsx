@@ -51,10 +51,16 @@ export function DataPage() {
   };
   const doRestore = async () => {
     if (!inspection) return;
-    if (mode === 'replace' && !window.confirm('現在の学習データをすべてバックアップの内容に置き換えます。よろしいですか？')) return;
+    if (mode === 'replace' && !window.confirm('現在の学習データをすべてバックアップの内容に置き換えます。よろしいですか？（置き換える前の学習データは自動でファイルに書き出します）')) return;
     try {
+      let saved = '';
+      if (mode === 'replace') {
+        // 置き換えは今のデータを削除するため、取り違えたファイルで復元しても元に戻せるよう、直前の状態を書き出しておく
+        saved = `fp-master-before-restore-${new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-')}.json`;
+        download(saved, JSON.stringify(await exportBackup(db)));
+      }
       await restoreBackup(db, inspection, mode);
-      setMsg({ ok: true, text: '復元しました。' });
+      setMsg({ ok: true, text: saved ? `復元しました。置き換える前のデータを「${saved}」として書き出しました。` : '復元しました。' });
       setInspection(null);
     } catch (e) {
       setMsg({ ok: false, text: `復元に失敗しました。データは変更されていません（${e instanceof Error ? e.message : String(e)}）` });

@@ -74,6 +74,23 @@ describe('FP2級オリジナル問題（四答択一）の検証', () => {
     }
   });
 
+  it('選択肢の長さが正答の手掛かりになる問題の割合が、監査時点より悪化していない（EXT-H01）', () => {
+    // 「最も適切」で正答肢だけが最長、「最も不適切」で正答肢だけが最短の問題の割合。
+    // 4肢の長さがランダムなら約25%。2026-11-04 の外部監査時点で 387/825（46.9%）と偏っていたため、
+    // 書き直しが進むまでは悪化させないことを保証し、書き直しのたびにこの上限を下げる（目標 35%以下）。
+    const CEILING = 0.47;
+    let cue = 0;
+    for (const q of qs) {
+      const p = q.parts[0]!;
+      if (p.kind !== 'choice') continue;
+      const lens = p.choices.map((c) => c.text.length);
+      const a = lens[Number(p.answer) - 1]!;
+      const target = /不適切|誤っている/.test(q.stem) ? Math.min(...lens) : Math.max(...lens);
+      if (a === target && lens.filter((l) => l === target).length === 1) cue++;
+    }
+    expect(cue / qs.length).toBeLessThanOrEqual(CEILING);
+  });
+
   it('正答位置が不自然に偏っていない（問題数が十分なとき各位置15〜35%）', () => {
     if (qs.length < 40) return;
     const cnt = { '1': 0, '2': 0, '3': 0, '4': 0 } as Record<string, number>;

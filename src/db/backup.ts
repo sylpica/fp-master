@@ -122,7 +122,8 @@ export function migrateBackup(b: Backup): Backup {
 export type RestoreMode = 'merge' | 'replace';
 
 /**
- * 復元。merge: 既存データを残し、重複しないものを追加（同一キーはバックアップ側で上書き）
+ * 復元。merge: 既存データを残し、重複しないものを追加（同一キーは、復習予定・メモ・用語の状態・演習は更新日時が新しい方を残し、
+ *        ブックマーク・あとで解く・設定はバックアップ側で上書き）
  * replace: 全データをバックアップの内容に置き換える
  * いずれも単一トランザクションで実行し、途中で失敗した場合は変更前の状態に戻る。
  */
@@ -146,9 +147,35 @@ export async function restoreBackup(db: FpDb, inspection: BackupInspection, mode
         const existing = new Set((await table.toArray()).map((r: Record<string, unknown>) => JSON.stringify({ ...r, id: undefined })));
         const fresh = rows.filter((r) => !existing.has(JSON.stringify({ ...r, id: undefined }))).map(({ id: _id, ...rest }) => rest);
         await table.bulkAdd(fresh);
+      } else if (t in NEWER_STAMP) {
+        // 統合では「今のデータを残す」ため、同じキーの行は更新日時が新しい方を採用する
+        // （古いバックアップで復習予定・メモ・用語の状態・中断中の演習を巻き戻さない）
+        const stamp = NEWER_STAMP[t as keyof typeof NEWER_STAMP];
+        const pk = PRIMARY_KEY[t];
+        const keys = rows.map((r) => r[pk]).filter((k): k is string => typeof k === 'string');
+        const current = new Map<string, Record<string, unknown>>();
+        for (const r of (await table.where(pk).anyOf(keys).toArray()) as Record<string, unknown>[]) current.set(String(r[pk]), r);
+        await table.bulkPut(rows.filter((r) => backupRowWins(r, current.get(String(r[pk])), stamp)));
       } else {
         await table.bulkPut(rows);
       }
     }
   });
+}
+
+/** 統合復元で「新しい方を残す」判定に使う列（ISO 日時または YYYY-MM-DD。文字列比較で新旧を判定できる） */
+const NEWER_STAMP = { srs: 'last', notes: 'updatedAt', termState: 'updatedAt', sessions: 'updatedAt' } as const;
+
+/**
+ * 統合復元で、バックアップの行を採用するか。
+ * 既存の行がない／既存の行に日時がない場合はバックアップを採用し、
+ * バックアップ側に日時がない場合と、日時が同じか古い場合は既存の行を残す。
+ */
+export function backupRowWins(backupRow: Record<string, unknown>, existing: Record<string, unknown> | undefined, stamp: string): boolean {
+  if (!existing) return true;
+  const cur = existing[stamp];
+  const inc = backupRow[stamp];
+  if (typeof cur !== 'string' || !cur) return true;
+  if (typeof inc !== 'string' || !inc) return false;
+  return inc > cur;
 }

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { CHALLENGE_TARGET, challengeStats } from '../domain/challenge';
+import { CHALLENGE_MIN_FIRST, CHALLENGE_TARGET, challengeStats } from '../domain/challenge';
 import { FIELD_IDS, FIELDS } from '../domain/exam';
 import type { PracticeConfig } from '../domain/selection';
 import type { FieldId } from '../domain/types';
@@ -99,7 +99,8 @@ export function ChallengePage() {
               <Stat label="累計の正答率" value={pct(stats.all.rate)} sub={`${stats.all.correct}/${stats.all.attempts}回`} />
               <Stat
                 label={`${Math.round(CHALLENGE_TARGET * 100)}%との差（初見）`}
-                value={stats.gapPoints === null ? '—' : stats.gapPoints <= 0 ? '達成' : `あと${stats.gapPoints}pt`}
+                value={stats.gapPoints === null ? '—' : stats.gapPoints > 0 ? `あと${stats.gapPoints}pt` : stats.reliable ? '達成' : '到達中'}
+                sub={stats.gapPoints !== null && !stats.reliable ? `判定は初見${CHALLENGE_MIN_FIRST}問から` : undefined}
               />
               <Stat label="高難度（Lv4以上）初見" value={pct(stats.hardFirst.rate)} sub={`${stats.hardFirst.correct}/${stats.hardFirst.attempts}問`} />
               <Stat label="最難関（Lv5）初見" value={pct(stats.topFirst.rate)} sub={`${stats.topFirst.correct}/${stats.topFirst.attempts}問`} />

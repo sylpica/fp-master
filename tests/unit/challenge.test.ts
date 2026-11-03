@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { challengeStats } from '../../src/domain/challenge';
+import { CHALLENGE_MIN_FIRST, challengeStats } from '../../src/domain/challenge';
 import { selectQuestions, topicMastery, type UserState } from '../../src/domain/selection';
 import type { Question } from '../../src/domain/types';
 
@@ -50,6 +50,20 @@ describe('95%チャレンジの分析', () => {
     expect(s.first.rate).toBeNull();
     expect(s.gapPoints).toBeNull();
     expect(s.weakTopics.map((t) => t.key).sort()).toEqual(['A1-1', 'A1-2']);
+  });
+
+  it('初見が少数で偶然100%でも「達成」判定に使わない（初見100問未満は reliable=false）', () => {
+    const few = challengeStats(pool, [{ itemId: 'a', correct: true, at: '2026-10-01T00:00:00Z' }]);
+    expect(few.first.rate).toBe(1);
+    expect(few.gapPoints).toBeLessThanOrEqual(0);
+    expect(few.reliable).toBe(false);
+    expect(CHALLENGE_MIN_FIRST).toBe(100);
+    const big = Array.from({ length: CHALLENGE_MIN_FIRST }, (_, i) => q(`x${i}`, 3, 'A1-1'));
+    const at = (i: number) => new Date(Date.UTC(2026, 9, 1, 0, 0, i)).toISOString();
+    const s = challengeStats(big, big.map((x, i) => ({ itemId: x.id, correct: i >= 5, at: at(i) })));
+    expect(s.first).toMatchObject({ attempts: 100, correct: 95, rate: 0.95 });
+    expect(s.gapPoints).toBe(0);
+    expect(s.reliable).toBe(true);
   });
 
   it('対象外の問題の履歴は無視する', () => {

@@ -47,7 +47,33 @@ def main() -> int:
                 print(f'引用なし {qid} [{k}] {qt[:50]}…')
                 bad += 1
     print(f'引用 {n} 件中 不一致 {bad} 件')
+    for b in all_batches():
+        if want and b.id not in want:
+            continue
+        warn_length_cue(b)
     return 1 if bad else 0
+
+
+def warn_length_cue(b) -> None:
+    """選択肢の長さが正答の手掛かりにならないかを確認する（外部監査 EXT-H01）。
+    「最も適切」問題で正答肢だけが一番長い、「最も不適切」問題で正答肢だけが一番短い、という偏りがあると、
+    知識がなくても長さで正答を選べてしまい、正答率が実力を表さなくなる。引用照合とは別の警告として表示する。"""
+    if not hasattr(b, 'placed'):
+        return  # 実技ケース・四択以外（cases.py）は対象外
+    cue = total = 0
+    hits = []
+    for q, ch, pos in b.placed():
+        lens = [len(c.text) for c in ch]
+        a = lens[pos - 1]
+        target = max(lens) if q.ask == 'right' else min(lens)
+        total += 1
+        if a == target and lens.count(target) == 1:
+            cue += 1
+            hits.append(q.id)
+    # 4肢がランダムなら「正答だけが最長（最短）」は約25%。40%を超えたら書き直しを検討する
+    if total and cue / total > 0.4:
+        print(f'警告 {b.id}: 正答肢だけが最長（適切問題）／最短（不適切問題）の問題が {cue}/{total} 問（{cue / total:.0%}）。'
+              f'選択肢の長さをそろえること：{", ".join(hits)}')
 
 
 if __name__ == '__main__':

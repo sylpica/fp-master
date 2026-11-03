@@ -77,3 +77,23 @@ describe('電卓', () => {
     expect(() => evaluate('2+')).toThrow();
   });
 });
+
+describe('「しばらく解いていない」フィルタ（ローカル日付で判定）', () => {
+  it('UTC では30日前でも、日本時間では29日前の解答は対象にしない', async () => {
+    const { applyFilter } = await import('../../src/domain/selection');
+    const prevTz = process.env.TZ;
+    process.env.TZ = 'Asia/Tokyo';
+    try {
+      const q = { id: 'q1' } as unknown as import('../../src/domain/types').Question;
+      const stat = (lastAt: string) => ({ attempts: 1, correct: 1, lastCorrect: true, lastUnsure: false, lastAt, due: null });
+      const user = (lastAt: string) => ({ stats: new Map([['q1', stat(lastAt)]]), bookmarks: new Set<string>(), later: new Set<string>(), today: '2026-10-27', weakFields: [] });
+      // 2026-09-27T20:00Z は日本時間 2026-09-28 05:00（今日 2026-10-27 から29日前）→ 対象外
+      expect(applyFilter([q], 'stale', user('2026-09-27T20:00:00.000Z'))).toEqual([]);
+      // 2026-09-27T10:00Z は日本時間 2026-09-27 19:00（30日前）→ 対象
+      expect(applyFilter([q], 'stale', user('2026-09-27T10:00:00.000Z'))).toEqual([q]);
+    } finally {
+      if (prevTz === undefined) delete process.env.TZ;
+      else process.env.TZ = prevTz;
+    }
+  });
+});
