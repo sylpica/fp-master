@@ -52,7 +52,10 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'fp-question-data-v1',
-              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              // ファイル名に内容ハッシュが付くため、同じURLの中身は変わらない（期限切れによる再取得は不要）。
+              // maxAgeSeconds を付けると、最後の取得から期限を過ぎた時点でオフラインでは問題データを読めなくなるため付けない。
+              // 古い版のチャンクは maxEntries（最近使っていないものから削除）で整理される。
+              expiration: { maxEntries: 400 },
               cacheableResponse: { statuses: [200] },
             },
           },

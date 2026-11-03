@@ -1,7 +1,11 @@
 name: Deploy to GitHub Pages
 
+# main の CI（型チェック・単体/データテスト・ビルド・E2E）が成功したコミットだけを公開する。
+# 以前は push で CI と並行して公開しており、E2E が失敗したコミットも公開されうる状態だった。
 on:
-  push:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
     branches: [main]
   workflow_dispatch:
 
@@ -16,9 +20,14 @@ concurrency:
 
 jobs:
   build:
+    # CI が push（main）で成功したときだけ。手動実行（workflow_dispatch）はそのまま実行する
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # workflow_run では CI が検証したコミットそのものを公開する
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22

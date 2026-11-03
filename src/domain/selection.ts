@@ -1,5 +1,6 @@
 import type { ExamKey, FieldId, Question } from './types';
 import { createRng, shuffle } from './random';
+import { localDayOf } from './stats';
 
 /** 1問ごとの学習状況（履歴から集計） */
 export interface ItemStat {
@@ -93,7 +94,8 @@ export function applyFilter(qs: Question[], filter: PracticeFilter, u: UserState
       const limit = addDaysIso(u.today, -STALE_DAYS);
       return qs.filter((q) => {
         const last = st(q)?.lastAt;
-        return !!last && last.slice(0, 10) <= limit;
+        // lastAt は UTC の ISO 文字列。today（ローカル日付）と同じ基準で比べるためローカル日付に直す
+        return !!last && localDayOf(last) <= limit;
       });
     }
   }

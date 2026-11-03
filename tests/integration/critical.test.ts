@@ -95,6 +95,35 @@ describe('学習履歴の保存', () => {
     expect(await db.attempts.count()).toBe(1);
     db.close();
   });
+  it('統合復元では、古いバックアップで新しい復習予定・メモを巻き戻さない（新しい方を残す）', async () => {
+    const db = new FpDb('fp-test');
+    const older = review(undefined, 'good', '2026-10-01');
+    await db.srs.put({ key: 'q:a', ...older });
+    await db.notes.put({ key: 'q:a', text: '古いメモ', updatedAt: '2026-10-01T00:00:00.000Z' });
+    const oldBackup = await exportBackup(db);
+    // バックアップ後に端末で学習を進めた
+    await db.srs.put({ key: 'q:a', ...review(older, 'good', '2026-10-05') });
+    await db.notes.put({ key: 'q:a', text: '新しいメモ', updatedAt: '2026-10-05T00:00:00.000Z' });
+    // バックアップにしかない行は追加される
+    oldBackup.tables.srs!.push({ key: 'q:b', ...review(undefined, 'again', '2026-10-01') });
+    const ins = await inspectBackup(db, JSON.stringify(oldBackup));
+    expect(ins.ok).toBe(true);
+    await restoreBackup(db, ins, 'merge');
+    expect((await db.srs.get('q:a'))?.last).toBe('2026-10-05');
+    expect((await db.notes.get('q:a'))?.text).toBe('新しいメモ');
+    expect(await db.srs.get('q:b')).toBeDefined();
+    db.close();
+  });
+  it('統合復元では、バックアップの方が新しければその行を採用する', async () => {
+    const db = new FpDb('fp-test');
+    await db.notes.put({ key: 'q:a', text: '端末のメモ', updatedAt: '2026-10-01T00:00:00.000Z' });
+    const b = await exportBackup(db);
+    b.tables.notes = [{ key: 'q:a', text: '別端末の新しいメモ', updatedAt: '2026-10-09T00:00:00.000Z' }];
+    const ins = await inspectBackup(db, JSON.stringify(b));
+    await restoreBackup(db, ins, 'merge');
+    expect((await db.notes.get('q:a'))?.text).toBe('別端末の新しいメモ');
+    db.close();
+  });
   it('破損・不正なバックアップは検証で拒否され、DBは変更されない', async () => {
     const db = new FpDb('fp-test');
     await db.attempts.add({ itemId: 'keep', itemKind: 'question', field: 'A', correct: true, timeMs: 1, at: '2026-10-21T00:00:00Z' });

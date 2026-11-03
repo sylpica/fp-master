@@ -106,3 +106,23 @@ describe('生成問題の正答を独立した浮動小数点計算と照合', (
     }
   });
 });
+
+describe('容積率の生成問題：指定容積率が用途地域で定め得る値（建築基準法52条1項）', () => {
+  // 第一種住居地域（同項2号）・近隣商業地域（同項3号）は、いずれも 10/10・15/10・20/10・30/10・40/10・50/10 のいずれか
+  const ALLOWED: Record<string, number[]> = {
+    第一種住居地域: [100, 150, 200, 300, 400, 500],
+    近隣商業地域: [100, 150, 200, 300, 400, 500],
+  };
+  it('近隣商業地域で600％のような存在しない指定容積率を出題しない', () => {
+    const g = CALC_GENERATORS.find((x) => x.id === 'floor-area-ratio')!;
+    for (const d of [1, 2, 3] as const) {
+      for (let s = 0; s < 500; s++) {
+        const p = g.generate(s, d);
+        const zone = p.given.find((x) => x.label === '用途地域')!.value;
+        const designated = Number(p.given.find((x) => x.label === '指定容積率')!.value.replace('％', ''));
+        expect(ALLOWED[zone], zone).toBeDefined();
+        expect(ALLOWED[zone]).toContain(designated);
+      }
+    }
+  });
+});

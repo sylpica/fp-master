@@ -55,7 +55,9 @@ export const floorAreaRatioGenerator: CalcGenerator = {
     const rng = createRng(seed);
     const area = randInt(rng, 10, 50) * 10;
     const residential = rng() < 0.6;
-    const designated = pick(rng, residential ? [100, 150, 200, 300] : [300, 400, 500, 600]);
+    // 指定容積率は用途地域ごとに都市計画で定められる値（建築基準法52条1項）から選ぶ。
+    // 第一種住居地域・近隣商業地域はいずれも 10/10〜50/10（600％は商業地域などの値で、近隣商業地域にはない）
+    const designated = pick(rng, residential ? [100, 150, 200, 300] : [200, 300, 400, 500]);
     const roads = difficulty === 1 ? [randInt(rng, 4, 12)] : [randInt(rng, 4, 8), randInt(rng, 4, 8)];
     const road = Math.max(...roads);
     const mult = residential ? 4 : 6;
