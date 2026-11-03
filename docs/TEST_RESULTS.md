@@ -31,3 +31,6 @@ tsc エラーなし／Vitest 133 passed（11ファイル）／Playwright 110 pas
 
 ## 2026-10-28（用語集拡充・法改正追加後）
 tsc OK／Vitest 133 passed／build OK／Playwright 110 passed。未実施：実機iPhone、Lighthouse再計測、手動a11y、公開URL確認。
+
+## 2026-11-04（Claude Code 側外部監査・PR #26）
+CI（GitHub Actions）で検証：tsc OK／Vitest 148 passed（13ファイル）／build OK（precache 362件・14,981.43 KiB）／Playwright 138 passed（iPhone＋desktop、横スクロール検査を 320〜1920px の8幅に拡大）。本セッションは npm レジストリに接続できずローカル実行は不可。実機・公開URLのブラウザ操作は未実施。詳細は `docs/audit/EXTERNAL_AUDIT_CLAUDE.md`。
