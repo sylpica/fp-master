@@ -74,21 +74,30 @@ describe('FP2級オリジナル問題（四答択一）の検証', () => {
     }
   });
 
-  it('選択肢の長さが正答の手掛かりになる問題の割合が、監査時点より悪化していない（EXT-H01）', () => {
-    // 「最も適切」で正答肢だけが最長、「最も不適切」で正答肢だけが最短の問題の割合。
-    // 4肢の長さがランダムなら約25%。2026-11-04 の外部監査時点で 387/825（46.9%）と偏っていたため、
-    // 書き直しが進むまでは悪化させないことを保証し、書き直しのたびにこの上限を下げる（目標 35%以下）。
-    const CEILING = 0.47;
-    let cue = 0;
-    for (const q of qs) {
-      const p = q.parts[0]!;
-      if (p.kind !== 'choice') continue;
-      const lens = p.choices.map((c) => c.text.length);
-      const a = lens[Number(p.answer) - 1]!;
-      const target = /不適切|誤っている/.test(q.stem) ? Math.min(...lens) : Math.max(...lens);
-      if (a === target && lens.filter((l) => l === target).length === 1) cue++;
-    }
+  // 「最も適切」で正答肢だけが最長、「最も不適切」で正答肢だけが最短の問題か（4肢の長さがランダムなら約25%）
+  const lengthCue = (q: Question): boolean => {
+    const p = q.parts[0]!;
+    if (p.kind !== 'choice') return false;
+    const lens = p.choices.map((c) => c.text.length);
+    const a = lens[Number(p.answer) - 1]!;
+    const target = /不適切|誤っている/.test(q.stem) ? Math.min(...lens) : Math.max(...lens);
+    return a === target && lens.filter((l) => l === target).length === 1;
+  };
+
+  it('選択肢の長さが正答の手掛かりになる問題の割合が上限以下（EXT-H01）', () => {
+    // 2026-11-04 の外部監査時点 387/825（46.9%）→ 選択肢の書き直し後 262/825（31.8%）。
+    // 書き直しが進んだらこの上限を下げる（悪化は禁止）。
+    const CEILING = 0.32;
+    const cue = qs.filter(lengthCue).length;
     expect(cue / qs.length).toBeLessThanOrEqual(CEILING);
+  });
+
+  it('どのバッチでも、長さが正答の手掛かりになる問題は40%以下（EXT-H01・check_batch の警告基準と同じ）', () => {
+    const over = sets
+      .map((s) => ({ id: s.id, n: s.questions.length, cue: s.questions.filter(lengthCue).length }))
+      .filter((b) => b.cue / b.n > 0.4)
+      .map((b) => `${b.id} ${b.cue}/${b.n}`);
+    expect(over).toEqual([]);
   });
 
   it('正答位置が不自然に偏っていない（問題数が十分なとき各位置15〜35%）', () => {

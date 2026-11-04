@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """オリジナル問題の引用が出典ページ本文に実在するかを、バッチ単位で素早く確認する（ページはディスクにキャッシュ）。
   python3 -I scripts/original/check_batch.py [バッチID ...]   # 省略時は全バッチ
+  --allow-fetch-failure : ページを取得できなかった引用は警告として表示し、終了コードには含めない（CI 用。引用の不一致は常に失敗）
 """
 import hashlib
 import json
@@ -31,8 +32,10 @@ def text_of(url: str) -> str | None:
 
 
 def main() -> int:
-    want = set(sys.argv[1:])
+    allow_fetch_failure = '--allow-fetch-failure' in sys.argv
+    want = {a for a in sys.argv[1:] if not a.startswith('--')}
     bad = 0
+    fetch_failed = 0
     n = 0
     for b in all_batches():
         if want and b.id not in want:
@@ -42,11 +45,13 @@ def main() -> int:
             t = text_of(source(k)['url'])
             if t is None:
                 print(f'取得失敗 {qid} {source(k)["url"]}')
-                bad += 1
+                fetch_failed += 1
             elif re.sub(r'\s+', '', qt) not in t:
                 print(f'引用なし {qid} [{k}] {qt[:50]}…')
                 bad += 1
-    print(f'引用 {n} 件中 不一致 {bad} 件')
+    print(f'引用 {n} 件中 不一致 {bad} 件・取得失敗 {fetch_failed} 件')
+    if fetch_failed and not allow_fetch_failure:
+        bad += fetch_failed
     for b in all_batches():
         if want and b.id not in want:
             continue
