@@ -143,7 +143,16 @@
 - ローカル（修正後）：tsc OK／Vitest 14ファイル **169件合格**／build OK（precache 362件・約15,062 KiB）／Playwright **150件合格**（4.0分）。
 - 修正前に失敗することを確認したテスト：退職所得の3件、解答確定の結合テスト2件、生成ドキュメントの2件。オフライン解説・ダブルタップ・UIルールは修正前に Playwright のスクリプトで不具合を再現した。
 - 教材：`check_batch.py j08 j11`（オンライン）引用88件の不一致 0。`build_content.py --offline` で生成物の差分は2小問の問題文のみ。
-- 実機（iPhone Safari）・VoiceOver・公開URLでの手動操作は未実施（環境の制約）。CI・Content verify・デプロイの結果は PR 側に記録する。
+- 実機（iPhone Safari）・VoiceOver は未実施（環境の制約）。
+
+### PR・CI・公開反映
+| 段階 | 結果 |
+|---|---|
+| PR | #31（コミット f129d72・55aff13）。2026-11-04 22:37 UTC にマージ（マージコミット 2684bf3） |
+| CI（PR・push） | run 41922843073・41922781185 成功：Vitest 169件・build・Playwright 150件（再試行なし） |
+| Content verify | run 41922843085 成功：引用 5,408件中 不一致 0（取得失敗5件は j-flec・大和アセットの一時的な取得失敗で警告扱い）、生成物はオンライン再生成と一致（照合日の更新のみ） |
+| main CI → Deploy | run 41926892764 成功 → Deploy run 41927872296 成功（22:45 UTC） |
+| 公開URL | https://sylpica.github.io/fp-master/ の配信 JS が新ビルド（index-EWpf7jD0.js）に切り替わったことを確認。公開URL上で Playwright（375px）により、ヘッダー49px・5問演習の解答と解説表示・計算トレーニングの起動・ページエラー0件を確認 |
 
 ## G. 引き継ぎ（次に実施すべき作業）
 1. R2-M08：実技ケース Lv5（89件）・四択 Lv4＋5 の難易度再判定（1件ずつ。一括変更しない）。AUTHORING.md の「Lv4＋5 を50%以上」のルール自体の見直しも検討。
