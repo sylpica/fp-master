@@ -1,0 +1,41 @@
+# 教材（問題・解説・用語・カード・改正情報）を変更した PR で、根拠の引用を公式ページと照合し直す。
+# - check_batch.py：オリジナル問題の引用が出典ページ本文に実在するか（不一致があれば失敗）
+# - build_content.py：全項目をオンラインで照合して生成し直し、コミット済みの src/content と一致するか
+#   （照合日 checkedAt の更新だけは差分とみなさない）
+# ローカル環境から公式サイトに接続できない場合でも、この CI を照合のゲートとして使える（AGENTS.md §8）。
+name: Content verify
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'src/content/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Quote check for original questions (online)
+        run: python3 -I scripts/original/check_batch.py
+      - name: Rebuild content with online evidence check
+        run: python3 -I scripts/content/build_content.py
+      - name: Committed content must equal the online-verified build
+        run: |
+          git diff --stat -- src/content
+          if git diff --quiet -- src/content ':(exclude)src/content/source-check.json' \
+            && ! git diff -U0 -- src/content/source-check.json | grep -E '^[+-][^+-]' | grep -vqE '"checkedAt": "[0-9]{4}-[0-9]{2}-[0-9]{2}",?$'; then
+            echo "一致（照合日の更新のみ）"
+            exit 0
+          fi
+          echo "::error::コミット済みの src/content がオンライン照合の結果と一致しません（引用の不一致・未照合への格下げなど）"
+          git diff -U2 -- src/content | grep -vE '"checkedAt"' | head -300
+          exit 1
