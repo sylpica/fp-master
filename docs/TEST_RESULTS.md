@@ -1,5 +1,11 @@
 # TEST RESULTS（2026-10-28）
 
+## 2026-11-04 夜（外部監査ラウンド2・ローカル実行）
+- 開始時（75be9e4）：npm ci／tsc OK／Vitest 13ファイル 151件／build OK（precache 362件・15,058.09 KiB）／Playwright 142件（iPhone 13 相当＋desktop、4.3分）。
+- 修正後：tsc OK／Vitest **14ファイル 169件**／build OK（precache 362件・約15,062 KiB）／Playwright **150件**（4.0分）。追加の内訳は `docs/audit/EXTERNAL_AUDIT_CLAUDE_ROUND2.md` F 節。
+- 教材：`check_batch.py j08 j11`（オンライン）引用88件の不一致 0。`npm audit --omit=dev` 0件（開発用に moderate 3系統、R2-L05）。
+- 未実施：実機 iPhone Safari・VoiceOver・公開URLでの手動操作。
+
 ## 2026-11-04 夕（外部監査の残件 EXT-H01・M08・M12・M13）
 GitHub Actions 上で実行（ローカルは npm レジストリに接続できないため不可）。
 - PR #30（#28・#29 を含む）の CI：tsc OK／Vitest 13ファイル **151件合格**（+1 changed 問題の出題停止、+1 全用語の example）／build OK（precache 362件・15,058.09 KiB）／Playwright **142件合格**（+ e2e/guide.spec.ts 2件×iPhone・desktop）。

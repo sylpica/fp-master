@@ -82,10 +82,10 @@ test('UIルール：375pxでヘッダーの高さが52px以下で、文字が省
     const res = await page.evaluate(() => {
       const header = document.querySelector('header');
       const clipped: string[] = [];
-      for (const el of document.querySelectorAll<HTMLElement>('main *')) {
+      for (const el of Array.from(document.querySelectorAll<HTMLElement>('main *'))) {
         const cs = getComputedStyle(el);
         if (cs.display === 'none' || el.closest('.sr-only, .katex')) continue;
-        const hasText = [...el.childNodes].some((n) => n.nodeType === 3 && n.textContent!.trim());
+        const hasText = Array.from(el.childNodes).some((n) => n.nodeType === 3 && n.textContent!.trim());
         if (!hasText) continue;
         const clamp = cs.webkitLineClamp !== 'none' && cs.webkitLineClamp !== '';
         const ellipsis = cs.textOverflow === 'ellipsis';

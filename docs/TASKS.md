@@ -14,4 +14,6 @@
 - [x] 用語集の大幅拡充：91→216語（第1弾〜バッチ6）→**396語（2026-10-31 第2弾で+180語、全件 verified）**。各語に重要数字・条件（facts）／例外・注意点（cautions）／類似用語との違い（compare）／細目対応（topics）／法令基準日を収録。詳しい説明書モード／シミュレーション説明の強化も実施済み（`docs/GLOSSARY_EXPANSION.md`）
 - [~] 用語・カードの draft 項目に根拠引用を追加して照合：draft 18語中11語を回収（2026-10-31）。残り7語（係数6語＝公式の逐語定義が存在しない計算係数、リスクコントロールとリスクファイナンス＝公式の定義文なし）は構造的に逐語裏づけが取れず draft 維持が結論
 - [~] 性能（ページ単位の遅延読み込み＋問題データのランタイムキャッシュ分離を実施済み。precache 362 entries・約14.2MB）、a11y監査（手動確認は未実施）
-- [x] GitHub への push・PR・Pages 公開：PR #1〜#21 をマージ済み、https://sylpica.github.io/fp-master/ で公開中
+- [x] GitHub への push・PR・Pages 公開：PR #1〜#30 をマージ済み（2026-11-04）、https://sylpica.github.io/fp-master/ で公開中
+- [x] 外部監査ラウンド2（2026-11-04）：High 2・Medium 7・Low 4 を修正（`docs/audit/EXTERNAL_AUDIT_CLAUDE_ROUND2.md`）
+- [ ] 実技ケースの難易度（Lv5 偏り）の1件ずつの再判定（R2-M08）
