@@ -54,7 +54,8 @@ test('解説の本文（標準・詳細）の用語からも定義を開ける',
   await links.first().click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await expect(page.getByRole('dialog').getByRole('heading').first()).toBeVisible();
-  await page.getByRole('button', { name: '閉じる' }).click();
+  // オフライン準備完了の通知（「閉じる」ボタン付き）と重なっても、用語ポップアップの閉じるボタンだけを押す
+  await page.getByRole('dialog').getByRole('button', { name: '閉じる' }).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);
   // 閉じたあとも解説と解答結果が残っている
   await expect(section).toContainText('正解');
