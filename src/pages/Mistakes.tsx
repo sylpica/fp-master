@@ -7,7 +7,7 @@ import { FIELDS } from '../domain/exam';
 import { buildItemStats } from '../domain/stats';
 import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
-import { Empty, FieldBadge } from '../ui/common';
+import { Empty, FieldBadge, questionLabel } from '../ui/common';
 
 /** 間違いノート：間違えたことのある問題を、誤答回数とメモつきで一覧 */
 export function MistakesPage() {
@@ -29,7 +29,7 @@ export function MistakesPage() {
   if (!data) return <p role="status">読み込み中…</p>;
   return (
     <div className="space-y-4">
-      <PageTitle sub="間違えたことのある問題。直近で不正解のものが上に並びます。">間違いノート</PageTitle>
+      <PageTitle sub={rows.length ? `${rows.length}問（直近で不正解の問題が上）` : undefined}>間違いノート</PageTitle>
       {rows.length === 0 ? (
         <Empty>まだ間違えた問題はありません。</Empty>
       ) : (
@@ -42,13 +42,13 @@ export function MistakesPage() {
               <li key={q!.id} className="card">
                 <div className="mb-1 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
                   <FieldBadge field={q!.field} />
-                  <span>{FIELDS[q!.field].short}／{q!.theme}</span>
+                  <span>{FIELDS[q!.field].short}</span>
                   <span className="ml-auto">
                     誤答 {wrong}回・直近 {s.lastCorrect ? '○' : '×'}
                   </span>
                 </div>
-                <Link to={`/q/${q!.id}`} className="line-clamp-3 text-sm underline decoration-slate-300">
-                  {q!.stem}
+                <Link to={`/q/${q!.id}`} className="text-sm underline decoration-slate-300">
+                  {questionLabel(q!)}
                 </Link>
                 {note && <p className="mt-2 rounded-lg bg-amber-50 p-2 text-sm dark:bg-amber-950/40">メモ：{note}</p>}
               </li>

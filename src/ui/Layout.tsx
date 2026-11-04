@@ -40,7 +40,7 @@ export function Layout() {
     <div className="mx-auto flex min-h-dvh max-w-2xl flex-col">
       {!focus && settings && (
         <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/95 px-4 pt-[env(safe-area-inset-top)] backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
-          <div className="flex h-14 items-center justify-between gap-2">
+          <div className="flex h-12 items-center justify-between gap-2">
             <NavLink to="/" className="text-lg font-bold text-brand-700 dark:text-brand-200">
               FP Master
             </NavLink>
@@ -98,7 +98,7 @@ export function Layout() {
           </ul>
         </nav>
       )}
-      <UpdatePrompt />
+      <UpdatePrompt bottom={!focus} />
     </div>
   );
 }
@@ -131,11 +131,20 @@ export function Segmented({
   );
 }
 
+/**
+ * 画面の見出し。sub には件数・対象など「いま見ている内容」を表す短い情報だけを置く。
+ * 機能の説明や注意書きは本題の操作を押し下げないよう、画面の下の PageNote に置く（UIルール3）。
+ */
 export function PageTitle({ children, sub }: { children: ReactNode; sub?: ReactNode }) {
   return (
-    <div className="mb-4">
+    <div className="mb-3">
       <h1 className="text-xl font-bold">{children}</h1>
-      {sub && <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{sub}</p>}
+      {sub && <p className="mt-0.5 text-sm text-slate-600 dark:text-slate-400">{sub}</p>}
     </div>
   );
+}
+
+/** 画面下部に置く説明・注意書き・出典（UIルール3：説明文は上部に置かない） */
+export function PageNote({ children }: { children: ReactNode }) {
+  return <div className="space-y-1 border-t border-slate-200 pt-3 text-xs leading-relaxed text-slate-600 dark:border-slate-800 dark:text-slate-400">{children}</div>;
 }

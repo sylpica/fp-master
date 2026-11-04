@@ -4,7 +4,7 @@ import type { Question } from '../domain/types';
 import { formatAnswer } from '../domain/scoring';
 import type { ExplanationMode } from '../state/settings';
 import { useContent, useExplanationEntry } from '../content/store';
-import { ReviewBadge, Tex } from './common';
+import { ReviewBadge, Tex, questionLabel } from './common';
 import { TermText } from './TermText';
 import { LawNotice, SourceLine } from './QuestionView';
 
@@ -57,8 +57,8 @@ function ChoiceReview({ q, notes }: { q: Question; notes?: Record<string, string
 export function Explanation({ q, initialMode }: { q: Question; initialMode: ExplanationMode }) {
   const [mode, setMode] = useState<ExplanationMode>(initialMode);
   const { questionById, terms } = useContent();
-  const entry = useExplanationEntry(q.id);
-  const e = entry?.explanation;
+  const { entry, retry } = useExplanationEntry(q.id);
+  const e = entry && entry !== 'error' ? entry.explanation : undefined;
   const relatedTerms = terms.filter((t) => q.terms?.includes(t.id));
 
   return (
@@ -141,7 +141,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
                         .map((rq) => (
                           <li key={rq!.id}>
                             <Link className="text-brand-700 underline dark:text-brand-200" to={`/q/${rq!.id}`}>
-                              {rq!.stem.slice(0, 40)}…
+                              {questionLabel(rq!)}
                             </Link>
                           </li>
                         ))}
@@ -174,6 +174,13 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
           <p className="text-sm text-slate-600 dark:text-slate-400" role="status">
             解説を読み込み中…
           </p>
+        ) : entry === 'error' ? (
+          <div role="alert" className="space-y-2 text-sm">
+            <p>解説を読み込めませんでした。オフラインのときは、一度オンラインで解説を表示すると以後はオフラインでも読めます。</p>
+            <button className="btn-secondary min-h-10 text-sm" onClick={retry}>
+              もう一度読み込む
+            </button>
+          </div>
         ) : (
           <p className="text-sm text-slate-600 dark:text-slate-400">この問題の解説は準備中です（根拠資料と照合した解説のみ掲載します）。</p>
         )}

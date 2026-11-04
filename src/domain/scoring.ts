@@ -32,6 +32,20 @@ export function numericEquals(input: number, answer: number): boolean {
   return Math.round(input * scale) === Math.round(answer * scale);
 }
 
+/**
+ * 数値入力欄の文字列を数値に変換する。空欄・数値として読めない入力は null。
+ * 日本語入力の全角数字・全角カンマ・全角マイナス（−）、桁区切りのカンマ・空白を受け付ける。
+ */
+export function parseNumericInput(raw: string): number | null {
+  const s = raw
+    .normalize('NFKC')
+    .replace(/[\u2212\u2010-\u2015\uFF0D]/g, '-')
+    .replace(/[,\s]/g, '');
+  if (s === '' || !/^-?(\d+\.?\d*|\.\d+)$/.test(s)) return null;
+  const v = Number(s);
+  return Number.isFinite(v) ? v : null;
+}
+
 function decimalPlaces(n: number): number {
   const s = String(n);
   if (s.includes('e-')) return Number(s.split('e-')[1]);

@@ -57,22 +57,28 @@ export async function startPractice(pool: Question[], cfg: PracticeConfig, title
 export async function commitAnswer(s: StudySession, q: Question, mode: string): Promise<StudySession> {
   const a = s.answers[q.id];
   if (!a || a.correct === undefined || a.committed) return s;
-  await recordAttempt(
-    {
-      itemId: q.id,
-      itemKind: 'question',
-      exam: q.exam,
-      field: q.field,
-      correct: a.correct,
-      unsure: !!a.unsure,
-      timeMs: a.timeMs ?? 0,
-      sessionId: s.id,
-      mode,
-    },
-    ratingFromAnswer(a.correct, !!a.unsure),
-  );
   const next = { ...s, answers: { ...s.answers, [q.id]: { ...a, committed: true } } };
-  await saveSession(next);
+  // 「次の問題へ」の連打（ダブルタップ）などで同時に呼ばれても二重に記録しないよう、
+  // 確定済みかの確認・履歴の記録・確定フラグの保存を1つのトランザクションで行う
+  await db.transaction('rw', db.sessions, db.attempts, db.srs, async () => {
+    const stored = await db.sessions.get(s.id);
+    if (stored?.answers[q.id]?.committed) return;
+    await recordAttempt(
+      {
+        itemId: q.id,
+        itemKind: 'question',
+        exam: q.exam,
+        field: q.field,
+        correct: a.correct!,
+        unsure: !!a.unsure,
+        timeMs: a.timeMs ?? 0,
+        sessionId: s.id,
+        mode,
+      },
+      ratingFromAnswer(a.correct!, !!a.unsure),
+    );
+    await saveSession(next);
+  });
   return next;
 }
 

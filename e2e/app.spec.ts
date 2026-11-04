@@ -14,7 +14,7 @@ async function answerCurrent(page: Page) {
 
 test('初回起動：架空の成績を表示せず、すぐに5問解ける', async ({ page }) => {
   await page.goto('./');
-  await expect(page.getByText('はじめに')).toBeVisible();
+  await expect(page.getByText(/から始めましょう/)).toBeVisible();
   await expect(page.getByText('累計解答')).toHaveCount(0);
   await page.getByRole('link', { name: 'すぐに5問解く' }).click();
   await expect(page.getByText('1 / 5')).toBeVisible();

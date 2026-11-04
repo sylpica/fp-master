@@ -76,7 +76,7 @@ export function Calculator({ onUse }: { onUse?: (v: number) => void }) {
   return (
     <div className="rounded-2xl bg-slate-100 p-3 dark:bg-slate-800" aria-label="電卓">
       <div className="mb-2 min-h-14 rounded-xl bg-white px-3 py-2 text-right font-mono dark:bg-slate-900" aria-live="polite">
-        <div className="truncate text-sm text-slate-600 dark:text-slate-400">{expr || '0'}</div>
+        <div className="break-all text-sm text-slate-600 dark:text-slate-400">{expr || '0'}</div>
         <div className="text-xl font-bold tabular-nums">{error ?? (result !== null ? Number(result).toLocaleString('ja-JP', { maximumFractionDigits: 8 }) : '')}</div>
       </div>
       <div className="grid grid-cols-4 gap-2">

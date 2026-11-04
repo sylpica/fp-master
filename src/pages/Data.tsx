@@ -4,7 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../db/db';
 import { exportBackup, inspectBackup, restoreBackup, type BackupInspection, type RestoreMode } from '../db/backup';
 import { useContent } from '../content/store';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 import { Empty } from '../ui/common';
 
 function download(name: string, text: string) {
@@ -70,7 +70,7 @@ export function DataPage() {
 
   return (
     <div className="space-y-4">
-      <PageTitle sub="学習データはこの端末のブラウザ内（IndexedDB）に保存されています。端末間の自動同期はありません。">データ管理</PageTitle>
+      <PageTitle>データ管理</PageTitle>
       {msg && (
         <p role="status" className={`rounded-xl p-3 text-sm ${msg.ok ? 'bg-emerald-50 text-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-100' : 'bg-rose-50 text-rose-900 dark:bg-rose-950/40 dark:text-rose-100'}`}>
           {msg.text}
@@ -176,6 +176,9 @@ export function DataPage() {
           </Link>
         </p>
       </section>
+      <PageNote>
+        <p>学習データはこの端末のブラウザ内（IndexedDB）に保存されています。端末間の自動同期はありません。</p>
+      </PageNote>
     </div>
   );
 }

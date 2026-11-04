@@ -52,18 +52,38 @@ export function loadExplanations(): Promise<Record<string, ExplanationEntry>> {
   return explanationsPromise;
 }
 
-/** 問題の解説を取得する（読み込み中は undefined、解説がなければ null） */
-export function useExplanationEntry(id: string): ExplanationEntry | null | undefined {
+/**
+ * 解説データを Service Worker のランタイムキャッシュに入れておく。
+ * 解説は初めて表示するときに読み込むため、オンラインで一度も解説を開かずにオフラインになると
+ * 解説が読めない。SW がページを制御している（＝取得結果がキャッシュされる）オンライン時に、
+ * 操作の邪魔にならないよう少し遅らせて先読みする。
+ */
+export function prefetchExplanationsForOffline(): void {
+  if (typeof navigator === 'undefined' || !navigator.serviceWorker?.controller || !navigator.onLine) return;
+  setTimeout(() => void loadExplanations().catch(() => undefined), 3000);
+}
+
+export type ExplanationState = ExplanationEntry | null | undefined | 'error';
+
+/** 問題の解説を取得する（読み込み中は undefined、解説がなければ null、読み込みに失敗したら 'error'） */
+export function useExplanationEntry(id: string): { entry: ExplanationState; retry: () => void } {
   const [map, setMap] = useState<Record<string, ExplanationEntry> | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     let alive = true;
-    void loadExplanations().then((m) => alive && setMap(m));
+    setFailed(false);
+    loadExplanations().then(
+      (m) => alive && setMap(m),
+      () => alive && setFailed(true),
+    );
     return () => {
       alive = false;
     };
-  }, []);
-  if (!map) return undefined;
-  return map[id] ?? null;
+  }, [attempt]);
+  const retry = () => setAttempt((n) => n + 1);
+  if (!map) return { entry: failed ? 'error' : undefined, retry };
+  return { entry: map[id] ?? null, retry };
 }
 
 export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
@@ -132,6 +152,11 @@ export function ContentProvider({ children }: { children: ReactNode }) {
     loadAllQuestionSets()
       .then((sets) => setContent(buildContent(sets)))
       .catch((e: unknown) => setError(String(e)));
+    prefetchExplanationsForOffline();
+    // 初回訪問では SW がまだページを制御していないため、制御が始まった時点で先読みする
+    const sw = typeof navigator !== 'undefined' ? navigator.serviceWorker : undefined;
+    sw?.addEventListener('controllerchange', prefetchExplanationsForOffline);
+    return () => sw?.removeEventListener('controllerchange', prefetchExplanationsForOffline);
   }, []);
   if (error) {
     return <div className="p-6 text-red-700">問題データの読み込みに失敗しました：{error}</div>;

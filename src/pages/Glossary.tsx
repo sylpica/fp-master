@@ -7,7 +7,7 @@ import { FIELD_IDS, FIELDS } from '../domain/exam';
 import type { FieldId, Term } from '../domain/types';
 import { useSettings } from '../state/settings';
 import { PageTitle } from '../ui/Layout';
-import { Empty, FieldBadge, ReviewBadge, Tex } from '../ui/common';
+import { Empty, FieldBadge, ReviewBadge, Tex, questionLabel } from '../ui/common';
 import { TermPopupProvider, TermText, toFullWidth } from '../ui/TermText';
 
 const KANA_ROWS = ['あ', 'か', 'さ', 'た', 'な', 'は', 'ま', 'や', 'ら', 'わ'];
@@ -126,20 +126,36 @@ export function GlossaryPage() {
       {groups.map(([g, ts]) => (
         <section key={g}>
           <h2 className="label mb-1">{g}</h2>
-          <ul className="card divide-y divide-slate-100 p-0 dark:divide-slate-800">
-            {ts.map((t) => (
-              <li key={t.id}>
-                <Link to={`/glossary/${t.id}`} className="block min-h-14 px-4 py-2.5">
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold">{t.name}</span>
+          {q.trim() ? (
+            // 検索中は、見つかった理由が分かるよう簡潔な定義を全文で表示する
+            <ul className="card divide-y divide-slate-100 p-0 dark:divide-slate-800">
+              {ts.map((t) => (
+                <li key={t.id}>
+                  <Link to={`/glossary/${t.id}`} className="block min-h-12 px-4 py-2">
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold">{t.name}</span>
+                      {st.get(t.id)?.favorite && <span aria-label="お気に入り">★</span>}
+                      {st.get(t.id)?.learned && <span className="badge bg-emerald-100 text-emerald-800">学習済み</span>}
+                    </div>
+                    <p className="text-sm text-slate-600 dark:text-slate-400">{t.short}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            // 一覧は索引として用語名だけを並べ、スクロール量を抑える（定義は用語の画面で読む）
+            <ul className="flex flex-wrap gap-2">
+              {ts.map((t) => (
+                <li key={t.id}>
+                  <Link to={`/glossary/${t.id}`} className="chip bg-white dark:bg-slate-900">
+                    {t.name}
                     {st.get(t.id)?.favorite && <span aria-label="お気に入り">★</span>}
-                    {st.get(t.id)?.learned && <span className="badge bg-emerald-100 text-emerald-800">学習済み</span>}
-                  </div>
-                  <p className="line-clamp-1 text-sm text-slate-600 dark:text-slate-400">{t.short}</p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+                    {st.get(t.id)?.learned && <span aria-label="学習済み" className="text-emerald-700 dark:text-emerald-300">✓</span>}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </section>
       ))}
     </div>
@@ -259,7 +275,7 @@ export function TermPage() {
               {related.map((q) => (
                 <li key={q.id}>
                   <Link to={`/q/${q.id}`} className="block px-4 py-3 text-sm">
-                    {q.stem.slice(0, 60)}…
+                    {questionLabel(q)}
                   </Link>
                 </li>
               ))}

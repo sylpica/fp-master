@@ -12,9 +12,9 @@ import { ratingFromAnswer } from '../domain/srs';
 import type { ExamKey } from '../domain/types';
 import { newId } from '../state/sessions';
 import { useExamKey } from '../ui/hooks';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 import { AnswerArea, QuestionHeader, Stem } from '../ui/QuestionView';
-import { Empty, ProgressBar, pct } from '../ui/common';
+import { Empty, ProgressBar, pct, questionLabel } from '../ui/common';
 import { TermPopupProvider } from '../ui/TermText';
 
 export function MockHomePage() {
@@ -50,14 +50,12 @@ export function MockHomePage() {
 
   return (
     <div className="space-y-4">
-      <PageTitle sub="本試験の時間・問題数・合格基準に準拠。計算問題も本試験と同様に含みます。">模擬試験</PageTitle>
+      <PageTitle>模擬試験</PageTitle>
       <section className="card text-sm">
         <h2 className="mb-1 font-bold">{spec.label}</h2>
         <p>
           試験時間 {spec.minutes}分／{spec.questionCount}問／{spec.format}／合格基準 {spec.passScore}点以上（{spec.maxScore}点満点）
         </p>
-        {!spec.pointsOfficial && <p className="mt-1 text-amber-700 dark:text-amber-300">※1問あたりの配点は公表されていないため、本アプリでは均等配点（1問{spec.pointsPerQuestion}点）で採点します（独自仕様）。</p>}
-        <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">出典：日本FP協会 試験要綱（2026年10月確認）</p>
       </section>
 
       {examSets.length === 0 ? (
@@ -82,7 +80,9 @@ export function MockHomePage() {
             })}
           </section>
           <section className="space-y-2">
-            <h2 className="label">ランダム構成（複数回の公表問題から分野配分どおりに出題）</h2>
+            <h2 className="label">
+              ランダム構成（{questions.some((q) => q.exam === exam && q.source.kind === 'original' && q.status === 'verified') ? '公表問題とオリジナル問題' : '複数回の公表問題'}から分野配分どおりに出題）
+            </h2>
             <button className="btn-secondary w-full" onClick={() => setPreview({ title: `${spec.shortLabel} ランダム模擬試験`, build: buildRandomMock(questions, exam, newSeed()) })}>
               ランダムに作成する
             </button>
@@ -134,6 +134,11 @@ export function MockHomePage() {
           </ul>
         </section>
       )}
+      <PageNote>
+        <p>本試験の時間・問題数・合格基準に準拠し、計算問題も本試験と同様に含みます。</p>
+        {!spec.pointsOfficial && <p>1問あたりの配点は公表されていないため、本アプリでは均等配点（1問{spec.pointsPerQuestion}点）で採点します（独自仕様）。</p>}
+        <p>出典：日本FP協会 試験要綱（2026年10月確認）</p>
+      </PageNote>
     </div>
   );
 }
@@ -170,31 +175,38 @@ export function MockRunPage() {
       return { q, correct: r.correct, answered: r.complete };
     });
     const finishedAt = new Date().toISOString();
-    for (const it of items.filter((x) => x.answered)) {
-      await recordAttempt(
-        { itemId: it.q.id, itemKind: 'question', exam: it.q.exam, field: it.q.field, correct: it.correct, timeMs: 0, sessionId: cur.id, mode: 'mock', at: finishedAt },
-        ratingFromAnswer(it.correct, false),
-      );
-    }
     const sc = scoreMock(exam, items.map((x) => ({ field: x.q.field, correct: x.correct })));
-    const resultId = await db.mockResults.add({
-      sessionId: cur.id,
-      exam,
-      title: cur.title,
-      startedAt: cur.startedAt,
-      finishedAt,
-      score: sc.score,
-      max: sc.max,
-      pass: sc.pass,
-      passed: sc.passed,
-      correctCount: sc.correctCount,
-      total: sc.total,
-      complete: (cur.config as { complete?: boolean }).complete ?? false,
-      byField: sc.byField,
-      elapsedSec: Math.round((Date.parse(finishedAt) - Date.parse(cur.startedAt)) / 1000),
+    // 「採点する」の連打や制限時間切れとの同時発生で二重に採点しないよう、
+    // 採点済みかの確認・履歴の記録・成績の保存・セッションの終了を1つのトランザクションで行う
+    const resultId = await db.transaction('rw', [db.sessions, db.attempts, db.srs, db.mockResults], async () => {
+      const stored = await db.sessions.get(cur.id);
+      if (stored?.finishedAt) return (await db.mockResults.where('finishedAt').equals(stored.finishedAt).first())?.id ?? null;
+      for (const it of items.filter((x) => x.answered)) {
+        await recordAttempt(
+          { itemId: it.q.id, itemKind: 'question', exam: it.q.exam, field: it.q.field, correct: it.correct, timeMs: 0, sessionId: cur.id, mode: 'mock', at: finishedAt },
+          ratingFromAnswer(it.correct, false),
+        );
+      }
+      const id = await db.mockResults.add({
+        sessionId: cur.id,
+        exam,
+        title: cur.title,
+        startedAt: cur.startedAt,
+        finishedAt,
+        score: sc.score,
+        max: sc.max,
+        pass: sc.pass,
+        passed: sc.passed,
+        correctCount: sc.correctCount,
+        total: sc.total,
+        complete: (cur.config as { complete?: boolean }).complete ?? false,
+        byField: sc.byField,
+        elapsedSec: Math.round((Date.parse(finishedAt) - Date.parse(cur.startedAt)) / 1000),
+      });
+      await db.sessions.put({ ...cur, finishedAt, updatedAt: finishedAt });
+      return id;
     });
-    await db.sessions.put({ ...cur, finishedAt, updatedAt: finishedAt });
-    nav(`/mock/result/${resultId}`, { replace: true });
+    nav(resultId ? `/mock/result/${resultId}` : '/mock', { replace: true });
   };
 
   useEffect(() => {
@@ -359,7 +371,7 @@ export function MockResultPage() {
             {wrong.map((x) => (
               <li key={x}>
                 <Link to={`/q/${x}`} className="underline decoration-slate-300">
-                  {questionById.get(x)?.stem.slice(0, 50)}…
+                  {questionById.has(x) ? questionLabel(questionById.get(x)!) : x}
                 </Link>
               </li>
             ))}

@@ -43,3 +43,30 @@ describe('SM-2 復習間隔', () => {
     expect(daysBetween('2026-10-20', '2027-01-20')).toBe(92);
   });
 });
+
+describe('同じ日の再解答（詰め込みで復習間隔を伸ばさない）', () => {
+  const today = '2026-10-20';
+  it('同じ日に2回正解しても、1回目の正解と同じ間隔（2日）のまま', () => {
+    const s1 = review(undefined, 'good', today);
+    const s2 = review(s1, 'good', today);
+    expect(s2).toEqual(s1);
+    expect(s2.due).toBe('2026-10-22');
+  });
+  it('同じ日でも不正解なら間隔は1日に戻る', () => {
+    const s1 = review(undefined, 'good', today);
+    const s2 = review(s1, 'again', today);
+    expect(s2.interval).toBe(1);
+    expect(s2.reps).toBe(0);
+  });
+  it('同じ日に不正解のあと正解した場合は、初回正解として扱う（2日後）', () => {
+    const s1 = review(undefined, 'again', today);
+    const s2 = review(s1, 'good', today);
+    expect(s2.reps).toBe(1);
+    expect(s2.interval).toBe(2);
+  });
+  it('翌日以降の正解は従来どおり間隔が伸びる', () => {
+    const s1 = review(undefined, 'good', today);
+    const s2 = review(s1, 'good', '2026-10-22');
+    expect(s2.interval).toBe(6);
+  });
+});

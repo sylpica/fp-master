@@ -8,7 +8,7 @@ import { localDate } from '../domain/srs';
 import { FIELDS } from '../domain/exam';
 import { FILTER_LABELS, startPractice } from '../state/sessions';
 import { useExamKey, useUserState } from '../ui/hooks';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 
 const MODES: { filter: PracticeFilter; desc: string }[] = [
   { filter: 'due', desc: '間隔反復で今日が復習日の問題' },
@@ -37,7 +37,7 @@ export function ReviewPage() {
   };
   return (
     <div className="space-y-4">
-      <PageTitle sub="学習履歴にもとづく復習。復習日はSM-2方式で自動計算されます。">苦手問題の復習</PageTitle>
+      <PageTitle>苦手問題の復習</PageTitle>
       {u.weakFields.length > 0 && (
         <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-950/40 dark:text-amber-100">
           苦手分野：{u.weakFields.map((f) => FIELDS[f].name).join('、')}
@@ -68,6 +68,9 @@ export function ReviewPage() {
       <Link to="/mistakes" className="btn-ghost w-full">
         間違いノートを見る
       </Link>
+      <PageNote>
+        <p>学習履歴にもとづく復習です。復習日はSM-2方式で自動計算されます。</p>
+      </PageNote>
     </div>
   );
 }

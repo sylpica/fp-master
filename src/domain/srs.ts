@@ -35,6 +35,9 @@ export function initialSrs(today: string): SrsState {
 export function review(prev: SrsState | undefined, rating: Rating, today: string): SrsState {
   const s = prev ?? initialSrs(today);
   const q = QUALITY[rating];
+  // 同じ日に正解済みの問題をもう一度正解しても、復習間隔は伸ばさない（詰め込みで次回復習が先送りされるのを防ぐ。
+  // 記憶の定着は日をまたいだ想起で判断する）。同じ日の不正解は従来どおり間隔を1日に戻す。
+  if (prev && prev.last === today && prev.reps > 0 && q >= 3) return { ...prev };
   let { ease, interval, reps, lapses } = s;
 
   if (q < 3) {

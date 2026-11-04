@@ -6,7 +6,7 @@ import { toggleFlag } from '../db/repo';
 import { startPractice } from '../state/sessions';
 import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
-import { Empty, FieldBadge } from '../ui/common';
+import { Empty, FieldBadge, questionLabel } from '../ui/common';
 
 export function BookmarksPage() {
   const { questionById } = useContent();
@@ -27,7 +27,7 @@ export function BookmarksPage() {
       {items.map((q) => (
         <li key={q!.id} className="flex items-center gap-2 px-4 py-2">
           <Link to={`/q/${q!.id}`} className="min-h-12 flex-1 text-sm">
-            <FieldBadge field={q!.field} /> {q!.stem.slice(0, 50)}…
+            <FieldBadge field={q!.field} /> {questionLabel(q!)}
           </Link>
           <button className="min-h-10 px-2 text-xs text-slate-600 dark:text-slate-400" onClick={() => toggleFlag(table, q!.id)} aria-label="登録を解除">
             解除

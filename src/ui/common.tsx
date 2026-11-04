@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { FIELDS } from '../domain/exam';
-import type { FieldId } from '../domain/types';
+import type { FieldId, Question } from '../domain/types';
 
 export function Tex({ tex, block = false }: { tex: string; block?: boolean }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -13,6 +13,15 @@ export function Tex({ tex, block = false }: { tex: string; block?: boolean }) {
     }
   }, [tex, block]);
   return <span ref={ref} className={block ? 'block overflow-x-auto py-1' : ''} />;
+}
+
+/**
+ * 問題の一覧表示用ラベル（出典と論点名）。問題文を途中で切った「…」表示は読めないため使わず、
+ * 欠けのない短い識別名を表示する（UIルール2）。
+ */
+export function questionLabel(q: Question): string {
+  const src = q.source.kind === 'official' ? `${q.source.yearMonth.replace('-', '年')}月 問${q.source.number}` : 'オリジナル';
+  return `${src}・${q.theme}`;
 }
 
 export function FieldBadge({ field }: { field: FieldId }) {

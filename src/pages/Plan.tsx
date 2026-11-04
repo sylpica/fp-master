@@ -8,7 +8,7 @@ import { eligibleForPractice } from '../domain/selection';
 import { localDate } from '../domain/srs';
 import { setSetting, useSettings } from '../state/settings';
 import { useExamKey, useUserState } from '../ui/hooks';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 import { Empty } from '../ui/common';
 
 /** 学習計画（受験日・学習時間・理解度・苦手分野から自動生成。毎日再計算して遅れを吸収する） */
@@ -59,7 +59,7 @@ export function PlanPage() {
 
   return (
     <div className="space-y-4">
-      <PageTitle sub="短時間でも続けられる計画を自動で作ります。計画は毎日、現在の進み具合から作り直されます。">学習計画</PageTitle>
+      <PageTitle>学習計画</PageTitle>
       <section className="card space-y-3">
         <label className="block">
           <span className="label">受験予定日</span>
@@ -128,6 +128,9 @@ export function PlanPage() {
           </section>
         </>
       )}
+      <PageNote>
+        <p>短時間でも続けられる計画を自動で作ります。計画は毎日、現在の進み具合から作り直されます。</p>
+      </PageNote>
     </div>
   );
 }
