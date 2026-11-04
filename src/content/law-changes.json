@@ -393,5 +393,156 @@
    "kokumin-nenkin-kikin"
   ],
   "checkedAt": "2026-10-30"
+ },
+ {
+  "id": "r8-zaishoku-chosei",
+  "title": "在職老齢年金の支給停止調整額の引上げ（令和8年4月から月65万円）",
+  "field": "A",
+  "effective": "2026-04-01",
+  "summary": "年金制度改正法（令和7年法律第74号）に基づき、令和8年4月から、在職老齢年金で年金が減額になる基準額（賃金と老齢厚生年金の合計）が月51万円から65万円に引き上げられた。",
+  "before": "令和7年度：月51万円",
+  "after": "令和8年4月から：月65万円",
+  "sources": [
+   {
+    "title": "日本年金機構 在職中の老齢厚生年金（在職老齢年金）",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/zaishoku/20150401-01.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/zaishoku/20150401-01.html",
+    "quote": "年金制度改正法（令和7年法律第74号）に基づき、令和8年4月から、年金が減額になる基準額（賃金と老齢厚生年金の合計）が月51万円から65万円に引き上げられました"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g2-202605-05",
+    "impact": "unchanged",
+    "note": "支給停止調整額の金額は問われていない。支給停止となる部分が繰下げによる増額の対象とならない点は改正後も同じ。"
+   },
+   {
+    "id": "j2-202405-32",
+    "impact": "unchanged",
+    "note": "資料で計算式（支給停止調整額48万円）が与えられているため、問題内の正答（115,000円）は変わらない。現行の65万円で計算すると、基本月額15万円と総報酬月額相当額40万円の合計55万円は65万円以下のため、支給停止はない。"
+   },
+   {
+    "id": "g2o-a03-11",
+    "impact": "unchanged",
+    "note": "支給停止調整額を50万円と仮定した問題のため、正答は変わらない（現行の金額は月65万円）。"
+   }
+  ],
+  "affectedTerms": [
+   "zaishoku-rorei-nenkin"
+  ],
+  "checkedAt": "2026-11-04"
+ },
+ {
+  "id": "r8-rikon-bunkatsu-kigen",
+  "title": "離婚時の年金分割の請求期限の延長（2年から5年へ）",
+  "field": "A",
+  "effective": "2026-04-01",
+  "summary": "離婚時の厚生年金の分割（合意分割・3号分割）の請求期限が、原則として、離婚等をした日の翌日から起算して5年以内となった。令和8年4月1日前に離婚等をした場合は2年以内のまま。",
+  "before": "離婚等をした日の翌日から起算して2年以内",
+  "after": "令和8年4月1日以後の離婚等：5年以内（それより前の離婚等は2年以内）",
+  "sources": [
+   {
+    "title": "日本年金機構 離婚時の年金分割",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "分割請求の期限は、原則として、次の事由に該当した日の翌日から起算して5年以内（令和8年4月1日前に離婚等をした場合は2年以内）です"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "j2-202605-36",
+    "impact": "unchanged",
+    "note": "（イ）の「3年以内」は、改正前（2年以内）・改正後（5年以内）のいずれでも誤りのため、正答（×）は変わらない。解説の「原則2年以内」は改正前の規定で、令和8年4月1日以後の離婚等は5年以内。"
+   }
+  ],
+  "affectedTerms": [
+   "rikon-nenkin-bunkatsu"
+  ],
+  "checkedAt": "2026-11-04"
+ },
+ {
+  "id": "r8-seiho-kojo-23sai",
+  "title": "一般の生命保険料控除の上限の引上げ（23歳未満の扶養親族がいる場合、令和8年分以後）",
+  "field": "D",
+  "effective": "2026-01-01",
+  "summary": "令和8年分以後、23歳未満の扶養親族を有する人が新契約の一般生命保険料を支払った場合は、一般の生命保険料控除の上限が4万円から6万円になる。生命保険料控除の合計の上限（12万円）は変わらない。",
+  "before": "新契約の一般の生命保険料控除：最高4万円",
+  "after": "令和8年分以後、23歳未満の扶養親族を有する場合：最高6万円（合計の上限12万円は同じ）",
+  "sources": [
+   {
+    "title": "国税庁 No.1140 生命保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+    "quote": "計算した金額の合計額（最高40,000円（令和8年以降、23歳未満の扶養親族を有する新生命保険料を支払った場合は最高60,000円））"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+    "quote": "この合計額が120,000円を超える場合には、生命保険料控除額は120,000円となります"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g3-202405-48",
+    "impact": "unchanged",
+    "note": "3つの控除の合計の上限は改正後も12万円のため、正答（12万円）は変わらない。"
+   },
+   {
+    "id": "j3-202505-13",
+    "impact": "unchanged",
+    "note": "資料の速算表と記載の条件で計算する問題のため、問題内の正答は変わらない。令和8年分以後は、23歳未満の扶養親族がいる場合に一般の生命保険料控除の計算が異なる。"
+   }
+  ],
+  "affectedTerms": [
+   "seimei-hokenryo-kojo"
+  ],
+  "checkedAt": "2026-11-04"
+ },
+ {
+  "id": "r6-ideco-gendo",
+  "title": "個人型年金（iDeCo）の拠出限度額の見直し（公務員等は月額2万円）",
+  "field": "A",
+  "effective": "2024-12-01",
+  "summary": "確定拠出年金法施行令の改正により、第2号加入者のうち公務員等（第2号・第3号厚生年金被保険者）の個人型年金の拠出限度額は、月額2万円（共済掛金相当額が3万5,000円を上回るときは、2万円からその超える額を控除した額）となった。",
+  "before": "公務員等：月額1万2,000円（年額14万4,000円）",
+  "after": "公務員等：月額2万円（共済掛金相当額が3万5,000円を上回るときは減額）",
+  "sources": [
+   {
+    "title": "e-Gov法令検索 確定拠出年金法施行令",
+    "url": "https://laws.e-gov.go.jp/law/413CO0000000248"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/413CO0000000248",
+    "quote": "五第二号加入者であって、第二号厚生年金被保険者又は第三号厚生年金被保険者であるもの二万円"
+   }
+  ],
+  "status": "candidate",
+  "affectedQuestions": [
+   {
+    "id": "g3-202405-04",
+    "impact": "changed",
+    "note": "出題時（法令基準日2023年4月1日）は公務員の拠出限度額が月額1万2,000円（年額14万4,000円）で正答は〇だったが、現行の確定拠出年金法施行令36条第5号では月額2万円であり、「年額14万4,000円」は誤りとなるため出題を停止する。"
+   }
+  ],
+  "affectedTerms": [
+   "ideco"
+  ],
+  "checkedAt": "2026-11-04"
  }
 ]
