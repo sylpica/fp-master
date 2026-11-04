@@ -66,6 +66,22 @@ export function retirementDeduction(serviceYears: number, disability = false): n
   return base + (disability ? 1_000_000 : 0);
 }
 
+/** 退職手当等の区分。国税庁タックスアンサー No.1420 */
+export type RetirementKind = 'general' | 'executive' | 'short';
+
+/**
+ * 退職所得の金額（円未満切捨て）。
+ * - general：一般退職手当等。(収入金額 − 退職所得控除額) × 1/2
+ * - executive：特定役員退職手当等（役員等勤続年数5年以下）。2分の1計算の適用なし
+ * - short：短期退職手当等（役員等以外の勤続年数5年以下）。控除後300万円以下の部分は1/2、300万円超の部分は全額
+ */
+export function retirementIncome(pay: number, deduction: number, kind: RetirementKind): number {
+  const base = Math.max(0, pay - deduction);
+  if (kind === 'executive') return base;
+  if (kind === 'short' && base > 3_000_000) return 1_500_000 + (base - 3_000_000);
+  return Frac.of(base).div(2).round(0, 'floor').toNumber();
+}
+
 export const retirementIncomeGenerator: CalcGenerator = {
   id: 'retirement-income',
   title: '退職所得',
@@ -81,26 +97,36 @@ export const retirementIncomeGenerator: CalcGenerator = {
     const ded = retirementDeduction(servedYears);
     const executive = difficulty === 3 && servedYears <= 5 && rng() < 0.5;
     const pay = Math.max(ded + 1_000_000, randInt(rng, 5, 60) * 1_000_000);
-    const half = !executive;
-    const ans = half ? Frac.of(pay - ded).div(2).round(0, 'floor').toNumber() : pay - ded;
+    // 役員等以外で勤続5年以下は短期退職手当等（控除後300万円超の部分は2分の1計算の適用なし）
+    const kind: RetirementKind = executive ? 'executive' : servedYears <= 5 ? 'short' : 'general';
+    const ans = retirementIncome(pay, ded, kind);
+    const base = pay - ded;
     const steps = [
       { text: months > 0 ? `勤続${years}年${months}カ月 → 1年未満の端数は切り上げて${servedYears}年。` : `勤続年数は${servedYears}年。` },
       servedYears <= 20
         ? { text: '勤続20年以下の退職所得控除額', tex: `40\\text{万円} \\times ${servedYears} = ${fmt(400_000 * servedYears)}${400_000 * servedYears < 800_000 ? '\\;(80万円未満のため80万円)' : ''}` }
         : { text: '勤続20年超の退職所得控除額', tex: `800\\text{万円} + 70\\text{万円} \\times (${servedYears} - 20) = ${fmt(ded)}` },
-      half
-        ? { text: '退職所得の金額', tex: `(${fmt(pay)} - ${fmt(ded)}) \\times \\frac{1}{2} = ${fmt(ans)}` }
-        : { text: '役員等勤続年数5年以下の特定役員退職手当等は2分の1を適用しない。', tex: `${fmt(pay)} - ${fmt(ded)} = ${fmt(ans)}` },
+      kind === 'executive'
+        ? { text: '役員等勤続年数5年以下の特定役員退職手当等は2分の1を適用しない。', tex: `${fmt(pay)} - ${fmt(ded)} = ${fmt(ans)}` }
+        : kind === 'short' && base > 3_000_000
+          ? {
+              text: '役員等以外で勤続5年以下の短期退職手当等は、控除後の額のうち300万円以下の部分だけ2分の1にし、300万円を超える部分は全額を退職所得とする。',
+              tex: `300\\text{万円} \\times \\frac{1}{2} + (${fmt(base)} - 3{,}000{,}000) = ${fmt(ans)}`,
+            }
+          : {
+              text: kind === 'short' ? '短期退職手当等（勤続5年以下）でも、控除後の額が300万円以下なら全額に2分の1を適用する。' : '退職所得の金額',
+              tex: `(${fmt(pay)} - ${fmt(ded)}) \\times \\frac{1}{2} = ${fmt(ans)}`,
+            },
     ];
     return {
       id: `retirement-income:${difficulty}:${seed}`,
       generatorId: 'retirement-income',
-      pattern: executive ? '特定役員退職手当等' : '退職所得の金額',
-      prompt: `${executive ? '役員として' : ''}勤続${years}年${months ? `${months}カ月` : ''}で退職し、退職一時金${fmt(pay)}円を受け取った場合の退職所得の金額はいくらか。${executive ? '全勤続期間が役員等としての期間である。' : ''}障害者になったことによる退職ではなく、過去に退職金の受取りはない。`,
+      pattern: kind === 'executive' ? '特定役員退職手当等' : kind === 'short' ? '短期退職手当等' : '退職所得の金額',
+      prompt: `${executive ? '役員として' : kind === 'short' ? '従業員（役員等以外）として' : ''}勤続${years}年${months ? `${months}カ月` : ''}で退職し、退職一時金${fmt(pay)}円を受け取った場合の退職所得の金額はいくらか。${executive ? '全勤続期間が役員等としての期間である。' : ''}障害者になったことによる退職ではなく、過去に退職金の受取りはない。`,
       given: [
         { label: '勤続年数', value: `${years}年${months ? `${months}カ月` : ''}` },
         { label: '退職一時金', value: `${fmt(pay)}円` },
-        ...(executive ? [{ label: '区分', value: '役員（役員等勤続年数5年以下）' }] : []),
+        ...(executive ? [{ label: '区分', value: '役員（役員等勤続年数5年以下）' }] : kind === 'short' ? [{ label: '区分', value: '従業員（役員等以外）' }] : []),
       ],
       answer: ans,
       unit: '円',

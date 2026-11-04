@@ -4,7 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { CALC_GENERATORS, getGenerator, type CalcProblem, type Difficulty } from '../domain/calc';
 import { FIELD_IDS, FIELDS } from '../domain/exam';
 import { createRng, newSeed, pick } from '../domain/random';
-import { numericEquals } from '../domain/scoring';
+import { numericEquals, parseNumericInput } from '../domain/scoring';
 import { eligibleForCalc } from '../domain/selection';
 import { db } from '../db/db';
 import { recordAttempt } from '../db/repo';
@@ -13,7 +13,7 @@ import { useContent } from '../content/store';
 import { useSettings } from '../state/settings';
 import { startPractice } from '../state/sessions';
 import { useExamKey } from '../ui/hooks';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 import { Calculator } from '../ui/Calculator';
 import { Tex, pct } from '../ui/common';
 
@@ -63,7 +63,7 @@ export function CalcHomePage() {
 
   return (
     <div className="space-y-4">
-      <PageTitle sub="数値を変えて何度でも練習できます。答えは検証済みの計算ロジックで算出しています。">計算トレーニング</PageTitle>
+      <PageTitle>計算トレーニング</PageTitle>
       <div role="radiogroup" aria-label="難易度" className="flex gap-2">
         {([1, 2, 3] as const).map((d) => (
           <button key={d} role="radio" aria-checked={difficulty === d} className={`chip ${difficulty === d ? 'chip-on' : ''}`} onClick={() => setDifficulty(d)}>
@@ -143,6 +143,9 @@ export function CalcHomePage() {
           </ul>
         </details>
       )}
+      <PageNote>
+        <p>数値を変えて何度でも練習できます。答えは検証済みの計算ロジックで算出しています。</p>
+      </PageNote>
     </div>
   );
 }
@@ -189,9 +192,9 @@ export function CalcRunPage() {
 
   if (!problem) return <p role="status">問題を生成中…</p>;
   const generator = getGenerator(problem.generatorId)!;
-  const value = Number(input.replace(/[,，\s]/g, ''));
+  const value = parseNumericInput(input);
   const check = async () => {
-    if (input.trim() === '' || !Number.isFinite(value)) return;
+    if (value === null) return;
     const ok = numericEquals(value, problem.answer);
     setChecked(ok);
     setCount((c) => ({ done: c.done + 1, correct: c.correct + (ok ? 1 : 0) }));
@@ -249,7 +252,7 @@ export function CalcRunPage() {
           <button className="btn-secondary" onClick={() => setShowCalc(!showCalc)} aria-expanded={showCalc}>
             電卓
           </button>
-          <button className="btn-primary" onClick={check} disabled={input.trim() === '' || !Number.isFinite(value)}>
+          <button className="btn-primary" onClick={check} disabled={value === null}>
             答え合わせ
           </button>
         </div>

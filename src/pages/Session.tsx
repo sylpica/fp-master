@@ -11,7 +11,7 @@ import { AnswerArea, QuestionHeader, Stem } from '../ui/QuestionView';
 import { Explanation } from '../ui/Explanation';
 import { TermPopupProvider } from '../ui/TermText';
 import { NoteAndReport } from '../ui/NoteAndReport';
-import { Empty, ProgressBar, pct } from '../ui/common';
+import { Empty, ProgressBar, pct, questionLabel } from '../ui/common';
 
 /** 通常演習・復習の実行画面（1画面1問・ワンタップ解答・即時正誤） */
 export function SessionPage() {
@@ -21,6 +21,7 @@ export function SessionPage() {
   const nav = useNavigate();
   const [s, setS] = useState<StudySession | null | undefined>(undefined);
   const shownAt = useRef(Date.now());
+  const busy = useRef(false);
 
   useEffect(() => {
     let alive = true;
@@ -67,6 +68,16 @@ export function SessionPage() {
   };
   const toggleUnsure = () => update({ ...s, answers: { ...s.answers, [q.id]: { ...ans!, unsure: !ans?.unsure } } });
   const next = async () => {
+    // 連打で2問先へ進んだり結果画面へ二重遷移したりしないよう、処理中の再入を無視する
+    if (busy.current) return;
+    busy.current = true;
+    try {
+      await goNext();
+    } finally {
+      busy.current = false;
+    }
+  };
+  const goNext = async () => {
     let cur = await commitAnswer(s, q, 'practice');
     if (cur.index + 1 >= total) {
       await finishSession(cur);
@@ -166,7 +177,7 @@ export function SessionResultPage() {
               return (
                 <li key={qid}>
                   <Link to={`/q/${qid}`} className="block text-sm underline decoration-slate-300">
-                    {q?.stem.slice(0, 60)}…
+                    {q ? questionLabel(q) : qid}
                   </Link>
                 </li>
               );

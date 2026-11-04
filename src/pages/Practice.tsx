@@ -198,10 +198,13 @@ export function PracticePage() {
         </div>
       </details>
 
-      <div className="grid gap-2">
-        <button className="btn-primary" onClick={() => start(cfg)} disabled={pool.length === 0}>
+      {/* 条件を選んだあと、スクロールせずに開始できるよう、開始ボタンは下部ナビの上に固定する（sticky はページ全体を親にする） */}
+      <div className="sticky bottom-[calc(3.75rem+env(safe-area-inset-bottom))] z-10 -mx-1 rounded-2xl bg-slate-50/95 p-1 backdrop-blur dark:bg-slate-950/95">
+        <button className="btn-primary w-full" onClick={() => start(cfg)} disabled={pool.length === 0}>
           この条件で開始（{cfg.count}問）
         </button>
+      </div>
+      <div className="grid gap-2">
         <button
           className="btn-ghost"
           onClick={async () => {

@@ -65,7 +65,7 @@
   @apply min-h-12 w-full rounded-xl border border-slate-300 bg-white px-3 text-base dark:border-slate-700 dark:bg-slate-900;
 }
 @utility qtext {
-  @apply text-[1.05rem] leading-[1.85] tracking-wide;
+  @apply text-[1.05rem] leading-[1.75];
 }
 
 @media (prefers-reduced-motion: reduce) {

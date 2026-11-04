@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 import { useContent } from '../content/store';
 import { FIELDS, LAW_BASE_PERIODS, LAW_BASE_SOURCE } from '../domain/exam';
 import { useCurrentLawBaseDate } from '../ui/hooks';
-import { PageTitle } from '../ui/Layout';
+import { PageNote, PageTitle } from '../ui/Layout';
 import sourceCheck from '../content/source-check.json';
 
 /** 法改正・制度改正情報と法令基準日 */
@@ -11,7 +11,7 @@ export function LawPage() {
   const current = useCurrentLawBaseDate();
   return (
     <div className="space-y-4">
-      <PageTitle sub={`公的資料で確認できた改正のみ掲載します。根拠ページの最終照合日：${(sourceCheck as { checkedAt?: string }).checkedAt ?? '—'}`}>制度改正情報</PageTitle>
+      <PageTitle>制度改正情報</PageTitle>
       <section className="card text-sm">
         <h2 className="mb-1 font-bold">法令基準日（2級・3級 CBT試験）</h2>
         <p>現在の設定に適用される法令基準日：<b>{current ?? '未公表'}</b></p>
@@ -72,6 +72,9 @@ export function LawPage() {
           </p>
         </section>
       ))}
+      <PageNote>
+        <p>公的資料で確認できた改正のみ掲載します。根拠ページの最終照合日：{(sourceCheck as { checkedAt?: string }).checkedAt ?? '—'}</p>
+      </PageNote>
     </div>
   );
 }

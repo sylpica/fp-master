@@ -97,3 +97,25 @@ describe('「しばらく解いていない」フィルタ（ローカル日付�
     }
   });
 });
+
+describe('設定値の読み込み（不正な値は初期値で補う）', () => {
+  it('壊れたバックアップ由来の不正な値は無視し、正しい値は採用する', async () => {
+    const { normalizeSettings, DEFAULT_SETTINGS } = await import('../../src/state/settings');
+    const s = normalizeSettings([
+      { key: 'grade', value: 5 },
+      { key: 'subject', value: 'jitsugi' },
+      { key: 'theme', value: 'purple' },
+      { key: 'dailyGoal', value: '20' },
+      { key: 'examDate', value: '2027-01-25' },
+      { key: 'presets', value: 'x' },
+      { key: 'unknownKey', value: 1 },
+    ]);
+    expect(s.grade).toBe(DEFAULT_SETTINGS.grade);
+    expect(s.subject).toBe('jitsugi');
+    expect(s.theme).toBe('system');
+    expect(s.dailyGoal).toBe(DEFAULT_SETTINGS.dailyGoal);
+    expect(s.examDate).toBe('2027-01-25');
+    expect(s.presets).toEqual([]);
+    expect('unknownKey' in s).toBe(false);
+  });
+});

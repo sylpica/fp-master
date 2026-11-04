@@ -5,7 +5,7 @@ import { useContent } from '../content/store';
 import { db } from '../db/db';
 import { getGenerator } from '../domain/calc';
 import { PageTitle } from '../ui/Layout';
-import { Empty } from '../ui/common';
+import { Empty, questionLabel } from '../ui/common';
 
 /** 学習履歴の検索 */
 export function HistoryPage() {
@@ -22,15 +22,19 @@ export function HistoryPage() {
       .filter((a) => !kind || a.itemKind === kind)
       .filter((a) => !result || (result === 'ok' ? a.correct : !a.correct))
       .map((a) => {
+        const question = a.itemKind === 'question' ? questionById.get(a.itemId) : undefined;
         const title =
           a.itemKind === 'question'
-            ? questionById.get(a.itemId)?.stem ?? a.itemId
+            ? question
+              ? questionLabel(question)
+              : a.itemId
             : a.itemKind === 'card'
               ? cardById.get(a.itemId)?.front ?? a.itemId
               : `${getGenerator(a.itemId.split(':')[0]!)?.title ?? ''}：${a.pattern ?? ''}`;
-        return { a, title };
+        // 一覧には欠けのない短いラベルを出し、検索は問題文も対象にする
+        return { a, title, search: `${title}\n${question?.stem ?? ''}` };
       })
-      .filter((r) => !q || r.title.includes(q));
+      .filter((r) => !q || r.search.includes(q));
   }, [attempts, kind, result, q, questionById, cardById]);
   if (!attempts) return <p role="status">読み込み中…</p>;
   return (
@@ -62,11 +66,11 @@ export function HistoryPage() {
                 </span>
               </div>
               {a.itemKind === 'question' ? (
-                <Link to={`/q/${a.itemId}`} className="line-clamp-2 underline decoration-slate-300">
+                <Link to={`/q/${a.itemId}`} className="underline decoration-slate-300">
                   {title}
                 </Link>
               ) : (
-                <p className="line-clamp-2">{title}</p>
+                <p>{title}</p>
               )}
             </li>
           ))}

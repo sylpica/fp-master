@@ -114,3 +114,25 @@ describe('FP2級オリジナル問題（四答択一）の検証', () => {
     }
   });
 });
+
+describe('生成ドキュメントと実データの一致（集計の陳腐化を防ぐ）', () => {
+  const all: Question[] = readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .flatMap((f) => (JSON.parse(readFileSync(join(dir, f), 'utf-8')) as QuestionSet).questions)
+    .filter((q) => q.exam === 'g2' || q.exam === 'j2');
+  const docs = join(__dirname, '../../docs');
+  it('FP2_DIFFICULTY_AUDIT.md の総数・オリジナル数が実データと一致する（scripts/audit/gen_fp2_docs.py で再生成）', () => {
+    const md = readFileSync(join(docs, 'FP2_DIFFICULTY_AUDIT.md'), 'utf-8');
+    const m = md.match(/総数 (\d+)（学科 (\d+)／実技 (\d+)）、公式 (\d+)／オリジナル (\d+)/);
+    expect(m).not.toBeNull();
+    const original = all.filter((q) => q.source.kind === 'original').length;
+    expect(m!.slice(1).map(Number)).toEqual([all.length, all.filter((q) => q.exam === 'g2').length, all.filter((q) => q.exam === 'j2').length, all.length - original, original]);
+  });
+  it('FP2_COVERAGE_MATRIX.md のカバー細目数が実データと一致する', () => {
+    const md = readFileSync(join(docs, 'FP2_COVERAGE_MATRIX.md'), 'utf-8');
+    const m = md.match(/オリジナル問題が1問以上ある細目：\*\*(\d+) \/ (\d+)\*\*/);
+    expect(m).not.toBeNull();
+    const topics = new Set(all.filter((q) => q.source.kind === 'original' && q.topic).map((q) => q.topic));
+    expect(Number(m![1])).toBe(topics.size);
+  });
+});

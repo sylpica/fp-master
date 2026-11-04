@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { numericEquals, scoreQuestion } from '../../src/domain/scoring';
+import { numericEquals, parseNumericInput, scoreQuestion } from '../../src/domain/scoring';
 import type { Part } from '../../src/domain/types';
 
 const tf: Part = { kind: 'truefalse', id: 'p1', answer: false };
@@ -53,5 +53,25 @@ describe('数値入力の比較（浮動小数点誤差）', () => {
   });
   it('NaN は不正解', () => {
     expect(numericEquals(Number.NaN, 1)).toBe(false);
+  });
+});
+
+describe('数値入力の読み取り（parseNumericInput）', () => {
+  it('桁区切り・空白・全角数字・全角カンマ・全角マイナスを受け付ける', () => {
+    expect(parseNumericInput('1,234,567')).toBe(1234567);
+    expect(parseNumericInput(' 252000 ')).toBe(252000);
+    expect(parseNumericInput('２５２，０００')).toBe(252000);
+    expect(parseNumericInput('１．２５')).toBe(1.25);
+    expect(parseNumericInput('−50')).toBe(-50);
+    expect(parseNumericInput('-0.5')).toBe(-0.5);
+  });
+  it('空欄・数値でない入力は null（前の値を解答として残さないため）', () => {
+    expect(parseNumericInput('')).toBeNull();
+    expect(parseNumericInput('   ')).toBeNull();
+    expect(parseNumericInput('12a')).toBeNull();
+    expect(parseNumericInput('1-2')).toBeNull();
+    expect(parseNumericInput('.')).toBeNull();
+    expect(parseNumericInput('1e5')).toBeNull();
+    expect(parseNumericInput('Infinity')).toBeNull();
   });
 });

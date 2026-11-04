@@ -2,7 +2,10 @@ import { useEffect } from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 
 /** 新しいバージョンがあるときに更新を促す（学習データは IndexedDB にあり、更新で消えない） */
-export function UpdatePrompt() {
+/**
+ * 通知の位置：通常の画面では本題を覆わないよう下部ナビの上、演習中など下部に操作ボタンがある画面では上部。
+ */
+export function UpdatePrompt({ bottom = false }: { bottom?: boolean }) {
   const {
     needRefresh: [needRefresh, setNeedRefresh],
     offlineReady: [offlineReady, setOfflineReady],
@@ -16,7 +19,10 @@ export function UpdatePrompt() {
   }, [offlineReady, setOfflineReady]);
   if (!needRefresh && !offlineReady) return null;
   return (
-    <div role="status" className="fixed inset-x-4 top-[calc(env(safe-area-inset-top)+0.5rem)] z-50 mx-auto max-w-md rounded-xl bg-slate-900 p-3 text-sm text-white shadow-lg dark:bg-slate-700">
+    <div
+      role="status"
+      className={`fixed inset-x-4 z-50 mx-auto max-w-md rounded-xl bg-slate-900 p-3 text-sm text-white shadow-lg dark:bg-slate-700 ${bottom ? 'bottom-[calc(env(safe-area-inset-bottom)+4rem)]' : 'top-[calc(env(safe-area-inset-top)+0.5rem)]'}`}
+    >
       {needRefresh ? (
         <div className="flex items-center justify-between gap-2">
           <span>新しいバージョンがあります（学習履歴は保持されます）</span>

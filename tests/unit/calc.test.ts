@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { CALC_GENERATORS, regenerate } from '../../src/domain/calc';
 import { coefficient } from '../../src/domain/calc/finance';
-import { giftTax, incomeTax, retirementDeduction } from '../../src/domain/calc/tax';
+import { giftTax, incomeTax, retirementDeduction, retirementIncome, retirementIncomeGenerator } from '../../src/domain/calc/tax';
 import { inheritanceBasicDeduction, legalShares } from '../../src/domain/calc/inheritance';
 
 describe('6つの係数（一般的な係数表の値と一致）', () => {
@@ -36,6 +36,52 @@ describe('税額計算（国税庁の計算例と一致）', () => {
     expect(retirementDeduction(10 + 2 / 12)).toBe(4_400_000);
     expect(retirementDeduction(30)).toBe(15_000_000);
     expect(retirementDeduction(1)).toBe(800_000);
+  });
+});
+
+describe('退職所得の金額（特定役員退職手当等・短期退職手当等。No.1420）', () => {
+  // 期待値は手計算：短期退職手当等は「150万円＋（収入金額−退職所得控除額−300万円）」
+  it('一般：勤続30年・3,000万円 → (3,000万−1,500万)÷2 = 750万円', () => {
+    expect(retirementIncome(30_000_000, 15_000_000, 'general')).toBe(7_500_000);
+  });
+  it('特定役員：勤続3年・1,000万円 → 1,000万−120万 = 880万円（2分の1なし）', () => {
+    expect(retirementIncome(10_000_000, 1_200_000, 'executive')).toBe(8_800_000);
+  });
+  it('短期：勤続3年・1,000万円 → 150万＋(880万−300万) = 730万円', () => {
+    expect(retirementIncome(10_000_000, 1_200_000, 'short')).toBe(7_300_000);
+  });
+  it('短期：控除後300万円以下なら全額に2分の1（勤続3年・400万円 → 140万円）', () => {
+    expect(retirementIncome(4_000_000, 1_200_000, 'short')).toBe(1_400_000);
+  });
+  it('短期：控除後ちょうど300万円は150万円（境界）', () => {
+    expect(retirementIncome(4_200_000, 1_200_000, 'short')).toBe(1_500_000);
+    expect(retirementIncome(4_200_001, 1_200_000, 'short')).toBe(1_500_001);
+  });
+  it('控除額が収入を上回るときは0円', () => {
+    expect(retirementIncome(500_000, 800_000, 'general')).toBe(0);
+  });
+  it('生成器の正答を問題文から独立に再計算して全件一致する（全難易度×1,500シード）', () => {
+    let shortCount = 0;
+    for (const d of [1, 2, 3] as const) {
+      for (let seed = 0; seed < 1500; seed++) {
+        const p = retirementIncomeGenerator.generate(seed, d);
+        const m = p.prompt.match(/勤続(\d+)年(?:(\d+)カ月)?/)!;
+        const years = Number(m[1]) + (m[2] ? 1 : 0);
+        const pay = Number(p.prompt.match(/退職一時金([\d,]+)円/)![1]!.replaceAll(',', ''));
+        const executive = p.prompt.startsWith('役員として');
+        // 退職所得控除額：20年以下 40万×年数（最低80万）、20年超 800万＋70万×(年数−20)
+        const ded = years <= 20 ? Math.max(800_000, 400_000 * years) : 8_000_000 + 700_000 * (years - 20);
+        const base = pay - ded;
+        let expected: number;
+        if (executive) expected = base;
+        else if (years <= 5 && base > 3_000_000) {
+          expected = 1_500_000 + base - 3_000_000;
+          shortCount++;
+        } else expected = Math.floor(base / 2);
+        expect(p.answer, p.prompt).toBe(expected);
+      }
+    }
+    expect(shortCount).toBeGreaterThan(0);
   });
 });
 

@@ -75,7 +75,8 @@ export function QuestionListPage() {
                     {x.status !== 'verified' && <span className="badge bg-rose-100 text-rose-800">隔離中</span>}
                     {st && <span className={st.lastCorrect ? 'text-emerald-700' : 'text-rose-700'}>{st.lastCorrect ? '○' : '×'} {st.correct}/{st.attempts}</span>}
                   </div>
-                  <p className="line-clamp-2 text-sm">{x.stem}</p>
+                  <p className="text-sm font-semibold">{x.theme}</p>
+                  {q && <p className="mt-1 whitespace-pre-wrap text-sm text-slate-700 dark:text-slate-300">{x.stem}</p>}
                 </Link>
               </li>
             );

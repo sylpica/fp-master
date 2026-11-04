@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
 import type { Part, Question } from '../domain/types';
-import { formatAnswer, scoreQuestion, type PartResponse, type QuestionResult, type Responses } from '../domain/scoring';
+import { formatAnswer, parseNumericInput, scoreQuestion, type PartResponse, type QuestionResult, type Responses } from '../domain/scoring';
 import { EXAM_SPECS } from '../domain/exam';
 import { useContent } from '../content/store';
 import { FieldBadge } from './common';
@@ -149,10 +149,12 @@ export function AnswerArea({
   mode: Mode;
 }) {
   const single = q.parts.length === 1 && q.parts[0]!.kind !== 'numeric';
-  const set = (part: Part, v: PartResponse) => {
+  const set = (part: Part, v: PartResponse | undefined) => {
+    // 数値欄を空にした・読めない値にしたときは、前に入力した値を解答として残さない
     const next = { ...responses, [part.id]: v };
+    if (v === undefined) delete next[part.id];
     onChange(next);
-    if (mode === 'practice' && single && onSubmit) onSubmit(next);
+    if (v !== undefined && mode === 'practice' && single && onSubmit) onSubmit(next);
   };
   return (
     <div className="mt-4 space-y-4">
@@ -179,7 +181,7 @@ function PartInput({
 }: {
   part: Part;
   value: PartResponse | undefined;
-  onSelect: (v: PartResponse) => void;
+  onSelect: (v: PartResponse | undefined) => void;
   result?: { correct: boolean };
   locked: boolean;
   mode: Mode;
@@ -251,8 +253,8 @@ function PartInput({
             aria-label={part.prompt ?? '数値を入力'}
             onChange={(e) => {
               setNum(e.target.value);
-              const v = Number(e.target.value.replace(/,/g, ''));
-              if (e.target.value.trim() !== '' && Number.isFinite(v)) onSelect({ kind: 'numeric', value: v });
+              const v = parseNumericInput(e.target.value);
+              onSelect(v === null ? undefined : { kind: 'numeric', value: v });
             }}
           />
           {part.unit && <span>{part.unit}</span>}

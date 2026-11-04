@@ -9,6 +9,7 @@ import { loadDashboard } from '../state/dashboard';
 import { latestUnfinished } from '../db/repo';
 import { useExamKey } from '../ui/hooks';
 import { ProgressBar, Stat, pct } from '../ui/common';
+import { PageNote } from '../ui/Layout';
 
 export function HomePage() {
   const settings = useSettings();
@@ -94,13 +95,7 @@ export function HomePage() {
             詳しい成績を見る
           </Link>
         </section>
-      ) : (
-        <section className="card text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-          <h2 className="mb-1 font-bold text-slate-900 dark:text-slate-100">はじめに</h2>
-          <p>「すぐに5問解く」から始めましょう。学習記録はこの端末内（ブラウザ）に保存されます。定期的に「データ管理」からバックアップしてください。</p>
-          <p className="mt-2">出題対象：検証済み {d.poolSize}問（{spec.label}）</p>
-        </section>
-      )}
+      ) : null}
 
       <nav aria-label="学習メニュー" className="grid grid-cols-2 gap-2">
         <Link to="/mock" className="btn-secondary">
@@ -116,6 +111,13 @@ export function HomePage() {
           学習計画
         </Link>
       </nav>
+
+      {!d.hasHistory && (
+        <PageNote>
+          <p>「すぐに5問解く」から始めましょう。出題対象は検証済み {d.poolSize}問（{spec.label}）です。</p>
+          <p>学習記録はこの端末内（ブラウザ）に保存されます。定期的に「データ管理」からバックアップしてください。</p>
+        </PageNote>
+      )}
     </div>
   );
 }
