@@ -15,6 +15,11 @@ describe('用語集データ（拡充フィールドの健全性）', () => {
     }
   });
 
+  it('全用語に具体例（example）がある（EXT-M12）', () => {
+    const missing = terms.filter((t) => !t.example || t.example.trim().length < 10).map((t) => t.id);
+    expect(missing).toEqual([]);
+  });
+
   it('topics は実在する細目キーだけを指す', () => {
     for (const t of terms) {
       for (const k of t.topics ?? []) {

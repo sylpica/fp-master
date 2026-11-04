@@ -31,6 +31,9 @@ for _mod in ('glossary_x_a', 'glossary_x_b', 'glossary_x_c', 'glossary_x_d', 'gl
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
+from glossary_examples_src import apply_examples  # noqa: E402
+
+apply_examples(TERMS)  # 具体例（example）の追補（EXT-M12）。すべての用語に example がそろうようにする
 from fporig.core import write_question_sets  # noqa: E402
 
 ROOT = HERE.parents[1]
