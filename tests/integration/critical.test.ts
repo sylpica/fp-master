@@ -150,6 +150,22 @@ describe('学習履歴の保存', () => {
 });
 
 describe('法令基準日・制度改正', () => {
+  it('現行制度で正答が変わる改正（changed）の問題は、通常演習・計算トレーニング・模擬試験に出題されない', () => {
+    const changed = content.lawChanges
+      .filter((c) => c.status === 'confirmed')
+      .flatMap((c) => c.affectedQuestions.filter((a) => a.impact === 'changed').map((a) => a.id));
+    // EXT-M08：公務員の iDeCo 拠出限度額（年額14万4,000円）を〇とする旧基準の公式問題
+    expect(changed).toContain('g3-202405-04');
+    for (const id of changed) {
+      expect(content.questionById.get(id)?.status, id).toBe('quarantined');
+      for (const exam of ['g3', 'g2', 'j3', 'j2'] as const) {
+        expect(eligibleForPractice(all, { exams: [exam], includeCalc: true }).some((q) => q.id === id), id).toBe(false);
+        expect(eligibleForCalc(all, [exam]).some((q) => q.id === id), id).toBe(false);
+        for (let seed = 0; seed < 5; seed++) expect(buildRandomMock(all, exam, seed).questions.some((q) => q.id === id), id).toBe(false);
+      }
+    }
+  });
+
   it('確認済みの改正が参照する問題IDはすべて実在する', () => {
     for (const c of content.lawChanges) for (const a of c.affectedQuestions) expect(content.questionById.has(a.id), a.id).toBe(true);
   });
