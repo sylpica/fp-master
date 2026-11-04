@@ -18,7 +18,8 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # 公式ページ約800件を順に取得するため30〜45分かかる（同時に複数 PR が走ると延びる）。45分では完了直前に打ち切られた例がある
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

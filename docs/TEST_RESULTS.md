@@ -1,4 +1,10 @@
 # TEST RESULTS（2026-10-28）
+
+## 2026-11-04 夕（外部監査の残件 EXT-H01・M08・M12・M13）
+GitHub Actions 上で実行（ローカルは npm レジストリに接続できないため不可）。
+- PR #30（#28・#29 を含む）の CI：tsc OK／Vitest 13ファイル **151件合格**（+1 changed 問題の出題停止、+1 全用語の example）／build OK（precache 362件・15,058.09 KiB）／Playwright **142件合格**（+ e2e/guide.spec.ts 2件×iPhone・desktop）。
+- Content verify（教材変更 PR のオンライン再照合）：PR #27 で引用の不一致 0・生成物一致。#28・#29 の結果は docs/audit/EXTERNAL_AUDIT_CLAUDE.md E3 節。
+- データ：選択肢の長さが正答の手掛かりになる問題 262/825（31.8%、上限 0.32）、40%超のバッチ 0。
 実行したものだけを記載する。未実施は末尾に明記。
 
 | 種別 | 結果 |

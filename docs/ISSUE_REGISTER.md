@@ -14,4 +14,4 @@
 | I-008 | L | 業界団体(jili/ARES/JPX)を根拠にする肢がある | Accepted | 限定表現（一般的に）と条文/公的ページでの補強。公的根拠のみの置換は継続 |
 | I-009 | L | 個人向け国債の係数など、商品条件に依存する実技設問 | Accepted | 係数を設例で与える形に修正済。週次の出典再照合で検知 |
 | I-010 | L | 実機iPhone・Lighthouse再計測・手動a11y未実施 | Open | 公開後にユーザー環境で確認依頼 |
-| EXT-* | H/M/L | Claude Code 側外部監査（2026-11-04）の指摘20件 | 一部 Fixed | 詳細・状態は `docs/audit/EXTERNAL_AUDIT_CLAUDE.md`（未解決：EXT-H01 選択肢の長さ、M08〜M13、L04・L05） |
+| EXT-* | H/M/L | Claude Code 側外部監査（2026-11-04）の指摘20件 | 一部 Fixed | 詳細・状態は `docs/audit/EXTERNAL_AUDIT_CLAUDE.md`。2026-11-04 の残件実施で EXT-H01（PR #27）・M08（PR #28）・M12（PR #29）・M13（PR #30）を Fixed。未解決：M10・M11、L04・L05。M09 はユーザー判断で実施しない |
