@@ -25,7 +25,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Quote check for original questions (online)
-        run: python3 -I scripts/original/check_batch.py
+        # 公式サイトが一時的に応答しない・ランナーから取得できないページは警告にとどめ、引用の不一致だけを失敗とする
+        run: python3 -I scripts/original/check_batch.py --allow-fetch-failure
       - name: Rebuild content with online evidence check
         run: python3 -I scripts/content/build_content.py
       - name: Committed content must equal the online-verified build
