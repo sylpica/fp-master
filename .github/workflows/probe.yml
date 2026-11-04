@@ -1,0 +1,23 @@
+# 一時的な調査用（main にはマージしない）。オンライン照合で生成し直した src/content の差分をパッチとして出力する。
+name: Probe (temporary)
+on:
+  push:
+    branches: ['claude/probe-*']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Online build
+        run: python3 -I scripts/content/build_content.py
+      - name: Patch
+        run: |
+          git diff --stat -- src/content
+          git diff -- src/content ':(exclude)src/content/source-check.json' | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' | head -80
+          echo "PATCH-BEGIN"; git diff --binary -- src/content | gzip -9 | base64 -w0; echo; echo "PATCH-END"
