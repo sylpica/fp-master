@@ -7,6 +7,7 @@ import { UpdatePrompt } from './UpdatePrompt';
 const NAV = [
   { to: '/', label: 'ホーム', icon: '⌂' },
   { to: '/practice', label: '演習', icon: '✎' },
+  { to: '/cards', label: '単語帳', icon: '単' },
   { to: '/calc', label: '計算', icon: '∑' },
   { to: '/glossary', label: '用語', icon: '辞' },
   { to: '/menu', label: 'メニュー', icon: '≡' },
@@ -78,7 +79,7 @@ export function Layout() {
           aria-label="メインメニュー"
           className="fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur dark:border-slate-800 dark:bg-slate-950/95"
         >
-          <ul className="mx-auto grid max-w-2xl grid-cols-5">
+          <ul className="mx-auto grid max-w-2xl grid-cols-6">
             {NAV.map((n) => (
               <li key={n.to}>
                 <NavLink

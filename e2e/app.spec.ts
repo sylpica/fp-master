@@ -118,6 +118,19 @@ test('用語検索と暗記カード', async ({ page }) => {
   await page.getByRole('button', { name: '覚えた' }).click();
 });
 
+test('単語帳：下部メニューからの導線と表裏反転の設定保持', async ({ page }) => {
+  await page.goto('./');
+  await page.getByRole('link', { name: '単語帳' }).click();
+  await expect(page.getByRole('heading', { name: '単語帳' })).toBeVisible();
+  const reverseChip = page.getByRole('button', { name: '裏から（答え→用語・問い）' });
+  await reverseChip.click();
+  await expect(reverseChip).toHaveAttribute('aria-pressed', 'true');
+  await page.reload();
+  await expect(page.getByRole('button', { name: '裏から（答え→用語・問い）' })).toHaveAttribute('aria-pressed', 'true');
+  await page.getByRole('button', { name: '表から（用語・問い→答え）' }).click();
+  await expect(page.getByRole('button', { name: '表から（用語・問い→答え）' })).toHaveAttribute('aria-pressed', 'true');
+});
+
 test('バックアップ・復元（往復でデータが保持される）', async ({ page }) => {
   await page.goto('./#/practice?quick=5');
   await answerCurrent(page);

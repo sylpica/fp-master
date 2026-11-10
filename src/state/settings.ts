@@ -11,6 +11,8 @@ export interface Settings {
   subject: Subject;
   /** 通常演習にも計算問題を含める（初期値 OFF） */
   includeCalcInPractice: boolean;
+  /** 単語帳（暗記カード）の表裏を逆にして出題する（初期値 OFF） */
+  cardsReversed: boolean;
   /** 解説の表示モード（初期値 簡潔） */
   explanationMode: ExplanationMode;
   theme: 'system' | 'light' | 'dark';
@@ -30,6 +32,7 @@ export const DEFAULT_SETTINGS: Settings = {
   grade: 3,
   subject: 'gakka',
   includeCalcInPractice: false,
+  cardsReversed: false,
   explanationMode: 'short',
   theme: 'system',
   dailyGoal: 20,
@@ -48,6 +51,7 @@ const SETTING_SCHEMAS: { [K in keyof Settings]: z.ZodType } = {
   grade: z.union([z.literal(2), z.literal(3)]),
   subject: z.enum(['gakka', 'jitsugi']),
   includeCalcInPractice: z.boolean(),
+  cardsReversed: z.boolean(),
   explanationMode: z.enum(['short', 'standard', 'detail']),
   theme: z.enum(['system', 'light', 'dark']),
   dailyGoal: z.number().int().positive(),

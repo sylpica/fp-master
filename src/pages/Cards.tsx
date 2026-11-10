@@ -8,11 +8,16 @@ import { FIELD_IDS, FIELDS } from '../domain/exam';
 import { createRng, newSeed, shuffle } from '../domain/random';
 import { localDate, type Rating } from '../domain/srs';
 import type { FieldId } from '../domain/types';
-import { useSettings } from '../state/settings';
+import { setSetting, useSettings } from '../state/settings';
 import { PageTitle } from '../ui/Layout';
 import { Empty, ReviewBadge } from '../ui/common';
 
 type Mode = 'due' | 'weak' | 'new' | 'all';
+
+/** カードの出題面（最初に見せる側）と解答面を返す。reversed のときは表裏を入れ替える */
+export function cardSides(card: StudyCard, reversed: boolean): { prompt: string; answer: string } {
+  return reversed ? { prompt: card.back, answer: card.front } : { prompt: card.front, answer: card.back };
+}
 
 export function CardsHomePage() {
   const { cards } = useContent();
@@ -27,6 +32,7 @@ export function CardsHomePage() {
   const [kind, setKind] = useState<'' | 'term' | 'fact'>('');
   const nav = useNavigate();
   const grade = settings?.grade ?? 3;
+  const reversed = settings?.cardsReversed ?? false;
   const mine = cards.filter((c) => c.grades.includes(grade));
   const today = localDate();
   const due = srs?.filter((s) => s.due <= today && mine.some((c) => `c:${c.id}` === s.key)).length ?? 0;
@@ -39,7 +45,7 @@ export function CardsHomePage() {
   };
   return (
     <div className="space-y-4">
-      <PageTitle sub={`${grade}級：${mine.length}枚（用語${mine.filter((c) => c.kind === 'term').length}・数字/公式${mine.filter((c) => c.kind === 'fact').length}）`}>暗記カード</PageTitle>
+      <PageTitle sub={`${grade}級：${mine.length}枚（用語${mine.filter((c) => c.kind === 'term').length}・数字/公式${mine.filter((c) => c.kind === 'fact').length}）`}>単語帳</PageTitle>
       <div className="grid gap-2">
         <button className="btn-primary" onClick={() => start('due')} disabled={!due}>
           今日の復習カード（{due}枚）
@@ -75,6 +81,15 @@ export function CardsHomePage() {
               {{ '': 'すべて', term: '用語', fact: '数字・期限・公式' }[k]}
             </button>
           ))}
+        </div>
+        <h2 className="label">見せ方（表裏）</h2>
+        <div className="flex flex-wrap gap-2">
+          <button className={`chip ${!reversed ? 'chip-on' : ''}`} onClick={() => void setSetting('cardsReversed', false)} aria-pressed={!reversed}>
+            表から（用語・問い→答え）
+          </button>
+          <button className={`chip ${reversed ? 'chip-on' : ''}`} onClick={() => void setSetting('cardsReversed', true)} aria-pressed={reversed}>
+            裏から（答え→用語・問い）
+          </button>
         </div>
       </section>
       <p className="text-sm text-slate-600 dark:text-slate-400">カードをタップすると裏返ります。右にスワイプ＝覚えた、左にスワイプ＝覚えていない。</p>
@@ -121,6 +136,8 @@ export function CardsRunPage() {
   }, [settings, cards, params, deck]);
 
   const card = deck?.[i];
+  const reversed = settings?.cardsReversed ?? false;
+  const sides = card ? cardSides(card, reversed) : null;
   const rate = async (r: Rating) => {
     if (!card) return;
     await recordAttempt(
@@ -133,6 +150,28 @@ export function CardsRunPage() {
     setI(i + 1);
     start.current = Date.now();
   };
+
+  // PC向けキー操作：←＝覚えていない／↓＝曖昧／→＝覚えた（ボタンと同じ評価を記録する）
+  useEffect(() => {
+    if (!card) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        void rate('again');
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        void rate('hard');
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        void rate('good');
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  });
 
   const summary = useMemo(() => tally, [tally]);
   if (!deck) return <p role="status">読み込み中…</p>;
@@ -153,7 +192,7 @@ export function CardsRunPage() {
           覚えた {summary.good}／曖昧 {summary.hard}／覚えていない {summary.again}
         </p>
         <Link to="/cards" className="btn-primary w-full">
-          暗記カードに戻る
+          単語帳に戻る
         </Link>
         <Link to="/" className="btn-ghost w-full">
           ホームへ
@@ -163,17 +202,33 @@ export function CardsRunPage() {
 
   return (
     <div className="flex min-h-[calc(100dvh-2rem)] flex-col gap-4 pt-3">
-      <div className="flex items-center justify-between text-sm text-slate-600 dark:text-slate-400">
+      <div className="flex items-center justify-between gap-2 text-sm text-slate-600 dark:text-slate-400">
         <Link to="/cards" className="min-h-10 px-1">
           ← 終了
         </Link>
-        <span className="tabular-nums">
-          {i + 1} / {deck.length}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="tabular-nums">
+            {i + 1} / {deck.length}
+          </span>
+          <button
+            type="button"
+            className={`chip ${reversed ? 'chip-on' : ''}`}
+            aria-pressed={reversed}
+            onClick={() => {
+              void setSetting('cardsReversed', !reversed);
+              setFlipped(false);
+            }}
+          >
+            表裏入替
+          </button>
+        </div>
+      </div>
+      <div className="-mt-2 h-1.5 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800" aria-hidden>
+        <div className="h-full rounded-full bg-brand-500 transition-all" style={{ width: `${(i / deck.length) * 100}%` }} />
       </div>
       <button
         type="button"
-        aria-label={flipped ? `裏面：${card.back}。タップで表に戻す` : `表面：${card.front}。タップで裏返す`}
+        aria-label={flipped ? `裏面：${sides?.answer}。タップで表に戻す` : `表面：${sides?.prompt}。タップで裏返す`}
         onClick={() => Math.abs(dx) < 8 && setFlipped(!flipped)}
         onPointerDown={(e) => (drag.current = { x: e.clientX, dx: 0 })}
         onPointerMove={(e) => drag.current && setDx(e.clientX - drag.current.x)}
@@ -190,7 +245,11 @@ export function CardsRunPage() {
         <span className="text-xs text-slate-600 dark:text-slate-400">
           {FIELDS[card.field].short}・{card.kind === 'term' ? '用語' : '数字・公式'}
         </span>
-        {!flipped ? <span className="text-2xl font-bold leading-relaxed">{card.front}</span> : <span className="text-lg leading-relaxed">{card.back}</span>}
+        {!flipped ? (
+          <span className={reversed ? 'text-xl font-bold leading-relaxed' : 'text-2xl font-bold leading-relaxed'}>{sides?.prompt}</span>
+        ) : (
+          <span className="text-lg leading-relaxed">{sides?.answer}</span>
+        )}
         <span className="text-xs text-slate-400">{flipped ? '' : 'タップで答えを表示'}</span>
         {flipped && <ReviewBadge status={card.reviewStatus} />}
       </button>
@@ -205,6 +264,7 @@ export function CardsRunPage() {
           覚えた
         </button>
       </div>
+      <p className="-mt-2 text-center text-xs text-slate-400">キー操作：← 覚えていない／↓ 曖昧／→ 覚えた</p>
     </div>
   );
 }

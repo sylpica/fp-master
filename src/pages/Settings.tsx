@@ -35,6 +35,15 @@ export function SettingsPage() {
             }}
           />
         </Row>
+        <Row title="単語帳の表裏を逆にする" desc="暗記カードを、答え（裏）から表示して用語・問いを思い出す出し方にします。単語帳の画面からも切り替えられます。">
+          <input
+            type="checkbox"
+            className="h-6 w-6 accent-brand-700"
+            checked={s.cardsReversed}
+            aria-label="単語帳の表裏を逆にする"
+            onChange={(e) => void setSetting('cardsReversed', e.target.checked)}
+          />
+        </Row>
         <Row title="解説の表示" desc="解答後に最初に表示する詳しさ">
           <Segmented
             label="解説の表示"
