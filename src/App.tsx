@@ -1,10 +1,23 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy as reactLazy, type ComponentType } from 'react';
 import { HashRouter, Route, Routes, useParams } from 'react-router';
 import { ContentProvider } from './content/store';
+import { recoverFromStaleBuild } from './content/staleBuild';
+import { LoadErrorBoundary } from './ui/LoadErrorScreen';
 import { Layout } from './ui/Layout';
 import { HomePage } from './pages/Home';
 import { PracticePage } from './pages/Practice';
 import { SessionPage, SessionResultPage } from './pages/Session';
+
+/** 遅延読み込みのページ。古いビルドの画面が残って旧チャンクが読めないときは、1回だけ自動で現行ビルドへ合流する */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function lazy<T extends ComponentType<any>>(load: () => Promise<{ default: T }>) {
+  return reactLazy(() =>
+    load().catch(async (e: unknown) => {
+      if (await recoverFromStaleBuild(e).catch(() => false)) return new Promise<{ default: T }>(() => undefined);
+      throw e;
+    }),
+  );
+}
 
 const QuestionListPage = lazy(() => import('./pages/Questions').then((m) => ({ default: m.QuestionListPage })));
 const QuestionDetailPage = lazy(() => import('./pages/Questions').then((m) => ({ default: m.QuestionDetailPage })));
@@ -56,6 +69,7 @@ export function App() {
   return (
     <HashRouter>
       <ContentProvider>
+        <LoadErrorBoundary>
         <Suspense fallback={<p role="status" className="p-4">読み込み中…</p>}>
         <Routes>
           <Route element={<Layout />}>
@@ -91,6 +105,7 @@ export function App() {
           </Route>
         </Routes>
         </Suspense>
+        </LoadErrorBoundary>
       </ContentProvider>
     </HashRouter>
   );

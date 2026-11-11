@@ -169,7 +169,7 @@ test('単語帳：スワイプは答えずに送る（記録しない）、ボ�
   // 終了してホームに戻っても、スワイプで送ったカードは未見のまま（記録されていない＝答えていない扱い）
   await page.getByRole('link', { name: /終了/ }).click();
   await expect(page.getByRole('heading', { name: '単語帳' })).toBeVisible();
-  expect(await newCount()).toBe(before);
+  await expect.poll(newCount).toBe(before);
   // ボタンで「覚えた」を付けると記録され、未見が1枚減る
   await page.getByRole('button', { name: 'すべて' }).first().click();
   await expect(cardBtn).toBeVisible();
@@ -177,7 +177,7 @@ test('単語帳：スワイプは答えずに送る（記録しない）、ボ�
   await expect(counter).toHaveText(/^2 \/ /);
   await page.getByRole('link', { name: /終了/ }).click();
   await expect(page.getByRole('heading', { name: '単語帳' })).toBeVisible();
-  expect(await newCount()).toBe(before - 1);
+  await expect.poll(newCount).toBe(before - 1); // 記録（IndexedDB）の反映は非同期のため待つ
 });
 
 test('バックアップ・復元（往復でデータが保持される）', async ({ page }) => {

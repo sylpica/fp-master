@@ -2,6 +2,8 @@ import { createContext, useContext, useEffect, useMemo, useState, type ReactNode
 import type { FactCard, LawChange, Question, QuestionSet, Term } from '../domain/types';
 import { buildMatcher, type TermMatcher } from '../domain/termlink';
 import { importWithRetry, loadAllQuestionSets } from './index';
+import { clearStaleBuildGuard, recoverFromStaleBuild } from './staleBuild';
+import { LoadErrorScreen } from '../ui/LoadErrorScreen';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
@@ -149,17 +151,28 @@ export function ContentProvider({ children }: { children: ReactNode }) {
   const [content, setContent] = useState<Content | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
+    let alive = true;
     loadAllQuestionSets()
-      .then((sets) => setContent(buildContent(sets)))
-      .catch((e: unknown) => setError(String(e)));
+      .then((sets) => {
+        clearStaleBuildGuard();
+        if (alive) setContent(buildContent(sets));
+      })
+      .catch(async (e: unknown) => {
+        // 古いビルドの画面が残っている（旧チャンクが消えた）場合は、1回だけ自動で現行ビルドへ合流する
+        if (await recoverFromStaleBuild(e).catch(() => false)) return;
+        if (alive) setError(String(e));
+      });
     prefetchExplanationsForOffline();
     // 初回訪問では SW がまだページを制御していないため、制御が始まった時点で先読みする
     const sw = typeof navigator !== 'undefined' ? navigator.serviceWorker : undefined;
     sw?.addEventListener('controllerchange', prefetchExplanationsForOffline);
-    return () => sw?.removeEventListener('controllerchange', prefetchExplanationsForOffline);
+    return () => {
+      alive = false;
+      sw?.removeEventListener('controllerchange', prefetchExplanationsForOffline);
+    };
   }, []);
   if (error) {
-    return <div className="p-6 text-red-700">問題データの読み込みに失敗しました：{error}</div>;
+    return <LoadErrorScreen title="問題データを読み込めませんでした" detail={error} />;
   }
   if (!content) {
     return (
