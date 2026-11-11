@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cardSides } from '../../src/pages/Cards';
+import { cardSides, isCardSwipe, SWIPE_THRESHOLD_PX } from '../../src/pages/Cards';
 import type { StudyCard } from '../../src/content/store';
 import { normalizeSettings } from '../../src/state/settings';
 
@@ -44,5 +44,20 @@ describe('設定 cardsReversed', () => {
 
   it('不正な値は初期値 false に補正される（画面が壊れない）', () => {
     expect(normalizeSettings([{ key: 'cardsReversed', value: 'yes' }]).cardsReversed).toBe(false);
+  });
+});
+
+describe('isCardSwipe（単語帳のスワイプ判定：答えずに送る）', () => {
+  it('左右どちらでも、しきい値以上の移動でスワイプ成立', () => {
+    expect(isCardSwipe(SWIPE_THRESHOLD_PX)).toBe(true);
+    expect(isCardSwipe(200)).toBe(true);
+    expect(isCardSwipe(-SWIPE_THRESHOLD_PX)).toBe(true);
+    expect(isCardSwipe(-200)).toBe(true);
+  });
+
+  it('しきい値未満の移動では成立しない（タップや短いドラッグを誤判定しない）', () => {
+    expect(isCardSwipe(0)).toBe(false);
+    expect(isCardSwipe(SWIPE_THRESHOLD_PX - 1)).toBe(false);
+    expect(isCardSwipe(-(SWIPE_THRESHOLD_PX - 1))).toBe(false);
   });
 });

@@ -131,6 +131,55 @@ test('単語帳：下部メニューからの導線と表裏反転の設定保�
   await expect(page.getByRole('button', { name: '表から（用語・問い→答え）' })).toHaveAttribute('aria-pressed', 'true');
 });
 
+test('単語帳：スワイプは答えずに送る（記録しない）、ボタン評価は記録する', async ({ page }) => {
+  await page.goto('./#/cards');
+  const newBtn = page.getByRole('button', { name: /新しいカード（\d+）/ });
+  const newCount = async () => Number((await newBtn.innerText()).match(/（(\d+)）/)![1]);
+  const before = await newCount();
+  await page.getByRole('button', { name: 'すべて' }).first().click();
+  const cardBtn = page.getByRole('button', { name: /タップで裏返す/ });
+  await expect(cardBtn).toBeVisible();
+  const counter = page.locator('span.tabular-nums');
+  await expect(counter).toHaveText(/^1 \/ /);
+  const box = (await cardBtn.boundingBox())!;
+  const cy = box.y + box.height / 2;
+  // 短いドラッグ（しきい値未満）では送れず、裏返りもしない
+  await page.mouse.move(box.x + box.width / 2, cy);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width / 2 + 30, cy, { steps: 5 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^1 \/ /);
+  await expect(page.getByRole('button', { name: /タップで裏返す/ })).toBeVisible();
+  // 左寄りから始めてカードの外で指を離す左スワイプで次へ送れる
+  await page.mouse.move(box.x + 60, cy);
+  await page.mouse.down();
+  await page.mouse.move(box.x - 70, cy, { steps: 8 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^2 \/ /);
+  // スワイプ直後のクリックで次のカードが勝手に裏返らない（表面のまま）
+  await expect(page.getByRole('button', { name: /タップで裏返す/ })).toBeVisible();
+  // 右スワイプでも次へ送れる
+  const box2 = (await cardBtn.boundingBox())!;
+  const cy2 = box2.y + box2.height / 2;
+  await page.mouse.move(box2.x + box2.width / 2, cy2);
+  await page.mouse.down();
+  await page.mouse.move(box2.x + box2.width / 2 + 130, cy2, { steps: 8 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^3 \/ /);
+  // 終了してホームに戻っても、スワイプで送ったカードは未見のまま（記録されていない＝答えていない扱い）
+  await page.getByRole('link', { name: /終了/ }).click();
+  await expect(page.getByRole('heading', { name: '単語帳' })).toBeVisible();
+  await expect.poll(newCount).toBe(before);
+  // ボタンで「覚えた」を付けると記録され、未見が1枚減る
+  await page.getByRole('button', { name: 'すべて' }).first().click();
+  await expect(cardBtn).toBeVisible();
+  await page.getByRole('button', { name: '覚えた' }).click();
+  await expect(counter).toHaveText(/^2 \/ /);
+  await page.getByRole('link', { name: /終了/ }).click();
+  await expect(page.getByRole('heading', { name: '単語帳' })).toBeVisible();
+  await expect.poll(newCount).toBe(before - 1); // 記録（IndexedDB）の反映は非同期のため待つ
+});
+
 test('バックアップ・復元（往復でデータが保持される）', async ({ page }) => {
   await page.goto('./#/practice?quick=5');
   await answerCurrent(page);
