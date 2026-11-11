@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#0f766e"/><text x="256" y="300" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="200" font-weight="700" fill="#ffffff">FP</text><rect x="136" y="350" width="240" height="22" rx="11" fill="#99f6e4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" fill="#0f766e"/>
+<rect x="216" y="196" width="80" height="16" rx="8" fill="#0f766e"/>
+<circle cx="256" cy="142" r="42" fill="#fbbf24"/>
+<circle cx="256" cy="142" r="24" fill="none" stroke="#d97706" stroke-width="8"/>
+<g fill="#f8fafc">
+  <ellipse cx="248" cy="308" rx="138" ry="104"/>
+  <path d="M164 226 q-16 -34 6 -58 q30 10 40 40 q-24 16 -46 18Z"/>
+  <rect x="176" y="392" width="30" height="42" rx="10"/>
+  <rect x="300" y="392" width="30" height="42" rx="10"/>
+</g>
+<circle cx="140" cy="308" r="34" fill="#f8fafc"/>
+<circle cx="128" cy="300" r="6.5" fill="#0f766e"/>
+<circle cx="152" cy="300" r="6.5" fill="#0f766e"/>
+<circle cx="330" cy="282" r="11" fill="#0f766e"/>
+<path d="M382 268 q40 -6 34 -44" stroke="#f8fafc" stroke-width="17" fill="none" stroke-linecap="round"/>
+</svg>
