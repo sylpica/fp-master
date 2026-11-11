@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cardSides, swipeRating, SWIPE_THRESHOLD_PX } from '../../src/pages/Cards';
+import { cardSides, isCardSwipe, SWIPE_THRESHOLD_PX } from '../../src/pages/Cards';
 import type { StudyCard } from '../../src/content/store';
 import { normalizeSettings } from '../../src/state/settings';
 
@@ -47,17 +47,17 @@ describe('設定 cardsReversed', () => {
   });
 });
 
-describe('swipeRating（単語帳のスワイプ判定）', () => {
-  it('右へしきい値以上で「覚えた」、左へしきい値以上で「覚えていない」', () => {
-    expect(swipeRating(SWIPE_THRESHOLD_PX)).toBe('good');
-    expect(swipeRating(200)).toBe('good');
-    expect(swipeRating(-SWIPE_THRESHOLD_PX)).toBe('again');
-    expect(swipeRating(-200)).toBe('again');
+describe('isCardSwipe（単語帳のスワイプ判定：答えずに送る）', () => {
+  it('左右どちらでも、しきい値以上の移動でスワイプ成立', () => {
+    expect(isCardSwipe(SWIPE_THRESHOLD_PX)).toBe(true);
+    expect(isCardSwipe(200)).toBe(true);
+    expect(isCardSwipe(-SWIPE_THRESHOLD_PX)).toBe(true);
+    expect(isCardSwipe(-200)).toBe(true);
   });
 
-  it('しきい値未満の移動では評価しない（タップや短いドラッグを誤判定しない）', () => {
-    expect(swipeRating(0)).toBeNull();
-    expect(swipeRating(SWIPE_THRESHOLD_PX - 1)).toBeNull();
-    expect(swipeRating(-(SWIPE_THRESHOLD_PX - 1))).toBeNull();
+  it('しきい値未満の移動では成立しない（タップや短いドラッグを誤判定しない）', () => {
+    expect(isCardSwipe(0)).toBe(false);
+    expect(isCardSwipe(SWIPE_THRESHOLD_PX - 1)).toBe(false);
+    expect(isCardSwipe(-(SWIPE_THRESHOLD_PX - 1))).toBe(false);
   });
 });
