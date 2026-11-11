@@ -131,6 +131,40 @@ test('単語帳：下部メニューからの導線と表裏反転の設定保�
   await expect(page.getByRole('button', { name: '表から（用語・問い→答え）' })).toHaveAttribute('aria-pressed', 'true');
 });
 
+test('単語帳：スワイプで次のカードへ送れる（短いドラッグでは送れない）', async ({ page }) => {
+  await page.goto('./#/cards');
+  await page.getByRole('button', { name: 'すべて' }).first().click();
+  const cardBtn = page.getByRole('button', { name: /タップで裏返す/ });
+  await expect(cardBtn).toBeVisible();
+  const counter = page.locator('span.tabular-nums');
+  await expect(counter).toHaveText(/^1 \/ /);
+  const box = (await cardBtn.boundingBox())!;
+  const cy = box.y + box.height / 2;
+  // 短いドラッグ（しきい値未満）では送れず、裏返りもしない
+  await page.mouse.move(box.x + box.width / 2, cy);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width / 2 + 30, cy, { steps: 5 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^1 \/ /);
+  await expect(page.getByRole('button', { name: /タップで裏返す/ })).toBeVisible();
+  // 左寄りから始めてカードの外で指を離す左スワイプでも「覚えていない」として次へ送れる
+  await page.mouse.move(box.x + 60, cy);
+  await page.mouse.down();
+  await page.mouse.move(box.x - 70, cy, { steps: 8 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^2 \/ /);
+  // スワイプ直後のクリックで次のカードが勝手に裏返らない（表面のまま）
+  await expect(page.getByRole('button', { name: /タップで裏返す/ })).toBeVisible();
+  // 右スワイプで「覚えた」として次へ送れる
+  const box2 = (await cardBtn.boundingBox())!;
+  const cy2 = box2.y + box2.height / 2;
+  await page.mouse.move(box2.x + box2.width / 2, cy2);
+  await page.mouse.down();
+  await page.mouse.move(box2.x + box2.width / 2 + 130, cy2, { steps: 8 });
+  await page.mouse.up();
+  await expect(counter).toHaveText(/^3 \/ /);
+});
+
 test('バックアップ・復元（往復でデータが保持される）', async ({ page }) => {
   await page.goto('./#/practice?quick=5');
   await answerCurrent(page);

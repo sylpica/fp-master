@@ -19,6 +19,15 @@ export function cardSides(card: StudyCard, reversed: boolean): { prompt: string;
   return reversed ? { prompt: card.back, answer: card.front } : { prompt: card.front, answer: card.back };
 }
 
+/** スワイプで評価が確定する移動量（px）。右＝覚えた／左＝覚えていない */
+export const SWIPE_THRESHOLD_PX = 80;
+
+export function swipeRating(dx: number): Rating | null {
+  if (dx >= SWIPE_THRESHOLD_PX) return 'good';
+  if (dx <= -SWIPE_THRESHOLD_PX) return 'again';
+  return null;
+}
+
 export function CardsHomePage() {
   const { cards } = useContent();
   const settings = useSettings();
@@ -106,7 +115,8 @@ export function CardsRunPage() {
   const [flipped, setFlipped] = useState(false);
   const [tally, setTally] = useState({ good: 0, hard: 0, again: 0 });
   const start = useRef(Date.now());
-  const drag = useRef<{ x: number; dx: number } | null>(null);
+  const drag = useRef<{ x: number } | null>(null);
+  const suppressClick = useRef(false);
   const [dx, setDx] = useState(0);
 
   useEffect(() => {
@@ -229,18 +239,42 @@ export function CardsRunPage() {
       <button
         type="button"
         aria-label={flipped ? `裏面：${sides?.answer}。タップで表に戻す` : `表面：${sides?.prompt}。タップで裏返す`}
-        onClick={() => Math.abs(dx) < 8 && setFlipped(!flipped)}
-        onPointerDown={(e) => (drag.current = { x: e.clientX, dx: 0 })}
-        onPointerMove={(e) => drag.current && setDx(e.clientX - drag.current.x)}
-        onPointerUp={() => {
-          const d = dx;
+        onClick={() => {
+          // スワイプ（少しでも横に動いたドラッグ）の直後に来るクリックでは裏返さない
+          if (suppressClick.current) {
+            suppressClick.current = false;
+            return;
+          }
+          setFlipped(!flipped);
+        }}
+        onPointerDown={(e) => {
+          drag.current = { x: e.clientX };
+          // 指がカードの外へ出ても pointerup をこの要素で受け取る（速いスワイプで指が要素に追いつかれなくても取りこぼさない）
+          try {
+            e.currentTarget.setPointerCapture(e.pointerId);
+          } catch {
+            // キャプチャできない環境でも、判定はイベント座標で行うため動作は継続できる
+          }
+        }}
+        onPointerMove={(e) => {
+          if (drag.current) setDx(e.clientX - drag.current.x);
+        }}
+        onPointerUp={(e) => {
+          if (!drag.current) return;
+          // 判定は React の state ではなく、離した瞬間のイベント座標から行う（速いスワイプでも最終位置を取りこぼさない）
+          const d = e.clientX - drag.current.x;
           drag.current = null;
-          if (d > 90) void rate('good');
-          else if (d < -90) void rate('again');
+          if (Math.abs(d) > 8) suppressClick.current = true;
+          const r = swipeRating(d);
+          if (r) void rate(r);
           else setDx(0);
         }}
+        onPointerCancel={() => {
+          drag.current = null;
+          setDx(0);
+        }}
         style={{ transform: `translateX(${dx}px) rotate(${dx / 30}deg)` }}
-        className="card flex min-h-72 flex-1 touch-pan-y flex-col items-center justify-center gap-3 p-6 text-center"
+        className="card flex min-h-72 flex-1 touch-pan-y select-none flex-col items-center justify-center gap-3 p-6 text-center"
       >
         <span className="text-xs text-slate-600 dark:text-slate-400">
           {FIELDS[card.field].short}・{card.kind === 'term' ? '用語' : '数字・公式'}
@@ -251,6 +285,16 @@ export function CardsRunPage() {
           <span className="text-lg leading-relaxed">{sides?.answer}</span>
         )}
         <span className="text-xs text-slate-400">{flipped ? '' : 'タップで答えを表示'}</span>
+        {dx >= 40 && (
+          <span aria-hidden className="rounded-full bg-emerald-100 px-3 py-1 text-sm font-bold text-emerald-700 dark:bg-emerald-900 dark:text-emerald-200">
+            覚えた →
+          </span>
+        )}
+        {dx <= -40 && (
+          <span aria-hidden className="rounded-full bg-rose-100 px-3 py-1 text-sm font-bold text-rose-700 dark:bg-rose-900 dark:text-rose-200">
+            ← 覚えていない
+          </span>
+        )}
         {flipped && <ReviewBadge status={card.reviewStatus} />}
       </button>
       <div className="grid grid-cols-3 gap-2 pb-[env(safe-area-inset-bottom)]">
