@@ -19,13 +19,11 @@ export function cardSides(card: StudyCard, reversed: boolean): { prompt: string;
   return reversed ? { prompt: card.back, answer: card.front } : { prompt: card.front, answer: card.back };
 }
 
-/** スワイプで評価が確定する移動量（px）。右＝覚えた／左＝覚えていない */
+/** スワイプで「答えずに次へ送る」が確定する移動量（px）。左右どちらでも、評価も復習記録も付けずに送るだけ */
 export const SWIPE_THRESHOLD_PX = 80;
 
-export function swipeRating(dx: number): Rating | null {
-  if (dx >= SWIPE_THRESHOLD_PX) return 'good';
-  if (dx <= -SWIPE_THRESHOLD_PX) return 'again';
-  return null;
+export function isCardSwipe(dx: number): boolean {
+  return Math.abs(dx) >= SWIPE_THRESHOLD_PX;
 }
 
 export function CardsHomePage() {
@@ -101,7 +99,7 @@ export function CardsHomePage() {
           </button>
         </div>
       </section>
-      <p className="text-sm text-slate-600 dark:text-slate-400">カードをタップすると裏返ります。右にスワイプ＝覚えた、左にスワイプ＝覚えていない。</p>
+      <p className="text-sm text-slate-600 dark:text-slate-400">カードをタップすると裏返ります。横にスワイプすると、答えずに次のカードへ送れます（復習の記録には残りません）。</p>
     </div>
   );
 }
@@ -155,6 +153,15 @@ export function CardsRunPage() {
       r,
     );
     setTally((t) => ({ ...t, [r === 'easy' ? 'good' : r]: t[r === 'easy' ? 'good' : r] + 1 }));
+    setFlipped(false);
+    setDx(0);
+    setI(i + 1);
+    start.current = Date.now();
+  };
+
+  // スワイプ用：答えていない扱いで次へ送る。評価・復習記録（SRS）は付けず、既存の記録も上書きしない
+  const skip = () => {
+    if (!card) return;
     setFlipped(false);
     setDx(0);
     setI(i + 1);
@@ -265,8 +272,7 @@ export function CardsRunPage() {
           const d = e.clientX - drag.current.x;
           drag.current = null;
           if (Math.abs(d) > 8) suppressClick.current = true;
-          const r = swipeRating(d);
-          if (r) void rate(r);
+          if (isCardSwipe(d)) skip();
           else setDx(0);
         }}
         onPointerCancel={() => {
@@ -285,16 +291,6 @@ export function CardsRunPage() {
           <span className="text-lg leading-relaxed">{sides?.answer}</span>
         )}
         <span className="text-xs text-slate-400">{flipped ? '' : 'タップで答えを表示'}</span>
-        {dx >= 40 && (
-          <span aria-hidden className="rounded-full bg-emerald-100 px-3 py-1 text-sm font-bold text-emerald-700 dark:bg-emerald-900 dark:text-emerald-200">
-            覚えた →
-          </span>
-        )}
-        {dx <= -40 && (
-          <span aria-hidden className="rounded-full bg-rose-100 px-3 py-1 text-sm font-bold text-rose-700 dark:bg-rose-900 dark:text-rose-200">
-            ← 覚えていない
-          </span>
-        )}
         {flipped && <ReviewBadge status={card.reviewStatus} />}
       </button>
       <div className="grid grid-cols-3 gap-2 pb-[env(safe-area-inset-bottom)]">
