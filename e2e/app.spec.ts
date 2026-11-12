@@ -261,3 +261,23 @@ test('単問ページ：前後の問題へ移動でき、解答が学習履歴�
   await page.goto('./#/history');
   await expect(page.getByText(/全1件/)).toBeVisible();
 });
+
+test('用語集：要点まとめPDF（同梱Base64）を開ける', async ({ page }) => {
+  await page.goto('./#/glossary');
+  await expect(page.getByRole('button', { name: '2級 要点まとめPDFを開く' })).toBeVisible();
+  await expect(page.getByRole('button', { name: '3級 要点まとめPDFを開く' })).toBeVisible();
+  const check = await page.evaluate(async () => {
+    const out: Record<string, { len: number; head: string }> = {};
+    for (const g of [2, 3] as const) {
+      const r = await fetch(`pdf64/fp${g}-summary.b64`);
+      const text = r.ok ? await r.text() : '';
+      const bin = atob(text.replace(/\s+/g, ''));
+      out[g] = { len: bin.length, head: bin.slice(0, 5) };
+    }
+    return out;
+  });
+  expect(check[2]!.head).toBe('%PDF-');
+  expect(check[3]!.head).toBe('%PDF-');
+  expect(check[2]!.len).toBe(3242723);
+  expect(check[3]!.len).toBe(3111932);
+});

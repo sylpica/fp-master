@@ -6,6 +6,7 @@ import { db } from '../db/db';
 import { FIELD_IDS, FIELDS } from '../domain/exam';
 import type { FieldId, Term } from '../domain/types';
 import { useSettings } from '../state/settings';
+import { openSummaryPdf } from '../lib/summaryPdf';
 import { PageTitle } from '../ui/Layout';
 import { Empty, FieldBadge, ReviewBadge, Tex, questionLabel } from '../ui/common';
 import { TermPopupProvider, TermText, toFullWidth } from '../ui/TermText';
@@ -42,6 +43,30 @@ export async function setTermState(termId: string, patch: { favorite?: boolean; 
 }
 
 export function GlossaryPage() {
+  return (
+    <TermPopupProvider>
+      <div className="space-y-4">
+        <SummaryPdfButtons />
+        <GlossaryList />
+      </div>
+    </TermPopupProvider>
+  );
+}
+
+/** 要点まとめPDFを開くボタン（同梱PDFは用語データと無関係に開けるため、コンテンツ読込の完了を待たずに表示する） */
+function SummaryPdfButtons() {
+  return (
+    <>
+      <PageTitle>用語集</PageTitle>
+      <div className="flex flex-wrap gap-2">
+        <button className="chip" onClick={() => void openSummaryPdf(2)}>2級 要点まとめPDFを開く</button>
+        <button className="chip" onClick={() => void openSummaryPdf(3)}>3級 要点まとめPDFを開く</button>
+      </div>
+    </>
+  );
+}
+
+function GlossaryList() {
   const { terms } = useContent();
   const settings = useSettings();
   const states = useLiveQuery(() => db.termState.toArray(), []);
@@ -87,8 +112,8 @@ export function GlossaryPage() {
   }, [list, sort]);
 
   return (
-    <div className="space-y-4">
-      <PageTitle sub={`${list.length}語（${settings?.grade ?? ''}級の範囲）`}>用語集</PageTitle>
+    <>
+      <p className="-mt-3 text-sm text-slate-600 dark:text-slate-400">{list.length}語（{settings?.grade ?? ''}級の範囲）</p>
       <input className="input" type="search" placeholder="用語・読み・説明で検索" value={q} onChange={(e) => setQ(e.target.value)} aria-label="用語を検索" />
       <div className="flex flex-wrap gap-2">
         {(['kana', 'field', 'importance'] as const).map((s) => (
@@ -158,7 +183,7 @@ export function GlossaryPage() {
           )}
         </section>
       ))}
-    </div>
+    </>
   );
 }
 
