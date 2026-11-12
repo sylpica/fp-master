@@ -100,7 +100,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F4.1-3"
   },
   {
@@ -151,7 +151,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F5.5-2"
   },
   {
@@ -198,7 +198,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "F9.9-1",
    "calcReason": "退職所得控除額＝800万円＋70万円×(30年－20年)＝1,500万円。退職所得＝(3,000万円－1,500万円)×1/2＝750万円。コードで計算。"
   },

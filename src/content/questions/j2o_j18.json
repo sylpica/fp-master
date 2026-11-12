@@ -114,7 +114,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C10-5",
    "calcReason": "配当控除額・申告分離課税の税額・少額配当の上限額を、設例と資料の数値から計算させるため",
    "tags": [
@@ -477,7 +477,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A6.3-1",
    "calcReason": "拠出限度額（他制度なし・DB併用）とマッチング拠出の上限を、資料で与えた算定方法から計算させるため",
    "tags": [
@@ -592,7 +592,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C10-6",
    "calcReason": "源泉徴収口座内の譲渡益への源泉徴収税額と、受入配当等と譲渡損失を通算した後の税額を計算させるため",
    "tags": [

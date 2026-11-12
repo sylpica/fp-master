@@ -148,7 +148,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F4.2-2"
   },
   {
@@ -246,7 +246,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.5-3",
    "calcReason": "代償債務の額に相続税評価額と時価の割合を乗じて代償財産の価額を求め、現物の価額から控除して課税価格を計算する必要がある"
   },

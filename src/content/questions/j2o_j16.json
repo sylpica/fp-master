@@ -143,7 +143,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "B6.1-1",
    "calcReason": "生活費の期間別計算、支出・収入見込額の積み上げ、必要保障額と不足額を段階的に計算する",
    "tags": [
@@ -562,7 +562,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A3.2-4",
    "calcReason": "キャッシュフロー表から残高の推移を追い、資本回収係数で年間返済額と繰上返済後の返済額を段階的に計算する",
    "tags": [
@@ -673,7 +673,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E7.1-2",
    "calcReason": "実効総収入、NOI、税引前キャッシュフロー、不動産所得を、元金・利息・減価償却の扱いを区別しながら段階的に計算する",
    "tags": [

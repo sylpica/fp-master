@@ -133,7 +133,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.2-2",
    "calcReason": "青色申告特別控除（電子帳簿保存またはe-Taxによる最高額65万円）を適用した後の事業所得の金額を計算する",
    "tags": [
@@ -226,7 +226,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D3-5",
    "calcReason": "勤務必要経費の65万円上限を適用した特定支出の合計額と、給与所得控除額の2分の1相当額との比較により、特定支出控除の額を計算する",
    "tags": [
@@ -458,7 +458,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D3-9",
    "calcReason": "勤続年数の端数を切り上げて退職所得控除額と退職所得の金額を計算し、申告書提出時の正規の源泉徴収税額と、未提出時の20.42パーセントによる源泉徴収額をそれぞれ計算する",
    "tags": [

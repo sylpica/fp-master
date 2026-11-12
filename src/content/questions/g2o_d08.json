@@ -49,7 +49,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.2-4"
   },
   {
@@ -143,7 +143,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "D9-3",
    "calcReason": "中間納付額を前事業年度の法人税額と月数から計算する必要があるため"
   },
@@ -238,7 +238,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.2-2"
   },
   {
@@ -340,7 +340,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.3-4"
   }
  ]

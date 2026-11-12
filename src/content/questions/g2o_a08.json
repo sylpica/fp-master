@@ -155,7 +155,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A8.1-7"
   },
   {
@@ -206,7 +206,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "A8.2-1"
   },
   {
@@ -363,7 +363,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "A9.2-2"
   }
  ]

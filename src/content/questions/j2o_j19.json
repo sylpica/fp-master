@@ -115,7 +115,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E8.4-4",
    "calcReason": "総収益利回り、年間支払利息、自己資金に帰属する収益、自己資金利回りを段階的に計算する",
    "tags": [

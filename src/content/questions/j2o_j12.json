@@ -125,7 +125,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.2-3",
    "calcReason": "予定納税基準額の3分の1として第1期分の予定納税額を計算する",
    "tags": [
@@ -270,7 +270,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.1-1",
    "calcReason": "期限後に告知を受けることなく自主的に納付した源泉徴収税額について、5パーセントの割合で不納付加算税の額を計算する",
    "tags": [
@@ -537,7 +537,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D13-3",
    "calcReason": "売上げに係る消費税額に第2種事業のみなし仕入率80パーセントを乗じて仕入控除税額を計算し、売上げに係る消費税額から差し引いて納付税額を計算する",
    "tags": [
@@ -655,7 +655,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.1-2",
    "calcReason": "前職と再就職先の給与収入を合算し、源泉徴収税額の合計額と1年間に納めるべき税額との差額（還付される金額）を計算する",
    "tags": [

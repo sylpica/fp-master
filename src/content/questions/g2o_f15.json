@@ -148,7 +148,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.5-3",
    "calcReason": "（25,000円−2,000円）×400㎡＝920万円（市街地農地とした場合の価額）、920万円×80%＝736万円。コードで計算。"
   },
@@ -200,7 +200,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.6-2",
    "calcReason": "存続期間の定めなし→30年とみなす（通達43）。残存期間25年超30年以下は百分の四十のため、4,000万円×40%＝1,600万円。コードで計算。"
   },
@@ -352,7 +352,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.8-4",
    "calcReason": "（再建築価額1,200万円−償却費の額の合計額400万円）×70%＝560万円。コードで計算。"
   }

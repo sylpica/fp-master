@@ -226,7 +226,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "B3.3-3",
    "calcReason": "一時所得の金額と総所得金額への算入額、贈与税の課税価格を計算する",
    "tags": [
@@ -350,7 +350,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E5.1-4",
    "calcReason": "譲渡所得の金額、特別控除後の課税長期譲渡所得金額、軽減税率による所得税額を段階的に計算する",
    "tags": [
@@ -449,7 +449,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F3.1-5",
    "calcReason": "法定相続人の数（養子の算入制限と相続放棄の扱いを含む）を確定し、基礎控除額・非課税限度額・課税対象額を段階的に計算する",
    "tags": [

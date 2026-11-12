@@ -97,7 +97,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "A8.1-5",
    "calcReason": "総必要額、年間返済額、総返済負担率を計算し、基準から借入可能額を逆算する多段の計算である",
    "tags": [
@@ -224,7 +224,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "A8.3-2",
    "calcReason": "つなぎ期間の不足総額、65歳時点の残高、年金現価係数による取崩し必要額、繰下げ後の年金額を段階的に計算する",
    "tags": [

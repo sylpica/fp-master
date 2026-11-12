@@ -108,7 +108,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D6.2-2",
    "calcReason": "年末残高と控除率から控除額を求め、その年の所得税額との比較で引き切れない額を計算する",
    "tags": [
@@ -225,7 +225,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-2",
    "calcReason": "対象医療費の判定、補てん金の控除、足切り額の判定を段階的に行い医療費控除額を計算する",
    "tags": [
@@ -421,7 +421,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.3-5",
    "calcReason": "区分ごとの減額割合を適用して、特例適用後の課税価格への算入額を計算する",
    "tags": [
@@ -506,7 +506,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.2-3",
    "calcReason": "非課税限度額と基礎控除を差し引いて課税価格を求め、特例税率で贈与税額を計算する",
    "tags": [

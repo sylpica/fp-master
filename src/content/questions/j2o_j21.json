@@ -223,7 +223,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A8.1-8",
    "calcReason": "元利均等の返済を月次でシミュレーションし、期間短縮型の短縮月数と利息軽減額、返済額軽減型の再計算後の返済額を求めて両型を定量比較する",
    "tags": [
@@ -479,7 +479,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A5-8",
    "calcReason": "合意分割では夫婦の記録の合計に按分割合を適用して移行額を求め、3号分割では対象期間の記録の2分の1を求める。あわせて対象期間と請求期限の判定を行う",
    "tags": [

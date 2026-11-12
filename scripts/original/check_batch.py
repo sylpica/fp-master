@@ -13,6 +13,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / 'content'))
 from fporig.core import all_batches, source  # noqa: E402
+from fporig.cases import CaseBatch  # noqa: E402
 from build_content import fetch, page_text  # noqa: E402
 
 CACHE = HERE / '.cache'
@@ -56,6 +57,7 @@ def main() -> int:
         if want and b.id not in want:
             continue
         warn_length_cue(b)
+        warn_rounding_instruction(b)
     return 1 if bad else 0
 
 
@@ -79,6 +81,41 @@ def warn_length_cue(b) -> None:
     if total and cue / total > 0.4:
         print(f'警告 {b.id}: 正答肢だけが最長（適切問題）／最短（不適切問題）の問題が {cue}/{total} 問（{cue / total:.0%}）。'
               f'選択肢の長さをそろえること：{", ".join(hits)}')
+
+
+ROUNDING_WORDS = ('切捨て', '切り捨て', '切上げ', '切り上げ', '四捨五入', '端数')
+
+
+def warn_rounding_instruction(b) -> None:
+    """実技ケースの数値小問に端数処理の指示があるかを確認する（外部監査 R2-M09 の再発防止）。
+    解説（note・steps）に端数処理（切捨て・切上げ・四捨五入等）が出てくるのに、問題文・資料・小問文の
+    どこにも指示がないと、受験者は端数の扱いを知らなければ正答の桁に届かない。引用照合とは別の警告として
+    表示する（終了コードには影響しない）。制度の知識そのものを問う箇所（年数の切上げ等）や、端数が生じない
+    数値では警告が出ても直さない判断がありうるため、警告を見て1件ずつ判断すること。"""
+    if not isinstance(b, CaseBatch):
+        return
+    hits = []
+    for c in b.questions:
+        faced = [c.stem]
+        for m in c.materials:
+            faced.append(m.get('title', ''))
+            if m.get('kind') == 'table':
+                faced.extend(cell for row in m.get('rows', []) for cell in row)
+            else:
+                faced.append(m.get('body', ''))
+        for i, p in enumerate(c.parts, 1):
+            if p.kind != 'numeric':
+                continue
+            expl = p.note + ' ' + ' '.join(p.steps)
+            if not any(w in expl for w in ROUNDING_WORDS):
+                continue
+            prompt_side = ' '.join(faced) + ' ' + p.prompt
+            if any(w in prompt_side for w in ROUNDING_WORDS):
+                continue
+            hits.append(f'{c.id}({i})')
+    if hits:
+        print(f'警告 {b.id}: 解説に端数処理があるのに問題文・資料に指示がない数値小問 {len(hits)} 件：'
+              f'{", ".join(hits)}')
 
 
 if __name__ == '__main__':

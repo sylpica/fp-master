@@ -109,7 +109,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D6.2-2",
    "calcReason": "年末残高等に0.7パーセントを乗じた1年目の控除額と、端数処理（100円未満切り捨て）を伴う2年目の控除額を計算する",
    "tags": [
@@ -346,7 +346,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D3-8",
    "calcReason": "速算表の年齢区分・収入金額の帯を判定したうえで、夫婦それぞれの公的年金等に係る雑所得と、収入金額が変わった場合の雑所得を計算する",
    "tags": [
@@ -567,7 +567,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-9",
    "calcReason": "確定申告をした場合の所得税からの控除額と、住民税の基本分・特例分の合計額を、資料の計算式により計算する",
    "tags": [

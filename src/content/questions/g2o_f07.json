@@ -151,7 +151,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F2.2-5"
   },
   {
@@ -249,7 +249,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F2.3-5"
   },
   {
@@ -351,7 +351,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F2.3-9"
   }
  ]

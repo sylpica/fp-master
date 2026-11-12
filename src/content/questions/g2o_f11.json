@@ -53,7 +53,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.2-2",
    "calcReason": "200,000円×1.00（奥行価格補正率）×0.94（付表7・普通住宅地区・4以上5未満）×150㎡＝28,200,000円。コードで計算。"
   },
@@ -200,7 +200,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.4-8"
   },
   {
@@ -295,7 +295,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.6-1",
    "calcReason": "6,000万円×30%（残存期間20年超25年以下）＝1,800万円。コードで計算。"
   },

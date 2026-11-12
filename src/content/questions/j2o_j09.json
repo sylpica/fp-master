@@ -240,7 +240,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.2-1",
    "calcReason": "医療費控除の対象となる医療費の額を、死亡日までの支払分と保険金等の補てん額から計算する（死亡後の支払分を除外する判定を含む）",
    "tags": [
@@ -479,7 +479,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-1",
    "calcReason": "雑損控除の2つの計算方法による金額と、その比較による控除額を、保険金等の充当順序を踏まえて計算する",
    "tags": [
@@ -589,7 +589,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "D5.2-4",
    "calcReason": "iDeCo掛金の年額（全額控除）と、控除の追加による所得税額の減少額を税率から計算する",
    "tags": [

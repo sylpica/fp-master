@@ -616,7 +616,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F4.5-6"
   },
   {
@@ -1021,7 +1021,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F4.6-2"
   }
  ]

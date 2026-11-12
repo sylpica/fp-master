@@ -207,7 +207,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "C4.5-2",
    "calcReason": "現在価値の金額を割引計算で求め、選択肢の数値と照合する必要があるため"
   },
@@ -361,7 +361,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "C9.2-2",
    "calcReason": "シナリオ収益率の確率加重平均を計算する必要があるため"
   }
