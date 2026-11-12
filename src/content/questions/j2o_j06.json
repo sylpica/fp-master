@@ -232,7 +232,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.2-2",
    "calcReason": "専従者給与を必要経費に算入した事業所得、青色申告特別控除後の金額、白色申告の場合の金額を段階的に計算する",
    "tags": [
@@ -339,7 +339,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F2.4-3",
    "calcReason": "配偶者控除額、基礎控除後の課税価格、資料の速算表による贈与税額を段階的に計算する",
    "tags": [
@@ -450,7 +450,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E4.1-1",
    "calcReason": "登録免許税、不動産取得税（宅地の課税標準特例を適用）、固定資産税（小規模住宅用地の特例を適用）の金額を段階的に計算する",
    "tags": [

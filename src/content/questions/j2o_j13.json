@@ -134,7 +134,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-2",
    "calcReason": "特定一般用医薬品等購入費から12,000円を差し引いてセルフメディケーション税制の控除額を計算し、通常の医療費控除についても下限額を差し引いて控除額を計算する",
    "tags": [
@@ -463,7 +463,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D2.1-2",
    "calcReason": "年間の賃借料と土地の譲渡対価に、それぞれの源泉徴収税率（20.42パーセント・10.21パーセント）を乗じて源泉徴収税額を計算する",
    "tags": [
@@ -738,7 +738,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D2.1-5",
    "calcReason": "家賃の事業用部分の割合による按分と、事業専従者控除額（上限額と控除前所得を専従者数＋1で割った金額のいずれか低い方）を計算する",
    "tags": [

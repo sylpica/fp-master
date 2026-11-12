@@ -241,7 +241,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E5.1-3",
    "calcReason": "概算取得費、課税長期譲渡所得金額、資料の税率による所得税額を段階的に計算する",
    "tags": [
@@ -353,7 +353,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-9",
    "calcReason": "寄附金控除の限度額と控除額、ふるさと納税の控除対象額を段階的に計算する",
    "tags": [
@@ -588,7 +588,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A7.1-2",
    "calcReason": "公的年金等控除後の雑所得の金額と、非課税となる年金の合計額を計算する",
    "tags": [

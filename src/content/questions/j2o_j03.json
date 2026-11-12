@@ -114,7 +114,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C10-1",
    "calcReason": "一時所得の金額と総所得への算入額、個人年金の必要経費と雑所得の金額を段階的に計算する",
    "tags": [
@@ -214,7 +214,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "A5-1",
    "calcReason": "繰下げ月数から増額率を求め、基礎・厚生それぞれの増額後の年金額を計算する",
    "tags": [
@@ -323,7 +323,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D3-3",
    "calcReason": "不動産所得の損失額を求めたうえで、土地の負債利子相当分を除いた損益通算可能な金額を計算する",
    "tags": [
@@ -443,7 +443,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F6.4-1",
    "calcReason": "路線価と地積から自用地価額を求め、借地権割合・借家権割合・賃貸割合を用いて各土地の評価額を計算する",
    "tags": [
@@ -541,7 +541,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F4.5-9",
    "calcReason": "障害者控除・未成年者控除の年数計算（端数切上げを含む）と2割加算額を計算する",
    "tags": [

@@ -105,7 +105,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "C4.4-1",
    "calcReason": "応募者・最終・直接・所有期間の4種の利回りを、それぞれ異なる条件の債券に適用して計算し、大小関係を判定する",
    "tags": [
@@ -341,7 +341,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C9.2-9",
    "calcReason": "期待収益率の加重平均→分散の計算（共分散の項を含む）→平方根による標準偏差化と、相関係数の条件を変えた比較計算を連鎖させる",
    "tags": [

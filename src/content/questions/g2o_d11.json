@@ -144,7 +144,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D12.1-3",
    "calcReason": "付加価値額・資本金等の額・所得のそれぞれに異なる標準税率を適用し、3つの割の金額を合算して法人事業税額を計算する必要があるため"
   },
@@ -239,7 +239,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D14-2"
   },
   {
@@ -337,7 +337,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D14-4"
   }
  ]

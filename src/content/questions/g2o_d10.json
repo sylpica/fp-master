@@ -104,7 +104,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.3-9"
   },
   {
@@ -253,7 +253,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.3-21"
   },
   {
@@ -300,7 +300,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.4-2",
    "calcReason": "留保控除額を超える部分の金額に段階税率を適用して特別税額を計算する必要があるため"
   },
@@ -352,7 +352,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D10.4-3"
   }
  ]

@@ -97,7 +97,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C4.5-1",
    "calcReason": "修正デュレーションを用いた価格変化率の近似計算（デュレーション×金利変化幅）を含むため。"
   },
@@ -145,7 +145,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C5.3-2"
   },
   {

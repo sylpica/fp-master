@@ -630,7 +630,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D6.2-2",
    "calcReason": "取得対価から非課税の適用を受けた贈与額を控除して計算基礎を求め、年末残高との小さい方に0.7％を乗じて控除額を計算する",
    "tags": [

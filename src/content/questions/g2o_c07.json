@@ -241,7 +241,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C9.2-8"
   },
   {
@@ -335,7 +335,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "C3.2-1"
   }
  ]

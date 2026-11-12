@@ -242,7 +242,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D5.2-8",
    "calcReason": "本人の合計所得金額と配偶者の合計所得金額の組合せで控除額表を読み取り、該当する控除額を特定する必要があるため。"
   },
@@ -290,7 +290,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "D5.2-15",
    "calcReason": "合計所得金額がどの逓減区分に該当するかを判定し、対応する控除額を特定する必要があるため。"
   },

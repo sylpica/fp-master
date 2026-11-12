@@ -57,7 +57,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.2-1"
   },
   {
@@ -159,7 +159,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.2-4"
   },
   {
@@ -261,7 +261,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 3,
    "topic": "F7.3-2",
    "calcReason": "貸家建付地の価額＝8,000万円×（1－70%×30%×100%）＝6,320万円。コードで計算。"
   },
@@ -364,7 +364,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.4-1"
   }
  ]

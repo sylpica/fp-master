@@ -147,7 +147,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E7.3-4"
   },
   {
@@ -194,7 +194,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E7.3-6"
   },
   {
@@ -292,7 +292,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E8.4-1",
    "calcReason": "各年のキャッシュフローを割引率で割り引いて現在価値に換算し、初期投資額を差し引いてNPVを求める計算が必要なため。"
   },
@@ -340,7 +340,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "E8.4-3",
    "calcReason": "NPVがゼロになる割引率を数値計算（二分法等）で求め、ハードルレートと比較する必要があるため。"
   }

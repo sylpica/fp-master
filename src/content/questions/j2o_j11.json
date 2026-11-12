@@ -257,7 +257,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "F7.2-3",
    "calcReason": "非課税限度額（省エネ等住宅1,000万円）を適用した非課税額、基礎控除110万円を差し引いた課税価格、特例税率による贈与税額を段階的に計算する",
    "tags": [
@@ -364,7 +364,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D6.2-3",
    "calcReason": "相続税額に施行地外財産の価額の割合を乗じて控除限度額を計算し、外国で課された税額と比較して控除額と控除後の納付税額を計算する",
    "tags": [
@@ -578,7 +578,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "D7.1-1",
    "calcReason": "税率適用後の所得税額に102.1パーセントを乗じ100円未満を切り捨てて年税額を求め、源泉徴収税額の合計との差額として還付額を計算する",
    "tags": [

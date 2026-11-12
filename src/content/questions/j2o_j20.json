@@ -136,7 +136,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "B6.1-1",
    "calcReason": "支出見込額の積み上げ→収入見込額の控除→既加入額との比較判定という3段階の連鎖計算を行う",
    "tags": [
@@ -486,7 +486,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "B5-1",
    "calcReason": "自己負担限度額の算定→高額療養費の支給額→対象外費用を加えた実質負担の算定までを連鎖させる多段計算を行う",
    "tags": [
@@ -597,7 +597,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 5,
+   "level": 4,
    "topic": "B6.1-2",
    "calcReason": "自賠責から任意保険への二層構造の支払額と、過失相殺による損害賠償額を算出し、特約の重複判定と結びつける",
    "tags": [
