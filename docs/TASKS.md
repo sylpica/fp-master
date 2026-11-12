@@ -16,4 +16,4 @@
 - [~] 性能（ページ単位の遅延読み込み＋問題データのランタイムキャッシュ分離を実施済み。precache 362 entries・約14.2MB）、a11y監査（手動確認は未実施）
 - [x] GitHub への push・PR・Pages 公開：PR #1〜#30 をマージ済み（2026-11-04）、https://sylpica.github.io/fp-master/ で公開中
 - [x] 外部監査ラウンド2（2026-11-04）：High 2・Medium 7・Low 4 を修正（`docs/audit/EXTERNAL_AUDIT_CLAUDE_ROUND2.md`）
-- [ ] 実技ケースの難易度（Lv5 偏り）の1件ずつの再判定（R2-M08）
+- [x] 実技ケースの難易度（Lv5 偏り）の1件ずつの再判定（R2-M08、2026-11-12 実施。あわせて学科四択 Lv5 153件も再判定し、`check_batch.py` へ端数指示の警告を追加（R2-M09）。記録：`docs/audit/FOLLOWUP_20261112_R2_LEFTOVERS.md`）
