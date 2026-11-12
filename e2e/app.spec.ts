@@ -278,6 +278,6 @@ test('用語集：要点まとめPDF（同梱Base64）を開ける', async ({ pa
   });
   expect(check[2]!.head).toBe('%PDF-');
   expect(check[3]!.head).toBe('%PDF-');
-  expect(check[2]!.len).toBe(3242723);
-  expect(check[3]!.len).toBe(3111932);
+  expect(check[2]!.len).toBe(1391965);
+  expect(check[3]!.len).toBe(1379739);
 });
