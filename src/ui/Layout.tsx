@@ -2,6 +2,7 @@ import { NavLink, Outlet, useLocation } from 'react-router';
 import { useEffect, type ReactNode } from 'react';
 import { setSetting, useSettings } from '../state/settings';
 import { EXAM_SPECS, examKeyOf } from '../domain/exam';
+import type { Unit } from '../domain/types';
 import { UpdatePrompt } from './UpdatePrompt';
 
 const NAV = [
@@ -20,6 +21,16 @@ export function Layout() {
   const settings = useSettings();
   const loc = useLocation();
   const focus = FOCUS_PREFIXES.some((p) => loc.pathname.startsWith(p));
+  const unit = settings?.unit ?? 'fp3';
+  // 計算トレーニングはFP技能検定専用のため、金融リテラシー検定では出さない
+  const nav = NAV.filter((n) => unit !== 'lit' || n.to !== '/calc');
+  const changeUnit = (v: string) => {
+    const u = v as Unit;
+    void setSetting('unit', u);
+    // FPユニットでは級をユニットにそろえる（既存の級ベースの集計・表示と一致させる）
+    if (u === 'fp3') void setSetting('grade', 3);
+    if (u === 'fp2') void setSetting('grade', 2);
+  };
 
   useEffect(() => {
     if (!settings) return;
@@ -45,29 +56,32 @@ export function Layout() {
             <NavLink to="/" className="text-lg font-bold text-brand-700 dark:text-brand-200">
               FP Master
             </NavLink>
-            <div className="flex items-center gap-1" role="group" aria-label="級と科目の切り替え">
+            <div className="flex items-center gap-1" role="group" aria-label="学習ユニットと科目の切り替え">
               <Segmented
-                label="級"
-                value={String(settings.grade)}
+                label="ユニット"
+                value={settings.unit}
                 options={[
-                  { value: '3', label: '3級' },
-                  { value: '2', label: '2級' },
+                  { value: 'fp3', label: '3級' },
+                  { value: 'fp2', label: '2級' },
+                  { value: 'lit', label: 'リテラシー' },
                 ]}
-                onChange={(v) => setSetting('grade', Number(v) as 2 | 3)}
+                onChange={changeUnit}
               />
-              <Segmented
-                label="科目"
-                value={settings.subject}
-                options={[
-                  { value: 'gakka', label: '学科' },
-                  { value: 'jitsugi', label: '実技' },
-                ]}
-                onChange={(v) => setSetting('subject', v as 'gakka' | 'jitsugi')}
-              />
+              {settings.unit !== 'lit' && (
+                <Segmented
+                  label="科目"
+                  value={settings.subject}
+                  options={[
+                    { value: 'gakka', label: '学科' },
+                    { value: 'jitsugi', label: '実技' },
+                  ]}
+                  onChange={(v) => setSetting('subject', v as 'gakka' | 'jitsugi')}
+                />
+              )}
             </div>
           </div>
           <p className="sr-only" aria-live="polite">
-            {EXAM_SPECS[examKeyOf(settings.grade, settings.subject)].label}を選択中
+            {EXAM_SPECS[settings.unit === 'lit' ? 'lit' : examKeyOf(settings.grade, settings.subject)].label}を選択中
           </p>
         </header>
       )}
@@ -79,8 +93,8 @@ export function Layout() {
           aria-label="メインメニュー"
           className="fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur dark:border-slate-800 dark:bg-slate-950/95"
         >
-          <ul className="mx-auto grid max-w-2xl grid-cols-6">
-            {NAV.map((n) => (
+          <ul className="mx-auto grid max-w-2xl" style={{ gridTemplateColumns: `repeat(${nav.length}, minmax(0, 1fr))` }}>
+            {nav.map((n) => (
               <li key={n.to}>
                 <NavLink
                   to={n.to}

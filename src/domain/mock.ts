@@ -1,5 +1,5 @@
 import type { ExamKey, FieldId, Question } from './types';
-import { EXAM_SPECS, FIELD_IDS } from './exam';
+import { EXAM_SPECS, FIELD_IDS, LIT_FIELD_IDS } from './exam';
 import { createRng, shuffle } from './random';
 
 /**
@@ -26,6 +26,17 @@ export function blueprintFor(exam: ExamKey): MockBlueprint {
   if (exam === 'g2') {
     // 2級学科：四答択一式60問。公表問題では6分野×10問の構成
     return { exam, slots: FIELD_IDS.map((field) => ({ field, kind: 'choice' as const, count: 10 })) };
+  }
+  if (exam === 'lit') {
+    // 金融リテラシー検定：正誤問題35問＋三答択一式15問＝50問。
+    // 分野ごとの内訳は公式に公表されていないため、5分野×（正誤7＋三択3）＝10問の均等配分（独自仕様）
+    return {
+      exam,
+      slots: LIT_FIELD_IDS.flatMap((field) => [
+        { field, kind: 'truefalse' as const, count: 7 },
+        { field, kind: 'choice' as const, count: 3 },
+      ]),
+    };
   }
   // 実技は分野配分が公表されていないため均等配分（独自仕様）
   const per = EXAM_SPECS[exam].questionCount / FIELD_IDS.length;

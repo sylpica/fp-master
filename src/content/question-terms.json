@@ -1,19 +1,29 @@
 {
  "g2-202405-01": [
   "kakutei-shinkoku",
+  "seimei-hoken",
   "toshi-shintaku",
-  "gaika-yokin"
+  "genpon-hosho",
+  "rimawari",
+  "gaika-yokin",
+  "danteki-handan"
  ],
  "g2-202405-02": [
+  "life-planning",
   "cashflow-hyo",
   "kashobun-shotoku",
+  "shotokuzei",
   "kojin-juminzei",
+  "shakai-hoken",
+  "seimei-hoken",
+  "kabushiki",
   "nenkin-genka-keisu",
   "fukuri",
   "nenkin-shuka-keisu",
   "gensai-kikin-keisu"
  ],
  "g2-202405-03": [
+  "kenko-hoken",
   "hihokensha",
   "maisoryo",
   "shobyo-teatekin",
@@ -22,6 +32,7 @@
  ],
  "g2-202405-04": [
   "koyo-hoken",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g2-202405-05": [
@@ -31,26 +42,33 @@
   "kaigo-kyugyo-kyufukin"
  ],
  "g2-202405-06": [
+  "kokumin-nenkin",
+  "hoken-ryo",
   "hokenryo-menjo",
   "rorei-kiso-nenkin",
   "hihokensha-shubetsu",
   "rorei-kosei-nenkin",
   "kakyu-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha"
  ],
  "g2-202405-07": [
   "shogai-kiso-nenkin",
   "shogai-kosei-nenkin",
   "hihokensha",
+  "kosei-nenkin-hoken",
   "rosai-hoken"
  ],
  "g2-202405-08": [
+  "shotokuzei",
   "shokibo-kyosai-kojo",
   "zatsu-shotoku",
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
   "ideco"
  ],
  "g2-202405-09": [
+  "kinri",
   "ganking-kinto",
   "ganri-kinto",
   "jutaku-loan-karikae",
@@ -59,8 +77,10 @@
  ],
  "g2-202405-11": [
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "hihokensha",
   "tokuyaku",
+  "kawase-soba",
   "kaiyaku-henreikin",
   "hokenryo-menjo"
  ],
@@ -68,17 +88,21 @@
   "dantai-teiki-hoken",
   "hihokensha",
   "teiki-hoken",
-  "tokuyaku"
+  "tokuyaku",
+  "hoken-ryo"
  ],
  "g2-202405-13": [
   "seimei-hokenryo-kojo",
   "yoro-hoken",
+  "hoken-ryo",
   "shogaku-tanki-hoken",
   "hihokensha",
   "shushin-hoken",
   "kojin-nenkin-hoken"
  ],
  "g2-202405-14": [
+  "seimei-hoken",
+  "hoken-ryo",
   "hihokensha",
   "shushin-hoken",
   "living-needs",
@@ -86,9 +110,12 @@
   "sogo-bunri-kazei",
   "yoro-hoken",
   "kojin-nenkin-hoken",
-  "ichiji-shotoku"
+  "ichiji-shotoku",
+  "shotokuzei"
  ],
  "g2-202405-15": [
+  "hoken-ryo",
+  "seimei-hoken",
   "hihokensha",
   "hokenkin-juryonin",
   "manki-hokenkin",
@@ -108,13 +135,17 @@
  "g2-202405-17": [
   "jishin-hoken",
   "kasai-hoken",
+  "hoken-ryo",
   "jishin-waribiki"
  ],
  "g2-202405-18": [
+  "songai-hoken",
+  "hoken-ryo",
   "hihokensha",
   "hokenkin-juryonin",
   "jibaiseki-taijin",
   "ichiji-shotoku",
+  "shotokuzei",
   "kojin-baisho-sekinin",
   "zatsu-shotoku",
   "shogai-hoken",
@@ -130,16 +161,21 @@
   "nyuin-shujutsu-kyufukin"
  ],
  "g2-202405-20": [
+  "seimei-hoken",
   "danshin",
   "shuugyo-funo-hoken",
   "yoro-hoken"
  ],
  "g2-202405-21": [
   "cpi",
+  "kokumin-nenkin",
+  "kosei-nenkin-hoken",
   "keiki-doko"
  ],
  "g2-202405-22": [
+  "ginko",
   "options",
+  "teiki-yokin",
   "tanri",
   "fukuri"
  ],
@@ -152,17 +188,21 @@
   "benchmark"
  ],
  "g2-202405-24": [
+  "saiken",
   "shoyu-kikan-rimawari",
   "tanri",
   "keika-rishi"
  ],
  "g2-202405-25": [
+  "saiken",
   "country-risk",
   "kakaku-hendo-risk",
   "kakuzuke",
   "credit-risk"
  ],
  "g2-202405-26": [
+  "kabushiki",
+  "rimawari",
   "pbr",
   "haito-seiko",
   "keiyakusha-haitokin",
@@ -170,10 +210,13 @@
  ],
  "g2-202405-27": [
   "gaika-yokin",
+  "kawase-soba",
   "tts-ttb",
   "yokin-hoken",
+  "teiki-yokin",
   "kawase-saeki",
   "ichiji-shotoku",
+  "shotokuzei",
   "gaika-mmf",
   "kakuzuke",
   "toshi-shintaku",
@@ -181,6 +224,7 @@
  ],
  "g2-202405-28": [
   "derivatives",
+  "kinri",
   "swap",
   "sakimono",
   "options",
@@ -189,39 +233,50 @@
  ],
  "g2-202405-29": [
   "sharpe-ratio",
+  "kinri",
   "portfolio"
  ],
  "g2-202405-30": [
   "shohisha-keiyaku-ho",
   "kinsho-ho",
-  "shinyo-torihiki"
+  "kabushiki",
+  "shinyo-torihiki",
+  "fujitsu-kokuchi"
  ],
  "g2-202405-31": [
+  "shotokuzei",
   "shotoku-10shu",
   "chouka-ruishin-zeiritsu"
  ],
  "g2-202405-32": [
+  "shotokuzei",
   "joto-shotoku",
   "fudosan-shotoku",
   "ichiji-shotoku",
+  "kabushiki",
   "keiyakusha-haitokin",
   "haito-shotoku"
  ],
  "g2-202405-33": [
+  "shotokuzei",
   "kyuyo-shotoku",
   "sonneki-tsusan",
   "jigyo-shotoku",
+  "kabushiki",
   "joto-shotoku",
   "fudosan-shotoku",
   "zatsu-shotoku"
  ],
  "g2-202405-34": [
+  "shotokuzei",
+  "shotoku-kojo",
   "kiso-kojo",
   "haigusha-kojo",
   "iryohi-kojo",
   "kafu-kojo"
  ],
  "g2-202405-35": [
+  "shotokuzei",
   "jutaku-loan-kojo",
   "kyuyo-shotoku",
   "kakutei-shinkoku"
@@ -242,6 +297,7 @@
   "kakutei-shinkoku"
  ],
  "g2-202405-39": [
+  "shotokuzei",
   "houjinzei",
   "zatsu-shotoku",
   "kyuyo-shotoku"
@@ -296,6 +352,7 @@
  ],
  "g2-202405-50": [
   "fudosan-rimawari",
+  "rimawari",
   "shueki-kangenho"
  ],
  "g2-202405-52": [
@@ -311,7 +368,9 @@
   "isan-bunkatsu-kyogi"
  ],
  "g2-202405-55": [
+  "hoken-ryo",
   "hihokensha",
+  "seimei-hoken",
   "hokenkin-juryonin",
   "tanjun-shonin",
   "daishu-sozoku"
@@ -335,20 +394,27 @@
  ],
  "g2-202405-60": [
   "iryubun",
-  "suitei-sozokunin"
+  "suitei-sozokunin",
+  "kabushiki"
  ],
  "g2-202409-01": [
+  "ginko",
   "yokaigo-nintei"
  ],
  "g2-202409-02": [
+  "seimei-hoken",
+  "life-planning",
+  "shakai-hoken",
   "rorei-kosei-nenkin",
   "igon"
  ],
  "g2-202409-03": [
   "iryo-hoken",
+  "kenko-hoken",
   "hihokensha",
   "shobyo-teatekin",
   "nini-keizoku",
+  "hoken-ryo",
   "kokumin-kenko-hoken",
   "koki-koreisha-iryo-seido"
  ],
@@ -365,15 +431,18 @@
  "g2-202409-06": [
   "rorei-kosei-nenkin",
   "rorei-kiso-nenkin",
+  "kokumin-nenkin",
   "jun-fuka-hokenryo",
   "fuka-nenkin",
   "shogai-kosei-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "izoku-kosei-nenkin",
   "shogai-kiso-nenkin",
   "kakyu-nenkin"
  ],
  "g2-202409-07": [
+  "kosei-nenkin-hoken",
   "hihokensha",
   "ideco",
   "kakutei-kyufu-kigyo-nenkin"
@@ -385,26 +454,39 @@
   "ideco"
  ],
  "g2-202409-09": [
+  "kinri",
   "ganking-kinto",
   "ganri-kinto",
   "teitoken",
   "fudosan-shutoku-toroku-inshi"
  ],
+ "g2-202409-10": [
+  "cashless-kessai",
+  "ginko"
+ ],
  "g2-202409-11": [
   "shogaku-tanki-hoken",
   "hihokensha",
   "keiyakusha-hogo-kiko",
-  "hoken-keiyakusha",
+  "songai-hoken",
+  "hoken-ryo",
+  "shotokuzei",
   "seimei-hokenryo-kojo",
-  "jishin-hokenryo-kojo"
+  "jishin-hokenryo-kojo",
+  "seimei-hoken"
  ],
  "g2-202409-12": [
+  "seimei-hoken",
+  "hoken-ryo",
   "taisu-no-hosoku",
+  "shushi-soto",
   "sekinin-junbikin",
   "keiyakusha-haitokin",
-  "jun-fuka-hokenryo"
+  "jun-fuka-hokenryo",
+  "haito"
  ],
  "g2-202409-13": [
+  "seimei-hoken",
   "tokuyaku",
   "yoro-hoken",
   "hihokensha",
@@ -414,17 +496,22 @@
   "shunyu-hosho-hoken"
  ],
  "g2-202409-14": [
+  "seimei-hoken",
+  "hoken-ryo",
   "hihokensha",
   "iryo-hoken",
   "nyuin-shujutsu-kyufukin",
   "kojin-nenkin-hoken",
   "kaiyaku-henreikin",
   "ichiji-shotoku",
+  "shotokuzei",
   "sogo-bunri-kazei",
   "hokenkin-juryonin",
   "shushin-hoken"
  ],
  "g2-202409-15": [
+  "hoken-ryo",
+  "seimei-hoken",
   "hihokensha",
   "hokenkin-juryonin",
   "shushin-hoken",
@@ -437,8 +524,11 @@
   "teiki-hoken"
  ],
  "g2-202409-16": [
+  "songai-hoken",
   "hokengyo-ho",
+  "seimei-hoken",
   "hoken-kagaku",
+  "hoken-ryo",
   "jun-fuka-hokenryo",
   "yotei-riritsu"
  ],
@@ -448,6 +538,8 @@
   "hihokensha"
  ],
  "g2-202409-18": [
+  "hoken-ryo",
+  "songai-hoken",
   "jishin-hoken",
   "jishin-hokenryo-kojo",
   "houjinzei",
@@ -466,6 +558,7 @@
   "senshin-iryo-gijutsu"
  ],
  "g2-202409-20": [
+  "seimei-hoken",
   "danshin",
   "shuugyo-funo-hoken",
   "dantai-teiki-hoken",
@@ -487,12 +580,15 @@
   "index-fund"
  ],
  "g2-202409-23": [
+  "saiken",
+  "rimawari",
   "tanri",
   "keika-rishi",
   "shoyu-kikan-rimawari",
   "saishu-rimawari"
  ],
  "g2-202409-24": [
+  "kabushiki",
   "topix-nikkei"
  ],
  "g2-202409-25": [
@@ -500,6 +596,7 @@
   "pbr",
   "roe",
   "haito-rimawari",
+  "kabushiki",
   "keiyakusha-haitokin"
  ],
  "g2-202409-26": [
@@ -508,6 +605,7 @@
   "option-premium",
   "sakimono",
   "zatsu-shotoku",
+  "kabushiki",
   "joto-shotoku",
   "sonneki-tsusan"
  ],
@@ -515,7 +613,10 @@
   "portfolio"
  ],
  "g2-202409-28": [
+  "kabushiki",
+  "haito",
   "nisa",
+  "shotokuzei",
   "sogo-bunri-kazei",
   "kojin-juminzei",
   "keiyakusha-haitokin",
@@ -528,6 +629,7 @@
   "yokin-hoken",
   "kessai-yokin",
   "gaika-yokin",
+  "shoken-gaisha",
   "sakimono-shokokin",
   "toshisha-hogo-kikin"
  ],
@@ -535,33 +637,41 @@
   "kinyu-hanbai-ho"
  ],
  "g2-202409-31": [
+  "shotokuzei",
   "houjinzei",
   "shohizei",
   "fudosan-shutoku-toroku-inshi",
   "chouka-ruishin-zeiritsu"
  ],
  "g2-202409-32": [
+  "shotokuzei",
   "joto-shotoku",
   "fudosan-shotoku",
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "zatsu-shotoku",
+  "kabushiki",
   "keiyakusha-haitokin",
   "jigyo-shotoku",
   "haito-shotoku"
  ],
  "g2-202409-33": [
+  "shotokuzei",
   "kyuyo-shotoku",
   "fudosan-shotoku",
   "joto-shotoku"
  ],
  "g2-202409-34": [
+  "shotokuzei",
   "jutaku-loan-kojo"
  ],
  "g2-202409-35": [
   "kyuyo-shotoku",
+  "shotokuzei",
   "kakutei-shinkoku",
   "gensen-choshu",
   "zatsu-shotoku",
+  "seimei-hoken",
   "manki-hokenkin",
   "ichiji-shotoku",
   "rorei-kiso-nenkin",
@@ -585,6 +695,7 @@
   "kakutei-shinkoku"
  ],
  "g2-202409-39": [
+  "shotokuzei",
   "houjinzei",
   "zatsu-shotoku",
   "kyuyo-shotoku"
@@ -634,6 +745,7 @@
  "g2-202409-48": [
   "joto-shotoku",
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "baikai-hoshu"
@@ -645,7 +757,9 @@
  ],
  "g2-202409-50": [
   "shueki-kangenho",
-  "fudosan-rimawari"
+  "fudosan-rimawari",
+  "rimawari",
+  "kinri"
  ],
  "g2-202409-51": [
   "futan-tsuki-zoyo",
@@ -672,9 +786,12 @@
   "hotei-sozokubun"
  ],
  "g2-202409-58": [
+  "futsu-yokin",
   "keika-rishi",
   "gaika-yokin",
   "tts-ttb",
+  "shotokuzei",
+  "seimei-hoken",
   "kaiyaku-henreikin"
  ],
  "g2-202409-59": [
@@ -683,15 +800,22 @@
   "isan-bunkatsu",
   "igon-shikkosha"
  ],
+ "g2-202409-60": [
+  "kabushiki"
+ ],
  "g2-202501-01": [
+  "shakai-hoken",
   "kifukin-kojo",
   "kakutei-shinkoku",
+  "kabushiki",
   "isan-bunkatsu-kyogi",
   "zeirishi-ho",
   "kinsho-ho",
   "bengoshi-ho"
  ],
  "g2-202501-02": [
+  "kenko-hoken",
+  "hoken-ryo",
   "hihokensha",
   "kaigo-hoken",
   "kogaku-ryoyohi",
@@ -701,6 +825,7 @@
  "g2-202501-03": [
   "koyo-hoken",
   "hihokensha",
+  "hoken-ryo",
   "ikuji-kyugyo-kyufukin"
  ],
  "g2-202501-04": [
@@ -717,35 +842,50 @@
   "kokumin-nenkin-kikin",
   "shokibo-kigyo-kyosai",
   "kyosai",
+  "kokumin-nenkin",
   "nini-kanyu",
-  "hihokensha"
+  "hihokensha",
+  "bunkatsubarai"
  ],
  "g2-202501-07": [
   "houjinzei",
+  "shotokuzei",
   "ideco",
   "shokibo-kyosai-kojo",
+  "shotoku-kojo",
   "kyosai",
   "shokibo-kigyo-kyosai",
   "jigyo-shotoku"
  ],
  "g2-202501-08": [
   "shogakukin",
-  "kyoiku-loan"
+  "kyoiku-loan",
+  "taiyo-shogakukin"
  ],
  "g2-202501-09": [
   "nenkin-genka-keisu"
  ],
+ "g2-202501-10": [
+  "cashless-kessai",
+  "bunkatsubarai",
+  "revolving-barai"
+ ],
  "g2-202501-11": [
   "shogaku-tanki-hoken",
+  "hoken-ryo",
+  "shotokuzei",
   "seimei-hokenryo-kojo",
   "keiyakusha-hogo-kiko",
-  "hoken-keiyakusha",
-  "hihokensha"
+  "songai-hoken",
+  "hihokensha",
+  "seimei-hoken"
  ],
  "g2-202501-12": [
+  "seimei-hoken",
   "tokuyaku",
   "tei-mukaiyaku-hoken",
   "shushin-hoken",
+  "hoken-ryo",
   "kaiyaku-henreikin",
   "hendo-hoken",
   "teiki-hoken",
@@ -754,11 +894,15 @@
  "g2-202501-13": [
   "kojin-nenkin-hoken",
   "hihokensha",
+  "hoken-ryo",
+  "kinri",
   "kaiyaku-henreikin",
   "tokuyaku",
   "kawase-risk"
  ],
  "g2-202501-14": [
+  "seimei-hoken",
+  "hoken-ryo",
   "seimei-hokenryo-kojo",
   "kojin-nenkin-hoken",
   "shushin-hoken",
@@ -766,6 +910,8 @@
   "jido-furikae-kashitsuke"
  ],
  "g2-202501-15": [
+  "seimei-hoken",
+  "hoken-ryo",
   "hokenkin-juryonin",
   "hihokensha",
   "yoro-hoken",
@@ -774,9 +920,12 @@
   "tokuyaku",
   "kaiyaku-henreikin",
   "ichiji-shotoku",
+  "shotokuzei",
   "kojin-nenkin-hoken"
  ],
  "g2-202501-16": [
+  "hoken-ryo",
+  "seimei-hoken",
   "hihokensha",
   "hokenkin-juryonin",
   "shushin-hoken",
@@ -790,6 +939,7 @@
  "g2-202501-17": [
   "kasai-hoken",
   "jishin-hoken",
+  "hoken-ryo",
   "jishin-waribiki"
  ],
  "g2-202501-18": [
@@ -809,6 +959,7 @@
   "teiki-hoken"
  ],
  "g2-202501-20": [
+  "songai-hoken",
   "rosai-hoken",
   "kasai-hoken"
  ],
@@ -818,11 +969,16 @@
   "tenkan-seido"
  ],
  "g2-202501-22": [
+  "ginko",
   "options",
+  "teiki-yokin",
   "tanri",
-  "fukuri"
+  "fukuri",
+  "futsu-yokin"
  ],
  "g2-202501-23": [
+  "saiken",
+  "rimawari",
   "tanri",
   "keika-rishi",
   "oubosha-rimawari",
@@ -831,14 +987,20 @@
   "saishu-rimawari"
  ],
  "g2-202501-24": [
+  "saiken",
+  "rimawari",
+  "kinri",
   "capital-gain"
  ],
  "g2-202501-25": [
+  "kabushiki",
   "shinyo-torihiki",
+  "shoken-gaisha",
   "seido-ippan-shinyo",
   "kinsho-ho"
  ],
  "g2-202501-26": [
+  "kabushiki",
   "roe",
   "per",
   "pbr",
@@ -857,6 +1019,8 @@
   "bunsan-toshi"
  ],
  "g2-202501-29": [
+  "kabushiki",
+  "haito",
   "tokutei-koza",
   "gensen-choshu",
   "haito-shotoku",
@@ -865,7 +1029,10 @@
   "sonneki-tsusan"
  ],
  "g2-202501-30": [
+  "teiki-yokin",
   "yokin-hoken",
+  "ginko",
+  "seimei-hoken",
   "keiyakusha-hogo-kiko",
   "yotei-riritsu",
   "sekinin-junbikin",
@@ -873,9 +1040,11 @@
   "toshisha-hogo-kikin"
  ],
  "g2-202501-31": [
+  "shotokuzei",
   "shotoku-10shu"
  ],
  "g2-202501-32": [
+  "shotokuzei",
   "zatsu-shotoku",
   "jigyo-shotoku",
   "joto-shotoku",
@@ -884,6 +1053,7 @@
   "fudosan-shotoku"
  ],
  "g2-202501-33": [
+  "shotokuzei",
   "sonneki-tsusan",
   "fudosan-shotoku",
   "joto-shotoku",
@@ -892,15 +1062,19 @@
   "ichiji-shotoku"
  ],
  "g2-202501-34": [
+  "shotokuzei",
   "haigusha-kojo",
+  "kenko-hoken",
   "aoiro-shinkoku"
  ],
  "g2-202501-35": [
+  "shotokuzei",
   "jutaku-loan-kojo",
   "kyuyo-shotoku",
   "kakutei-shinkoku"
  ],
  "g2-202501-36": [
+  "shotokuzei",
   "fudosan-shotoku",
   "jigyo-shotoku",
   "zatsu-shotoku",
@@ -920,6 +1094,7 @@
   "invoice"
  ],
  "g2-202501-39": [
+  "shotokuzei",
   "houjinzei",
   "zatsu-shotoku",
   "kyuyo-shotoku"
@@ -965,6 +1140,7 @@
   "joto-shotoku",
   "gentei-shonin",
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei"
  ],
@@ -978,8 +1154,10 @@
  ],
  "g2-202501-52": [
   "minashi-zoyo-zaisan",
+  "hoken-ryo",
   "hihokensha",
-  "hokenkin-juryonin"
+  "hokenkin-juryonin",
+  "seimei-hoken"
  ],
  "g2-202501-53": [
   "rekinen-kazei",
@@ -998,6 +1176,7 @@
   "izo"
  ],
  "g2-202501-56": [
+  "kabushiki",
   "hijojo-kabushiki",
   "keiyakusha-haitokin",
   "ruiji-gyoshu-hijun"
@@ -1008,22 +1187,36 @@
   "shokibo-takuchi"
  ],
  "g2-202501-58": [
+  "seimei-hoken",
   "hokenkin-juryonin",
+  "hoken-ryo",
   "hihokensha",
   "isan-bunkatsu-kyogi",
   "shibo-hokenkin-hikazei",
   "hotei-sozokunin"
  ],
+ "g2-202501-59": [
+  "kabushiki"
+ ],
  "g2-202501-60": [
   "toki"
  ],
+ "g2-202505-01": [
+  "shakai-hoken",
+  "seimei-hoken",
+  "life-planning"
+ ],
  "g2-202505-02": [
+  "kenko-hoken",
   "hihokensha"
  ],
  "g2-202505-03": [
-  "rosai-hoken"
+  "rosai-hoken",
+  "hoken-ryo"
  ],
  "g2-202505-04": [
+  "kokumin-nenkin",
+  "hoken-ryo",
   "hihokensha-shubetsu",
   "kokumin-nenkin-kikin",
   "jun-fuka-hokenryo",
@@ -1039,6 +1232,7 @@
  "g2-202505-06": [
   "izoku-kiso-nenkin",
   "hihokensha-shubetsu",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "izoku-kosei-nenkin",
   "chukorei-kafu-kasan",
@@ -1046,16 +1240,20 @@
  ],
  "g2-202505-07": [
   "kokumin-nenkin-kikin",
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
   "nini-kanyu",
-  "hihokensha"
+  "hihokensha",
+  "kosei-nenkin-hoken"
  ],
  "g2-202505-08": [
   "rorei-kiso-nenkin",
   "rorei-kosei-nenkin",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "gensen-choshu",
   "ichiji-shotoku",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "izoku-kosei-nenkin",
   "izo",
@@ -1064,6 +1262,7 @@
  "g2-202505-09": [
   "ganri-kinto",
   "ganking-kinto",
+  "kinri",
   "jutaku-loan-karikae",
   "teitoken",
   "fudosan-shutoku-toroku-inshi"
@@ -1072,14 +1271,18 @@
   "roe"
  ],
  "g2-202505-11": [
+  "seimei-hoken",
+  "hoken-ryo",
   "sekinin-junbikin",
   "jun-fuka-hokenryo",
   "yotei-riritsu",
   "shushin-hoken"
  ],
  "g2-202505-12": [
+  "seimei-hoken",
   "tokuyaku",
   "teiki-hoken",
+  "hoken-ryo",
   "shunyu-hosho-hoken",
   "tei-mukaiyaku-hoken",
   "shushin-hoken",
@@ -1088,11 +1291,15 @@
  "g2-202505-13": [
   "kojin-nenkin-hoken",
   "hihokensha",
+  "hoken-ryo",
   "kaiyaku-henreikin",
   "hokenryo-menjo"
  ],
  "g2-202505-14": [
+  "shotokuzei",
   "seimei-hokenryo-kojo",
+  "seimei-hoken",
+  "hoken-ryo",
   "teiki-hoken",
   "kojin-nenkin-hoken",
   "iryo-hoken",
@@ -1100,6 +1307,8 @@
   "jido-furikae-kashitsuke"
  ],
  "g2-202505-15": [
+  "hoken-ryo",
+  "seimei-hoken",
   "tokuyaku",
   "hihokensha",
   "hokenkin-juryonin",
@@ -1117,9 +1326,12 @@
  "g2-202505-17": [
   "jishin-hoken",
   "kasai-hoken",
+  "hoken-ryo",
   "jishin-waribiki"
  ],
  "g2-202505-18": [
+  "hoken-ryo",
+  "songai-hoken",
   "hihokensha",
   "hokenkin-juryonin",
   "shogai-hoken",
@@ -1131,15 +1343,25 @@
  "g2-202505-19": [
   "iryo-hoken",
   "nyuin-shujutsu-kyufukin",
+  "hoken-ryo",
   "gan-hoken"
  ],
  "g2-202505-20": [
+  "songai-hoken",
   "rosai-hoken",
   "kasai-hoken"
  ],
+ "g2-202505-21": [
+  "kawase-soba",
+  "seisaku-kinri",
+  "kinri"
+ ],
  "g2-202505-22": [
+  "ginko",
+  "teiki-yokin",
   "tanri",
-  "fukuri"
+  "fukuri",
+  "kinri"
  ],
  "g2-202505-23": [
   "etf",
@@ -1150,19 +1372,27 @@
   "j-reit"
  ],
  "g2-202505-24": [
-  "kojinmuke-kokusai"
+  "saiken",
+  "kojinmuke-kokusai",
+  "kinri",
+  "rimawari"
  ],
  "g2-202505-25": [
+  "kabushiki",
   "nariyuki-sashine"
  ],
  "g2-202505-26": [
+  "kabushiki",
   "topix-nikkei",
   "j-reit"
  ],
  "g2-202505-27": [
   "gaika-yokin",
+  "kawase-soba",
   "tts-ttb",
-  "sakimono-shokokin"
+  "sakimono-shokokin",
+  "saiken",
+  "rimawari"
  ],
  "g2-202505-28": [
   "portfolio"
@@ -1173,16 +1403,22 @@
  ],
  "g2-202505-30": [
   "yokin-hoken",
+  "teiki-yokin",
   "kessai-yokin",
+  "ginko",
   "gaika-yokin"
  ],
  "g2-202505-31": [
+  "shotokuzei",
   "shotoku-10shu",
   "shohizei",
+  "kokuzei-to-chihouzei",
   "houjinzei",
   "fudosan-shutoku-toroku-inshi"
  ],
  "g2-202505-32": [
+  "shotokuzei",
+  "kabushiki",
   "keiyakusha-haitokin",
   "jigyo-shotoku",
   "kyuyo-shotoku",
@@ -1190,6 +1426,7 @@
   "fudosan-shotoku"
  ],
  "g2-202505-33": [
+  "shotokuzei",
   "sonneki-tsusan",
   "fudosan-shotoku",
   "kyuyo-shotoku",
@@ -1199,10 +1436,16 @@
   "jigyo-shotoku"
  ],
  "g2-202505-34": [
-  "haigusha-kojo"
+  "shotokuzei",
+  "shotoku-kojo",
+  "haigusha-kojo",
+  "kenko-hoken"
  ],
  "g2-202505-35": [
+  "shotokuzei",
   "haito-kojo",
+  "kabushiki",
+  "haito",
   "haito-shotoku",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
@@ -1210,6 +1453,7 @@
   "sonneki-tsusan"
  ],
  "g2-202505-36": [
+  "shotokuzei",
   "gensen-choshu",
   "kakutei-shinkoku",
   "kyuyo-shotoku"
@@ -1272,6 +1516,7 @@
  "g2-202505-49": [
   "joto-shotoku",
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "baikai-hoshu",
@@ -1312,9 +1557,11 @@
   "enno"
  ],
  "g2-202505-57": [
+  "kabushiki",
   "hijojo-kabushiki",
   "keiyakusha-haitokin",
-  "junshisan-kagaku-hoshiki"
+  "junshisan-kagaku-hoshiki",
+  "haito"
  ],
  "g2-202505-58": [
   "rosenka",
@@ -1327,12 +1574,16 @@
  ],
  "g2-202505-60": [
   "jigyo-shokei-zeisei",
+  "kabushiki",
+  "hoken-ryo",
   "hokenkin-juryonin",
   "hihokensha",
   "shushin-hoken",
+  "seimei-hoken",
   "sozokuji-seisan"
  ],
  "g2-202605-01": [
+  "life-planning",
   "fukuri",
   "genka-keisu",
   "nenkin-genka-keisu",
@@ -1342,6 +1593,7 @@
   "nenkin-shuka-keisu"
  ],
  "g2-202605-02": [
+  "kenko-hoken",
   "hihokensha",
   "shobyo-teatekin",
   "kogaku-ryoyohi",
@@ -1352,12 +1604,15 @@
   "hihokensha"
  ],
  "g2-202605-04": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "hokenryo-menjo",
   "rorei-kiso-nenkin"
  ],
  "g2-202605-05": [
   "zaishoku-rorei-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "rorei-kosei-nenkin",
   "rorei-kiso-nenkin"
@@ -1367,13 +1622,16 @@
   "shogai-kosei-nenkin",
   "hihokensha-shubetsu",
   "kakyu-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha"
  ],
  "g2-202605-07": [
   "ideco",
+  "kokumin-nenkin",
   "hihokensha-shubetsu"
  ],
  "g2-202605-08": [
+  "shotokuzei",
   "shokibo-kyosai-kojo",
   "kyosai",
   "kyuyo-shotoku",
@@ -1381,6 +1639,7 @@
   "jigyo-shotoku",
   "ideco",
   "ichiji-shotoku",
+  "shotoku-kojo",
   "taishoku-shotoku"
  ],
  "g2-202605-09": [
@@ -1388,39 +1647,56 @@
   "teitoken",
   "kuriage-hensai"
  ],
+ "g2-202605-10": [
+  "chokusetsu-kinyu",
+  "kabushiki",
+  "saiken",
+  "kansetsu-kinyu"
+ ],
  "g2-202605-11": [
   "hokenho",
   "hokengyo-ho",
+  "seimei-hoken",
+  "songai-hoken",
   "kyosai",
   "hokenkin-juryonin",
   "solvency-margin",
   "cooling-off"
  ],
  "g2-202605-12": [
+  "seimei-hoken",
   "tokuyaku",
   "yoro-hoken",
   "manki-hokenkin",
+  "hoken-ryo",
   "hendo-hoken",
   "shushin-hoken"
  ],
  "g2-202605-13": [
   "dantai-teiki-hoken",
   "hihokensha",
+  "hoken-ryo",
   "houjinzei",
   "tokuyaku",
   "hokenkin-juryonin"
  ],
  "g2-202605-14": [
+  "shotokuzei",
   "seimei-hokenryo-kojo",
+  "hoken-ryo",
+  "seimei-hoken",
   "iryo-hoken",
   "kojin-nenkin-hoken"
  ],
  "g2-202605-15": [
+  "seimei-hoken",
+  "hoken-ryo",
   "hihokensha",
   "shushin-hoken",
   "living-needs",
   "kaiyaku-henreikin",
   "ichiji-shotoku",
+  "shotokuzei",
   "yoro-hoken",
   "iryo-hoken",
   "nyuin-shujutsu-kyufukin",
@@ -1439,9 +1715,12 @@
   "tokuyaku"
  ],
  "g2-202605-18": [
+  "songai-hoken",
+  "hoken-ryo",
   "hihokensha",
   "shogai-hoken",
   "ichiji-shotoku",
+  "shotokuzei",
   "jibaiseki-taijin",
   "sharyo-hoken",
   "kasai-hoken"
@@ -1450,11 +1729,14 @@
   "tokuyaku",
   "living-needs",
   "hihokensha",
+  "hoken-ryo",
   "senshin-iryo",
   "senshin-iryo-gijutsu",
   "teiki-hoken"
  ],
  "g2-202605-20": [
+  "seimei-hoken",
+  "songai-hoken",
   "teiki-hoken",
   "shunyu-hosho-hoken",
   "jibaiseki-taijin",
@@ -1463,7 +1745,14 @@
   "iryo-hoken"
  ],
  "g2-202605-21": [
-  "keiki-doko"
+  "keiki-doko",
+  "gdp",
+  "deflation"
+ ],
+ "g2-202605-22": [
+  "ginko",
+  "teiki-yokin",
+  "futsu-yokin"
  ],
  "g2-202605-23": [
   "j-reit",
@@ -1474,10 +1763,13 @@
  ],
  "g2-202605-24": [
   "kojinmuke-kokusai",
+  "kinri",
   "keika-rishi"
  ],
  "g2-202605-25": [
+  "kabushiki",
   "shinyo-torihiki",
+  "shoken-gaisha",
   "oisho",
   "kinsho-ho",
   "seido-ippan-shinyo",
@@ -1488,17 +1780,26 @@
   "per",
   "pbr",
   "haito-rimawari",
+  "kabushiki",
   "keiyakusha-haitokin"
  ],
  "g2-202605-27": [
+  "teiki-yokin",
+  "rimawari",
   "tanri",
+  "kinri",
   "tts-ttb"
  ],
  "g2-202605-28": [
   "sharpe-ratio",
+  "kinri",
+  "heikinchi",
   "portfolio"
  ],
  "g2-202605-29": [
+  "kabushiki",
+  "haito",
+  "shotokuzei",
   "tokutei-koza",
   "gensen-choshu",
   "haito-shotoku",
@@ -1508,43 +1809,54 @@
   "joto-shotoku"
  ],
  "g2-202605-30": [
-  "kinyu-hanbai-ho"
+  "kinyu-hanbai-ho",
+  "ginko"
  ],
  "g2-202605-31": [
+  "shotokuzei",
   "chouka-ruishin-zeiritsu"
  ],
  "g2-202605-32": [
+  "shotokuzei",
   "kyuyo-shotoku",
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "taishoku-shotoku",
   "fudosan-shotoku",
   "joto-shotoku",
   "ichiji-shotoku"
  ],
  "g2-202605-33": [
+  "shotokuzei",
   "fudosan-shotoku",
   "jigyo-shotoku",
   "ichiji-shotoku",
   "sonneki-tsusan"
  ],
  "g2-202605-34": [
+  "shotokuzei",
   "iryohi-kojo",
   "kyuyo-shotoku",
   "kakutei-shinkoku"
  ],
  "g2-202605-35": [
+  "shotokuzei",
   "jutaku-loan-kojo",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "kojin-juminzei"
  ],
  "g2-202605-36": [
+  "shotokuzei",
   "aoiro-shinkoku"
  ],
  "g2-202605-37": [
-  "houjinzei"
+  "houjinzei",
+  "kabushiki",
+  "haito"
  ],
  "g2-202605-38": [
+  "shotokuzei",
   "houjinzei",
   "kyuyo-shotoku"
  ],
@@ -1554,6 +1866,7 @@
  ],
  "g2-202605-40": [
   "genka-shokyaku",
+  "kabushiki",
   "keiyakusha-haitokin"
  ],
  "g2-202605-41": [
@@ -1594,10 +1907,13 @@
  ],
  "g2-202605-50": [
   "shueki-kangenho",
-  "fudosan-rimawari"
+  "kinri",
+  "fudosan-rimawari",
+  "rimawari"
  ],
  "g2-202605-51": [
   "shiin-zoyo",
+  "shotokuzei",
   "ichiji-shotoku"
  ],
  "g2-202605-52": [
@@ -1624,6 +1940,9 @@
   "hotei-sozokubun",
   "daishu-sozoku"
  ],
+ "g2-202605-57": [
+  "kabushiki"
+ ],
  "g2-202605-58": [
   "kashiya-tatetsukechi",
   "rosenka-hyoka",
@@ -1632,18 +1951,25 @@
  "g2-202605-59": [
   "shokibo-takuchi"
  ],
+ "g2-202605-60": [
+  "kabushiki"
+ ],
  "g2n-k01-01": [
+  "kokumin-nenkin",
   "shibo-ichijikin",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "rorei-kiso-nenkin",
   "shogai-kiso-nenkin",
   "izoku-kiso-nenkin",
   "kafu-nenkin"
  ],
  "g2n-k01-02": [
+  "kenko-hoken",
   "nini-keizoku",
   "hihokensha",
   "hokensha",
+  "hoken-ryo",
   "kokumin-kenko-hoken"
  ],
  "g2n-k01-03": [
@@ -1674,9 +2000,11 @@
   "kenin"
  ],
  "g2n-k01-08": [
+  "kokumin-nenkin",
   "kafu-nenkin",
   "rorei-kiso-nenkin",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "shogai-kiso-nenkin",
   "shibo-ichijikin",
   "izoku-kiso-nenkin"
@@ -1685,7 +2013,8 @@
   "zeirishi-ho"
  ],
  "g2o-a01-02": [
-  "zeirishi-ho"
+  "zeirishi-ho",
+  "kokuzei-to-chihouzei"
  ],
  "g2o-a01-03": [
   "zeirishi-ho"
@@ -1695,12 +2024,15 @@
  ],
  "g2o-a01-05": [
   "hokengyo-ho",
+  "seimei-hoken",
+  "songai-hoken",
   "shogaku-tanki-hoken",
   "hoken-keiyakusha"
  ],
  "g2o-a01-06": [
   "hokengyo-ho",
   "hoken-keiyakusha",
+  "haito",
   "kokuchi-gimu"
  ],
  "g2o-a01-07": [
@@ -1710,6 +2042,7 @@
  "g2o-a01-08": [
   "hokengyo-ho",
   "kinsho-ho",
+  "hoken-ryo",
   "kokumin-kenko-hoken",
   "hendo-hoken"
  ],
@@ -1717,12 +2050,15 @@
   "kinsho-ho"
  ],
  "g2o-a01-10": [
-  "kinsho-ho"
+  "kinsho-ho",
+  "danteki-handan"
  ],
  "g2o-a01-11": [
-  "bengoshi-ho"
+  "bengoshi-ho",
+  "shakai-hoken"
  ],
  "g2o-a01-12": [
+  "shakai-hoken",
   "zeirishi-ho"
  ],
  "g2o-a01-14": [
@@ -1730,26 +2066,34 @@
   "bengoshi-ho"
  ],
  "g2o-a01-16": [
+  "kojinjoho-hogo-ho",
+  "yohairyo-kojinjoho",
   "jigyo-shokei-zeisei"
  ],
  "g2o-a01-18": [
   "bengoshi-ho",
-  "zeirishi-ho"
+  "zeirishi-ho",
+  "shakai-hoken"
  ],
  "g2o-a02-01": [
+  "kenko-hoken",
   "hihokensha"
  ],
  "g2o-a02-02": [
+  "kenko-hoken",
   "koki-koreisha-iryo-seido",
   "hihokensha"
  ],
  "g2o-a02-03": [
+  "kenko-hoken",
   "nini-keizoku",
+  "hoken-ryo",
   "hihokensha",
   "hokensha",
   "kokumin-kenko-hoken"
  ],
  "g2o-a02-04": [
+  "kenko-hoken",
   "shobyo-teatekin",
   "nini-keizoku",
   "hihokensha",
@@ -1757,6 +2101,7 @@
   "kyugyo-hosho-kyufu"
  ],
  "g2o-a02-05": [
+  "kenko-hoken",
   "shussan-teatekin",
   "shobyo-teatekin",
   "hyojun-hoshu-gessaku",
@@ -1764,6 +2109,7 @@
   "shussan-ikuji-ichijikin"
  ],
  "g2o-a02-06": [
+  "kenko-hoken",
   "shobyo-teatekin",
   "shussan-teatekin",
   "hihokensha",
@@ -1773,31 +2119,37 @@
   "maisoryo"
  ],
  "g2o-a02-07": [
+  "kenko-hoken",
   "maisoryo",
   "hihokensha",
   "hokensha"
  ],
  "g2o-a02-08": [
+  "kenko-hoken",
   "hihokensha",
   "hokensha"
  ],
  "g2o-a02-09": [
   "kokumin-kenko-hoken",
   "shobyo-teatekin",
+  "seikatsu-hogo",
   "hihokensha",
-  "hokenho",
+  "kenko-hoken",
   "iryo-hoken"
  ],
  "g2o-a02-10": [
   "koki-koreisha-iryo-seido",
+  "kenko-hoken",
   "hihokensha",
+  "seikatsu-hogo",
   "hokensha"
  ],
  "g2o-a02-11": [
   "kaigo-hoken",
   "iryo-hoken",
   "hihokensha-shubetsu",
-  "hihokensha"
+  "hoken-ryo",
+  "kaigo-hihokensha"
  ],
  "g2o-a02-12": [
   "rosai-hoken"
@@ -1805,11 +2157,13 @@
  "g2o-a02-13": [
   "rosai-hoken",
   "kyugyo-hosho-kyufu",
+  "kenko-hoken",
   "shobyo-teatekin"
  ],
  "g2o-a02-14": [
   "rosai-hoken",
-  "rosai-tokubetsu-kanyu"
+  "rosai-tokubetsu-kanyu",
+  "hoken-ryo"
  ],
  "g2o-a02-15": [
   "koyo-hoken",
@@ -1835,15 +2189,21 @@
  ],
  "g2o-a03-01": [
   "hihokensha-shubetsu",
-  "hihokensha"
+  "kosei-nenkin-hoken",
+  "hihokensha",
+  "kokumin-nenkin"
  ],
  "g2o-a03-02": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
   "hokenryo-menjo",
+  "hoken-ryo",
   "rorei-kiso-nenkin",
   "hihokensha"
  ],
  "g2o-a03-03": [
+  "kokumin-nenkin",
+  "hoken-ryo",
   "hokenryo-menjo",
   "rorei-kiso-nenkin",
   "hihokensha"
@@ -1854,25 +2214,32 @@
   "hurikae-kasan"
  ],
  "g2o-a03-05": [
+  "kosei-nenkin-hoken",
   "hihokensha"
  ],
  "g2o-a03-06": [
+  "kosei-nenkin-hoken",
   "hyojun-hoshu-gessaku",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g2o-a03-07": [
+  "kosei-nenkin-hoken",
+  "hoken-ryo",
   "hihokensha",
   "hyojun-hoshu-gessaku"
  ],
  "g2o-a03-08": [
   "rorei-kiso-nenkin",
   "shogai-kiso-nenkin",
+  "kosei-nenkin-hoken",
   "fuka-nenkin",
   "rorei-kosei-nenkin"
  ],
  "g2o-a03-09": [
   "rorei-kosei-nenkin",
   "hihokensha",
+  "hoken-ryo",
   "hokenryo-menjo",
   "zaishoku-rorei-nenkin",
   "rorei-kiso-nenkin",
@@ -1888,28 +2255,33 @@
  "g2o-a03-11": [
   "rorei-kosei-nenkin",
   "kakyu-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "zaishoku-rorei-nenkin",
   "rorei-kiso-nenkin"
  ],
  "g2o-a03-12": [
   "shogai-kiso-nenkin",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g2o-a03-13": [
   "shogai-kosei-nenkin",
   "shogai-kiso-nenkin",
   "kakyu-nenkin",
-  "hihokensha"
+  "hihokensha",
+  "kosei-nenkin-hoken"
  ],
  "g2o-a03-14": [
   "shogai-kiso-nenkin",
+  "hoken-ryo",
   "kakyu-nenkin",
   "shogai-kosei-nenkin"
  ],
  "g2o-a03-15": [
   "izoku-kiso-nenkin",
   "hihokensha",
+  "hoken-ryo",
   "hokenryo-menjo",
   "rorei-kiso-nenkin"
  ],
@@ -1925,6 +2297,7 @@
   "hihokensha"
  ],
  "g2o-a03-18": [
+  "kokumin-nenkin",
   "kafu-nenkin",
   "shibo-ichijikin",
   "hihokensha-shubetsu",
@@ -1943,6 +2316,8 @@
  ],
  "g2o-a03-20": [
   "hihokensha-shubetsu",
+  "kokumin-nenkin",
+  "hoken-ryo",
   "shogai-kosei-nenkin",
   "hihokensha",
   "kakyu-nenkin",
@@ -1953,11 +2328,14 @@
  ],
  "g2o-a03-22": [
   "nenkin-seikatsusha-shien",
-  "hokenryo-menjo"
+  "hokenryo-menjo",
+  "kokumin-nenkin"
  ],
  "g2o-a03-23": [
+  "kokumin-nenkin",
   "nini-kanyu",
   "hihokensha",
+  "hoken-ryo",
   "rorei-kiso-nenkin",
   "hihokensha-shubetsu"
  ],
@@ -1970,12 +2348,15 @@
  ],
  "g2o-a04-03": [
   "ideco",
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "hokenryo-menjo",
   "kokumin-nenkin-kikin"
  ],
  "g2o-a04-04": [
   "ideco",
+  "kokumin-nenkin",
   "hokenryo-menjo"
  ],
  "g2o-a04-05": [
@@ -2007,6 +2388,8 @@
  ],
  "g2o-a04-13": [
   "kokumin-nenkin-kikin",
+  "kokumin-nenkin",
+  "hoken-ryo",
   "hihokensha-shubetsu",
   "hokenryo-menjo",
   "shibo-ichijikin",
@@ -2017,25 +2400,35 @@
   "zaikei-chochiku"
  ],
  "g2o-a04-15": [
+  "shotokuzei",
   "zatsu-shotoku",
+  "seimei-hoken",
   "kyosai",
   "taishoku-shotoku",
-  "kojin-nenkin-hoken"
+  "kojin-nenkin-hoken",
+  "hoken-ryo"
  ],
  "g2o-a04-16": [
   "kakutei-shinkoku",
   "iryohi-kojo",
   "shakai-hoken-ryo-kojo",
+  "shotokuzei",
   "zatsu-shotoku",
   "kojin-juminzei",
+  "shotoku-kojo",
   "kanpu-shinkoku"
  ],
  "g2o-a04-17": [
   "kojin-nenkin-hoken",
   "zatsu-shotoku",
-  "ichiji-shotoku"
+  "hoken-ryo",
+  "shotokuzei",
+  "ichiji-shotoku",
+  "seimei-hoken"
  ],
  "g2o-a04-18": [
+  "hoken-ryo",
+  "shotoku-kojo",
   "ideco",
   "shokibo-kyosai-kojo",
   "kokumin-nenkin-kikin",
@@ -2047,14 +2440,17 @@
  ],
  "g2o-a05-01": [
   "flat35",
+  "kinri",
   "ganri-kinto",
   "ganking-kinto"
  ],
  "g2o-a05-02": [
   "ganking-kinto",
-  "ganri-kinto"
+  "ganri-kinto",
+  "kinri"
  ],
  "g2o-a05-03": [
+  "kinri",
   "ganking-kinto",
   "ganri-kinto"
  ],
@@ -2072,32 +2468,77 @@
  "g2o-a05-12": [
   "tokuyaku"
  ],
+ "g2o-a05-13": [
+  "ginko",
+  "kansetsu-kinyu",
+  "kabushiki",
+  "chokusetsu-kinyu"
+ ],
+ "g2o-a05-15": [
+  "hendo-hi",
+  "kotei-hi"
+ ],
+ "g2o-a05-16": [
+  "kabushiki"
+ ],
  "g2o-a06-02": [
+  "shotokuzei",
   "kojin-juminzei",
+  "shakai-hoken",
   "kashobun-shotoku"
  ],
  "g2o-a06-03": [
   "life-event-hyo",
-  "cashflow-hyo"
+  "cashflow-hyo",
+  "life-planning"
  ],
  "g2o-a06-04": [
   "cashflow-hyo",
-  "life-event-hyo"
+  "life-event-hyo",
+  "life-planning"
  ],
  "g2o-a06-05": [
+  "kabushiki",
   "toshi-shintaku",
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "shogakukin",
   "kojin-balance-sheet",
+  "kinri",
   "cashflow-hyo"
  ],
  "g2o-a06-06": [
   "iryo-hoken",
+  "kenko-hoken",
   "hihokensha",
   "nini-keizoku",
   "kokumin-kenko-hoken",
-  "koki-koreisha-iryo-seido",
-  "hokenho"
+  "koki-koreisha-iryo-seido"
+ ],
+ "g2o-a06-07": [
+  "shakai-hoken",
+  "kyoiku-shikin",
+  "ginko",
+  "shoken-gaisha",
+  "shoshi-koreika",
+  "shakai-hosho"
+ ],
+ "g2o-a07-01": [
+  "shakai-hoken",
+  "kakei-kanri",
+  "life-planning",
+  "kyoiku-shikin",
+  "ginko",
+  "shoken-gaisha",
+  "shoshi-koreika",
+  "shakai-hosho"
+ ],
+ "g2o-a07-02": [
+  "life-planning",
+  "kakeibo"
+ ],
+ "g2o-a07-03": [
+  "kakeibo"
  ],
  "g2o-a07-04": [
   "life-event-hyo",
@@ -2105,11 +2546,16 @@
  ],
  "g2o-a07-05": [
   "kojin-nenkin-hoken",
-  "hihokensha"
+  "hoken-ryo",
+  "hihokensha",
+  "seimei-hoken",
+  "rogo-shikin"
  ],
  "g2o-a07-06": [
   "kojin-nenkin-hoken",
   "hihokensha",
+  "kabushiki",
+  "saiken",
   "yotei-riritsu",
   "kaiyaku-henreikin"
  ],
@@ -2117,16 +2563,22 @@
   "koyo-hoken"
  ],
  "g2o-a08-01": [
+  "seimei-hoken",
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "kyosai",
-  "yotei-riritsu"
+  "yotei-riritsu",
+  "ginko",
+  "shoken-gaisha"
  ],
  "g2o-a08-02": [
-  "zaikei-chochiku"
+  "zaikei-chochiku",
+  "rogo-shikin"
  ],
  "g2o-a08-03": [
   "jutaku-loan-karikae",
   "jutaku-loan-kojo",
+  "kinri",
   "kuriage-hensai"
  ],
  "g2o-a08-04": [
@@ -2136,17 +2588,39 @@
  ],
  "g2o-a08-05": [
   "kashobun-shotoku",
+  "rogo-shikin",
+  "seimei-hoken",
   "kojin-nenkin-hoken",
   "ideco"
  ],
  "g2o-a08-06": [
+  "kansetsu-kinyu",
+  "kabushiki",
+  "chokusetsu-kinyu",
+  "saiken",
   "credit-risk"
  ],
  "g2o-a08-07": [
+  "chokusetsu-kinyu",
+  "kansetsu-kinyu",
+  "saiken",
+  "kabushiki",
+  "shoken-gaisha",
+  "ginko",
   "credit-risk"
  ],
+ "g2o-a09-01": [
+  "life-planning"
+ ],
  "g2o-a09-02": [
-  "cpi"
+  "life-planning",
+  "seikatsu-hogo",
+  "cpi",
+  "heikinchi",
+  "chuochi"
+ ],
+ "g2o-a09-03": [
+  "kinri"
  ],
  "g2o-a09-04": [
   "fudosan-shutoku-toroku-inshi",
@@ -2156,25 +2630,40 @@
  ],
  "g2o-a09-05": [
   "jutaku-loan-kojo",
+  "shotokuzei",
+  "shotoku-kojo",
   "kojin-juminzei",
   "fudosan-shutoku-toroku-inshi"
  ],
  "g2o-a09-06": [
+  "kyoiku-shikin",
   "manki-hokenkin",
-  "kojin-nenkin-hoken"
+  "hoken-ryo",
+  "kojin-nenkin-hoken",
+  "tsumitate-toshi",
+  "genpon-hosho"
+ ],
+ "g2o-a09-07": [
+  "rogo-shikin",
+  "life-planning"
  ],
  "g2o-a10-01": [
   "bunsan-toshi",
-  "nisa"
+  "nisa",
+  "kabushiki"
  ],
  "g2o-a10-02": [
   "sekinin-junbikin",
   "rorei-kosei-nenkin",
   "kakutei-kyufu-kigyo-nenkin",
-  "hokenho"
+  "shakai-hosho",
+  "kosei-nenkin-hoken"
  ],
  "g2o-a10-03": [
-  "zaikei-chochiku"
+  "zaikei-chochiku",
+  "atamakin",
+  "shotokuzei",
+  "sakidori-chokin"
  ],
  "g2o-a10-04": [
   "sonneki-tsusan",
@@ -2186,11 +2675,19 @@
   "kaigo-hoken",
   "hihokensha-shubetsu",
   "iryo-hoken",
+  "heikinchi",
+  "rogo-shikin",
+  "shakai-hoken",
+  "hoken-ryo",
   "kurisage-jukyu"
+ ],
+ "g2o-a10-06": [
+  "ginko"
  ],
  "g2o-a11-01": [
   "koki-koreisha-iryo-seido",
   "hihokensha",
+  "kenko-hoken",
   "iryo-hoken",
   "hokensha",
   "kokumin-kenko-hoken"
@@ -2199,14 +2696,20 @@
   "rosai-hoken"
  ],
  "g2o-a11-03": [
+  "seimei-hoken",
   "houjinzei",
   "hihokensha",
   "yoro-hoken",
+  "hoken-ryo",
   "kakutei-kyufu-kigyo-nenkin",
   "kyosai"
  ],
+ "g2o-b01-02": [
+  "hoken-ryo"
+ ],
  "g2o-b01-03": [
   "hokenho",
+  "seimei-hoken",
   "hokenkin-juryonin",
   "tokuyaku",
   "hokensha"
@@ -2214,17 +2717,21 @@
  "g2o-b01-04": [
   "hokenho",
   "hokensha",
-  "hoken-keiyakusha"
+  "hoken-keiyakusha",
+  "hoken-ryo"
  ],
  "g2o-b01-05": [
   "hokenho",
+  "seimei-hoken",
   "kokuchi-gimu",
   "hokensha",
   "hoken-keiyakusha",
-  "hihokensha"
+  "hihokensha",
+  "songai-hoken"
  ],
  "g2o-b01-06": [
   "hokenho",
+  "seimei-hoken",
   "hoken-keiyakusha",
   "hokenkin-juryonin",
   "hihokensha",
@@ -2243,11 +2750,14 @@
   "hihokensha",
   "hokensha",
   "hokenkin-juryonin",
-  "hoken-keiyakusha"
+  "hoken-keiyakusha",
+  "seimei-hoken"
  ],
  "g2o-b01-09": [
   "hokenho",
+  "seimei-hoken",
   "hoken-keiyakusha",
+  "songai-hoken",
   "kokuchi-gimu",
   "tokuyaku"
  ],
@@ -2258,7 +2768,8 @@
  "g2o-b01-11": [
   "hokengyo-ho",
   "hoken-keiyakusha",
-  "hihokensha"
+  "hihokensha",
+  "hoken-ryo"
  ],
  "g2o-b01-12": [
   "hokengyo-ho",
@@ -2273,32 +2784,47 @@
   "shogaku-tanki-hoken",
   "kyosai",
   "hokengyo-ho",
-  "hokenho"
+  "hokenho",
+  "hoken-ryo"
  ],
  "g2o-b01-16": [
-  "shohisha-keiyaku-ho"
+  "shohisha-keiyaku-ho",
+  "danteki-handan"
  ],
  "g2o-b01-17": [
-  "kinyu-hanbai-ho"
+  "kinyu-hanbai-ho",
+  "danteki-handan"
  ],
  "g2o-b02-01": [
+  "seimei-hoken",
+  "hoken-ryo",
   "yotei-riritsu",
+  "shushi-soto",
   "taisu-no-hosoku",
   "hihokensha"
  ],
  "g2o-b02-02": [
+  "seimei-hoken",
   "keiyakusha-haitokin",
+  "haito",
+  "kabushiki",
+  "rimawari",
+  "hoken-ryo",
   "yotei-riritsu"
  ],
  "g2o-b02-03": [
   "hokengyo-ho",
-  "hoken-keiyakusha"
+  "haito",
+  "hoken-ryo",
+  "hoken-keiyakusha",
+  "kabushiki"
  ],
  "g2o-b02-04": [
   "hokengyo-ho",
   "sekinin-junbikin"
  ],
  "g2o-b02-05": [
+  "seimei-hoken",
   "yoro-hoken",
   "manki-hokenkin",
   "teiki-hoken",
@@ -2307,15 +2833,21 @@
  ],
  "g2o-b02-06": [
   "hendo-hoken",
-  "manki-hokenkin"
+  "manki-hokenkin",
+  "seimei-hoken",
+  "kabushiki",
+  "saiken"
  ],
  "g2o-b02-07": [
   "kojin-nenkin-hoken",
-  "hihokensha"
+  "hihokensha",
+  "hoken-ryo"
  ],
  "g2o-b02-08": [
   "kojin-nenkin-hoken",
   "kaiyaku-henreikin",
+  "kinri",
+  "hoken-ryo",
   "gaika-date-hoken",
   "kawase-risk"
  ],
@@ -2324,32 +2856,43 @@
   "gan-hoken"
  ],
  "g2o-b02-10": [
+  "seimei-hoken",
   "tokuyaku",
   "hihokensha",
-  "living-needs"
+  "living-needs",
+  "hoken-ryo"
  ],
  "g2o-b02-11": [
+  "seimei-hoken",
   "tokuyaku",
   "haraikomi-menjo",
   "hihokensha",
+  "hoken-ryo",
   "nyuin-shujutsu-kyufukin"
  ],
  "g2o-b02-12": [
+  "seimei-hoken",
   "hihokensha"
  ],
  "g2o-b02-13": [
+  "seimei-hoken",
   "cooling-off",
-  "kaiyaku-henreikin"
+  "kaiyaku-henreikin",
+  "hoken-ryo"
  ],
  "g2o-b02-14": [
   "hokenho",
+  "seimei-hoken",
   "hokensha",
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hokenkin-juryonin",
   "hihokensha"
  ],
  "g2o-b02-15": [
   "hokenho",
+  "seimei-hoken",
+  "hoken-ryo",
   "hokensha",
   "hoken-keiyakusha",
   "hihokensha",
@@ -2365,6 +2908,7 @@
  ],
  "g2o-b02-17": [
   "hokenho",
+  "hoken-ryo",
   "hihokensha",
   "hokensha",
   "hoken-keiyakusha"
@@ -2377,13 +2921,16 @@
  ],
  "g2o-b03-01": [
   "hokenho",
+  "songai-hoken",
   "hoken-kagaku",
   "hokensha",
   "hirei-tenpo"
  ],
  "g2o-b03-02": [
+  "songai-hoken",
   "hokenho",
   "hokensha",
+  "hoken-ryo",
   "hihokensha",
   "hoken-kagaku"
  ],
@@ -2394,6 +2941,7 @@
  ],
  "g2o-b03-04": [
   "hokenho",
+  "songai-hoken",
   "hokensha",
   "hoken-keiyakusha",
   "hihokensha",
@@ -2402,7 +2950,9 @@
  ],
  "g2o-b03-05": [
   "hokenho",
+  "songai-hoken",
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hoken-kagaku",
   "hihokensha"
  ],
@@ -2412,6 +2962,7 @@
  "g2o-b03-07": [
   "hokenho",
   "hihokensha",
+  "songai-hoken",
   "hokensha",
   "jibaiseki"
  ],
@@ -2429,18 +2980,24 @@
  ],
  "g2o-b03-10": [
   "jibaiseki",
+  "hoken-ryo",
+  "shakai-hosho",
   "hihokensha"
  ],
  "g2o-b03-11": [
   "jishin-hoken",
-  "kasai-hoken"
+  "kasai-hoken",
+  "songai-hoken"
  ],
  "g2o-b03-12": [
   "jishin-hoken"
  ],
  "g2o-b03-13": [
   "jishin-hoken",
-  "kasai-hoken"
+  "hoken-ryo",
+  "songai-hoken",
+  "kasai-hoken",
+  "minkan-hoken"
  ],
  "g2o-b03-14": [
   "kasai-hoken"
@@ -2452,13 +3009,15 @@
  "g2o-b03-16": [
   "jibaiseki-taijin",
   "tokuyaku",
+  "hoken-ryo",
   "jibaiseki"
  ],
  "g2o-b03-17": [
   "jibaiseki-taijin",
   "jinshin-shogai-hosho",
   "jibaiseki",
-  "sharyo-hoken"
+  "sharyo-hoken",
+  "hoken-ryo"
  ],
  "g2o-b03-18": [
   "shogai-hoken"
@@ -2479,12 +3038,14 @@
   "kogaku-ryoyohi",
   "senshin-iryo-gijutsu",
   "iryo-hoken",
-  "hokenho"
+  "kenko-hoken"
  ],
  "g2o-b04-03": [
   "iryo-hoken",
+  "hoken-ryo",
   "hihokensha",
   "nyuin-shujutsu-kyufukin",
+  "seimei-hoken",
   "gan-hoken"
  ],
  "g2o-b04-04": [
@@ -2495,15 +3056,18 @@
  ],
  "g2o-b04-05": [
   "shuugyo-funo-hoken",
+  "kokumin-nenkin",
   "kaigo-hoken",
   "tokuyaku"
  ],
  "g2o-b04-06": [
   "kaigo-hoken-minkan",
   "kaigo-hoken",
-  "yokaigo-nintei"
+  "yokaigo-nintei",
+  "shakai-hosho"
  ],
  "g2o-b04-07": [
+  "songai-hoken",
   "kaigo-hoken",
   "hokensha",
   "kaigo-hoken-minkan",
@@ -2514,17 +3078,21 @@
  ],
  "g2o-b04-08": [
   "iryohi-kojo",
+  "seimei-hoken",
+  "kenko-hoken",
   "kogaku-ryoyohi",
   "shussan-ikuji-ichijikin",
   "kakutei-shinkoku",
   "shusei-shinkoku",
   "kosei-seikyu",
   "nyuin-shujutsu-kyufukin",
+  "shotokuzei",
   "ichiji-shotoku"
  ],
  "g2o-b04-09": [
   "iryohi-kojo",
   "nyuin-shujutsu-kyufukin",
+  "shotoku-kojo",
   "kakutei-shinkoku"
  ],
  "g2o-b04-10": [
@@ -2532,7 +3100,8 @@
   "hokensha",
   "hihokensha",
   "hoken-keiyakusha",
-  "hokenkin-juryonin"
+  "hokenkin-juryonin",
+  "seimei-hoken"
  ],
  "g2o-b04-11": [
   "hokenho",
@@ -2543,6 +3112,8 @@
   "tokuyaku",
   "nyuin-shujutsu-kyufukin",
   "hikiuke-kanwa-hoken",
+  "seimei-hoken",
+  "hoken-ryo",
   "hihokensha",
   "kokuchi-gimu"
  ],
@@ -2550,16 +3121,23 @@
   "shobyo-teatekin",
   "shogai-kiso-nenkin",
   "shogai-kosei-nenkin",
+  "kokumin-nenkin",
+  "kouteki-nenkin-seido",
+  "kenko-hoken",
   "kyosai",
   "hihokensha",
-  "iryo-hoken"
+  "iryo-hoken",
+  "minkan-hoken"
  ],
  "g2o-b04-14": [
   "hitsuyo-hosho-gaku",
-  "izoku-kosei-nenkin"
+  "izoku-kosei-nenkin",
+  "seimei-hoken"
  ],
  "g2o-b04-15": [
+  "seimei-hoken",
   "kaiyaku-henreikin",
+  "hoken-ryo",
   "tenkan-seido",
   "keiyakusha-haitokin",
   "teiki-hoken",
@@ -2567,15 +3145,22 @@
   "tokuyaku"
  ],
  "g2o-b04-16": [
+  "seimei-hoken",
   "dantai-teiki-hoken",
-  "iryo-hoken"
+  "iryo-hoken",
+  "hoken-ryo"
  ],
  "g2o-b04-17": [
-  "hokengyo-ho"
+  "hokengyo-ho",
+  "seimei-hoken",
+  "songai-hoken"
  ],
  "g2o-b05-01": [
+  "hoken-ryo",
+  "seimei-hoken",
   "hihokensha",
   "hokenkin-juryonin",
+  "shotokuzei",
   "ichiji-shotoku",
   "zatsu-shotoku",
   "minashi-sozoku-zaisan"
@@ -2583,36 +3168,53 @@
  "g2o-b05-02": [
   "hotei-sozokunin",
   "hihokensha",
+  "seimei-hoken",
   "hokenkin-juryonin",
+  "hoken-ryo",
+  "shotokuzei",
   "minashi-sozoku-zaisan",
   "ichiji-shotoku"
  ],
  "g2o-b05-03": [
+  "hoken-ryo",
   "hihokensha",
   "kojin-nenkin-hoken",
+  "shotokuzei",
   "zatsu-shotoku",
   "ichiji-shotoku"
  ],
  "g2o-b05-04": [
+  "seimei-hoken",
+  "hoken-ryo",
+  "shotokuzei",
   "zatsu-shotoku",
+  "kokumin-nenkin",
   "kyosai"
  ],
  "g2o-b05-05": [
+  "seimei-hoken",
   "kaiyaku-henreikin",
+  "hoken-ryo",
   "izo",
   "nyuin-shujutsu-kyufukin",
   "hihokensha",
+  "shotokuzei",
   "ichiji-shotoku",
   "hokenkin-kazei"
  ],
  "g2o-b05-06": [
+  "shotokuzei",
   "jigyo-shotoku"
  ],
  "g2o-b05-07": [
+  "songai-hoken",
   "shogai-hoken",
+  "hoken-ryo",
   "hihokensha",
   "sogo-bunri-kazei",
   "ichiji-shotoku",
+  "shotokuzei",
+  "seimei-hoken",
   "hotei-sozokunin",
   "nyuin-shujutsu-kyufukin",
   "minashi-sozoku-zaisan"
@@ -2620,6 +3222,8 @@
  "g2o-b05-08": [
   "hihokensha",
   "tokuyaku",
+  "seimei-hoken",
+  "hoken-ryo",
   "houjinzei",
   "yoro-hoken",
   "teiki-hoken",
@@ -2629,26 +3233,31 @@
  "g2o-b05-09": [
   "hihokensha",
   "houjinzei",
+  "hoken-ryo",
   "yoro-hoken",
   "tokuyaku",
-  "hoken-shoken",
+  "seimei-hoken",
   "teiki-hoken",
   "iryo-hoken"
  ],
  "g2o-b05-10": [
   "hihokensha",
   "teiki-hoken",
+  "hoken-ryo",
   "houjinzei",
   "yoro-hoken"
  ],
  "g2o-b05-11": [
   "hihokensha",
   "teiki-hoken",
+  "hoken-ryo",
   "houjinzei",
   "kaiyaku-henreikin"
  ],
  "g2o-b05-12": [
+  "seimei-hoken",
   "houjinzei",
+  "haito",
   "tenkan-seido",
   "yoro-hoken",
   "haraizumi-hoken",
@@ -2656,48 +3265,72 @@
   "sekinin-junbikin"
  ],
  "g2o-b05-13": [
+  "songai-hoken",
+  "hoken-ryo",
   "hoken-keiyakusha",
   "hihokensha",
   "shikko-fukkatsu",
   "houjinzei"
  ],
  "g2o-b05-14": [
+  "seimei-hoken",
+  "songai-hoken",
+  "shotokuzei",
   "hihokensha",
   "nyuin-shujutsu-kyufukin",
   "ichiji-shotoku"
  ],
  "g2o-b06-02": [
+  "seimei-hoken",
+  "songai-hoken",
+  "hoken-ryo",
   "kasai-hoken"
  ],
  "g2o-b06-03": [
+  "shakai-hoken",
+  "minkan-hoken",
   "iryo-hoken",
   "kaigo-hoken",
   "koyo-hoken",
   "rosai-hoken",
+  "hoken-ryo",
   "hihokensha",
   "nini-kanyu",
   "hoken-keiyakusha"
  ],
  "g2o-b06-04": [
+  "hoken-ryo",
+  "shotoku-kojo",
   "jishin-hokenryo-kojo",
+  "songai-hoken",
   "seimei-hokenryo-kojo",
+  "seimei-hoken",
   "iryo-hoken",
   "kojin-nenkin-hoken",
   "kasai-hoken",
   "jishin-hoken"
  ],
  "g2o-b06-05": [
+  "songai-hoken",
+  "shushi-soto",
+  "hoken-ryo",
   "hoken-keiyakusha",
   "taisu-no-hosoku"
  ],
  "g2o-b06-06": [
+  "songai-hoken",
   "jun-fuka-hokenryo",
   "kasai-hoken",
+  "hoken-ryo",
+  "shushi-soto",
   "taisu-no-hosoku"
  ],
  "g2o-b06-07": [
+  "seimei-hoken",
   "hoken-shoken",
+  "keiyaku-seiritsu",
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hokenho",
   "hihokensha"
  ],
@@ -2711,16 +3344,21 @@
   "manki-hokenkin",
   "iryo-hoken",
   "kaigo-hoken-jiko-futan",
-  "nyuin-shujutsu-kyufukin"
+  "nyuin-shujutsu-kyufukin",
+  "shakai-hoken"
  ],
  "g2o-b07-02": [
+  "songai-hoken",
   "rosai-hoken"
  ],
  "g2o-b07-03": [
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "saimu-kojo",
   "keiyakusha-kashitsuke",
+  "hoken-ryo",
   "gensen-choshu",
+  "shotokuzei",
   "hihokensha",
   "minashi-sozoku-zaisan"
  ],
@@ -2728,26 +3366,32 @@
   "tokuyaku",
   "sandai-shippei-hoken",
   "living-needs",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g2o-b07-05": [
+  "songai-hoken",
   "hokenho",
   "tokuyaku",
   "hoken-keiyakusha",
   "hihokensha",
   "hokensha",
+  "hoken-ryo",
   "kokuchi-gimu",
   "hoken-shoken",
   "juyo-jiko-setsumei"
  ],
  "g2o-b07-06": [
+  "songai-hoken",
   "jibaiseki-taijin",
   "jibaiseki",
+  "hoken-ryo",
   "jishin-hoken",
   "kasai-hoken",
   "nini-kanyu"
  ],
  "g2o-b07-07": [
+  "songai-hoken",
   "suisai-hosho",
   "rosai-hoken",
   "jibaiseki-taijin"
@@ -2757,21 +3401,55 @@
   "tenkan-seido"
  ],
  "g2o-c01-02": [
-  "cpi"
+  "cpi",
+  "nippon-ginko",
+  "kigyo-bukka-shisu",
+  "gdp",
+  "deflation"
  ],
  "g2o-c01-03": [
+  "nippon-ginko",
+  "kinyu-seisaku",
   "keiki-doko"
  ],
  "g2o-c01-04": [
-  "toshi-shintaku"
+  "money-stock",
+  "teiki-yokin",
+  "futsu-yokin",
+  "toshi-shintaku",
+  "nippon-ginko"
+ ],
+ "g2o-c01-05": [
+  "nippon-ginko",
+  "kokai-shijo-sosa",
+  "kinyu-seisaku",
+  "kinri"
+ ],
+ "g2o-c01-07": [
+  "nippon-ginko",
+  "kinyu-seisaku"
  ],
  "g2o-c01-08": [
+  "nippon-ginko",
+  "seisaku-kinri",
+  "kinri",
   "call-option"
+ ],
+ "g2o-c01-09": [
+  "kawase-soba",
+  "kawase-kainyu",
+  "nippon-ginko",
+  "kinyu-seisaku"
+ ],
+ "g2o-c01-10": [
+  "nippon-ginko",
+  "kinyu-seisaku"
  ],
  "g2o-c01-11": [
   "maruyu",
   "rishi-shotoku",
   "gensen-choshu",
+  "shotokuzei",
   "sogo-bunri-kazei",
   "kakutei-shinkoku"
  ],
@@ -2781,15 +3459,20 @@
   "gensen-choshu"
  ],
  "g2o-c01-13": [
-  "zaikei-chochiku"
+  "zaikei-chochiku",
+  "seimei-hoken",
+  "hoken-ryo"
  ],
  "g2o-c01-14": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "g2o-c01-15": [
   "tanri",
+  "teiki-yokin",
   "maruyu",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "sogo-bunri-kazei"
  ],
@@ -2797,6 +3480,7 @@
   "toshi-shintaku",
   "kazoku-shintaku",
   "kaishagata-keiyakugata",
+  "ginko",
   "j-reit"
  ],
  "g2o-c02-04": [
@@ -2805,7 +3489,8 @@
  ],
  "g2o-c02-05": [
   "kaishagata-keiyakugata",
-  "kazoku-shintaku"
+  "kazoku-shintaku",
+  "ginko"
  ],
  "g2o-c02-07": [
   "kinsho-ho",
@@ -2816,16 +3501,25 @@
   "etf",
   "toshi-shintaku",
   "shinyo-torihiki",
+  "kabushiki",
   "nariyuki-sashine"
  ],
  "g2o-c02-09": [
-  "etf"
+  "etf",
+  "kabushiki",
+  "ginko",
+  "shoken-gaisha"
  ],
  "g2o-c02-10": [
   "j-reit",
+  "kabushiki",
+  "rimawari",
   "open-closed-end",
+  "kinri",
+  "saiken",
   "toshi-shintaku",
-  "koubo-shibo"
+  "koubo-shibo",
+  "genpon-hosho"
  ],
  "g2o-c02-11": [
   "tanigata-tsuikagata",
@@ -2843,6 +3537,7 @@
  ],
  "g2o-c02-13": [
   "toshi-shintaku",
+  "kabushiki",
   "kabushiki-fund",
   "koshasai-fund",
   "mrf",
@@ -2853,33 +3548,44 @@
  ],
  "g2o-c02-14": [
   "saishu-rimawari",
-  "tanri"
+  "tanri",
+  "saiken"
  ],
  "g2o-c02-15": [
-  "saishu-rimawari"
+  "saishu-rimawari",
+  "rimawari"
  ],
  "g2o-c02-16": [
+  "saiken",
+  "kinri",
   "credit-risk"
  ],
  "g2o-c02-17": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "g2o-c02-18": [
   "kojinmuke-kokusai",
-  "kubun-shoyuho"
+  "kubun-shoyuho",
+  "kinri"
  ],
  "g2o-c02-19": [
+  "saiken",
   "keika-rishi"
  ],
  "g2o-c02-20": [
-  "cb"
+  "cb",
+  "kabushiki"
  ],
  "g2o-c02-21": [
   "kakuzuke",
   "kinsho-ho",
-  "credit-risk"
+  "saiken",
+  "credit-risk",
+  "danteki-handan"
  ],
  "g2o-c02-22": [
+  "saiken",
   "koshasai-fund",
   "haito-shotoku",
   "gensen-choshu",
@@ -2894,55 +3600,77 @@
   "tangen-kabu"
  ],
  "g2o-c03-02": [
+  "kabushiki",
   "nariyuki-sashine"
  ],
  "g2o-c03-03": [
+  "kabushiki",
   "kabushiki-bunkatsu"
  ],
  "g2o-c03-05": [
+  "kabushiki",
+  "haito",
   "tangen-kabu"
  ],
  "g2o-c03-06": [
+  "haito",
   "kabushiki-bunkatsu",
-  "kenritsuki-saishubi"
+  "kenritsuki-saishubi",
+  "kabushiki"
  ],
  "g2o-c03-07": [
   "shinyo-torihiki",
-  "seido-ippan-shinyo"
+  "seido-ippan-shinyo",
+  "shoken-gaisha"
  ],
  "g2o-c03-08": [
   "shinyo-torihiki",
+  "kabushiki",
+  "shoken-gaisha",
   "seido-ippan-shinyo"
  ],
  "g2o-c03-09": [
   "seido-ippan-shinyo",
+  "haito",
   "kabushiki-bunkatsu",
   "kabunushi-yutai",
   "keiyakusha-haitokin",
   "gensen-choshu",
+  "shoken-gaisha",
   "tangen-kabu",
+  "kabushiki",
   "shinyo-torihiki"
+ ],
+ "g2o-c03-10": [
+  "kabushiki"
  ],
  "g2o-c03-11": [
   "topix-nikkei",
+  "kabushiki",
   "benchmark",
   "etf"
  ],
  "g2o-c03-12": [
+  "kabushiki",
   "per",
   "haito-seiko",
+  "haito",
   "roe",
+  "heikinchi",
   "pbr",
   "keiyakusha-haitokin"
  ],
  "g2o-c03-13": [
+  "kabushiki",
   "keiyakusha-haitokin",
   "per",
   "pbr",
-  "haito-seiko"
+  "haito-seiko",
+  "haito"
  ],
  "g2o-c03-14": [
   "gaika-yokin",
+  "kawase-soba",
   "tts-ttb",
   "ttm",
   "yokin-hoken"
@@ -2950,6 +3678,7 @@
  "g2o-c03-15": [
   "kawase-saeki",
   "sogo-bunri-kazei",
+  "shotokuzei",
   "kakutei-shinkoku",
   "gensen-choshu",
   "fukko-tokubetsu-shotokuzei",
@@ -2981,20 +3710,25 @@
   "put-option",
   "options",
   "call-option",
+  "rimawari",
   "kakaku-hendo-risk"
  ],
  "g2o-c03-20": [
   "sakimono",
   "swap",
   "derivatives",
+  "kinri",
   "sakimono-shokokin"
  ],
  "g2o-c04-01": [
+  "kabushiki",
+  "haito",
   "haito-shotoku",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
   "shusei-shinkoku",
   "kosei-seikyu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "gensen-choshu",
   "haito-kojo"
@@ -3002,10 +3736,13 @@
  "g2o-c04-02": [
   "haito-shotoku",
   "kakutei-shinkoku",
+  "haito",
   "tokutei-koza",
-  "gensen-choshu"
+  "gensen-choshu",
+  "kabushiki"
  ],
  "g2o-c04-03": [
+  "kabushiki",
   "joto-shotoku",
   "sonneki-tsusan",
   "kakutei-shinkoku",
@@ -3016,12 +3753,15 @@
  "g2o-c04-05": [
   "tokutei-koza",
   "gensen-choshu",
+  "kabushiki",
   "kakutei-shinkoku",
   "joto-shotoku"
  ],
  "g2o-c04-06": [
   "tokutei-koza",
   "gensen-choshu",
+  "kabushiki",
+  "haito",
   "kakutei-shinkoku",
   "sonneki-tsusan"
  ],
@@ -3031,6 +3771,7 @@
  "g2o-c04-08": [
   "nisa",
   "shikko-fukkatsu",
+  "kabushiki",
   "kakutei-shinkoku",
   "tokutei-koza",
   "haito-shotoku",
@@ -3046,14 +3787,17 @@
   "sonneki-tsusan",
   "kakutei-shinkoku",
   "koshasai-fund",
+  "kabushiki",
   "futsu-bunpaikin"
  ],
  "g2o-c04-10": [
   "yoro-hoken",
   "manki-hokenkin",
   "kaiyaku-henreikin",
+  "hoken-ryo",
   "ichiji-shotoku",
   "sogo-bunri-kazei",
+  "shotokuzei",
   "gensen-choshu",
   "zatsu-shotoku"
  ],
@@ -3063,11 +3807,15 @@
   "yoro-hoken",
   "kojin-nenkin-hoken",
   "gan-hoken",
+  "kinri",
   "kaiyaku-henreikin",
+  "hoken-ryo",
   "kawase-risk",
-  "teiki-hoken"
+  "teiki-hoken",
+  "kawase-soba"
  ],
  "g2o-c04-14": [
+  "heikinchi",
   "portfolio",
   "sharpe-ratio"
  ],
@@ -3076,15 +3824,20 @@
   "dollar-cost"
  ],
  "g2o-c04-16": [
+  "risk-return",
   "portfolio",
   "asset-allocation",
+  "kabushiki",
+  "saiken",
   "toshi-shintaku",
   "bunsan-toshi"
  ],
  "g2o-c04-17": [
+  "kabushiki",
   "kakutei-shinkoku",
   "haito-shotoku",
   "sogo-bunri-kazei",
+  "haito",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "joto-shotoku",
@@ -3093,6 +3846,9 @@
  "g2o-c04-18": [
   "tokutei-koza",
   "gensen-choshu",
+  "haito",
+  "kabushiki",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "kakutei-shinkoku",
@@ -3100,30 +3856,40 @@
  ],
  "g2o-c05-01": [
   "yokin-hoken",
+  "shoken-gaisha",
   "hokenho",
+  "ginko",
   "kinsho-ho",
+  "kabushiki",
   "hoken-keiyakusha"
  ],
  "g2o-c05-02": [
   "yokin-hoken",
+  "payoff",
   "kessai-yokin"
  ],
  "g2o-c05-03": [
   "yokin-hoken",
   "kessai-yokin",
-  "gaika-yokin"
+  "gaika-yokin",
+  "futsu-yokin",
+  "hoken-ryo"
  ],
  "g2o-c05-04": [
   "yokin-hoken",
   "gaika-yokin",
-  "hokenho"
+  "hokenho",
+  "futsu-yokin",
+  "teiki-yokin"
  ],
  "g2o-c05-05": [
   "hokenho",
+  "ginko",
   "yokin-hoken"
  ],
  "g2o-c05-06": [
-  "toshisha-hogo-kikin"
+  "toshisha-hogo-kikin",
+  "shoken-gaisha"
  ],
  "g2o-c05-07": [
   "kinsho-ho"
@@ -3133,23 +3899,30 @@
   "kinsho-ho"
  ],
  "g2o-c05-09": [
-  "kinsho-ho"
+  "kinsho-ho",
+  "danteki-handan"
  ],
  "g2o-c05-10": [
   "kinsho-ho",
+  "kabushiki",
   "derivatives"
  ],
  "g2o-c05-11": [
-  "shohisha-keiyaku-ho"
+  "shohisha-keiyaku-ho",
+  "fujitsu-kokuchi"
  ],
  "g2o-c05-12": [
   "shohisha-keiyaku-ho"
  ],
  "g2o-c05-14": [
+  "soryo-kisei",
   "gensen-choshu"
  ],
  "g2o-c05-15": [
+  "tokutei-shotorihiki-ho",
   "cooling-off",
+  "homon-hanbai",
+  "tsushin-hanbai",
   "tokuyaku"
  ],
  "g2o-c05-16": [
@@ -3163,6 +3936,7 @@
  ],
  "g2o-c06-02": [
   "rishi-shotoku",
+  "shotokuzei",
   "kojin-juminzei",
   "gensen-choshu",
   "sogo-bunri-kazei",
@@ -3171,7 +3945,9 @@
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "haito-shotoku",
+  "kabushiki",
   "joto-shotoku",
+  "kinri",
   "maruyu"
  ],
  "g2o-c06-03": [
@@ -3180,13 +3956,18 @@
   "joto-shotoku",
   "ichiji-shotoku",
   "yoro-hoken",
-  "kojin-juminzei"
+  "shotokuzei",
+  "kojin-juminzei",
+  "kinri"
  ],
  "g2o-c06-04": [
   "shikumisai",
   "derivatives",
+  "saiken",
   "credit-risk",
-  "yokin-hoken"
+  "yokin-hoken",
+  "genpon-hosho",
+  "rimawari"
  ],
  "g2o-c06-05": [
   "kinyu-hanbai-ho",
@@ -3194,24 +3975,30 @@
  ],
  "g2o-c06-06": [
   "ruitou",
+  "shoken-gaisha",
+  "kabushiki",
   "tangen-kabu",
   "dollar-cost"
  ],
  "g2o-c06-07": [
   "junkin-tsumitate",
+  "genpon-hosho",
   "kakaku-hendo-risk",
   "dollar-cost"
  ],
  "g2o-c07-01": [
   "zaikei-chochiku",
+  "hoken-ryo",
   "maruyu"
  ],
  "g2o-c07-02": [
   "keiyakusha-hogo-kiko",
   "hokengyo-ho",
+  "seimei-hoken",
   "yotei-riritsu",
   "sekinin-junbikin",
   "hoken-keiyakusha",
+  "songai-hoken",
   "jibaiseki-taijin",
   "kasai-hoken"
  ],
@@ -3226,6 +4013,8 @@
   "gaika-mmf",
   "toshi-shintaku",
   "kakuzuke",
+  "saiken",
+  "genpon-hosho",
   "mmf",
   "gaika-yokin",
   "kawase-risk"
@@ -3239,15 +4028,21 @@
  ],
  "g2o-c07-06": [
   "kawase-risk",
+  "kawase-soba",
   "country-risk",
+  "kinri",
   "kinri-risk",
+  "saiken",
   "credit-risk",
+  "genpon-hosho",
   "kakaku-hendo-risk"
  ],
  "g2o-c07-07": [
   "toshi-shintaku",
   "kabushiki-fund",
   "koshasai-fund",
+  "saiken",
+  "kabushiki",
   "j-reit",
   "haito-shotoku",
   "joto-shotoku",
@@ -3256,24 +4051,35 @@
  ],
  "g2o-c08-01": [
   "shokenka-shohin",
-  "shikumisai"
+  "rimawari",
+  "shikumisai",
+  "saiken"
  ],
  "g2o-c08-02": [
   "gensaki",
-  "repo"
+  "repo",
+  "saiken",
+  "ginko",
+  "shoken-gaisha"
  ],
  "g2o-c08-03": [
   "alternative",
+  "kabushiki",
+  "saiken",
   "portfolio",
   "toshi-shintaku"
  ],
  "g2o-c08-04": [
   "fudosan-koguchika",
+  "genpon-hosho",
   "j-reit"
  ],
  "g2o-c08-05": [
   "credit-risk",
   "kinri-risk",
+  "kinri",
+  "saiken",
+  "kawase-soba",
   "toshi-shintaku",
   "kakuzuke",
   "duration",
@@ -3283,6 +4089,7 @@
   "koubo-shibo",
   "toshi-shintaku",
   "kabushiki-fund",
+  "kabushiki",
   "kinsho-ho",
   "mokuromi",
   "tanigata-tsuikagata"
@@ -3290,16 +4097,25 @@
  "g2o-c08-07": [
   "etf",
   "nariyuki-sashine",
-  "toshi-shintaku"
+  "shoken-gaisha",
+  "toshi-shintaku",
+  "kabushiki"
  ],
  "g2o-c09-01": [
   "toshi-shintaku",
-  "kazoku-shintaku"
+  "kabushiki",
+  "saiken",
+  "kazoku-shintaku",
+  "ginko"
  ],
  "g2o-c09-02": [
   "toshi-shintaku",
   "bunsan-toshi",
-  "kakaku-hendo-risk"
+  "kabushiki",
+  "saiken",
+  "genpon-hosho",
+  "kakaku-hendo-risk",
+  "ginko"
  ],
  "g2o-c09-03": [
   "toshi-shintaku",
@@ -3310,62 +4126,107 @@
   "bunsan-toshi"
  ],
  "g2o-c09-04": [
+  "seimei-hoken",
   "yoro-hoken",
   "manki-hokenkin",
   "shushin-hoken",
   "kojin-nenkin-hoken",
   "teiki-hoken",
+  "hoken-ryo",
   "tokuyaku"
  ],
  "g2o-c09-05": [
   "yokin-hoken",
+  "futsu-yokin",
+  "teiki-yokin",
+  "hoken-ryo",
   "hokenho",
+  "payoff",
   "kessai-yokin",
   "toshisha-hogo-kikin",
   "hoken-keiyakusha"
  ],
  "g2o-c09-06": [
   "toshi-shintaku",
+  "ginko",
+  "genpon-hosho",
+  "shoken-gaisha",
   "toshisha-hogo-kikin"
  ],
  "g2o-c09-07": [
   "toshi-shintaku",
   "credit-risk",
+  "saiken",
   "kakuzuke"
  ],
+ "g2o-c10-01": [
+  "saiken",
+  "kabushiki",
+  "haito"
+ ],
  "g2o-c10-02": [
-  "kojinmuke-kokusai"
+  "saiken",
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "g2o-c10-03": [
   "fukuri",
   "tanri",
-  "shuka-keisu"
+  "shuka-keisu",
+  "life-planning"
  ],
  "g2o-c10-04": [
+  "saiken",
+  "kinri",
   "shuka-keisu",
   "genka-keisu"
  ],
+ "g2o-c10-05": [
+  "kabushiki",
+  "haito"
+ ],
  "g2o-c10-06": [
+  "saiken",
+  "kinri",
+  "kabushiki",
+  "ginko",
   "credit-risk",
   "kakaku-hendo-risk",
   "kakuzuke",
   "kojinmuke-kokusai"
  ],
  "g2o-c10-07": [
+  "kabushiki",
   "portfolio",
+  "kinri",
   "options"
  ],
+ "g2o-c11-01": [
+  "kawase-soba",
+  "kinri"
+ ],
  "g2o-c11-02": [
+  "kabushiki",
+  "saiken",
+  "kinri",
   "credit-risk",
   "kinri-risk"
  ],
  "g2o-c11-03": [
+  "kabushiki",
+  "saiken",
+  "kinri",
+  "kawase-soba",
   "arbitrage"
  ],
  "g2o-c11-04": [
+  "saiken",
   "credit-risk",
   "toshi-shintaku",
+  "kinri",
   "kawase-risk",
+  "kawase-soba",
+  "rimawari",
   "kakuzuke",
   "kinri-risk",
   "country-risk"
@@ -3374,35 +4235,52 @@
   "gaika-mmf",
   "toshi-shintaku",
   "kakuzuke",
+  "saiken",
+  "genpon-hosho",
   "kawase-risk",
+  "kinri",
   "gaika-yokin",
   "mmf"
  ],
  "g2o-c11-06": [
   "cb",
-  "kenri-koshi-kakaku"
+  "kabushiki",
+  "kenri-koshi-kakaku",
+  "saiken"
  ],
  "g2o-c11-07": [
   "asset-allocation",
-  "portfolio"
+  "portfolio",
+  "risk-return"
  ],
  "g2o-c12-01": [
+  "seimei-hoken",
+  "hoken-ryo",
   "yotei-riritsu",
   "jun-fuka-hokenryo",
+  "shushi-soto",
   "taisu-no-hosoku"
  ],
  "g2o-c12-02": [
+  "seimei-hoken",
   "keiyakusha-haitokin",
-  "yotei-riritsu"
+  "haito",
+  "yotei-riritsu",
+  "hoken-ryo",
+  "kabushiki"
  ],
  "g2o-c12-03": [
+  "seimei-hoken",
+  "hoken-ryo",
   "jido-furikae-kashitsuke",
   "shikko-fukkatsu"
  ],
  "g2o-c12-04": [
   "toshi-shintaku",
   "benchmark",
+  "kabushiki",
   "topix-nikkei",
+  "genpon-hosho",
   "index-fund",
   "portfolio"
  ],
@@ -3417,32 +4295,45 @@
   "sakiwatashi",
   "sakimono-shokokin",
   "kawase-risk",
+  "kabushiki",
   "credit-risk",
   "options"
  ],
  "g2o-c12-07": [
   "portfolio",
+  "kabushiki",
   "toshi-shintaku",
-  "kakaku-hendo-risk"
+  "kakaku-hendo-risk",
+  "risk-return"
  ],
  "g2o-c13-01": [
   "tenkan-seido",
+  "saiken",
+  "kabushiki",
   "put-option",
   "shikumisai",
+  "kinri",
   "cb"
  ],
  "g2o-c13-02": [
+  "saiken",
+  "kawase-soba",
+  "rimawari",
   "kawase-risk"
  ],
  "g2o-c13-03": [
   "derivatives",
   "options",
+  "kabushiki",
+  "saiken",
   "sakimono",
   "swap",
   "sakimono-shokokin",
+  "kinri",
   "kakaku-hendo-risk"
  ],
  "g2o-c13-04": [
+  "kabushiki",
   "benchmark",
   "topix-nikkei",
   "etf",
@@ -3451,20 +4342,32 @@
  "g2o-c13-05": [
   "toshi-shintaku",
   "kakaku-hendo-risk",
+  "kawase-soba",
+  "kinri",
+  "saiken",
+  "kabushiki",
   "mokuromi",
   "credit-risk",
-  "kinri-risk"
+  "kinri-risk",
+  "genpon-hosho"
  ],
  "g2o-c13-06": [
+  "kabushiki",
   "keiyakusha-haitokin",
   "capital-gain",
   "kabunushi-yutai",
+  "haito",
   "kakaku-hendo-risk",
-  "credit-risk"
+  "credit-risk",
+  "saiken"
  ],
  "g2o-c13-07": [
   "toshi-shintaku",
+  "kabushiki",
+  "saiken",
+  "shoken-gaisha",
   "kawase-risk",
+  "kawase-soba",
   "mokuromi",
   "kinsho-ho",
   "kakaku-hendo-risk",
@@ -3475,8 +4378,13 @@
  "g2o-c14-01": [
   "hendo-hoken",
   "hihokensha",
+  "hoken-ryo",
   "hokenkin-juryonin",
+  "shotokuzei",
   "sogo-bunri-kazei",
+  "kabushiki",
+  "saiken",
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "manki-hokenkin",
   "ichiji-shotoku",
@@ -3489,7 +4397,9 @@
   "sakimono",
   "sonneki-tsusan",
   "sakimono-shokokin",
+  "shotokuzei",
   "gensen-choshu",
+  "kabushiki",
   "joto-shotoku",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
@@ -3500,9 +4410,13 @@
  "g2o-c14-03": [
   "kinsho-ho",
   "kinyu-hanbai-ho",
+  "danteki-handan",
   "juyo-jiko-setsumei"
  ],
  "g2o-c14-04": [
+  "kabushiki",
+  "shoken-gaisha",
+  "saiken",
   "sakimono-shokokin"
  ],
  "g2o-c14-05": [
@@ -3511,51 +4425,88 @@
   "bunsan-toshi"
  ],
  "g2o-c14-06": [
+  "kabushiki",
   "per",
   "pbr",
   "roe"
  ],
  "g2o-c14-07": [
+  "kabushiki",
   "keiyakusha-haitokin",
+  "ginko",
+  "shoken-gaisha",
   "tts-ttb"
  ],
  "g2o-c15-01": [
+  "kabushiki",
+  "saiken",
+  "ginko",
+  "kinri",
+  "kawase-kainyu",
+  "kawase-soba",
+  "chokusetsu-kinyu",
   "call-option"
  ],
  "g2o-c15-02": [
   "kazoku-shintaku",
-  "shogaisha-kojo"
+  "ginko",
+  "saiken",
+  "shogaisha-kojo",
+  "haito",
+  "genpon-hosho"
  ],
  "g2o-c15-03": [
+  "kinri",
   "sogo-bunri-kazei",
   "teitoken",
   "ne-teitoken",
   "fudosan-koguchika"
  ],
  "g2o-c15-04": [
-  "kazoku-shintaku"
+  "kazoku-shintaku",
+  "ginko",
+  "haito",
+  "kabushiki",
+  "saiken"
  ],
  "g2o-c15-05": [
   "efficient-frontier",
   "portfolio"
  ],
+ "g2o-c15-06": [
+  "saiken"
+ ],
  "g2o-c15-07": [
   "sokan-keisu",
+  "heikinchi",
   "portfolio",
-  "bunsan-toshi"
+  "bunsan-toshi",
+  "chuochi"
  ],
  "g2o-c16-01": [
   "topix-nikkei",
+  "saiken",
+  "rimawari",
   "shikumisai",
   "credit-risk",
-  "tenkan-seido"
+  "tenkan-seido",
+  "kabushiki"
  ],
  "g2o-c16-02": [
+  "saiken",
   "duration",
+  "kinri",
   "kinri-risk"
  ],
+ "g2o-c16-03": [
+  "kabushiki"
+ ],
  "g2o-c16-04": [
+  "shotokuzei",
   "gensen-choshu",
+  "kinri",
+  "kabushiki",
+  "haito",
   "kakutei-shinkoku",
   "kojin-juminzei",
   "houjinzei",
@@ -3563,18 +4514,24 @@
  ],
  "g2o-c16-05": [
   "uketori-haitou-ekikin-funyuu",
+  "kabushiki",
+  "haito",
   "houjinzei",
   "haito-shotoku",
   "haito-kojo"
  ],
  "g2o-c16-06": [
+  "kabushiki",
+  "ginko",
   "keiyakusha-haitokin",
   "kawase-risk",
   "country-risk",
+  "haito",
   "toshi-shintaku",
   "shintaku-hoshu"
  ],
  "g2o-d01-01": [
+  "kokuzei-to-chihouzei",
   "kotei-shisanzei",
   "fudosan-shutoku-toroku-inshi",
   "kokumin-kenko-hoken",
@@ -3582,24 +4539,40 @@
  ],
  "g2o-d01-02": [
   "gensen-choshu",
+  "shotokuzei",
   "izo",
   "fudosan-shutoku-toroku-inshi",
+  "haito",
   "houjinzei"
  ],
  "g2o-d01-03": [
   "gensen-choshu",
   "yotei-nozei",
+  "shotokuzei",
   "houjinzei",
   "shohizei"
  ],
+ "g2o-d01-04": [
+  "shotokuzei"
+ ],
+ "g2o-d01-05": [
+  "shotokuzei"
+ ],
  "g2o-d01-06": [
+  "shotokuzei",
   "kakutei-shinkoku"
  ],
+ "g2o-d01-07": [
+  "shotokuzei"
+ ],
  "g2o-d01-08": [
+  "shotokuzei",
+  "songai-hoken",
   "izo",
   "kyuyo-shotoku"
  ],
  "g2o-d01-09": [
+  "shotokuzei",
   "rishi-shotoku",
   "aoiro-shinkoku"
  ],
@@ -3610,17 +4583,22 @@
   "genka-shokyaku"
  ],
  "g2o-d01-11": [
+  "shotokuzei",
   "sogo-bunri-kazei",
   "kakutei-shinkoku",
   "gensen-choshu",
   "taishoku-shotoku",
+  "kabushiki",
+  "haito",
   "ichiji-shotoku",
   "rishi-shotoku",
   "shotoku-10shu"
  ],
  "g2o-d01-12": [
   "haito-shotoku",
+  "haito",
   "koshasai-fund",
+  "kabushiki",
   "kabunushi-yutai",
   "zatsu-shotoku",
   "rishi-shotoku",
@@ -3662,18 +4640,23 @@
   "jigyo-shotoku",
   "sanrin-shotoku",
   "zatsu-shotoku",
-  "sogo-bunri-kazei"
+  "sogo-bunri-kazei",
+  "kabushiki"
  ],
  "g2o-d01-20": [
   "sogo-bunri-kazei",
   "joto-shotoku",
+  "kabushiki",
   "choki-joto",
   "ichiji-shotoku"
  ],
  "g2o-d01-21": [
+  "hoken-ryo",
   "hokenkin-juryonin",
+  "seimei-hoken",
   "hihokensha",
-  "ichiji-shotoku"
+  "ichiji-shotoku",
+  "shotokuzei"
  ],
  "g2o-d01-22": [
   "zatsu-shotoku",
@@ -3686,22 +4669,26 @@
   "taishoku-shotoku",
   "sanrin-shotoku",
   "joto-shotoku",
-  "ichiji-shotoku"
+  "ichiji-shotoku",
+  "seimei-hoken"
  ],
  "g2o-d01-23": [
   "sanrin-shotoku",
   "taishoku-shotoku",
+  "shotokuzei",
   "joto-shotoku",
   "jigyo-shotoku",
   "zatsu-shotoku"
  ],
  "g2o-d01-24": [
   "rishi-shotoku",
+  "teiki-yokin",
   "zatsu-shotoku",
   "koshasai-fund",
   "haito-shotoku"
  ],
  "g2o-d02-01": [
+  "shotokuzei",
   "sonneki-tsusan",
   "ichiji-shotoku",
   "jigyo-shotoku",
@@ -3718,6 +4705,7 @@
   "sonneki-tsusan",
   "fudosan-shotoku",
   "sogo-bunri-kazei",
+  "kabushiki",
   "joto-shotoku",
   "jigyo-shotoku",
   "kyuyo-shotoku",
@@ -3725,9 +4713,11 @@
   "sakimono"
  ],
  "g2o-d02-03": [
+  "shotokuzei",
   "sonneki-tsusan",
   "joto-shotoku",
   "ichiji-shotoku",
+  "haito",
   "fudosan-shotoku",
   "jigyo-shotoku",
   "taishoku-shotoku",
@@ -3750,16 +4740,19 @@
  ],
  "g2o-d02-06": [
   "aoiro-shinkoku",
+  "shotokuzei",
   "zasson-kojo",
   "junsonshitsu-kurikoshi-kojo",
   "kakutei-shinkoku"
  ],
  "g2o-d02-07": [
+  "kabushiki",
   "sonneki-tsusan",
   "joto-shotoku",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
   "haito-shotoku",
+  "haito",
   "nisa"
  ],
  "g2o-d02-08": [
@@ -3768,15 +4761,18 @@
   "kaikae-tokurei"
  ],
  "g2o-d02-09": [
+  "shotoku-kojo",
   "zasson-kojo",
   "iryohi-kojo",
   "shakai-hoken-ryo-kojo",
   "kiso-kojo",
+  "shotokuzei",
   "taishoku-shotoku",
   "sanrin-shotoku"
  ],
  "g2o-d02-10": [
   "iryohi-kojo",
+  "seimei-hoken",
   "nyuin-shujutsu-kyufukin",
   "self-medication"
  ],
@@ -3785,6 +4781,7 @@
   "shokibo-kyosai-kojo",
   "kyosai",
   "seimei-hokenryo-kojo",
+  "shakai-hoken",
   "kokumin-nenkin-kikin",
   "ideco",
   "shokibo-kigyo-kyosai",
@@ -3793,12 +4790,16 @@
  "g2o-d02-12": [
   "seimei-hokenryo-kojo",
   "jishin-hokenryo-kojo",
+  "seimei-hoken",
+  "hoken-ryo",
+  "songai-hoken",
   "jishin-hoken",
   "iryo-hoken",
   "kojin-nenkin-hoken"
  ],
  "g2o-d02-13": [
-  "kifukin-kojo"
+  "kifukin-kojo",
+  "shotoku-kojo"
  ],
  "g2o-d02-14": [
   "haigusha-kojo"
@@ -3818,11 +4819,13 @@
   "shogaisha-kojo"
  ],
  "g2o-d02-18": [
+  "shotoku-kojo",
   "sonneki-tsusan",
   "kiso-kojo",
   "taishoku-shotoku",
   "sanrin-shotoku",
   "junsonshitsu-kurikoshi-kojo",
+  "shotokuzei",
   "haigusha-kojo",
   "fuyo-kojo",
   "hitorioya-kojo",
@@ -3830,32 +4833,43 @@
  ],
  "g2o-d02-19": [
   "haito-kojo",
+  "haito",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
-  "haito-shotoku"
+  "kabushiki",
+  "haito-shotoku",
+  "shotokuzei"
  ],
  "g2o-d02-20": [
   "jutaku-loan-kojo",
+  "shotokuzei",
   "kyuyo-shotoku",
   "kakutei-shinkoku"
  ],
  "g2o-d02-21": [
+  "shotokuzei",
   "haito-kojo",
   "jutaku-loan-kojo",
+  "kabushiki",
   "joto-sonshitsu-kurikoshi"
  ],
  "g2o-d02-22": [
   "kyuyo-shotoku",
   "kakutei-shinkoku",
-  "kifukin-kojo"
+  "shotoku-kojo",
+  "kifukin-kojo",
+  "shotokuzei"
  ],
  "g2o-d03-01": [
   "kyuyo-shotoku",
   "kakutei-shinkoku",
   "gensen-choshu",
-  "taishoku-shotoku"
+  "shotokuzei",
+  "taishoku-shotoku",
+  "kinri"
  ],
  "g2o-d03-02": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "iryohi-kojo",
   "haigusha-kojo",
@@ -3869,7 +4883,9 @@
   "gensen-choshu",
   "kyuyo-shotoku",
   "aoiro-shinkoku-tokubetsu-kojo",
-  "sogo-bunri-kazei"
+  "sogo-bunri-kazei",
+  "shotokuzei",
+  "kinri"
  ],
  "g2o-d03-04": [
   "aoiro-shinkoku"
@@ -3894,6 +4910,7 @@
   "fudosan-shotoku",
   "jigyo-shotoku",
   "sanrin-shotoku",
+  "shotokuzei",
   "kakutei-shinkoku",
   "aoiro-jigyo-senjusha-kyuyo"
  ],
@@ -3901,42 +4918,49 @@
   "junsonshitsu-kurikoshi-kojo",
   "kakutei-shinkoku",
   "aoiro-shinkoku",
+  "shotokuzei",
   "sonneki-tsusan"
  ],
  "g2o-d03-09": [
   "yotei-nozei",
   "etax",
+  "shotokuzei",
   "kakutei-shinkoku"
  ],
  "g2o-d03-10": [
   "kakutei-shinkoku",
   "sozokuzei-shinkoku",
   "rishizei",
+  "shotokuzei",
   "entaizei"
  ],
  "g2o-d03-11": [
   "kakutei-shinkoku",
   "shusei-shinkoku",
   "kosei-seikyu",
-  "kasanzei"
+  "kasanzei",
+  "shotoku-kojo"
  ],
  "g2o-d03-12": [
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "fuyo-kojo",
-  "gensen-choshu"
+  "gensen-choshu",
+  "shotokuzei"
  ],
  "g2o-d03-13": [
   "kintowari",
   "shotokuwari",
   "taishoku-shotoku",
   "sanrin-shotoku",
-  "kojin-juminzei"
+  "kojin-juminzei",
+  "shotokuzei"
  ],
  "g2o-d03-14": [
   "kojin-juminzei",
   "kyuyo-shotoku",
   "iryohi-kojo",
+  "shotokuzei",
   "kakutei-shinkoku",
   "zasson-kojo"
  ],
@@ -3945,10 +4969,12 @@
   "shotokuwari",
   "kintowari",
   "kojin-juminzei",
+  "shotokuzei",
   "gensen-choshu"
  ],
  "g2o-d03-17": [
   "aoiro-shinkoku",
+  "shotokuzei",
   "kakutei-shinkoku",
   "kojin-juminzei",
   "jigyo-shotoku"
@@ -3976,11 +5002,14 @@
   "shohizei"
  ],
  "g2o-d04-07": [
+  "haito",
   "houjinzei",
+  "kabushiki",
   "uketori-haitou-ekikin-funyuu",
   "kakutei-shinkoku"
  ],
  "g2o-d04-08": [
+  "kabushiki",
   "houjinzei"
  ],
  "g2o-d04-09": [
@@ -4018,14 +5047,21 @@
   "kakutei-shinkoku"
  ],
  "g2o-d04-17": [
-  "houjinzei"
+  "houjinzei",
+  "kabushiki"
  ],
  "g2o-d04-18": [
+  "kabushiki",
   "houjinzei",
+  "haito",
   "uketori-haitou-ekikin-funyuu"
  ],
  "g2o-d04-19": [
+  "shotokuzei",
   "houjinzei"
+ ],
+ "g2o-d04-20": [
+  "kabushiki"
  ],
  "g2o-d04-21": [
   "hojin-juminzei",
@@ -4043,16 +5079,22 @@
  "g2o-d05-01": [
   "shohizei",
   "kyuyo-shotoku",
-  "keiyakusha-haitokin"
+  "kabushiki",
+  "keiyakusha-haitokin",
+  "haito"
  ],
  "g2o-d05-02": [
   "shohizei",
+  "hoken-ryo",
+  "shakai-hoken",
+  "ginko",
   "kyosai",
-  "hokenho"
+  "kenko-hoken"
  ],
  "g2o-d05-03": [
   "shohizei",
   "kazei-uriage-wariai",
+  "haito",
   "shiire-zeigaku-kojo"
  ],
  "g2o-d05-04": [
@@ -4093,32 +5135,43 @@
  "g2o-d05-12": [
   "houjinzei",
   "kakutei-shinkoku",
-  "kosaihi-sonkin-funyuu"
+  "kosaihi-sonkin-funyuu",
+  "haito"
+ ],
+ "g2o-d05-13": [
+  "haito"
  ],
  "g2o-d05-14": [
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "houjinzei"
  ],
  "g2o-d05-15": [
+  "haito",
   "houjinzei"
  ],
  "g2o-d06-01": [
   "hojin-jigyozei",
+  "shotokuzei",
   "houjinzei",
   "shohizei",
   "kojin-juminzei"
  ],
  "g2o-d06-02": [
+  "shotokuzei",
   "sonneki-tsusan",
   "rishi-shotoku",
   "fudosan-shotoku",
   "jigyo-shotoku",
   "sanrin-shotoku",
   "joto-shotoku",
-  "sogo-bunri-kazei"
+  "sogo-bunri-kazei",
+  "kabushiki",
+  "haito"
  ],
  "g2o-d06-03": [
   "zasson-kojo",
+  "shotoku-kojo",
   "iryohi-kojo"
  ],
  "g2o-d06-04": [
@@ -4127,24 +5180,29 @@
   "shokibo-kigyo-kyosai",
   "ideco",
   "seimei-hokenryo-kojo",
-  "shakai-hoken-ryo-kojo"
+  "shakai-hoken-ryo-kojo",
+  "shotoku-kojo",
+  "hoken-ryo"
  ],
  "g2o-d06-05": [
   "haigusha-kojo"
  ],
  "g2o-d06-06": [
   "kiso-kojo",
+  "shotoku-kojo",
   "fuyo-kojo",
   "haigusha-kojo"
  ],
  "g2o-d06-07": [
+  "shotokuzei",
   "haito-kojo",
   "jutaku-loan-kojo",
   "gensen-choshu",
   "fukko-tokubetsu-shotokuzei",
   "kakutei-shinkoku",
   "shotokuzei-sokusan",
-  "yotei-nozei"
+  "yotei-nozei",
+  "shotoku-kojo"
  ],
  "g2o-d07-01": [
   "kafu-kojo",
@@ -4154,12 +5212,14 @@
   "kinro-gakusei-kojo",
   "kyuyo-shotoku",
   "fuyo-kojo",
+  "shotoku-kojo",
   "kyuyo-shotoku-kojo",
   "shogaisha-kojo",
   "kafu-kojo"
  ],
  "g2o-d07-03": [
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kyuyo-shotoku",
   "kakutei-shinkoku"
@@ -4168,21 +5228,28 @@
   "kyuyo-shotoku",
   "gensen-choshu",
   "kyuyo-shotoku-kojo",
+  "shotoku-kojo",
   "kakutei-shinkoku"
  ],
  "g2o-d07-05": [
   "kojin-juminzei",
   "shotokuwari",
   "kintowari",
+  "haito",
+  "kabushiki",
   "joto-shotoku",
   "gensen-choshu",
-  "chouka-ruishin-zeiritsu"
+  "shotokuzei",
+  "chouka-ruishin-zeiritsu",
+  "shotoku-kojo"
  ],
  "g2o-d07-06": [
-  "houjinzei"
+  "houjinzei",
+  "shotokuzei"
  ],
  "g2o-d07-07": [
   "jutaku-loan-kojo",
+  "shotokuzei",
   "haito-kojo",
   "houjinzei",
   "shohizei",
@@ -4190,8 +5257,10 @@
  ],
  "g2o-d08-02": [
   "kojin-juminzei",
+  "shotokuzei",
   "shotokuwari",
   "chouka-ruishin-zeiritsu",
+  "shotoku-kojo",
   "kyuyo-shotoku",
   "kiso-kojo",
   "gensen-choshu",
@@ -4203,7 +5272,10 @@
   "kakutei-shinkoku"
  ],
  "g2o-d08-04": [
-  "houjinzei"
+  "houjinzei",
+  "kabushiki",
+  "haito",
+  "shotokuzei"
  ],
  "g2o-d08-05": [
   "houjinzei",
@@ -4226,10 +5298,13 @@
  "g2o-d09-01": [
   "houjinzei",
   "fudosan-hyoka-3shuho",
+  "saiken",
+  "shotokuzei",
   "jigyo-shotoku"
  ],
  "g2o-d09-02": [
   "houjinzei",
+  "kabushiki",
   "genka-shokyaku"
  ],
  "g2o-d09-03": [
@@ -4237,6 +5312,7 @@
  ],
  "g2o-d09-04": [
   "houjinzei",
+  "ginko",
   "kakutei-shinkoku"
  ],
  "g2o-d09-05": [
@@ -4257,10 +5333,13 @@
   "houjinzei",
   "baikai-hoshu",
   "shakuchiken",
-  "fudosan-shotoku"
+  "fudosan-shotoku",
+  "shotokuzei"
  ],
  "g2o-d10-02": [
   "hihokensha",
+  "seimei-hoken",
+  "hoken-ryo",
   "yoro-hoken",
   "seimei-hokenryo-kojo",
   "shikko-fukkatsu",
@@ -4268,14 +5347,17 @@
   "teiki-hoken",
   "manki-hokenkin",
   "kaiyaku-henreikin",
-  "hokenkin-juryonin"
+  "hokenkin-juryonin",
+  "shotoku-kojo"
  ],
  "g2o-d10-03": [
   "houjinzei",
   "kosaihi-sonkin-funyuu",
   "yoro-hoken",
   "hihokensha",
-  "hokenkin-juryonin"
+  "hoken-ryo",
+  "hokenkin-juryonin",
+  "shotokuzei"
  ],
  "g2o-d10-04": [
   "houjinzei",
@@ -4283,10 +5365,12 @@
  ],
  "g2o-d10-05": [
   "houjinzei",
+  "kawase-soba",
   "gaika-yokin"
  ],
  "g2o-d10-06": [
   "houjinzei",
+  "haito",
   "haito-shotoku"
  ],
  "g2o-d10-07": [
@@ -4314,9 +5398,12 @@
   "houjinzei"
  ],
  "g2o-d11-05": [
-  "houjinzei"
+  "houjinzei",
+  "kabushiki"
  ],
  "g2o-d11-06": [
+  "kabushiki",
+  "haito",
   "houjinzei"
  ],
  "g2o-d11-07": [
@@ -4333,9 +5420,12 @@
   "genka-shokyaku"
  ],
  "g2o-d12-03": [
-  "houjinzei"
+  "houjinzei",
+  "kabushiki",
+  "shotokuzei"
  ],
  "g2o-d12-04": [
+  "kabushiki",
   "houjinzei"
  ],
  "g2o-d13-01": [
@@ -4403,10 +5493,12 @@
  ],
  "g2o-e02-03": [
   "juyo-jiko-setsumei",
+  "keiyaku-seiritsu",
   "takken-shi"
  ],
  "g2o-e02-04": [
   "juyo-jiko-setsumei",
+  "keiyaku-seiritsu",
   "takken-shi"
  ],
  "g2o-e02-06": [
@@ -4596,7 +5688,8 @@
  ],
  "g2o-e04-11": [
   "jutaku-loan-kojo",
-  "kubun-shoyuho"
+  "kubun-shoyuho",
+  "shotokuzei"
  ],
  "g2o-e04-12": [
   "jutaku-loan-kojo",
@@ -4607,6 +5700,7 @@
   "kaikae-tokurei"
  ],
  "g2o-e04-13": [
+  "shotokuzei",
   "joto-shotoku",
   "chijoken",
   "sanrin-shotoku",
@@ -4623,6 +5717,7 @@
  "g2o-e04-15": [
   "joto-shotoku",
   "choki-joto",
+  "shotokuzei",
   "kojin-juminzei",
   "fukko-tokubetsu-shotokuzei"
  ],
@@ -4631,6 +5726,7 @@
   "baikai-hoshu",
   "kyojuyo-3000man",
   "shohizei",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "choki-joto",
   "joto-shotoku"
@@ -4652,7 +5748,8 @@
  "g2o-e04-19": [
   "shutokuhi-kasan",
   "izo",
-  "sozokuzei-shinkoku"
+  "sozokuzei-shinkoku",
+  "kabushiki"
  ],
  "g2o-e04-20": [
   "shohizei",
@@ -4665,7 +5762,9 @@
   "fudosan-shotoku",
   "shikikin",
   "kotei-shisanzei",
+  "songai-hoken",
   "genka-shokyaku",
+  "atamakin",
   "jigyo-shotoku",
   "joto-shotoku"
  ],
@@ -4673,6 +5772,7 @@
   "fudosan-shotoku",
   "sonneki-tsusan",
   "kyuyo-shotoku",
+  "kinri",
   "kazoku-shintaku"
  ],
  "g2o-e05-04": [
@@ -4692,11 +5792,14 @@
  ],
  "g2o-e05-09": [
   "fudosan-rimawari",
+  "rimawari",
   "kotei-shisanzei",
-  "genka-shokyaku"
+  "genka-shokyaku",
+  "kinri"
  ],
  "g2o-e05-10": [
-  "fudosan-rimawari"
+  "fudosan-rimawari",
+  "rimawari"
  ],
  "g2o-e05-11": [
   "fudosan-rimawari",
@@ -4712,7 +5815,9 @@
  ],
  "g2o-e05-14": [
   "j-reit",
+  "haito",
   "houjinzei",
+  "kabushiki",
   "haito-rimawari"
  ],
  "g2o-e05-15": [
@@ -4760,7 +5865,8 @@
   "fudosan-shutoku-toroku-inshi"
  ],
  "g2o-e06-06": [
-  "joto-shotoku"
+  "joto-shotoku",
+  "shotokuzei"
  ],
  "g2o-e07-01": [
   "fudosan-koguchika",
@@ -4771,11 +5877,14 @@
  ],
  "g2o-e07-02": [
   "kazoku-shintaku",
+  "ginko",
   "shintaku-hoshu",
-  "kotei-shisanzei"
+  "kotei-shisanzei",
+  "haito"
  ],
  "g2o-e07-03": [
   "joto-shotoku",
+  "shotokuzei",
   "kubun-shoyuho"
  ],
  "g2o-e07-04": [
@@ -4787,13 +5896,19 @@
   "futsu-shakuchiken"
  ],
  "g2o-e07-05": [
+  "seimei-hoken",
   "kakuzuke",
   "portfolio",
-  "shokenka-shohin"
+  "shokenka-shohin",
+  "kabushiki",
+  "saiken"
  ],
  "g2o-e07-06": [
   "shueki-kangenho",
   "capital-gain"
+ ],
+ "g2o-e07-07": [
+  "rimawari"
  ],
  "g2o-e08-01": [
   "yoto-chiiki",
@@ -4801,12 +5916,14 @@
  ],
  "g2o-e08-03": [
   "baikai-keiyaku",
-  "baikai-hoshu"
+  "baikai-hoshu",
+  "fujitsu-kokuchi"
  ],
  "g2o-e08-04": [
   "genka-shokyaku",
   "fudosan-shotoku",
   "kotei-shisanzei",
+  "songai-hoken",
   "jigyo-shotoku",
   "joto-shotoku"
  ],
@@ -4815,6 +5932,9 @@
  ],
  "g2o-e08-06": [
   "kazoku-shintaku",
+  "shotokuzei",
+  "ginko",
+  "haito",
   "teiki-shakuchiken",
   "shakuchiken",
   "fudosan-shotoku",
@@ -4864,7 +5984,10 @@
   "igon"
  ],
  "g2o-f01-06": [
+  "hoken-ryo",
+  "seimei-hoken",
   "manki-hokenkin",
+  "shotokuzei",
   "minashi-zoyo-zaisan"
  ],
  "g2o-f01-07": [
@@ -4905,9 +6028,11 @@
  ],
  "g2o-f01-14": [
   "futan-tsuki-zoyo",
+  "shotokuzei",
   "shakuchiken"
  ],
  "g2o-f01-15": [
+  "shotokuzei",
   "shakuchiken",
   "minashi-zoyo-zaisan"
  ],
@@ -4923,7 +6048,8 @@
  ],
  "g2o-f01-18": [
   "sozokuzei-hikazei-zaisan",
-  "izo"
+  "izo",
+  "kabushiki"
  ],
  "g2o-f02-01": [
   "hotei-sozokubun"
@@ -5055,11 +6181,15 @@
   "teitoken"
  ],
  "g2o-f03-03": [
+  "hoken-ryo",
+  "seimei-hoken",
   "hotei-sozokunin",
   "minashi-sozoku-zaisan"
  ],
  "g2o-f03-04": [
   "hotei-sozokunin",
+  "hoken-ryo",
+  "seimei-hoken",
   "hihokensha",
   "izo",
   "minashi-sozoku-zaisan",
@@ -5082,6 +6212,7 @@
   "entaizei",
   "kasanzei",
   "soshiki-hiyo",
+  "shotokuzei",
   "sozokuzei-hikazei-zaisan"
  ],
  "g2o-f03-09": [
@@ -5153,6 +6284,7 @@
  ],
  "g2o-f03-18": [
   "kiso-kojo",
+  "shotokuzei",
   "kakutei-shinkoku"
  ],
  "g2o-f03-19": [
@@ -5170,19 +6302,27 @@
  "g2o-f04-01": [
   "jojo-kabushiki-hyoka",
   "futan-tsuki-zoyo",
+  "kabushiki",
   "izo"
  ],
  "g2o-f04-02": [
+  "shotokuzei",
   "kojinmuke-kokusai"
  ],
  "g2o-f04-03": [
   "toshi-shintaku",
-  "jojo-kabushiki-hyoka"
+  "jojo-kabushiki-hyoka",
+  "shotokuzei",
+  "ginko",
+  "kabushiki"
  ],
  "g2o-f04-04": [
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "tts-ttb",
+  "hoken-ryo",
   "gensen-choshu",
+  "shotokuzei",
   "minashi-sozoku-zaisan"
  ],
  "g2o-f04-05": [
@@ -5265,9 +6405,11 @@
   "shokibo-takuchi"
  ],
  "g2o-f05-01": [
+  "kabushiki",
   "houjinzei"
  ],
  "g2o-f05-02": [
+  "kabushiki",
   "ruiji-gyoshu-hijun",
   "junshisan-kagaku-hoshiki",
   "hijojo-kabushiki"
@@ -5276,28 +6418,37 @@
   "ruiji-gyoshu-hijun",
   "junshisan-kagaku-hoshiki",
   "keiyakusha-haitokin",
+  "haito",
+  "kabushiki",
   "hijojo-kabushiki",
   "houjinzei"
  ],
  "g2o-f05-04": [
+  "kabushiki",
+  "haito",
   "haito-kangen-hoshiki",
   "keiyakusha-haitokin",
   "hijojo-kabushiki"
  ],
  "g2o-f05-05": [
+  "kabushiki",
   "hijojo-kabushiki",
   "haito-kangen-hoshiki"
  ],
  "g2o-f05-06": [
+  "kabushiki",
   "ruiji-gyoshu-hijun",
   "hijojo-kabushiki",
   "junshisan-kagaku-hoshiki"
  ],
  "g2o-f05-07": [
+  "kabushiki",
   "cb",
   "hijojo-kabushiki"
  ],
  "g2o-f05-08": [
+  "haito",
+  "kabushiki",
   "junshisan-kagaku-hoshiki",
   "ruiji-gyoshu-hijun"
  ],
@@ -5307,18 +6458,23 @@
   "minashi-sozoku-zaisan"
  ],
  "g2o-f05-14": [
+  "kabushiki",
   "jigyo-shokei-zeisei"
  ],
  "g2o-f05-15": [
+  "kabushiki",
   "jigyo-shokei-zeisei"
  ],
  "g2o-f05-16": [
+  "kabushiki",
   "sozokuzei-shinkoku",
+  "haito",
   "haito-shotoku",
   "sogo-bunri-kazei",
   "joto-shotoku"
  ],
  "g2o-f05-17": [
+  "kabushiki",
   "junshisan-kagaku-hoshiki",
   "hijojo-kabushiki",
   "rosenka",
@@ -5331,18 +6487,25 @@
   "kotei-shisanzei"
  ],
  "g2o-f06-02": [
+  "teiki-yokin",
   "keika-rishi",
-  "gensen-choshu"
+  "gensen-choshu",
+  "shotokuzei",
+  "futsu-yokin"
  ],
  "g2o-f06-03": [
   "izo",
   "minashi-sozoku-zaisan",
+  "seimei-hoken",
+  "hoken-ryo",
   "ichiji-shotoku",
+  "shotokuzei",
   "hihokensha"
  ],
  "g2o-f06-04": [
   "hotei-sozokunin",
   "sozokuzei-kiso-kojo",
+  "seimei-hoken",
   "shibo-taishokukin",
   "shomi-isan-gaku",
   "tokubetsu-yoshi",
@@ -5351,7 +6514,8 @@
   "daishu-sozoku"
  ],
  "g2o-f06-05": [
-  "isan-bunkatsu"
+  "isan-bunkatsu",
+  "shotokuzei"
  ],
  "g2o-f06-06": [
   "kashiya-tatetsukechi",
@@ -5361,6 +6525,7 @@
  ],
  "g2o-f06-07": [
   "ichiji-shotoku",
+  "shotokuzei",
   "rekinen-kazei",
   "sozokuji-seisan",
   "zoyozei-kiso-kojo"
@@ -5373,6 +6538,7 @@
   "minashi-zoyo-zaisan"
  ],
  "g2o-f07-04": [
+  "shotokuzei",
   "sozokuzei-hikazei-zaisan",
   "ichiji-shotoku"
  ],
@@ -5436,10 +6602,13 @@
  ],
  "g2o-f09-04": [
   "sozokuji-seisan",
+  "hoken-ryo",
+  "seimei-hoken",
   "izo",
   "shiin-zoyo",
   "minashi-sozoku-zaisan",
   "jigyo-shokei-zeisei",
+  "kyoiku-shikin",
   "rekinen-kazei"
  ],
  "g2o-f09-05": [
@@ -5486,16 +6655,20 @@
  "g2o-f10-05": [
   "butsuno",
   "sozokuji-seisan",
-  "sozokuzei-shinkoku"
+  "sozokuzei-shinkoku",
+  "kabushiki"
  ],
  "g2o-f10-06": [
   "toshi-shintaku",
   "mmf",
+  "shoken-gaisha",
   "kazoku-shintaku",
   "gensen-choshu",
+  "shotokuzei",
   "shintaku-zaisan-ryuho",
   "cb",
-  "jojo-kabushiki-hyoka"
+  "jojo-kabushiki-hyoka",
+  "heikinchi"
  ],
  "g2o-f10-07": [
   "rosenka",
@@ -5556,6 +6729,7 @@
  ],
  "g2o-f12-03": [
   "joto-shotoku",
+  "shotokuzei",
   "kyojuyo-3000man"
  ],
  "g2o-f12-04": [
@@ -5596,6 +6770,7 @@
  ],
  "g2o-f13-02": [
   "joto-shotoku",
+  "shotokuzei",
   "shutokuhi-kasan",
   "sozokuzei-shinkoku"
  ],
@@ -5608,7 +6783,9 @@
   "himitsu-shosho-igon"
  ],
  "g2o-f13-04": [
+  "seimei-hoken",
   "hotei-sozokunin",
+  "shotokuzei",
   "kojin-juminzei",
   "isan-bunkatsu-kyogi",
   "joto-shotoku",
@@ -5634,6 +6811,7 @@
   "hotei-sozokubun",
   "kiso-kojo",
   "hotei-sozokunin",
+  "seimei-hoken",
   "haigusha-keigen",
   "shomi-isan-gaku"
  ],
@@ -5645,6 +6823,7 @@
   "sozokuji-seisan"
  ],
  "g2o-f14-03": [
+  "kabushiki",
   "futan-tsuki-zoyo",
   "ruiji-gyoshu-hijun",
   "junshisan-kagaku-hoshiki"
@@ -5654,10 +6833,13 @@
   "taishoku-shotoku",
   "jigyo-shokei-zeisei",
   "houjinzei",
+  "kabushiki",
   "sogo-bunri-kazei"
  ],
  "g2o-f14-05": [
   "hihokensha",
+  "seimei-hoken",
+  "hoken-ryo",
   "teiki-hoken",
   "houjinzei",
   "yoro-hoken",
@@ -5698,9 +6880,11 @@
   "koyo-hoken"
  ],
  "g3-202405-03": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu"
  ],
  "g3-202405-04": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
   "ideco"
  ],
@@ -5709,6 +6893,8 @@
  ],
  "g3-202405-06": [
   "haraizumi-hoken",
+  "seimei-hoken",
+  "hoken-ryo",
   "kaiyaku-henreikin",
   "teiki-hoken",
   "encho-hoken"
@@ -5724,6 +6910,7 @@
  ],
  "g3-202405-09": [
   "shogai-hoken",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g3-202405-10": [
@@ -5731,28 +6918,42 @@
   "hihokensha",
   "jibaiseki"
  ],
+ "g3-202405-11": [
+  "gdp"
+ ],
  "g3-202405-12": [
   "toshi-shintaku",
   "shintaku-hoshu"
  ],
  "g3-202405-13": [
-  "credit-risk"
+  "credit-risk",
+  "saiken",
+  "rimawari"
+ ],
+ "g3-202405-14": [
+  "kabushiki"
  ],
  "g3-202405-15": [
   "kinsho-ho"
  ],
  "g3-202405-16": [
+  "shotokuzei",
   "kojin-juminzei",
   "kotei-shisanzei",
   "fudosan-shutoku-toroku-inshi"
  ],
  "g3-202405-17": [
+  "kabushiki",
+  "haito",
+  "shotokuzei",
   "kakutei-shinkoku"
  ],
  "g3-202405-18": [
+  "shotokuzei",
   "fudosan-shotoku"
  ],
  "g3-202405-19": [
+  "shotokuzei",
   "fudosan-shotoku",
   "jigyo-shotoku",
   "sanrin-shotoku",
@@ -5760,6 +6961,7 @@
   "sonneki-tsusan"
  ],
  "g3-202405-20": [
+  "shotokuzei",
   "iryohi-kojo"
  ],
  "g3-202405-21": [
@@ -5792,6 +6994,7 @@
   "gensai-kikin-keisu"
  ],
  "g3-202405-32": [
+  "kenko-hoken",
   "shobyo-teatekin"
  ],
  "g3-202405-33": [
@@ -5803,15 +7006,21 @@
  ],
  "g3-202405-35": [
   "ganri-kinto",
-  "ganking-kinto"
+  "ganking-kinto",
+  "kinri"
  ],
  "g3-202405-36": [
+  "seimei-hoken",
   "keiyakusha-hogo-kiko",
   "yotei-riritsu",
   "kaiyaku-henreikin",
-  "sekinin-junbikin"
+  "sekinin-junbikin",
+  "hoken-ryo"
  ],
  "g3-202405-37": [
+  "seimei-hoken",
+  "hoken-ryo",
+  "shushi-soto",
   "taisu-no-hosoku",
   "yotei-riritsu"
  ],
@@ -5823,14 +7032,18 @@
   "gan-hoken"
  ],
  "g3-202405-40": [
+  "seimei-hoken",
+  "hoken-ryo",
   "hokenkin-juryonin",
   "hihokensha",
+  "shotokuzei",
   "ichiji-shotoku"
  ],
  "g3-202405-41": [
   "kabushiki-fund"
  ],
  "g3-202405-42": [
+  "kabushiki",
   "pbr",
   "per",
   "roe"
@@ -5839,32 +7052,42 @@
   "portfolio"
  ],
  "g3-202405-44": [
-  "nisa"
+  "nisa",
+  "kabushiki"
  ],
  "g3-202405-45": [
   "yokin-hoken",
-  "kessai-yokin"
+  "kessai-yokin",
+  "teiki-yokin"
  ],
  "g3-202405-46": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "sogo-bunri-kazei"
  ],
  "g3-202405-47": [
+  "shotokuzei",
+  "shotoku-kojo",
   "haito-kojo",
   "zasson-kojo",
   "jutaku-loan-kojo"
  ],
  "g3-202405-48": [
+  "seimei-hoken",
   "seimei-hokenryo-kojo",
+  "hoken-ryo",
   "kojin-nenkin-hoken",
-  "iryo-hoken"
+  "iryo-hoken",
+  "shotokuzei"
  ],
  "g3-202405-49": [
+  "shotokuzei",
   "jutaku-loan-kojo"
  ],
  "g3-202405-50": [
   "kakutei-shinkoku",
   "kyuyo-shotoku",
+  "shotokuzei",
   "jutaku-loan-kojo",
   "seimei-hokenryo-kojo"
  ],
@@ -5879,6 +7102,7 @@
   "kubun-shoyuho"
  ],
  "g3-202405-54": [
+  "shotokuzei",
   "choki-joto"
  ],
  "g3-202405-56": [
@@ -5887,6 +7111,9 @@
  ],
  "g3-202405-57": [
   "hotei-sozokubun"
+ ],
+ "g3-202405-58": [
+  "kabushiki"
  ],
  "g3-202405-59": [
   "kashiya-tatetsukechi",
@@ -5903,9 +7130,11 @@
   "hihokensha"
  ],
  "g3-202505-03": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu"
  ],
  "g3-202505-04": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu",
   "ideco"
  ],
@@ -5913,7 +7142,9 @@
   "shokibo-kigyo-kyosai"
  ],
  "g3-202505-06": [
-  "tenkan-seido"
+  "tenkan-seido",
+  "seimei-hoken",
+  "hoken-ryo"
  ],
  "g3-202505-07": [
   "teiki-hoken",
@@ -5923,6 +7154,7 @@
  ],
  "g3-202505-08": [
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "hihokensha"
  ],
  "g3-202505-09": [
@@ -5933,29 +7165,43 @@
   "jibaiseki-taijin",
   "hihokensha"
  ],
+ "g3-202505-11": [
+  "kinri"
+ ],
  "g3-202505-12": [
-  "koshasai-fund"
+  "koshasai-fund",
+  "kabushiki"
+ ],
+ "g3-202505-13": [
+  "kinri",
+  "saiken"
  ],
  "g3-202505-14": [
+  "kabushiki",
   "nariyuki-sashine"
  ],
  "g3-202505-16": [
+  "shotokuzei",
   "iryo-hoken",
   "hihokensha",
   "nyuin-shujutsu-kyufukin"
  ],
  "g3-202505-17": [
+  "shotokuzei",
   "kyuyo-shotoku",
   "kyuyo-shotoku-kojo"
  ],
  "g3-202505-18": [
+  "shotokuzei",
   "jigyo-shotoku"
  ],
  "g3-202505-19": [
+  "shotokuzei",
   "joto-shotoku",
   "sonneki-tsusan"
  ],
  "g3-202505-20": [
+  "shotokuzei",
   "haigusha-kojo"
  ],
  "g3-202505-22": [
@@ -5969,6 +7215,9 @@
  ],
  "g3-202505-24": [
   "fudosan-shutoku-toroku-inshi"
+ ],
+ "g3-202505-26": [
+  "kyoiku-shikin"
  ],
  "g3-202505-27": [
   "igon",
@@ -5985,9 +7234,13 @@
  "g3-202505-31": [
   "kashobun-shotoku",
   "kyuyo-shotoku",
-  "kojin-juminzei"
+  "shotokuzei",
+  "kojin-juminzei",
+  "shakai-hoken",
+  "seimei-hoken"
  ],
  "g3-202505-32": [
+  "kenko-hoken",
   "nini-keizoku"
  ],
  "g3-202505-33": [
@@ -5995,17 +7248,21 @@
  ],
  "g3-202505-34": [
   "izoku-kosei-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha"
  ],
  "g3-202505-35": [
-  "flat35"
+  "flat35",
+  "kinri"
  ],
  "g3-202505-36": [
-  "jibaiseki",
-  "hoken-keiyakusha"
+  "songai-hoken",
+  "jibaiseki"
  ],
  "g3-202505-37": [
+  "seimei-hoken",
   "shushin-hoken",
+  "hoken-ryo",
   "yotei-riritsu"
  ],
  "g3-202505-38": [
@@ -6017,7 +7274,9 @@
  ],
  "g3-202505-40": [
   "kojin-nenkin-hoken",
-  "hihokensha"
+  "hoken-ryo",
+  "hihokensha",
+  "shotokuzei"
  ],
  "g3-202505-41": [
   "tanigata-tsuikagata",
@@ -6039,26 +7298,33 @@
   "kabushiki-fund"
  ],
  "g3-202505-45": [
-  "yokin-hoken"
+  "yokin-hoken",
+  "teiki-yokin"
  ],
  "g3-202505-46": [
+  "shotokuzei",
   "ichiji-shotoku"
  ],
  "g3-202505-47": [
+  "shotokuzei",
   "kokumin-nenkin-kikin",
   "seimei-hokenryo-kojo",
   "shakai-hoken-ryo-kojo",
   "shokibo-kyosai-kojo"
  ],
  "g3-202505-48": [
+  "shotokuzei",
   "jishin-hoken",
+  "hoken-ryo",
   "jishin-hokenryo-kojo"
  ],
  "g3-202505-49": [
+  "shotokuzei",
   "jutaku-loan-kojo"
  ],
  "g3-202505-50": [
   "jigyo-shotoku",
+  "shotokuzei",
   "aoiro-shinkoku"
  ],
  "g3-202505-51": [
@@ -6085,6 +7351,7 @@
   "hotei-sozokubun"
  ],
  "g3-202505-58": [
+  "kabushiki",
   "hijojo-kabushiki"
  ],
  "g3-202505-59": [
@@ -6096,9 +7363,11 @@
  ],
  "g3-202605-02": [
   "rosai-hoken",
+  "hoken-ryo",
   "koyo-hoken"
  ],
  "g3-202605-03": [
+  "kokumin-nenkin",
   "hihokensha-shubetsu"
  ],
  "g3-202605-04": [
@@ -6108,6 +7377,7 @@
   "kyosai"
  ],
  "g3-202605-06": [
+  "seimei-hoken",
   "keiyakusha-kashitsuke",
   "kaiyaku-henreikin"
  ],
@@ -6128,6 +7398,11 @@
   "suisai-hosho",
   "tokuyaku"
  ],
+ "g3-202605-11": [
+  "nippon-ginko",
+  "kokai-shijo-sosa",
+  "kinri"
+ ],
  "g3-202605-12": [
   "etf",
   "toshi-shintaku",
@@ -6140,28 +7415,35 @@
   "topix-nikkei"
  ],
  "g3-202605-15": [
-  "shohisha-keiyaku-ho"
+  "shohisha-keiyaku-ho",
+  "fujitsu-kokuchi"
  ],
  "g3-202605-16": [
+  "shotokuzei",
   "sogo-bunri-kazei",
   "kakutei-shinkoku",
   "gensen-choshu"
  ],
  "g3-202605-17": [
+  "shotokuzei",
   "zatsu-shotoku"
  ],
  "g3-202605-18": [
+  "shotokuzei",
   "sogo-bunri-kazei",
   "joto-shotoku",
-  "choki-joto"
+  "choki-joto",
+  "kabushiki"
  ],
  "g3-202605-19": [
   "aoiro-shinkoku",
+  "shotokuzei",
   "sonneki-tsusan",
   "junsonshitsu-kurikoshi-kojo"
  ],
  "g3-202605-20": [
-  "kiso-kojo"
+  "kiso-kojo",
+  "shotokuzei"
  ],
  "g3-202605-21": [
   "kotei-shisanzei"
@@ -6176,6 +7458,9 @@
  ],
  "g3-202605-24": [
   "kotei-shisanzei"
+ ],
+ "g3-202605-26": [
+  "shotokuzei"
  ],
  "g3-202605-27": [
   "iryubun"
@@ -6203,24 +7488,30 @@
  ],
  "g3-202605-33": [
   "fuka-nenkin",
+  "kokumin-nenkin",
   "jun-fuka-hokenryo",
+  "hoken-ryo",
   "rorei-kiso-nenkin"
  ],
  "g3-202605-34": [
   "izoku-kosei-nenkin",
   "chukorei-kafu-kasan",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "rorei-kosei-nenkin"
  ],
  "g3-202605-35": [
-  "kyoiku-loan"
+  "kyoiku-loan",
+  "kinri"
  ],
  "g3-202605-36": [
-  "hokenho"
+  "hokenho",
+  "hoken-ryo"
  ],
  "g3-202605-37": [
   "cooling-off",
-  "hokengyo-ho"
+  "hokengyo-ho",
+  "seimei-hoken"
  ],
  "g3-202605-39": [
   "living-needs",
@@ -6228,12 +7519,15 @@
   "tokuyaku"
  ],
  "g3-202605-40": [
+  "hoken-ryo",
   "kasai-hoken",
   "jigyo-shotoku",
-  "ichiji-shotoku"
+  "ichiji-shotoku",
+  "songai-hoken"
  ],
  "g3-202605-41": [
   "saishu-rimawari",
+  "saiken",
   "tanri"
  ],
  "g3-202605-42": [
@@ -6256,22 +7550,27 @@
  "g3-202605-46": [
   "taishoku-shotoku-kojo",
   "kyuyo-shotoku",
+  "shotokuzei",
   "taishoku-shotoku"
  ],
  "g3-202605-47": [
   "shokibo-kyosai-kojo",
+  "shotokuzei",
   "ideco",
   "kojin-nenkin-hoken",
   "shakai-hoken-ryo-kojo"
  ],
  "g3-202605-48": [
-  "fuyo-kojo"
+  "fuyo-kojo",
+  "shotokuzei"
  ],
  "g3-202605-49": [
+  "shotokuzei",
   "jutaku-loan-kojo"
  ],
  "g3-202605-50": [
   "aoiro-shinkoku",
+  "shotokuzei",
   "jigyo-shotoku",
   "aoiro-shinkoku-tokubetsu-kojo"
  ],
@@ -6302,7 +7601,9 @@
   "hotei-sozokubun"
  ],
  "g3-202605-58": [
-  "kaiyaku-henreikin"
+  "seimei-hoken",
+  "kaiyaku-henreikin",
+  "hoken-ryo"
  ],
  "g3-202605-59": [
   "shakuchiken",
@@ -6314,7 +7615,12 @@
   "shokibo-takuchi"
  ],
  "j2-202405-01": [
+  "shakai-hoken",
+  "saimu-seiri",
   "zeirishi-ho"
+ ],
+ "j2-202405-02": [
+  "kojinjoho-hogo-ho"
  ],
  "j2-202405-03": [
   "toshi-shintaku",
@@ -6326,16 +7632,19 @@
  "j2-202405-04": [
   "toshi-shintaku",
   "portfolio",
-  "sharpe-ratio"
+  "sharpe-ratio",
+  "kinri"
  ],
  "j2-202405-05": [
   "tokutei-koza",
+  "kabushiki",
   "joto-shotoku",
   "shohizei",
   "kabushiki-bunkatsu"
  ],
  "j2-202405-06": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "j2-202405-07": [
   "yosekiritsu"
@@ -6362,17 +7671,22 @@
   "senshin-iryo-gijutsu"
  ],
  "j2-202405-12": [
+  "seimei-hoken",
   "kiso-kojo",
   "hihokensha",
   "shushin-hoken",
   "sandai-shippei-hoken",
+  "hoken-ryo",
+  "shotokuzei",
   "ichiji-shotoku",
   "zatsu-shotoku",
   "iryo-hoken",
   "nyuin-shujutsu-kyufukin"
  ],
  "j2-202405-13": [
-  "tokuyaku"
+  "seimei-hoken",
+  "tokuyaku",
+  "hoken-ryo"
  ],
  "j2-202405-14": [
   "hihokensha",
@@ -6381,6 +7695,7 @@
   "tojosha-shogai-hoken"
  ],
  "j2-202405-15": [
+  "shotokuzei",
   "rorei-kiso-nenkin",
   "zatsu-shotoku",
   "izoku-kosei-nenkin",
@@ -6388,16 +7703,19 @@
   "aoiro-shinkoku-tokubetsu-kojo"
  ],
  "j2-202405-16": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "iryohi-kojo",
   "kyuyo-shotoku",
   "self-medication"
  ],
  "j2-202405-17": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "sonneki-tsusan",
   "fudosan-shotoku",
+  "kabushiki",
   "zatsu-shotoku"
  ],
  "j2-202405-18": [
@@ -6440,6 +7758,7 @@
   "jutaku-loan-kojo"
  ],
  "j2-202405-26": [
+  "rogo-shikin",
   "fukuri",
   "nenkin-shuka-keisu"
  ],
@@ -6453,14 +7772,20 @@
  ],
  "j2-202405-30": [
   "yokin-hoken",
+  "ginko",
   "gaika-yokin",
   "toshi-shintaku",
-  "kessai-yokin"
+  "kessai-yokin",
+  "futsu-yokin",
+  "teiki-yokin",
+  "kinri"
  ],
  "j2-202405-31": [
-  "hihokensha"
+  "hihokensha",
+  "hoken-ryo"
  ],
  "j2-202405-32": [
+  "kosei-nenkin-hoken",
   "zaishoku-rorei-nenkin",
   "rorei-kosei-nenkin",
   "hyojun-hoshu-gessaku",
@@ -6468,6 +7793,7 @@
  ],
  "j2-202405-33": [
   "shussan-teatekin",
+  "kenko-hoken",
   "hihokensha",
   "hyojun-hoshu-gessaku"
  ],
@@ -6476,13 +7802,16 @@
   "kyugyo-hosho-kyufu"
  ],
  "j2-202405-35": [
+  "kabushiki",
   "toshi-shintaku",
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "iryo-hoken"
  ],
  "j2-202405-36": [
   "kyuyo-shotoku",
   "gensen-choshu",
+  "shotoku-kojo",
   "kakutei-shinkoku",
   "kiso-kojo",
   "fuyo-kojo",
@@ -6492,16 +7821,21 @@
   "jutaku-loan-kojo"
  ],
  "j2-202405-37": [
+  "shotokuzei",
   "kojin-juminzei",
   "choki-joto",
   "shohizei",
+  "shotoku-kojo",
   "fukko-tokubetsu-shotokuzei"
  ],
  "j2-202405-38": [
+  "shoken-gaisha",
   "tokutei-koza",
+  "kabushiki",
   "haito-shotoku",
   "sogo-bunri-kazei",
   "sonneki-tsusan",
+  "haito",
   "toshi-shintaku"
  ],
  "j2-202405-39": [
@@ -6509,15 +7843,18 @@
   "rorei-kiso-nenkin",
   "rorei-kosei-nenkin",
   "fuka-nenkin",
+  "kokumin-nenkin",
   "nini-kanyu"
  ],
  "j2-202405-40": [
   "shobyo-teatekin",
+  "kenko-hoken",
   "hihokensha",
   "hyojun-hoshu-gessaku"
  ],
  "j2-202409-01": [
-  "bengoshi-ho"
+  "bengoshi-ho",
+  "shakai-hoken"
  ],
  "j2-202409-02": [
   "shohisha-keiyaku-ho"
@@ -6530,13 +7867,17 @@
   "tokubetsu-bunpaikin"
  ],
  "j2-202409-04": [
+  "kabushiki",
   "dollar-cost",
+  "haito",
   "ruitou",
-  "nariyuki-sashine"
+  "nariyuki-sashine",
+  "shoken-gaisha"
  ],
  "j2-202409-05": [
   "tokutei-koza",
   "gensen-choshu",
+  "saiken",
   "tts-ttb"
  ],
  "j2-202409-06": [
@@ -6555,17 +7896,21 @@
   "seito-jiyu"
  ],
  "j2-202409-11": [
+  "rimawari",
   "kotei-shisanzei",
   "fudosan-shotoku"
  ],
  "j2-202409-12": [
+  "seimei-hoken",
   "shunyu-hosho-hoken",
   "nyuin-shujutsu-kyufukin",
   "senshin-iryo-gijutsu"
  ],
  "j2-202409-13": [
+  "seimei-hoken",
   "tokuyaku",
   "hihokensha",
+  "hoken-ryo",
   "hoken-keiyakusha",
   "haraikomi-menjo"
  ],
@@ -6575,16 +7920,20 @@
   "hihokensha"
  ],
  "j2-202409-15": [
+  "seimei-hoken",
   "kiso-kojo",
   "hotei-sozokunin",
   "living-needs",
+  "hoken-ryo",
   "hihokensha",
   "manki-hokenkin",
   "yoro-hoken",
+  "shotokuzei",
   "kojin-juminzei",
   "ichiji-shotoku"
  ],
  "j2-202409-16": [
+  "shotokuzei",
   "jigyo-shotoku",
   "genka-shokyaku",
   "teiritsu-ho"
@@ -6600,6 +7949,7 @@
   "sakimono"
  ],
  "j2-202409-19": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "kanpu-shinkoku",
   "aoiro-shinkoku"
@@ -6609,6 +7959,7 @@
   "soshiki-hiyo"
  ],
  "j2-202409-21": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "sozoku-hoki"
  ],
@@ -6629,6 +7980,9 @@
  "j2-202409-25": [
   "cashflow-hyo"
  ],
+ "j2-202409-26": [
+  "kinri"
+ ],
  "j2-202409-27": [
   "yoro-hoken",
   "manki-hokenkin",
@@ -6644,7 +7998,8 @@
   "gensai-kikin-keisu"
  ],
  "j2-202409-30": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "j2-202409-31": [
   "kigyogata-dc",
@@ -6652,14 +8007,20 @@
   "shokibo-kyosai-kojo",
   "kojin-nenkin-hoken"
  ],
+ "j2-202409-32": [
+  "kinri"
+ ],
  "j2-202409-33": [
+  "kenko-hoken",
   "hihokensha",
   "kaigo-hoken",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "hyojun-hoshu-gessaku",
   "shakai-hoken-ryo-kojo"
  ],
  "j2-202409-34": [
+  "kosei-nenkin-hoken",
   "izoku-kiso-nenkin",
   "izoku-kosei-nenkin",
   "hihokensha",
@@ -6669,12 +8030,16 @@
   "koyo-hoken"
  ],
  "j2-202409-36": [
+  "kabushiki",
   "toshi-shintaku",
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "teiki-hoken"
  ],
  "j2-202409-37": [
+  "seimei-hoken",
   "shikikin",
+  "kabushiki",
   "toshi-shintaku",
   "kaiyaku-henreikin",
   "teiki-hoken",
@@ -6691,10 +8056,13 @@
   "gaika-yokin",
   "kawase-saeki",
   "ichiji-shotoku",
-  "kaiyaku-henreikin"
+  "kaiyaku-henreikin",
+  "hoken-ryo"
  ],
  "j2-202409-39": [
+  "kokumin-nenkin",
   "nini-kanyu",
+  "hoken-ryo",
   "rorei-kiso-nenkin",
   "fuka-nenkin",
   "hihokensha-shubetsu",
@@ -6706,9 +8074,14 @@
   "hihokensha"
  ],
  "j2-202501-01": [
+  "shakai-hoken",
   "kakutei-shinkoku",
   "zeirishi-ho",
   "igon"
+ ],
+ "j2-202501-02": [
+  "kojinjoho-hogo-ho",
+  "yohairyo-kojinjoho"
  ],
  "j2-202501-03": [
   "tokutei-koza",
@@ -6731,13 +8104,15 @@
   "per"
  ],
  "j2-202501-06": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "j2-202501-07": [
   "yosekiritsu"
  ],
  "j2-202501-08": [
   "fudosan-rimawari",
+  "rimawari",
   "kasai-hoken",
   "kotei-shisanzei"
  ],
@@ -6745,11 +8120,13 @@
   "shohizei"
  ],
  "j2-202501-10": [
+  "shotokuzei",
   "joto-shotoku",
   "kyojuyo-3000man",
   "choki-joto"
  ],
  "j2-202501-11": [
+  "seimei-hoken",
   "nyuin-shujutsu-kyufukin",
   "tokuyaku",
   "living-needs",
@@ -6758,6 +8135,7 @@
  ],
  "j2-202501-12": [
   "kojin-nenkin-hoken",
+  "hoken-ryo",
   "tokuyaku",
   "kaiyaku-henreikin",
   "zatsu-shotoku",
@@ -6776,27 +8154,34 @@
   "tokuyaku"
  ],
  "j2-202501-15": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "sonneki-tsusan",
   "fudosan-shotoku",
+  "kabushiki",
   "zatsu-shotoku"
  ],
  "j2-202501-16": [
   "haito-shotoku",
   "sogo-bunri-kazei",
   "kakutei-shinkoku",
+  "shotokuzei",
   "haito-kojo",
-  "kyuyo-shotoku"
+  "kyuyo-shotoku",
+  "shotoku-kojo"
  ],
  "j2-202501-17": [
   "kyuyo-shotoku",
+  "shotokuzei",
   "haigusha-kojo"
  ],
  "j2-202501-18": [
   "yoro-hoken",
   "manki-hokenkin",
-  "ichiji-shotoku"
+  "shotokuzei",
+  "ichiji-shotoku",
+  "hoken-ryo"
  ],
  "j2-202501-19": [
   "hotei-sozokubun",
@@ -6818,8 +8203,12 @@
  ],
  "j2-202501-23": [
   "cashflow-hyo",
+  "shakai-hoken",
+  "kosei-nenkin-hoken",
+  "kenko-hoken",
   "kaigo-hoken",
   "koyo-hoken",
+  "shotokuzei",
   "kojin-juminzei",
   "zaikei-chochiku",
   "kashobun-shotoku"
@@ -6844,8 +8233,10 @@
   "nenkin-genka-keisu"
  ],
  "j2-202501-29": [
+  "teiki-yokin",
   "yokin-hoken",
-  "sogo-bunri-kazei"
+  "sogo-bunri-kazei",
+  "kawase-soba"
  ],
  "j2-202501-30": [
   "kotei-shisanzei",
@@ -6862,16 +8253,20 @@
  ],
  "j2-202501-34": [
   "shobyo-teatekin",
+  "kenko-hoken",
   "hihokensha",
   "hyojun-hoshu-gessaku"
  ],
  "j2-202501-35": [
+  "kabushiki",
   "toshi-shintaku",
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "teiki-hoken"
  ],
  "j2-202501-36": [
   "gensen-choshu",
+  "shotokuzei",
   "taishoku-shotoku",
   "taishoku-shotoku-kojo"
  ],
@@ -6879,10 +8274,12 @@
   "shokibo-takuchi"
  ],
  "j2-202501-38": [
+  "saiken",
   "saishu-rimawari",
   "tanri"
  ],
  "j2-202501-39": [
+  "kosei-nenkin-hoken",
   "rorei-kosei-nenkin",
   "kakyu-nenkin",
   "hihokensha"
@@ -6890,6 +8287,7 @@
  "j2-202501-40": [
   "koki-koreisha-iryo-seido",
   "hihokensha",
+  "hoken-ryo",
   "kintowari",
   "shotokuwari"
  ],
@@ -6897,10 +8295,12 @@
   "hitsuyo-hosho-gaku",
   "igon",
   "suitei-sozokunin",
+  "kabushiki",
   "zeirishi-ho"
  ],
  "j2-202505-02": [
-  "shohisha-keiyaku-ho"
+  "shohisha-keiyaku-ho",
+  "fujitsu-kokuchi"
  ],
  "j2-202505-03": [
   "toshi-shintaku",
@@ -6910,7 +8310,9 @@
   "tokubetsu-bunpaikin"
  ],
  "j2-202505-04": [
+  "teiki-yokin",
   "gensen-choshu",
+  "ginko",
   "tts-ttb"
  ],
  "j2-202505-05": [
@@ -6920,9 +8322,11 @@
  ],
  "j2-202505-06": [
   "zaikei-chochiku",
+  "hoken-ryo",
   "gensen-choshu"
  ],
  "j2-202505-07": [
+  "teiki-yokin",
   "kessai-yokin",
   "igon"
  ],
@@ -6938,6 +8342,7 @@
  ],
  "j2-202505-11": [
   "fudosan-rimawari",
+  "rimawari",
   "kasai-hoken",
   "kotei-shisanzei"
  ],
@@ -6946,19 +8351,25 @@
  ],
  "j2-202505-13": [
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hihokensha",
+  "seimei-hoken",
   "tokuyaku",
   "gan-hoken",
   "nyuin-shujutsu-kyufukin",
   "teiki-hoken"
  ],
  "j2-202505-14": [
+  "seimei-hoken",
+  "shotokuzei",
   "ichiji-shotoku"
  ],
  "j2-202505-15": [
+  "seimei-hoken",
   "tokuyaku",
   "hihokensha",
   "hoken-keiyakusha",
+  "hoken-ryo",
   "haraikomi-menjo"
  ],
  "j2-202505-16": [
@@ -6971,33 +8382,40 @@
   "kasai-hoken"
  ],
  "j2-202505-18": [
+  "shotokuzei",
   "zatsu-shotoku",
   "yoro-hoken",
   "manki-hokenkin",
-  "ichiji-shotoku"
+  "ichiji-shotoku",
+  "hoken-ryo"
  ],
  "j2-202505-19": [
   "taishoku-shotoku",
   "taishoku-shotoku-kojo"
  ],
  "j2-202505-20": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "sonneki-tsusan",
   "fudosan-shotoku",
+  "kabushiki",
   "sogo-bunri-kazei",
   "zatsu-shotoku"
  ],
  "j2-202505-21": [
+  "shotokuzei",
   "jigyo-shotoku",
   "genka-shokyaku",
   "teigaku-ho"
  ],
  "j2-202505-22": [
+  "shotokuzei",
   "jishin-hokenryo-kojo",
   "iryohi-kojo",
   "kiso-kojo",
-  "kifukin-kojo"
+  "kifukin-kojo",
+  "shotoku-kojo"
  ],
  "j2-202505-23": [
   "hotei-sozokubun",
@@ -7027,6 +8445,9 @@
  "j2-202505-29": [
   "cashflow-hyo"
  ],
+ "j2-202505-30": [
+  "revolving-barai"
+ ],
  "j2-202505-31": [
   "fukuri",
   "genka-keisu"
@@ -7040,35 +8461,42 @@
   "gensai-kikin-keisu"
  ],
  "j2-202505-34": [
+  "seimei-hoken",
   "kaiyaku-henreikin"
  ],
  "j2-202505-35": [
+  "kinri",
   "ganri-kinto"
  ],
  "j2-202505-36": [
   "kuriage-jukyu",
   "kurisage-jukyu",
   "rorei-kiso-nenkin",
+  "kokumin-nenkin",
   "nini-kanyu",
   "rorei-kosei-nenkin",
   "kakyu-nenkin"
  ],
  "j2-202505-37": [
+  "kosei-nenkin-hoken",
   "hihokensha",
   "izoku-kosei-nenkin",
   "izoku-kiso-nenkin",
   "chukorei-kafu-kasan"
  ],
  "j2-202505-38": [
+  "kenko-hoken",
   "hihokensha",
   "shakai-hoken-ryo-kojo",
   "seimei-hokenryo-kojo",
   "hyojun-hoshu-gessaku",
   "kaigo-hoken",
-  "hihokensha-shubetsu"
+  "hihokensha-shubetsu",
+  "hoken-ryo"
  ],
  "j2-202505-39": [
   "kogaku-ryoyohi",
+  "kenko-hoken",
   "hihokensha",
   "hyojun-hoshu-gessaku"
  ],
@@ -7091,6 +8519,7 @@
   "tokubetsu-bunpaikin"
  ],
  "j2-202605-04": [
+  "saiken",
   "saishu-rimawari",
   "tanri"
  ],
@@ -7100,11 +8529,15 @@
   "pbr"
  ],
  "j2-202605-06": [
+  "shoken-gaisha",
   "tokutei-koza",
-  "sonneki-tsusan"
+  "kabushiki",
+  "sonneki-tsusan",
+  "haito"
  ],
  "j2-202605-07": [
-  "nisa"
+  "nisa",
+  "tsumitate-toshi"
  ],
  "j2-202605-08": [
   "kenpeiritsu",
@@ -7121,6 +8554,7 @@
   "tokuyaku"
  ],
  "j2-202605-11": [
+  "shotokuzei",
   "fudosan-shotoku",
   "aoiro-shinkoku-tokubetsu-kojo",
   "kasai-hoken",
@@ -7128,19 +8562,24 @@
   "genka-shokyaku"
  ],
  "j2-202605-12": [
+  "shotokuzei",
   "choki-joto",
   "joto-shotoku",
   "gaisan-shutokuhi"
  ],
  "j2-202605-13": [
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hihokensha",
+  "seimei-hoken",
   "tokuyaku",
   "nyuin-shujutsu-kyufukin",
   "teiki-hoken",
   "shushin-hoken"
  ],
  "j2-202605-14": [
+  "hoken-ryo",
+  "shotokuzei",
   "seimei-hokenryo-kojo",
   "keiyakusha-haitokin",
   "iryo-hoken",
@@ -7152,6 +8591,7 @@
  "j2-202605-15": [
   "yoro-hoken",
   "tokuyaku",
+  "hoken-ryo",
   "houjinzei",
   "hihokensha"
  ],
@@ -7166,6 +8606,7 @@
   "kasai-hoken"
  ],
  "j2-202605-18": [
+  "shotokuzei",
   "rorei-kiso-nenkin",
   "zatsu-shotoku",
   "izoku-kosei-nenkin",
@@ -7179,17 +8620,21 @@
  "j2-202605-20": [
   "haito-shotoku",
   "sogo-bunri-kazei",
+  "shotokuzei",
   "haito-kojo",
-  "kyuyo-shotoku"
+  "kyuyo-shotoku",
+  "shotoku-kojo"
  ],
  "j2-202605-21": [
   "aoiro-shinkoku",
+  "shotokuzei",
   "jigyo-shotoku",
   "aoiro-jigyo-senjusha-kyuyo",
   "aoiro-shinkoku-tokubetsu-kojo"
  ],
  "j2-202605-22": [
   "jutaku-loan-kojo",
+  "shotokuzei",
   "kojin-juminzei",
   "kakutei-shinkoku"
  ],
@@ -7237,9 +8682,14 @@
   "shihon-kaishu-keisu"
  ],
  "j2-202605-33": [
+  "seimei-hoken",
   "kaiyaku-henreikin"
  ],
+ "j2-202605-34": [
+  "kinri"
+ ],
  "j2-202605-35": [
+  "kinri",
   "ganri-kinto"
  ],
  "j2-202605-36": [
@@ -7247,18 +8697,21 @@
   "kurisage-jukyu"
  ],
  "j2-202605-37": [
+  "kosei-nenkin-hoken",
   "hihokensha",
   "izoku-kosei-nenkin",
   "izoku-kiso-nenkin",
   "chukorei-kafu-kasan"
  ],
  "j2-202605-38": [
+  "kenko-hoken",
   "shobyo-teatekin",
   "hyojun-hoshu-gessaku"
  ],
  "j2-202605-39": [
   "koki-koreisha-iryo-seido",
-  "hihokensha"
+  "hihokensha",
+  "hoken-ryo"
  ],
  "j2-202605-40": [
   "koyo-hoken",
@@ -7271,38 +8724,47 @@
   "shogai-kosei-nenkin",
   "shogai-kiso-nenkin",
   "shussan-teatekin",
+  "kenko-hoken",
   "nini-keizoku",
   "rosai-hoken"
  ],
  "j2o-j01-02": [
   "izoku-kosei-nenkin",
+  "hoken-ryo",
   "chukorei-kafu-kasan",
   "izoku-kiso-nenkin",
   "hihokensha",
-  "hokenho"
+  "kosei-nenkin-hoken"
  ],
  "j2o-j01-03": [
+  "kokumin-nenkin",
   "rorei-kiso-nenkin",
   "fuka-nenkin",
   "nini-kanyu",
   "hokenryo-menjo",
+  "hoken-ryo",
   "jun-fuka-hokenryo",
   "kokumin-nenkin-kikin"
  ],
  "j2o-j01-04": [
+  "hoken-ryo",
   "hihokensha",
   "shushin-hoken",
   "hotei-sozokunin",
   "hokenkin-juryonin",
+  "shotokuzei",
   "ichiji-shotoku",
   "izo",
+  "seimei-hoken",
   "minashi-sozoku-zaisan"
  ],
  "j2o-j01-05": [
   "hihokensha",
   "zatsu-shotoku",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
+  "hoken-ryo",
   "ichiji-shotoku",
   "kojin-nenkin-hoken"
  ],
@@ -7317,21 +8779,26 @@
  ],
  "j2o-j01-08": [
   "tokutei-koza",
+  "kabushiki",
+  "haito",
   "kakutei-shinkoku",
   "haito-shotoku",
   "sogo-bunri-kazei",
   "sonneki-tsusan",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kyuyo-shotoku",
   "joto-shotoku",
   "haito-kojo"
  ],
  "j2o-j01-09": [
-  "kojinmuke-kokusai"
+  "kojinmuke-kokusai",
+  "kinri"
  ],
  "j2o-j01-10": [
   "kyuyo-shotoku",
+  "shotokuzei",
   "fudosan-shotoku",
   "sonneki-tsusan",
   "ichiji-shotoku",
@@ -7342,6 +8809,7 @@
   "zatsu-shotoku",
   "haito-shotoku",
   "shotoku-10shu",
+  "haito",
   "junsonshitsu-kurikoshi-kojo",
   "aoiro-shinkoku"
  ],
@@ -7349,7 +8817,8 @@
   "kakutei-shinkoku",
   "iryohi-kojo",
   "self-medication",
-  "nyuin-shujutsu-kyufukin"
+  "nyuin-shujutsu-kyufukin",
+  "seimei-hoken"
  ],
  "j2o-j01-12": [
   "shohizei",
@@ -7358,6 +8827,7 @@
   "shiire-zeigaku-kojo"
  ],
  "j2o-j01-13": [
+  "kabushiki",
   "aoiro-shinkoku",
   "houjinzei",
   "kosaihi-sonkin-funyuu"
@@ -7373,6 +8843,7 @@
   "joto-shotoku",
   "shohizei",
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "genka-shokyaku",
   "baikai-hoshu",
@@ -7400,7 +8871,9 @@
  ],
  "j2o-j02-01": [
   "kyuyo-shotoku",
+  "kabushiki",
   "gensen-choshu",
+  "haito",
   "kakutei-shinkoku",
   "sonneki-tsusan",
   "joto-shotoku",
@@ -7441,6 +8914,7 @@
  ],
  "j2o-j02-05": [
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "shohizei",
@@ -7448,6 +8922,7 @@
   "baikai-hoshu"
  ],
  "j2o-j03-01": [
+  "kabushiki",
   "keiyakusha-haitokin",
   "ichiji-shotoku",
   "zatsu-shotoku",
@@ -7455,16 +8930,20 @@
   "haito-kojo",
   "haito-shotoku",
   "kakutei-shinkoku",
+  "haito",
   "yoro-hoken",
   "manki-hokenkin",
+  "hoken-ryo",
   "hihokensha",
-  "kojin-nenkin-hoken"
+  "kojin-nenkin-hoken",
+  "songai-hoken"
  ],
  "j2o-j03-02": [
   "rorei-kosei-nenkin",
   "rorei-kiso-nenkin",
   "kurisage-jukyu",
   "kakyu-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha",
   "hurikae-kasan",
   "kuriage-jukyu"
@@ -7498,26 +8977,32 @@
  "j2o-j04-01": [
   "kyuyo-shotoku",
   "jutaku-loan-kojo",
+  "shotokuzei",
   "kakutei-shinkoku",
   "kojin-juminzei",
-  "iryohi-kojo"
+  "iryohi-kojo",
+  "shotoku-kojo"
  ],
  "j2o-j04-02": [
   "kyuyo-shotoku",
   "iryohi-kojo",
   "self-medication",
+  "seimei-hoken",
   "nyuin-shujutsu-kyufukin",
   "kosei-seikyu",
   "shusei-shinkoku"
  ],
  "j2o-j04-03": [
+  "seimei-hoken",
   "hotei-sozokunin",
   "manki-hokenkin",
   "ichiji-shotoku",
+  "hoken-ryo",
   "hihokensha",
   "hokenkin-juryonin",
   "yoro-hoken",
   "kiso-kojo",
+  "shotokuzei",
   "zatsu-shotoku",
   "minashi-sozoku-zaisan",
   "rekinen-kazei",
@@ -7531,6 +9016,7 @@
   "rekinen-kazei",
   "tokurei-zeiritsu",
   "kiso-kojo",
+  "kyoiku-shikin",
   "sozokuji-seisan"
  ],
  "j2o-j05-01": [
@@ -7541,6 +9027,9 @@
   "zatsu-shotoku",
   "shokibo-kyosai-kojo",
   "ichiji-shotoku",
+  "shotokuzei",
+  "shotoku-kojo",
+  "hoken-ryo",
   "houjinzei",
   "kojin-nenkin-hoken"
  ],
@@ -7548,6 +9037,7 @@
   "joto-shotoku",
   "gaisan-shutokuhi",
   "choki-joto",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "baikai-hoshu",
   "kojin-juminzei",
@@ -7559,7 +9049,9 @@
  ],
  "j2o-j05-03": [
   "kyuyo-shotoku",
+  "shotoku-kojo",
   "kifukin-kojo",
+  "shotokuzei",
   "kojin-juminzei",
   "kakutei-shinkoku",
   "seimei-hokenryo-kojo",
@@ -7569,8 +9061,11 @@
  "j2o-j05-04": [
   "kyuyo-shotoku",
   "kakutei-shinkoku",
+  "hoken-ryo",
+  "seimei-hoken",
   "seimei-hokenryo-kojo",
   "jishin-hokenryo-kojo",
+  "songai-hoken",
   "jishin-hoken",
   "iryo-hoken",
   "kojin-nenkin-hoken",
@@ -7581,23 +9076,30 @@
   "zatsu-shotoku",
   "shogai-kiso-nenkin",
   "izoku-kosei-nenkin",
+  "shotokuzei",
   "rorei-kiso-nenkin",
   "rorei-kosei-nenkin",
+  "kokumin-nenkin",
   "fuka-nenkin",
-  "hokenho",
+  "kosei-nenkin-hoken",
+  "seimei-hoken",
   "minashi-sozoku-zaisan"
  ],
  "j2o-j06-01": [
   "kyuyo-shotoku",
+  "kabushiki",
   "keiyakusha-haitokin",
   "kakutei-shinkoku",
   "haito-shotoku",
   "sogo-bunri-kazei",
   "sonneki-tsusan",
   "haito-kojo",
+  "haito",
   "gensen-choshu",
+  "shoken-gaisha",
   "nisa",
-  "joto-shotoku"
+  "joto-shotoku",
+  "shotokuzei"
  ],
  "j2o-j06-02": [
   "aoiro-shinkoku",
@@ -7628,7 +9130,9 @@
   "enno",
   "rishizei",
   "rentai-nofu-gimu",
+  "kabushiki",
   "izo",
+  "bunkatsubarai",
   "shomi-isan-gaku",
   "haigusha-keigen",
   "isan-bunkatsu"
@@ -7653,6 +9157,7 @@
   "aoiro-shinkoku",
   "fudosan-shotoku",
   "aoiro-shinkoku-tokubetsu-kojo",
+  "shotokuzei",
   "aoiro-jigyo-senjusha-kyuyo",
   "kakutei-shinkoku",
   "etax",
@@ -7661,11 +9166,13 @@
  "j2o-j07-04": [
   "ideco",
   "taishoku-shotoku",
-  "taishoku-shotoku-kojo"
+  "taishoku-shotoku-kojo",
+  "shotokuzei"
  ],
  "j2o-j07-05": [
   "iryohi-kojo",
   "self-medication",
+  "kenko-hoken",
   "kogaku-ryoyohi",
   "iryo-hoken",
   "nyuin-shujutsu-kyufukin",
@@ -7674,22 +9181,30 @@
  "j2o-j08-01": [
   "kyuyo-shotoku",
   "jutaku-loan-kojo",
+  "shotokuzei",
   "kakutei-shinkoku"
  ],
  "j2o-j08-02": [
+  "seimei-hoken",
   "seimei-hokenryo-kojo",
+  "hoken-ryo",
   "kojin-nenkin-hoken",
   "iryo-hoken"
  ],
  "j2o-j08-03": [
   "zatsu-shotoku",
+  "seimei-hoken",
   "kojin-nenkin-hoken",
   "kyosai",
-  "hokenho",
-  "kakutei-kyufu-kigyo-nenkin"
+  "kokumin-nenkin",
+  "kosei-nenkin-hoken",
+  "kakutei-kyufu-kigyo-nenkin",
+  "hoken-ryo"
  ],
  "j2o-j08-04": [
+  "shoken-gaisha",
   "tokutei-koza",
+  "kabushiki",
   "kakutei-shinkoku",
   "joto-shotoku",
   "haito-shotoku",
@@ -7701,12 +9216,16 @@
   "kyuyo-shotoku",
   "kifukin-kojo",
   "kakutei-shinkoku",
+  "shotokuzei",
   "kojin-juminzei",
   "iryohi-kojo",
-  "shotokuwari"
+  "shotokuwari",
+  "shotoku-kojo"
  ],
  "j2o-j09-01": [
   "jutaku-loan-kojo",
+  "shotokuzei",
+  "atamakin",
   "kakutei-shinkoku"
  ],
  "j2o-j09-02": [
@@ -7714,9 +9233,12 @@
   "kakutei-shinkoku",
   "iryohi-kojo",
   "kokumin-kenko-hoken",
+  "hoken-ryo",
   "shakai-hoken-ryo-kojo",
   "haigusha-kojo",
   "fuyo-kojo",
+  "shotoku-kojo",
+  "shotokuzei",
   "shokibo-kyosai-kojo",
   "seimei-hokenryo-kojo",
   "jishin-hokenryo-kojo",
@@ -7731,15 +9253,20 @@
  ],
  "j2o-j09-04": [
   "zasson-kojo",
+  "shotoku-kojo",
   "genjo-kaifuku",
+  "shotokuzei",
   "iryohi-kojo"
  ],
  "j2o-j09-05": [
   "ideco",
   "kakutei-shinkoku",
+  "hoken-ryo",
   "shokibo-kyosai-kojo",
+  "shotokuzei",
   "kyuyo-shotoku",
   "kanpu-shinkoku",
+  "shotoku-kojo",
   "gensen-choshu",
   "seimei-hokenryo-kojo"
  ],
@@ -7749,11 +9276,13 @@
   "etax",
   "jigyo-shotoku",
   "aoiro-shinkoku-tokubetsu-kojo",
+  "shotokuzei",
   "aoiro-jigyo-senjusha-kyuyo"
  ],
  "j2o-j10-02": [
   "tokutei-shishutsu-kojo",
   "kakutei-shinkoku",
+  "shotokuzei",
   "kyuyo-shotoku-kojo",
   "kosaihi-sonkin-funyuu",
   "kyuyo-shotoku"
@@ -7769,6 +9298,7 @@
   "entaizei",
   "kosei-seikyu",
   "shomi-isan-gaku",
+  "shotokuzei",
   "kakutei-shinkoku",
   "izo",
   "shusei-shinkoku"
@@ -7778,6 +9308,7 @@
   "kakutei-shinkoku",
   "taishoku-shotoku-kojo",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "sogo-bunri-kazei",
   "iryohi-kojo",
@@ -7803,22 +9334,28 @@
   "sozokuji-seisan"
  ],
  "j2o-j11-03": [
+  "shotokuzei",
   "izo"
  ],
  "j2o-j11-04": [
+  "shotokuzei",
   "zasson-kojo",
   "taishoku-shotoku",
-  "sanrin-shotoku"
+  "sanrin-shotoku",
+  "shotoku-kojo"
  ],
  "j2o-j11-05": [
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "fuyo-kojo",
+  "shotokuzei",
   "gensen-choshu",
   "fukko-tokubetsu-shotokuzei",
+  "shotoku-kojo",
   "jutaku-loan-kojo"
  ],
  "j2o-j12-01": [
+  "shotokuzei",
   "yotei-nozei",
   "jigyo-shotoku",
   "kakutei-shinkoku",
@@ -7827,8 +9364,10 @@
   "kasanzei"
  ],
  "j2o-j12-02": [
+  "shotokuzei",
   "gensen-choshu",
   "fukko-tokubetsu-shotokuzei",
+  "haito",
   "kasanzei",
   "entaizei",
   "yotei-nozei"
@@ -7838,9 +9377,11 @@
   "iryohi-kojo",
   "shusei-shinkoku",
   "kosei-seikyu",
+  "shotoku-kojo",
   "kasanzei",
   "entaizei",
-  "haigusha-keigen"
+  "haigusha-keigen",
+  "shotokuzei"
  ],
  "j2o-j12-04": [
   "shohizei",
@@ -7854,7 +9395,9 @@
   "fuyo-kojo",
   "kakutei-shinkoku",
   "gensen-choshu",
-  "kyuyo-shotoku-kojo"
+  "kyuyo-shotoku-kojo",
+  "shotoku-kojo",
+  "shotokuzei"
  ],
  "j2o-j13-01": [
   "kyuyo-shotoku",
@@ -7863,7 +9406,8 @@
   "kakutei-shinkoku",
   "kosei-seikyu",
   "hokensha",
-  "shusei-shinkoku"
+  "shusei-shinkoku",
+  "shotoku-kojo"
  ],
  "j2o-j13-02": [
   "kyuyo-shotoku",
@@ -7876,6 +9420,7 @@
  ],
  "j2o-j13-03": [
   "gensen-choshu",
+  "shotokuzei",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
   "shotoku-10shu",
@@ -7884,32 +9429,39 @@
  "j2o-j13-04": [
   "kyuyo-shotoku",
   "jutaku-loan-kojo",
+  "shotokuzei",
   "kakutei-shinkoku",
   "toki-jiko-shomeisho",
   "gensen-choshu",
   "jutaku-loan-karikae",
-  "joto-shotoku"
+  "joto-shotoku",
+  "ginko"
  ],
  "j2o-j13-05": [
   "jigyo-shotoku",
   "kotei-shisanzei",
-  "kojin-juminzei"
+  "kojin-juminzei",
+  "shotokuzei"
  ],
  "j2o-j14-01": [
   "ideco",
   "taishoku-shotoku-kojo",
   "taishoku-shotoku",
-  "zatsu-shotoku"
+  "zatsu-shotoku",
+  "shotokuzei"
  ],
  "j2o-j14-02": [
+  "seimei-hoken",
   "kaiyaku-henreikin",
   "ichiji-shotoku",
+  "hoken-ryo",
   "zatsu-shotoku",
   "yoro-hoken",
   "sogo-bunri-kazei",
   "shushin-hoken",
   "kyuyo-shotoku",
   "hokenkin-juryonin",
+  "shotokuzei",
   "rekinen-kazei",
   "kiso-kojo",
   "gensen-choshu",
@@ -7918,12 +9470,15 @@
  "j2o-j14-03": [
   "joto-shotoku",
   "choki-joto",
+  "shotokuzei",
   "shohizei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
   "kaikae-tokurei"
  ],
  "j2o-j14-04": [
+  "hoken-ryo",
+  "seimei-hoken",
   "kiso-kojo",
   "hotei-sozokunin",
   "sozoku-hoki",
@@ -7935,6 +9490,7 @@
   "shokibo-takuchi"
  ],
  "j2o-j15-01": [
+  "kyoiku-shikin",
   "izo",
   "kiso-kojo",
   "zoyozei-kiso-kojo"
@@ -7942,10 +9498,12 @@
  "j2o-j15-02": [
   "kiso-kojo",
   "zoyozei-kiso-kojo",
-  "izo"
+  "izo",
+  "kyoiku-shikin"
  ],
  "j2o-j15-03": [
   "tokutei-koza",
+  "kabushiki",
   "haito-shotoku",
   "kakutei-shinkoku",
   "sogo-bunri-kazei",
@@ -7953,6 +9511,7 @@
   "nisa",
   "sonneki-tsusan",
   "joto-shotoku",
+  "haito",
   "kyuyo-shotoku",
   "junsonshitsu-kurikoshi-kojo",
   "aoiro-shinkoku",
@@ -7962,7 +9521,9 @@
   "shogaisha-kojo",
   "izo",
   "hotei-sozokunin",
-  "miseinensha-no-zeigaku-kojo"
+  "miseinensha-no-zeigaku-kojo",
+  "shotokuzei",
+  "shotoku-kojo"
  ],
  "j2o-j15-05": [
   "jutaku-loan-kojo",
@@ -7972,17 +9533,21 @@
  ],
  "j2o-j16-01": [
   "hitsuyo-hosho-gaku",
+  "seimei-hoken",
   "izoku-kiso-nenkin",
   "izoku-kosei-nenkin",
+  "kosei-nenkin-hoken",
   "hihokensha",
+  "kokumin-nenkin",
   "dantai-teiki-hoken",
   "teiki-hoken",
-  "shunyu-hosho-hoken",
-  "hokenho"
+  "shunyu-hosho-hoken"
  ],
  "j2o-j16-02": [
   "kasai-hoken",
   "jishin-hoken",
+  "hoken-ryo",
+  "songai-hoken",
   "hoken-keiyakusha",
   "hihokensha",
   "hoken-kagaku",
@@ -7995,6 +9560,8 @@
   "kaigo-hoken",
   "yokaigo-nintei",
   "iryo-hoken",
+  "seimei-hoken",
+  "minkan-hoken",
   "iryohi-kojo"
  ],
  "j2o-j16-04": [
@@ -8002,6 +9569,7 @@
   "kuriage-hensai",
   "shihon-kaishu-keisu",
   "jutaku-loan-kojo",
+  "kinri",
   "ganri-kinto"
  ],
  "j2o-j16-05": [
@@ -8010,12 +9578,15 @@
   "teiki-shakuya",
   "genka-shokyaku",
   "kotei-shisanzei",
+  "songai-hoken",
+  "kinri",
   "futsu-shakuya",
   "seito-jiyu"
  ],
  "j2o-j17-01": [
   "shihon-kaishu-keisu",
   "baikai-hoshu",
+  "kinri",
   "ganri-kinto",
   "flat35",
   "kyoiku-loan"
@@ -8027,10 +9598,13 @@
   "rorei-kosei-nenkin",
   "kakyu-nenkin",
   "hurikae-kasan",
+  "rogo-shikin",
   "kuriage-jukyu"
  ],
  "j2o-j17-03": [
   "cashflow-hyo",
+  "kyoiku-shikin",
+  "rogo-shikin",
   "life-event-hyo"
  ],
  "j2o-j17-04": [
@@ -8047,21 +9621,26 @@
   "joto-shotoku"
  ],
  "j2o-j18-01": [
+  "kabushiki",
   "keiyakusha-haitokin",
   "kakutei-shinkoku",
   "haito-shotoku",
   "sogo-bunri-kazei",
   "haito-kojo",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "kojin-juminzei",
+  "haito",
   "shusei-shinkoku",
   "kosei-seikyu",
   "sonneki-tsusan",
   "gensen-choshu"
  ],
  "j2o-j18-02": [
+  "teiki-yokin",
   "kawase-saeki",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "gaika-yokin",
   "kakutei-shinkoku",
@@ -8069,31 +9648,41 @@
   "zatsu-shotoku",
   "joto-shotoku",
   "rishi-shotoku",
+  "ginko",
+  "kawase-soba",
   "tts-ttb",
   "ttm"
  ],
  "j2o-j18-03": [
   "kojinmuke-kokusai",
+  "kinri",
   "keika-rishi"
  ],
  "j2o-j18-04": [
   "kigyogata-dc",
   "kakutei-kyufu-kigyo-nenkin",
+  "futsu-yokin",
   "ideco",
   "dattai-ichijikin",
   "kyosai"
  ],
  "j2o-j18-05": [
+  "shoken-gaisha",
   "tokutei-koza",
+  "kabushiki",
   "kakutei-shinkoku",
   "gensen-choshu",
+  "shotokuzei",
   "fukko-tokubetsu-shotokuzei",
   "joto-shotoku",
+  "haito",
   "kojin-juminzei",
   "joto-sonshitsu-kurikoshi",
   "sonneki-tsusan"
  ],
  "j2o-j19-01": [
+  "rimawari",
+  "kinri",
   "fudosan-rimawari",
   "fudosan-shotoku"
  ],
@@ -8119,6 +9708,7 @@
  ],
  "j2o-j20-01": [
   "hitsuyo-hosho-gaku",
+  "seimei-hoken",
   "izoku-kosei-nenkin",
   "teiki-hoken",
   "shushin-hoken",
@@ -8127,6 +9717,7 @@
  ],
  "j2o-j20-02": [
   "shushin-hoken",
+  "hoken-ryo",
   "keiyakusha-kashitsuke",
   "kaiyaku-henreikin",
   "haraizumi-hoken",
@@ -8135,6 +9726,7 @@
   "hihokensha",
   "fukuri",
   "encho-hoken",
+  "seimei-hoken",
   "yoro-hoken",
   "living-needs",
   "shikko-fukkatsu"
@@ -8144,9 +9736,11 @@
   "kazai-hoken",
   "jishin-hoken",
   "hoken-kagaku",
+  "songai-hoken",
   "hirei-tenpo"
  ],
  "j2o-j20-04": [
+  "kenko-hoken",
   "iryo-hoken",
   "kogaku-ryoyohi",
   "senshin-iryo-gijutsu",
@@ -8162,9 +9756,12 @@
   "jinshin-shogai-hosho",
   "jibaiseki",
   "shogai-hoken",
+  "songai-hoken",
   "tojosha-shogai-hoken"
  ],
  "j2o-j21-01": [
+  "ginko",
+  "kinri",
   "flat35",
   "jutaku-loan-karikae",
   "ganri-kinto",
@@ -8172,17 +9769,23 @@
   "kuriage-hensai"
  ],
  "j2o-j21-02": [
+  "kinri",
   "ganri-kinto",
   "jutaku-loan-karikae"
  ],
  "j2o-j21-03": [
+  "kyoiku-shikin",
   "shogakukin",
+  "shogakukin-henkan",
   "kyoiku-loan"
  ],
  "j2o-j21-04": [
   "rorei-kiso-nenkin",
   "hihokensha-shubetsu",
+  "hoken-ryo",
   "hihokensha",
+  "kosei-nenkin-hoken",
+  "kokumin-nenkin",
   "rorei-kosei-nenkin"
  ],
  "j2o-j21-05": [
@@ -8191,6 +9794,8 @@
   "hihokensha"
  ],
  "j2o-j22-01": [
+  "saiken",
+  "rimawari",
   "tanri",
   "oubosha-rimawari",
   "saishu-rimawari",
@@ -8199,25 +9804,34 @@
   "capital-gain"
  ],
  "j2o-j22-02": [
-  "keika-rishi"
+  "keika-rishi",
+  "saiken"
  ],
  "j2o-j22-03": [
+  "kabushiki",
+  "saiken",
   "portfolio",
   "sokan-keisu",
   "bunsan-toshi",
   "sharpe-ratio"
  ],
  "j2o-j22-04": [
+  "kabushiki",
   "haito-rimawari",
   "roe",
   "per",
   "pbr",
-  "keiyakusha-haitokin"
+  "keiyakusha-haitokin",
+  "rimawari",
+  "saiken",
+  "heikinchi",
+  "haito"
  ],
  "j2o-j22-05": [
   "toshi-shintaku",
   "shintaku-hoshu",
   "shintaku-zaisan-ryuho",
+  "ginko",
   "mokuromi"
  ],
  "j2o-j23-01": [
@@ -8251,12 +9865,15 @@
   "yosekiritsu"
  ],
  "j3-202405-01": [
+  "kabushiki",
+  "seimei-hoken",
   "kinsho-ho"
  ],
  "j3-202405-02": [
   "cashflow-hyo"
  ],
  "j3-202405-04": [
+  "rogo-shikin",
   "fukuri",
   "nenkin-shuka-keisu"
  ],
@@ -8264,6 +9881,7 @@
   "izoku-kiso-nenkin"
  ],
  "j3-202405-06": [
+  "kabushiki",
   "per",
   "pbr",
   "haito-rimawari"
@@ -8273,6 +9891,7 @@
   "index-fund"
  ],
  "j3-202405-08": [
+  "teiki-yokin",
   "tts-ttb"
  ],
  "j3-202405-09": [
@@ -8288,30 +9907,38 @@
   "jigyoyo-teiki-shakuchiken"
  ],
  "j3-202405-12": [
+  "seimei-hoken",
   "tokuyaku",
   "shushin-hoken",
   "teiki-hoken"
  ],
  "j3-202405-13": [
+  "seimei-hoken",
   "hoken-keiyakusha",
+  "hoken-ryo",
   "hihokensha",
   "hokenkin-juryonin",
+  "shotokuzei",
   "kojin-juminzei",
   "ichiji-shotoku"
  ],
  "j3-202405-14": [
   "jishin-hoken",
-  "kasai-hoken"
+  "kasai-hoken",
+  "hoken-ryo"
  ],
  "j3-202405-15": [
+  "shotokuzei",
   "kyuyo-shotoku-kojo",
   "kyuyo-shotoku"
  ],
  "j3-202405-16": [
+  "shotokuzei",
   "taishoku-shotoku",
   "taishoku-shotoku-kojo"
  ],
  "j3-202405-17": [
+  "shotokuzei",
   "choki-joto",
   "joto-shotoku"
  ],
@@ -8328,7 +9955,8 @@
   "kiso-kojo"
  ],
  "j3-202505-01": [
-  "jutaku-loan-kojo"
+  "jutaku-loan-kojo",
+  "seimei-hoken"
  ],
  "j3-202505-02": [
   "cashflow-hyo"
@@ -8343,6 +9971,7 @@
   "kurisage-jukyu"
  ],
  "j3-202505-06": [
+  "kabushiki",
   "per",
   "pbr",
   "haito-seiko"
@@ -8352,19 +9981,25 @@
   "shintaku-hoshu"
  ],
  "j3-202505-08": [
-  "dollar-cost"
+  "dollar-cost",
+  "kabushiki"
  ],
  "j3-202505-10": [
   "teitoken"
  ],
  "j3-202505-11": [
+  "shotokuzei",
   "fudosan-shotoku",
   "genka-shokyaku"
  ],
  "j3-202505-12": [
+  "seimei-hoken",
   "nyuin-shujutsu-kyufukin"
  ],
  "j3-202505-13": [
+  "seimei-hoken",
+  "hoken-ryo",
+  "shotokuzei",
   "seimei-hokenryo-kojo",
   "iryo-hoken"
  ],
@@ -8373,19 +10008,23 @@
   "kojin-baisho-sekinin"
  ],
  "j3-202505-15": [
+  "shotokuzei",
   "kakutei-shinkoku",
   "kyuyo-shotoku",
   "sonneki-tsusan",
   "fudosan-shotoku",
+  "kinri",
   "zatsu-shotoku"
  ],
  "j3-202505-16": [
+  "shotokuzei",
   "fuyo-kojo",
   "haigusha-kojo"
  ],
  "j3-202505-17": [
   "yoro-hoken",
   "manki-hokenkin",
+  "shotokuzei",
   "ichiji-shotoku",
   "sogo-bunri-kazei"
  ],
@@ -8394,6 +10033,7 @@
   "sozoku-hoki"
  ],
  "j3-202505-19": [
+  "seimei-hoken",
   "hotei-sozokunin"
  ],
  "j3-202505-20": [
@@ -8405,6 +10045,7 @@
  ],
  "j3-202605-01": [
   "isan-bunkatsu",
+  "shakai-hoken",
   "nenkin-teikibin",
   "bengoshi-ho"
  ],
@@ -8412,14 +10053,17 @@
   "cashflow-hyo"
  ],
  "j3-202605-04": [
+  "rogo-shikin",
   "fukuri",
   "shihon-kaishu-keisu"
  ],
  "j3-202605-05": [
+  "kenko-hoken",
   "nini-keizoku",
   "hihokensha"
  ],
  "j3-202605-06": [
+  "kabushiki",
   "pbr",
   "per"
  ],
@@ -8428,6 +10072,7 @@
   "shintaku-hoshu"
  ],
  "j3-202605-08": [
+  "saiken",
   "oubosha-rimawari",
   "tanri"
  ],
@@ -8441,9 +10086,11 @@
   "shueki-kangenho"
  ],
  "j3-202605-12": [
+  "seimei-hoken",
   "nyuin-shujutsu-kyufukin"
  ],
  "j3-202605-13": [
+  "seimei-hoken",
   "hitsuyo-hosho-gaku"
  ],
  "j3-202605-14": [
@@ -8451,14 +10098,18 @@
   "sharyo-hoken"
  ],
  "j3-202605-15": [
-  "aoiro-shinkoku"
+  "aoiro-shinkoku",
+  "shotoku-kojo",
+  "shotokuzei"
  ],
  "j3-202605-16": [
+  "shotokuzei",
   "iryohi-kojo",
   "kyuyo-shotoku",
   "self-medication"
  ],
  "j3-202605-17": [
+  "shotokuzei",
   "aoiro-shinkoku",
   "sanrin-shotoku",
   "zatsu-shotoku",
@@ -8476,5 +10127,990 @@
  ],
  "j3-202605-20": [
   "shokibo-takuchi"
+ ],
+ "lit-a01-01": [
+  "life-planning"
+ ],
+ "lit-a01-02": [
+  "sandai-shishutsu",
+  "kyoiku-shikin",
+  "rogo-shikin"
+ ],
+ "lit-a01-04": [
+  "sandai-shishutsu",
+  "rogo-shikin",
+  "atamakin",
+  "kyoiku-shikin"
+ ],
+ "lit-a01-05": [
+  "kashobun-shotoku",
+  "shakai-hoken"
+ ],
+ "lit-a01-06": [
+  "shakai-hoken"
+ ],
+ "lit-a01-07": [
+  "kashobun-shotoku"
+ ],
+ "lit-a01-08": [
+  "hendo-hi",
+  "kotei-hi",
+  "shakai-hoken",
+  "hoken-ryo",
+  "kyuyo-meisai"
+ ],
+ "lit-a01-09": [
+  "sakidori-chokin"
+ ],
+ "lit-a01-10": [
+  "sakidori-chokin"
+ ],
+ "lit-a01-11": [
+  "zaikei-chochiku"
+ ],
+ "lit-a01-13": [
+  "cashflow-hyo"
+ ],
+ "lit-a01-14": [
+  "cashflow-hyo",
+  "life-event-hyo"
+ ],
+ "lit-a01-15": [
+  "life-planning"
+ ],
+ "lit-a01-16": [
+  "life-planning",
+  "kojin-balance-sheet",
+  "life-event-hyo",
+  "cashflow-hyo"
+ ],
+ "lit-a01-17": [
+  "kinkyu-yobi-shikin",
+  "life-planning"
+ ],
+ "lit-a01-19": [
+  "kinkyu-yobi-shikin",
+  "kabushiki"
+ ],
+ "lit-a01-20": [
+  "rodo-haken"
+ ],
+ "lit-a01-21": [
+  "hiseiki-koyo"
+ ],
+ "lit-a01-22": [
+  "muki-tenkan",
+  "tenkan-seido"
+ ],
+ "lit-a01-23": [
+  "hotei-rodo-jikan"
+ ],
+ "lit-a01-25": [
+  "rodo-joken-meiji",
+  "saitei-chingin"
+ ],
+ "lit-a02-01": [
+  "gensen-choshu",
+  "shakai-hoken"
+ ],
+ "lit-a02-02": [
+  "shotokuzei",
+  "gensen-choshu",
+  "fukko-tokubetsu-shotokuzei",
+  "kyuyo-meisai"
+ ],
+ "lit-a02-03": [
+  "rosai-hoken",
+  "kenko-hoken",
+  "kosei-nenkin-hoken",
+  "hoken-ryo"
+ ],
+ "lit-a02-04": [
+  "kyuyo-meisai",
+  "rosai-hoken",
+  "shakai-hoken",
+  "shotokuzei",
+  "gensen-choshu",
+  "kojin-juminzei",
+  "hoken-ryo",
+  "kenko-hoken",
+  "kosei-nenkin-hoken",
+  "koyo-hoken",
+  "fukko-tokubetsu-shotokuzei"
+ ],
+ "lit-a02-05": [
+  "kyuyo-shotoku",
+  "taishoku-shotoku",
+  "kakutei-shinkoku",
+  "jigyo-shotoku",
+  "zatsu-shotoku",
+  "gensen-choshu"
+ ],
+ "lit-a02-06": [
+  "kakutei-shinkoku",
+  "kyuyo-shotoku",
+  "taishoku-shotoku"
+ ],
+ "lit-a02-07": [
+  "kenko-hoken",
+  "hihokensha"
+ ],
+ "lit-a02-08": [
+  "kenko-hoken",
+  "hihokensha"
+ ],
+ "lit-a02-09": [
+  "shogakukin",
+  "taiyo-shogakukin"
+ ],
+ "lit-a02-10": [
+  "shogakukin"
+ ],
+ "lit-a02-11": [
+  "taiyo-shogakukin",
+  "shogakukin"
+ ],
+ "lit-a02-12": [
+  "shogakukin-henkan"
+ ],
+ "lit-a02-13": [
+  "shikikin",
+  "baikai-hoshu",
+  "kasai-hoken"
+ ],
+ "lit-a02-14": [
+  "shikikin"
+ ],
+ "lit-a02-15": [
+  "shikikin",
+  "baikai-hoshu",
+  "shohizei",
+  "genjo-kaifuku"
+ ],
+ "lit-a02-16": [
+  "jido-teate"
+ ],
+ "lit-a02-17": [
+  "jido-teate"
+ ],
+ "lit-a02-18": [
+  "jido-teate",
+  "shussan-ikuji-ichijikin",
+  "kenko-hoken",
+  "hihokensha",
+  "iryo-hoken",
+  "hokensha"
+ ],
+ "lit-a02-19": [
+  "flat35",
+  "kinri",
+  "life-planning"
+ ],
+ "lit-a02-20": [
+  "flat35",
+  "kinri"
+ ],
+ "lit-a02-21": [
+  "jutaku-loan-kojo",
+  "shotokuzei"
+ ],
+ "lit-a02-22": [
+  "flat35",
+  "kinri",
+  "jutaku-loan-kojo",
+  "shotokuzei"
+ ],
+ "lit-a02-23": [
+  "rorei-kiso-nenkin",
+  "hoken-ryo",
+  "kokumin-nenkin",
+  "hokenryo-menjo"
+ ],
+ "lit-a02-24": [
+  "rorei-kiso-nenkin",
+  "hoken-ryo",
+  "hokenryo-menjo"
+ ],
+ "lit-a02-25": [
+  "rorei-kiso-nenkin",
+  "kurisage-jukyu"
+ ],
+ "lit-b01-02": [
+  "keiyaku-seiritsu"
+ ],
+ "lit-b01-03": [
+  "cooling-off"
+ ],
+ "lit-b01-04": [
+  "keiyaku-seiritsu"
+ ],
+ "lit-b01-08": [
+  "bunkatsubarai",
+  "seigen-koui-noryokusha"
+ ],
+ "lit-b01-09": [
+  "shohisha-keiyaku-ho"
+ ],
+ "lit-b01-10": [
+  "shohisha-keiyaku-ho",
+  "fujitsu-kokuchi"
+ ],
+ "lit-b01-11": [
+  "shohisha-keiyaku-ho"
+ ],
+ "lit-b01-12": [
+  "toshi-shintaku",
+  "shohisha-keiyaku-ho",
+  "danteki-handan"
+ ],
+ "lit-b01-13": [
+  "homon-hanbai",
+  "cooling-off",
+  "cooling-off-tokushoho"
+ ],
+ "lit-b01-14": [
+  "cooling-off"
+ ],
+ "lit-b01-15": [
+  "cooling-off",
+  "homon-hanbai"
+ ],
+ "lit-b01-16": [
+  "tsushin-hanbai",
+  "tokuyaku",
+  "homon-hanbai",
+  "cooling-off"
+ ],
+ "lit-b01-17": [
+  "homon-hanbai",
+  "cooling-off",
+  "tsushin-hanbai",
+  "tokuyaku"
+ ],
+ "lit-b01-18": [
+  "denshi-shohisha-keiyakuho"
+ ],
+ "lit-b01-19": [
+  "tsushin-hanbai",
+  "cooling-off",
+  "homon-hanbai",
+  "tokutei-shotorihiki-ho"
+ ],
+ "lit-b01-20": [
+  "tenken-shoho"
+ ],
+ "lit-b01-21": [
+  "kaku-seikyu"
+ ],
+ "lit-b01-22": [
+  "cooling-off",
+  "homon-hanbai",
+  "tokutei-shotorihiki-ho"
+ ],
+ "lit-b01-23": [
+  "maruchi-shoho",
+  "cooling-off",
+  "homon-hanbai"
+ ],
+ "lit-b01-25": [
+  "cooling-off",
+  "maruchi-shoho",
+  "tokutei-shotorihiki-ho"
+ ],
+ "lit-b02-02": [
+  "yami-kinyu",
+  "kinri"
+ ],
+ "lit-b02-03": [
+  "yami-kinyu"
+ ],
+ "lit-b02-04": [
+  "kojinjoho-hogo-ho"
+ ],
+ "lit-b02-05": [
+  "kojinjoho-hogo-ho"
+ ],
+ "lit-b02-06": [
+  "kojinjoho-hogo-ho",
+  "yohairyo-kojinjoho"
+ ],
+ "lit-b02-07": [
+  "shohisha-hotline"
+ ],
+ "lit-b02-08": [
+  "shohisha-hotline"
+ ],
+ "lit-b02-09": [
+  "shohisha-hotline"
+ ],
+ "lit-b02-13": [
+  "bunkatsubarai"
+ ],
+ "lit-b02-14": [
+  "revolving-barai"
+ ],
+ "lit-b02-15": [
+  "revolving-barai"
+ ],
+ "lit-b02-16": [
+  "ganri-kinto"
+ ],
+ "lit-b02-17": [
+  "ganking-kinto",
+  "ganri-kinto"
+ ],
+ "lit-b02-18": [
+  "ganking-kinto",
+  "kinri"
+ ],
+ "lit-b02-19": [
+  "keiki-doko"
+ ],
+ "lit-b02-20": [
+  "ginko"
+ ],
+ "lit-b02-21": [
+  "ginko"
+ ],
+ "lit-b02-22": [
+  "tajusaimu"
+ ],
+ "lit-b02-23": [
+  "saimu-seiri"
+ ],
+ "lit-b02-24": [
+  "saimu-seiri"
+ ],
+ "lit-b02-25": [
+  "saimu-seiri",
+  "ginko"
+ ],
+ "lit-c01-01": [
+  "yokin-hoken",
+  "ginko",
+  "shinkin-shinkumi"
+ ],
+ "lit-c01-02": [
+  "shoken-gaisha",
+  "yokin-hoken",
+  "songai-hoken",
+  "hoken-keiyakusha"
+ ],
+ "lit-c01-03": [
+  "yokin-hoken",
+  "shoken-gaisha",
+  "ginko"
+ ],
+ "lit-c01-04": [
+  "yokin-hoken"
+ ],
+ "lit-c01-05": [
+  "nippon-ginko",
+  "ginko"
+ ],
+ "lit-c01-06": [
+  "nippon-ginko",
+  "kabushiki"
+ ],
+ "lit-c01-07": [
+  "nippon-ginko",
+  "kinyu-seisaku"
+ ],
+ "lit-c01-08": [
+  "nippon-ginko",
+  "kinyu-seisaku"
+ ],
+ "lit-c01-09": [
+  "kinri",
+  "kinyu-seisaku"
+ ],
+ "lit-c01-10": [
+  "yokin-hoken",
+  "hoken-ryo"
+ ],
+ "lit-c01-11": [
+  "futsu-yokin",
+  "teiki-yokin"
+ ],
+ "lit-c01-12": [
+  "payoff"
+ ],
+ "lit-c01-13": [
+  "yokin-hoken",
+  "gaika-yokin",
+  "kessai-yokin",
+  "futsu-yokin"
+ ],
+ "lit-c01-14": [
+  "kansetsu-kinyu",
+  "ginko"
+ ],
+ "lit-c01-15": [
+  "chokusetsu-kinyu",
+  "ginko",
+  "kansetsu-kinyu"
+ ],
+ "lit-c01-16": [
+  "chokusetsu-kinyu",
+  "ginko",
+  "kansetsu-kinyu"
+ ],
+ "lit-c01-17": [
+  "chokusetsu-kinyu",
+  "kansetsu-kinyu",
+  "ginko",
+  "shoken-gaisha"
+ ],
+ "lit-c01-18": [
+  "gdp",
+  "nippon-ginko"
+ ],
+ "lit-c01-19": [
+  "keiki-doko"
+ ],
+ "lit-c01-20": [
+  "keiki-doko"
+ ],
+ "lit-c01-21": [
+  "keiki-doko",
+  "tenkan-seido"
+ ],
+ "lit-c01-22": [
+  "inflation"
+ ],
+ "lit-c01-23": [
+  "deflation",
+  "inflation"
+ ],
+ "lit-c01-24": [
+  "kinyu-seisaku",
+  "nippon-ginko"
+ ],
+ "lit-c01-25": [
+  "cpi",
+  "kigyo-bukka-shisu",
+  "nippon-ginko"
+ ],
+ "lit-c02-01": [
+  "nippon-ginko",
+  "seisaku-kinri",
+  "call-option",
+  "kinri"
+ ],
+ "lit-c02-02": [
+  "nippon-ginko",
+  "kinri",
+  "kokai-shijo-sosa"
+ ],
+ "lit-c02-03": [
+  "nippon-ginko",
+  "seisaku-kinri",
+  "kinri"
+ ],
+ "lit-c02-04": [
+  "kinri"
+ ],
+ "lit-c02-05": [
+  "nippon-ginko",
+  "kinri"
+ ],
+ "lit-c02-06": [
+  "kawase-soba"
+ ],
+ "lit-c02-08": [
+  "kawase-soba"
+ ],
+ "lit-c02-10": [
+  "kawase-kainyu",
+  "nippon-ginko",
+  "kawase-soba"
+ ],
+ "lit-c02-11": [
+  "heikinchi",
+  "chuochi"
+ ],
+ "lit-c02-12": [
+  "chuochi"
+ ],
+ "lit-c02-13": [
+  "heikinchi",
+  "chuochi"
+ ],
+ "lit-c02-14": [
+  "cpi"
+ ],
+ "lit-c02-16": [
+  "cpi"
+ ],
+ "lit-c02-17": [
+  "kigyo-bukka-shisu",
+  "cpi"
+ ],
+ "lit-c02-18": [
+  "nippon-ginko",
+  "kinyu-seisaku"
+ ],
+ "lit-c02-19": [
+  "kinri",
+  "kashidashi-yakujo-kinri",
+  "ginko",
+  "kigyo-bukka-shisu",
+  "cpi",
+  "nippon-ginko"
+ ],
+ "lit-c02-20": [
+  "kigyo-bukka-shisu",
+  "money-stock",
+  "nippon-ginko",
+  "kinyu-seisaku"
+ ],
+ "lit-c02-21": [
+  "kinyu-seisaku",
+  "kinri"
+ ],
+ "lit-c02-22": [
+  "call-option",
+  "kinri",
+  "nippon-ginko"
+ ],
+ "lit-c02-23": [
+  "kinri",
+  "ryoteki-kanwa",
+  "kigyo-bukka-shisu"
+ ],
+ "lit-c02-24": [
+  "kinri",
+  "kinyu-seisaku"
+ ],
+ "lit-c02-25": [
+  "kinri",
+  "nippon-ginko",
+  "ryoteki-kanwa",
+  "seisaku-kinri",
+  "call-option"
+ ],
+ "lit-d01-01": [
+  "futsu-yokin"
+ ],
+ "lit-d01-02": [
+  "teiki-yokin",
+  "futsu-yokin"
+ ],
+ "lit-d01-03": [
+  "gaika-yokin",
+  "kawase-saeki"
+ ],
+ "lit-d01-04": [
+  "yokin-hoken",
+  "futsu-yokin",
+  "teiki-yokin",
+  "kessai-yokin",
+  "gaika-yokin"
+ ],
+ "lit-d01-05": [
+  "tanri"
+ ],
+ "lit-d01-06": [
+  "fukuri",
+  "tanri"
+ ],
+ "lit-d01-07": [
+  "fukuri",
+  "tanri"
+ ],
+ "lit-d01-08": [
+  "tanri",
+  "fukuri"
+ ],
+ "lit-d01-10": [
+  "cashless-kessai"
+ ],
+ "lit-d01-11": [
+  "cashless-kessai"
+ ],
+ "lit-d01-12": [
+  "phishing"
+ ],
+ "lit-d01-13": [
+  "ginko"
+ ],
+ "lit-d01-14": [
+  "phishing"
+ ],
+ "lit-d01-15": [
+  "haito",
+  "kabushiki"
+ ],
+ "lit-d01-16": [
+  "kabunushi-yutai",
+  "haito"
+ ],
+ "lit-d01-17": [
+  "haito",
+  "kabushiki"
+ ],
+ "lit-d01-18": [
+  "kabushiki",
+  "kabunushi-yutai",
+  "haito"
+ ],
+ "lit-d01-19": [
+  "saiken"
+ ],
+ "lit-d01-20": [
+  "kinri",
+  "saiken"
+ ],
+ "lit-d01-21": [
+  "saiken",
+  "rimawari"
+ ],
+ "lit-d01-22": [
+  "saiken",
+  "rimawari",
+  "kinri"
+ ],
+ "lit-d01-23": [
+  "toshi-shintaku",
+  "kabushiki",
+  "saiken"
+ ],
+ "lit-d01-24": [
+  "toshi-shintaku",
+  "genpon-hosho"
+ ],
+ "lit-d01-25": [
+  "toshi-shintaku",
+  "shintaku-hoshu",
+  "shintaku-zaisan-ryuho",
+  "ginko"
+ ],
+ "lit-d02-01": [
+  "bunsan-toshi"
+ ],
+ "lit-d02-02": [
+  "kabushiki",
+  "toshi-shintaku"
+ ],
+ "lit-d02-04": [
+  "choki-toshi",
+  "tsumitate-toshi",
+  "fukuri",
+  "genpon-hosho"
+ ],
+ "lit-d02-05": [
+  "nisa",
+  "haito",
+  "kabushiki",
+  "toshi-shintaku"
+ ],
+ "lit-d02-06": [
+  "ideco"
+ ],
+ "lit-d02-07": [
+  "ideco",
+  "shotoku-kojo",
+  "shokibo-kyosai-kojo"
+ ],
+ "lit-d02-08": [
+  "nisa",
+  "ideco"
+ ],
+ "lit-d02-09": [
+  "genpon-hosho"
+ ],
+ "lit-d02-11": [
+  "toshi-sagi"
+ ],
+ "lit-d02-13": [
+  "taisu-no-hosoku",
+  "hoken-ryo",
+  "songai-hoken"
+ ],
+ "lit-d02-14": [
+  "shushi-soto",
+  "hoken-ryo"
+ ],
+ "lit-d02-15": [
+  "hoken-ryo"
+ ],
+ "lit-d02-16": [
+  "hoken-ryo",
+  "songai-hoken"
+ ],
+ "lit-d02-17": [
+  "teiki-hoken",
+  "manki-hokenkin",
+  "hoken-ryo",
+  "seimei-hoken",
+  "shushin-hoken",
+  "yoro-hoken"
+ ],
+ "lit-d02-18": [
+  "yoro-hoken",
+  "manki-hokenkin",
+  "seimei-hoken"
+ ],
+ "lit-d02-19": [
+  "shushin-hoken",
+  "manki-hokenkin",
+  "hoken-ryo",
+  "kaiyaku-henreikin",
+  "yoro-hoken"
+ ],
+ "lit-d02-20": [
+  "kasai-hoken",
+  "songai-hoken"
+ ],
+ "lit-d02-21": [
+  "jibaiseki"
+ ],
+ "lit-d02-22": [
+  "sharyo-hoken",
+  "jibaiseki-taijin",
+  "jibaiseki"
+ ],
+ "lit-d02-23": [
+  "seimei-hoken",
+  "hoken-ryo",
+  "minkan-hoken"
+ ],
+ "lit-d02-24": [
+  "seimei-hoken",
+  "life-planning"
+ ],
+ "lit-d02-25": [
+  "minkan-hoken",
+  "iryo-hoken",
+  "tokuyaku",
+  "life-planning",
+  "seimei-hoken"
+ ],
+ "lit-e01-01": [
+  "kenko-hoken",
+  "hoken-ryo"
+ ],
+ "lit-e01-02": [
+  "kokumin-kenko-hoken",
+  "hoken-ryo"
+ ],
+ "lit-e01-03": [
+  "kogaku-ryoyohi"
+ ],
+ "lit-e01-04": [
+  "kenko-hoken",
+  "nini-keizoku"
+ ],
+ "lit-e01-05": [
+  "kenko-hoken",
+  "shobyo-teatekin",
+  "nini-keizoku"
+ ],
+ "lit-e01-06": [
+  "kokumin-nenkin",
+  "hihokensha-shubetsu",
+  "kosei-nenkin-hoken",
+  "kyosai"
+ ],
+ "lit-e01-07": [
+  "kosei-nenkin-hoken",
+  "kokumin-nenkin",
+  "hihokensha-shubetsu",
+  "kyosai"
+ ],
+ "lit-e01-08": [
+  "rorei-kiso-nenkin",
+  "hoken-ryo",
+  "hokenryo-menjo"
+ ],
+ "lit-e01-09": [
+  "rorei-kiso-nenkin",
+  "kuriage-jukyu"
+ ],
+ "lit-e01-10": [
+  "kouteki-nenkin-seido",
+  "hihokensha-shubetsu",
+  "hoken-ryo",
+  "hokenryo-menjo",
+  "rorei-kiso-nenkin"
+ ],
+ "lit-e01-11": [
+  "koyo-hoken"
+ ],
+ "lit-e01-12": [
+  "koyo-hoken",
+  "hoken-ryo"
+ ],
+ "lit-e01-13": [
+  "rosai-hoken",
+  "hoken-ryo",
+  "kenko-hoken",
+  "kosei-nenkin-hoken"
+ ],
+ "lit-e01-14": [
+  "rosai-hoken",
+  "hoken-ryo"
+ ],
+ "lit-e01-15": [
+  "koyo-hoken",
+  "hihokensha"
+ ],
+ "lit-e01-16": [
+  "kaigo-hihokensha",
+  "hihokensha-shubetsu",
+  "iryo-hoken"
+ ],
+ "lit-e01-17": [
+  "kaigo-hoken",
+  "hokensha",
+  "yokaigo-nintei"
+ ],
+ "lit-e01-18": [
+  "kaigo-hoken"
+ ],
+ "lit-e01-19": [
+  "kaigo-hoken",
+  "yokaigo-nintei",
+  "hokensha"
+ ],
+ "lit-e01-20": [
+  "kaigo-hoken",
+  "hihokensha-shubetsu",
+  "hihokensha",
+  "yokaigo-nintei"
+ ],
+ "lit-e01-21": [
+  "shotokuzei",
+  "rishi-shotoku",
+  "haito-shotoku",
+  "fudosan-shotoku",
+  "jigyo-shotoku",
+  "kyuyo-shotoku",
+  "taishoku-shotoku",
+  "sanrin-shotoku",
+  "joto-shotoku",
+  "ichiji-shotoku",
+  "zatsu-shotoku"
+ ],
+ "lit-e01-22": [
+  "kyuyo-shotoku-kojo"
+ ],
+ "lit-e01-23": [
+  "shotokuzei",
+  "shotoku-kojo",
+  "chouka-ruishin-zeiritsu"
+ ],
+ "lit-e01-24": [
+  "kyuyo-shotoku",
+  "taishoku-shotoku",
+  "ichiji-shotoku",
+  "zatsu-shotoku",
+  "taishoku-shotoku-kojo"
+ ],
+ "lit-e01-25": [
+  "shotokuzei",
+  "zatsu-shotoku",
+  "shotoku-kojo"
+ ],
+ "lit-e02-01": [
+  "shotokuzei",
+  "gensen-choshu",
+  "fukko-tokubetsu-shotokuzei"
+ ],
+ "lit-e02-02": [
+  "kakutei-shinkoku",
+  "gensen-choshu",
+  "shotokuzei"
+ ],
+ "lit-e02-03": [
+  "shotokuzei",
+  "kakutei-shinkoku"
+ ],
+ "lit-e02-04": [
+  "kyuyo-shotoku",
+  "kakutei-shinkoku",
+  "taishoku-shotoku"
+ ],
+ "lit-e02-05": [
+  "iryohi-kojo",
+  "kakutei-shinkoku"
+ ],
+ "lit-e02-06": [
+  "kojin-juminzei",
+  "shotokuwari",
+  "shotokuzei",
+  "chouka-ruishin-zeiritsu"
+ ],
+ "lit-e02-07": [
+  "kojin-juminzei"
+ ],
+ "lit-e02-08": [
+  "kojin-juminzei",
+  "kintowari",
+  "shotokuwari"
+ ],
+ "lit-e02-09": [
+  "kojin-juminzei"
+ ],
+ "lit-e02-10": [
+  "shohizei"
+ ],
+ "lit-e02-11": [
+  "shohizei"
+ ],
+ "lit-e02-12": [
+  "shohizei"
+ ],
+ "lit-e02-13": [
+  "shohizei",
+  "shiire-zeigaku-kojo",
+  "invoice"
+ ],
+ "lit-e02-14": [
+  "kokuzei-to-chihouzei",
+  "shotokuzei",
+  "shohizei",
+  "kojin-juminzei",
+  "kotei-shisanzei"
+ ],
+ "lit-e02-16": [
+  "shohizei",
+  "shotokuzei"
+ ],
+ "lit-e02-17": [
+  "shotokuzei",
+  "houjinzei",
+  "kotei-shisanzei"
+ ],
+ "lit-e02-18": [
+  "shakai-hosho",
+  "hoken-ryo"
+ ],
+ "lit-e02-19": [
+  "shoshi-koreika",
+  "shakai-hosho"
+ ],
+ "lit-e02-20": [
+  "shoshi-koreika",
+  "shakai-hosho"
+ ],
+ "lit-e02-21": [
+  "shakai-hosho"
+ ],
+ "lit-e02-22": [
+  "kifukin-kojo"
+ ],
+ "lit-e02-23": [
+  "kifukin-kojo",
+  "shotokuzei",
+  "kojin-juminzei"
+ ],
+ "lit-e02-24": [
+  "kifukin-kojo"
+ ],
+ "lit-e02-25": [
+  "kifukin-kojo",
+  "kakutei-shinkoku",
+  "kyuyo-shotoku"
  ]
 }

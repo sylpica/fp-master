@@ -1,4 +1,5 @@
 import { setSetting, useSettings, type ExplanationMode, type Settings } from '../state/settings';
+import type { Unit } from '../domain/types';
 import { PageTitle, Segmented } from '../ui/Layout';
 
 export function SettingsPage() {
@@ -17,12 +18,28 @@ export function SettingsPage() {
     <div className="space-y-4">
       <PageTitle>設定</PageTitle>
       <section className="card">
-        <Row title="級">
-          <Segmented label="級" value={String(s.grade)} options={[{ value: '3', label: '3級' }, { value: '2', label: '2級' }]} onChange={(v) => setSetting('grade', Number(v) as 2 | 3)} />
+        <Row title="学習ユニット" desc="FP技能検定（3級・2級）と金融リテラシー検定を切り替えます">
+          <Segmented
+            label="学習ユニット"
+            value={s.unit}
+            options={[
+              { value: 'fp3', label: '3級' },
+              { value: 'fp2', label: '2級' },
+              { value: 'lit', label: 'リテラシー' },
+            ]}
+            onChange={(v) => {
+              const u = v as Unit;
+              void setSetting('unit', u);
+              if (u === 'fp3') void setSetting('grade', 3);
+              if (u === 'fp2') void setSetting('grade', 2);
+            }}
+          />
         </Row>
-        <Row title="科目">
-          <Segmented label="科目" value={s.subject} options={[{ value: 'gakka', label: '学科' }, { value: 'jitsugi', label: '実技' }]} onChange={(v) => setSetting('subject', v as Settings['subject'])} />
-        </Row>
+        {s.unit !== 'lit' && (
+          <Row title="科目">
+            <Segmented label="科目" value={s.subject} options={[{ value: 'gakka', label: '学科' }, { value: 'jitsugi', label: '実技' }]} onChange={(v) => setSetting('subject', v as Settings['subject'])} />
+          </Row>
+        )}
         <Row title="通常演習にも計算問題を含める" desc="初期設定はOFF。模擬試験はこの設定に関係なく本試験どおり計算問題を含みます。">
           <input
             type="checkbox"

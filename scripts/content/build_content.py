@@ -28,13 +28,20 @@ TERMS.extend(ALL_MORE)  # 追加原稿を結合（explanations_src は TERMS を
 # 用語集拡充 第2弾（分野別ファイル。仕様：2026-10-31 の用語拡充・自動リンク強化）
 for _mod in ('glossary_x_a', 'glossary_x_b', 'glossary_x_c', 'glossary_x_d', 'glossary_x_e', 'glossary_x_f', 'glossary_x_g'):
     TERMS.extend(__import__(_mod).X_TERMS)
+from glossary_lit_src import LIT_TERMS, LIT_CARDS, apply_lit_shared  # noqa: E402
+
+TERMS.extend(LIT_TERMS)  # 金融リテラシー検定の新規用語
+apply_lit_shared(TERMS)  # 既存FP用語の lit 共有（grades に 'lit'、litField を付与）
 from cards_src import CARDS  # noqa: E402
+
+CARDS.extend(LIT_CARDS)  # 金融リテラシー検定の数字カード
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
 from glossary_examples_src import apply_examples  # noqa: E402
 
 apply_examples(TERMS)  # 具体例（example）の追補（EXT-M12）。すべての用語に example がそろうようにする
 from fporig.core import write_question_sets  # noqa: E402
+from fporig.lit import write_lit_question_sets  # noqa: E402
 
 ROOT = HERE.parents[1]
 OUT = ROOT / 'src' / 'content'
@@ -76,6 +83,7 @@ def fetch(url: str) -> str | None:
 def main() -> None:
     offline = '--offline' in sys.argv
     write_question_sets(ROOT / 'src' / 'content' / 'questions')
+    write_lit_question_sets(ROOT / 'src' / 'content' / 'questions')
     items = [('term', t) for t in TERMS] + [('card', c) for c in CARDS] + [('law', x) for x in LAW_CHANGES]
     # 解説は evidence を explanation 内に持つので、照合用に平らにした参照を作る
     expl_items = [{'id': 'expl:' + e['id'], 'evidence': e['explanation']['evidence'], '_src': e} for e in EXPLANATIONS]

@@ -14,6 +14,7 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / 'content'))
 from fporig.core import all_batches, source  # noqa: E402
 from fporig.cases import CaseBatch  # noqa: E402
+from fporig.lit import all_lit_batches  # noqa: E402
 from build_content import fetch, page_text  # noqa: E402
 
 CACHE = HERE / '.cache'
@@ -38,7 +39,7 @@ def main() -> int:
     bad = 0
     fetch_failed = 0
     n = 0
-    for b in all_batches():
+    for b in list(all_batches()) + list(all_lit_batches()):
         if want and b.id not in want:
             continue
         for qid, k, qt in b.evidence_items():

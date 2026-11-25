@@ -2,11 +2,13 @@ import { describe, expect, it } from 'vitest';
 import glossaryJson from '../../src/content/glossary.json';
 import questionTermsJson from '../../src/content/question-terms.json';
 import syllabus from '../../scripts/original/syllabus_fp2.json';
+import syllabusLit from '../../scripts/original/syllabus_lit.json';
 import { TermSchema, type Term } from '../../src/domain/types';
 import { buildMatcher, linkTerms } from '../../src/domain/termlink';
 
 const terms = (glossaryJson as unknown[]).map((t) => TermSchema.parse(t)) as Term[];
 const syllabusKeys = new Set((syllabus as { items: { key: string }[] }).items.map((i) => i.key));
+const litSyllabusKeys = new Set((syllabusLit as { items: { key: string }[] }).items.map((i) => i.key));
 
 describe('用語集データ（拡充フィールドの健全性）', () => {
   it('全用語に法令基準日があり、試験の基準日と一致する', () => {
@@ -22,8 +24,10 @@ describe('用語集データ（拡充フィールドの健全性）', () => {
 
   it('topics は実在する細目キーだけを指す', () => {
     for (const t of terms) {
+      // 金融リテラシー検定の範囲を含む用語は、lit 独自シラバスの細目キーも指してよい
+      const keys = t.grades.includes('lit') ? new Set([...syllabusKeys, ...litSyllabusKeys]) : syllabusKeys;
       for (const k of t.topics ?? []) {
-        expect(syllabusKeys.has(k), `${t.id}: ${k}`).toBe(true);
+        expect(keys.has(k), `${t.id}: ${k}`).toBe(true);
       }
     }
   });

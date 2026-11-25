@@ -1,12 +1,14 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { z } from 'zod';
 import { db } from '../db/db';
-import type { Grade, Subject } from '../domain/types';
+import type { Grade, Subject, Unit } from '../domain/types';
 import type { PracticeConfig } from '../domain/selection';
 
 export type ExplanationMode = 'short' | 'standard' | 'detail';
 
 export interface Settings {
+  /** 最上位ユニット（FP3級／FP2級／金融リテラシー検定）。級から導出される移行値も含む */
+  unit: Unit;
   grade: Grade;
   subject: Subject;
   /** 通常演習にも計算問題を含める（初期値 OFF） */
@@ -29,6 +31,7 @@ export interface Settings {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
+  unit: 'fp3',
   grade: 3,
   subject: 'gakka',
   includeCalcInPractice: false,
@@ -48,6 +51,7 @@ export const DEFAULT_SETTINGS: Settings = {
  * 保存されている値は書き換えない（データを消さない）。
  */
 const SETTING_SCHEMAS: { [K in keyof Settings]: z.ZodType } = {
+  unit: z.enum(['fp3', 'fp2', 'lit']),
   grade: z.union([z.literal(2), z.literal(3)]),
   subject: z.enum(['gakka', 'jitsugi']),
   includeCalcInPractice: z.boolean(),
@@ -65,10 +69,16 @@ const SETTING_SCHEMAS: { [K in keyof Settings]: z.ZodType } = {
 
 export function normalizeSettings(rows: { key: string; value: unknown }[]): Settings {
   const out: Record<string, unknown> = { ...DEFAULT_SETTINGS };
+  let unitStored = false;
   for (const r of rows) {
     if (!(r.key in DEFAULT_SETTINGS)) continue;
-    if (SETTING_SCHEMAS[r.key as keyof Settings].safeParse(r.value).success) out[r.key] = r.value;
+    if (SETTING_SCHEMAS[r.key as keyof Settings].safeParse(r.value).success) {
+      out[r.key] = r.value;
+      if (r.key === 'unit') unitStored = true;
+    }
   }
+  // ユニット導入前の保存値（級のみ）からの移行：級がそのままユニットになる
+  if (!unitStored) out.unit = out.grade === 2 ? 'fp2' : 'fp3';
   return out as unknown as Settings;
 }
 

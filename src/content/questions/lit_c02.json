@@ -1,0 +1,887 @@
+{
+ "id": "lit_c02",
+ "exam": "lit",
+ "title": "金融リテラシー検定 C 金融・経済②",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-c02-01",
+   "exam": "lit",
+   "field": "C",
+   "theme": "政策金利の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「無担保コールレート（オーバーナイト物）とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm"
+     },
+     {
+      "title": "日本銀行 教えて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行の政策金利は、無担保コールレート（オーバーナイト物）を対象とし、金融市場調節方針においてその誘導目標が定められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-3"
+  },
+  {
+   "id": "lit-c02-02",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金利と資金需給",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「無担保コールレート（オーバーナイト物）とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm"
+     },
+     {
+      "title": "日本銀行 教えて！にちぎん「金融市場調節とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b31.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行は、金融市場における資金の需要と供給のバランスを変化させることを通じて、短期市場金利をコントロールしてきた。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-3"
+  },
+  {
+   "id": "lit-c02-03",
+   "exam": "lit",
+   "field": "C",
+   "theme": "利上げの影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行が政策金利を引き上げると、金融機関の資金調達コストが下がり、企業や個人への貸出金利も引き下げられるようになる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-3"
+  },
+  {
+   "id": "lit-c02-04",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金利低下の波及",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "市場金利が低下すると、金融機関の貸出金利だけでなく、企業が社債発行などの形で市場から直接資金を調達する際の金利も低下する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C2-3"
+  },
+  {
+   "id": "lit-c02-05",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融緩和の影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行が金利を引き下げる金融緩和を行った場合の影響として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "金融機関は以前より高い金利で資金を調達しなければならなくなる"
+      },
+      {
+       "id": "2",
+       "text": "物価には押し下げ圧力が働き、景気の過熱が抑えられる"
+      },
+      {
+       "id": "3",
+       "text": "企業は設備資金や運転資金を調達し易くなり、個人も住宅購入のための資金を借り易くなる"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-3"
+  },
+  {
+   "id": "lit-c02-06",
+   "exam": "lit",
+   "field": "C",
+   "theme": "為替相場の意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「為替相場（為替レート）とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm"
+     },
+     {
+      "title": "日本銀行 教えて！にちぎん「外国為替市場とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g16.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "為替相場（為替レート）とは、外国為替市場において異なる通貨が交換（売買）される際の交換比率のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-4"
+  },
+  {
+   "id": "lit-c02-07",
+   "exam": "lit",
+   "field": "C",
+   "theme": "円高・円安の判定",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「円高、円安とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ドル円相場が1ドル＝100円から1ドル＝80円に変化した場合、円1単位で交換できるドルの量が減ったので、円安になったといえる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-4"
+  },
+  {
+   "id": "lit-c02-08",
+   "exam": "lit",
+   "field": "C",
+   "theme": "為替相場の決まり方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「為替相場（為替レート）とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm"
+     },
+     {
+      "title": "三菱UFJ銀行「円高・円安とは？メリット・デメリットや覚え方をわかりやすく解説！」",
+      "url": "https://www.bk.mufg.jp/column/keizai/b0052.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "変動相場制のもとでは、為替相場は誰かが一方的に決めるものではなく、市場における需要と供給のバランスによって決まる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-4"
+  },
+  {
+   "id": "lit-c02-09",
+   "exam": "lit",
+   "field": "C",
+   "theme": "円高の影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三菱UFJ銀行「円高・円安とは？メリット・デメリットや覚え方をわかりやすく解説！」",
+      "url": "https://www.bk.mufg.jp/column/keizai/b0052.html"
+     },
+     {
+      "title": "日本銀行 教えて！にちぎん「円高、円安とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "円高が進んだ場合の影響について、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "輸出企業の円建ての売り上げが増加し、業績に好影響が出る"
+      },
+      {
+       "id": "2",
+       "text": "輸入にかかるコストが安くなるため、輸入企業の利益がふえる傾向がある"
+      },
+      {
+       "id": "3",
+       "text": "同じ金額の円で、より多くのドルを取得できるようになる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-4"
+  },
+  {
+   "id": "lit-c02-10",
+   "exam": "lit",
+   "field": "C",
+   "theme": "為替介入",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「為替介入（外国為替市場介入）とは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "為替介入（外国為替市場介入）に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "わが国では財務大臣の権限で実施され、日本銀行は財務大臣の代理人として、その指示に基づいて実務を遂行する"
+      },
+      {
+       "id": "2",
+       "text": "為替介入は、日本銀行が独自の判断で実施を決定し、直ちに実行するものである"
+      },
+      {
+       "id": "3",
+       "text": "為替介入の目的は、為替相場を特定の水準に固定し、その水準を維持し続けることである"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C2-4"
+  },
+  {
+   "id": "lit-c02-11",
+   "exam": "lit",
+   "field": "C",
+   "theme": "平均値",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 なるほど統計学園「中心的な傾向を捉える」",
+      "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "平均値（算術平均）とは、変量の総和を個数で割った値のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C3-1"
+  },
+  {
+   "id": "lit-c02-12",
+   "exam": "lit",
+   "field": "C",
+   "theme": "中央値",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 なるほど統計学園「中心的な傾向を捉える」",
+      "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "データの個数が偶数の場合、中央値は、データを大きさの順に並べたときの真ん中の2つの値のうち、小さい方の値である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-1"
+  },
+  {
+   "id": "lit-c02-13",
+   "exam": "lit",
+   "field": "C",
+   "theme": "外れ値と代表値",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 なるほど統計学園「中心的な傾向を捉える」",
+      "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "データに極端に大きな外れ値が加わった場合、平均値は中央値に比べて大きな影響を受ける。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-1"
+  },
+  {
+   "id": "lit-c02-14",
+   "exam": "lit",
+   "field": "C",
+   "theme": "指数と割合の変化",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局「消費者物価指数（CPI）結果」",
+      "url": "https://www.stat.go.jp/data/cpi/1.html"
+     },
+     {
+      "title": "日本銀行「企業物価指数（2020年基準）の概要」",
+      "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者物価指数のように基準年を100とする指数が103.0となった場合、物価は基準年に比べて103％上昇したことになる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3-1",
+   "calcReason": "指数の水準（103.0）から変化率を計算して読み取る必要があるため"
+  },
+  {
+   "id": "lit-c02-15",
+   "exam": "lit",
+   "field": "C",
+   "theme": "グラフの読み方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 なるほど統計学園「グラフ作成の基本」",
+      "url": "https://www.stat.go.jp/naruhodo/9_graph/kihon.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "統計グラフの読み方・作り方に関する説明として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "グラフは、縦横の比率を変えたり波形で省略したりすることで、見る人に与える印象が変わることがある"
+      },
+      {
+       "id": "2",
+       "text": "全体に対する各項目の構成比を示すには、折れ線グラフを用いるのが最も適している"
+      },
+      {
+       "id": "3",
+       "text": "グラフには、数値の単位を記載し、曖昧な定義や注意事項がある場合は補足説明を付ける必要がある"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3-1"
+  },
+  {
+   "id": "lit-c02-16",
+   "exam": "lit",
+   "field": "C",
+   "theme": "消費者物価指数",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「日本銀行は、物価をみるときに、何を判断材料にしていますか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者物価指数（CPI）は、消費者が購入する財やサービスの物価の動きを捉える指標である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C3-2"
+  },
+  {
+   "id": "lit-c02-17",
+   "exam": "lit",
+   "field": "C",
+   "theme": "企業物価指数",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「企業物価指数（2020年基準）の概要」",
+      "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm"
+     },
+     {
+      "title": "日本銀行 教えて！にちぎん「日本銀行は、物価をみるときに、何を判断材料にしていますか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "企業物価指数（CGPI）は、消費者が小売店で購入する商品の価格変動を測定する指標である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C3-2"
+  },
+  {
+   "id": "lit-c02-18",
+   "exam": "lit",
+   "field": "C",
+   "theme": "物価安定の目標",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「「物価安定の目標」について教えてください。」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行の「物価安定の目標」は、消費者物価の前年比上昇率5％と定められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-2"
+  },
+  {
+   "id": "lit-c02-19",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金利の統計指標",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「「貸出約定平均金利の推移」の解説」",
+      "url": "https://www.boj.or.jp/statistics/outline/exp/exyaku.htm"
+     },
+     {
+      "title": "総務省統計局「消費者物価指数（CPI）の概要」",
+      "url": "https://www.stat.go.jp/data/cpi/gaiyou.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金利に関する統計指標の説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "貸出約定平均金利は、国内銀行や信用金庫における約定時の貸出金利を集計したものである"
+      },
+      {
+       "id": "2",
+       "text": "企業物価指数は総務省統計局が作成し、消費者物価指数は日本銀行が作成している"
+      },
+      {
+       "id": "3",
+       "text": "短期プライムレートは、個人が住宅ローンを借りる際に適用される最優遇金利である"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-2"
+  },
+  {
+   "id": "lit-c02-20",
+   "exam": "lit",
+   "field": "C",
+   "theme": "物価指標の読み方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「日本銀行は、物価をみるときに、何を判断材料にしていますか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm"
+     },
+     {
+      "title": "日本銀行「企業物価指数（2020年基準）の概要」",
+      "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm"
+     },
+     {
+      "title": "日本銀行「マネーストック統計の解説」",
+      "url": "https://www.boj.or.jp/statistics/outline/exp/exms01.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "物価・通貨に関する統計指標の読み方について、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "企業物価指数は、基準時点の価格を100として指数化されている"
+      },
+      {
+       "id": "2",
+       "text": "マネーストック統計は、景気や物価の動向を判断するための指標としては用いられていない"
+      },
+      {
+       "id": "3",
+       "text": "消費者物価の基調的な動きを見る際には、一時的な要因の影響を取り除いた「コア指標」がよく利用される"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3-2"
+  },
+  {
+   "id": "lit-c02-21",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融緩和と金融引締め",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "景気を上向かせるために行われる金融政策を金融緩和政策といい、景気の過熱を抑えるために行われる金融政策を金融引締め政策という。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C3-3"
+  },
+  {
+   "id": "lit-c02-22",
+   "exam": "lit",
+   "field": "C",
+   "theme": "量的緩和政策",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "2001年に開始された量的緩和政策では、金融市場調節の主たる操作目標は、無担保コールレート（金利）のままであった。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-3"
+  },
+  {
+   "id": "lit-c02-23",
+   "exam": "lit",
+   "field": "C",
+   "theme": "長短金利操作",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "「長短金利操作付き量的・質的金融緩和」では、長期金利の操作目標として、10年物国債金利ではなく企業物価指数が用いられた。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3-3"
+  },
+  {
+   "id": "lit-c02-24",
+   "exam": "lit",
+   "field": "C",
+   "theme": "利上げの影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "「利上げ」とその影響に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "利上げが行われると、企業や個人は資金を借り易くなり、経済活動が活発になる"
+      },
+      {
+       "id": "2",
+       "text": "利上げは、景気を上向かせるために行われる金融緩和政策の一つである"
+      },
+      {
+       "id": "3",
+       "text": "利上げが行われると、金融機関は以前より高い金利で資金を調達しなければならず、企業や個人への貸出金利も引き上げられるようになる"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C3-3"
+  },
+  {
+   "id": "lit-c02-25",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融緩和の手法",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 教えて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融緩和の手法に関する説明として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "量的緩和政策では、金融市場調節の操作目標が金利から日本銀行当座預金残高に変更された"
+      },
+      {
+       "id": "2",
+       "text": "マイナス金利政策では、日本銀行当座預金の全額に一律でマイナス金利が適用された"
+      },
+      {
+       "id": "3",
+       "text": "量的・質的金融緩和では、金融市場調節の操作目標がマネタリーベースに変更された"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C3-3"
+  }
+ ]
+}

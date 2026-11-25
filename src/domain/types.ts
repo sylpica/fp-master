@@ -8,9 +8,20 @@ export type Grade = z.infer<typeof GradeSchema>;
 export const SubjectSchema = z.enum(['gakka', 'jitsugi']);
 export type Subject = z.infer<typeof SubjectSchema>;
 
-/** 試験区分キー：g=学科, j=実技（日本FP協会・資産設計提案業務） */
-export const ExamKeySchema = z.enum(['g3', 'j3', 'g2', 'j2']);
+/** 試験区分キー：g=学科, j=実技（日本FP協会・資産設計提案業務）, lit=金融リテラシー検定 */
+export const ExamKeySchema = z.enum(['g3', 'j3', 'g2', 'j2', 'lit']);
 export type ExamKey = z.infer<typeof ExamKeySchema>;
+
+/** 最上位ユニット（学習対象のまとまり）：FP3級・FP2級・金融リテラシー検定 */
+export const UnitSchema = z.enum(['fp3', 'fp2', 'lit']);
+export type Unit = z.infer<typeof UnitSchema>;
+
+/**
+ * 用語・カードの所属範囲を表す区分。FPの級（2/3）に加え、金融リテラシー検定を 'lit' で表す。
+ * FPの Grade（2|3）とは別型にし、級そのものの意味は変えない。
+ */
+export const ContentGradeSchema = z.union([GradeSchema, z.literal('lit')]);
+export type ContentGrade = z.infer<typeof ContentGradeSchema>;
 
 /** 6分野 */
 export const FieldIdSchema = z.enum(['A', 'B', 'C', 'D', 'E', 'F']);
@@ -211,8 +222,10 @@ export const TermSchema = z.object({
   formula: z.object({ name: z.string(), tex: z.string() }).optional(),
   related: z.array(z.string()),
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
-  grades: z.array(GradeSchema).min(1),
+  grades: z.array(ContentGradeSchema).min(1),
   field: FieldIdSchema,
+  /** 金融リテラシー検定での分野（A〜E）。FPと共用の用語で分野対応が異なる場合に付く */
+  litField: FieldIdSchema.optional(),
   /** verified: 根拠の引用が公式ページで照合済み / draft: 未照合（「要確認」と表示） */
   reviewStatus: z.enum(['verified', 'draft']),
   sources: z.array(SourceRefSchema),
@@ -226,7 +239,7 @@ export const FactCardSchema = z.object({
   front: z.string().min(1),
   back: z.string().min(1),
   field: FieldIdSchema,
-  grades: z.array(GradeSchema).min(1),
+  grades: z.array(ContentGradeSchema).min(1),
   category: z.enum(['number', 'rate', 'deadline', 'formula', 'rule']),
   termId: z.string().optional(),
   reviewStatus: z.enum(['verified', 'draft']),

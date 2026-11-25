@@ -1,8 +1,10 @@
-import type { ExamKey, FieldId, Grade, Subject } from './types';
+import type { ExamKey, FieldId, Grade, Subject, Unit } from './types';
 
 /**
  * 試験仕様。出典：日本FP協会「2級・3級FP技能検定 試験要綱」
  * https://www.jafp.or.jp/exam/outline/ （2026-10-20 確認）
+ * 金融リテラシー検定は金融財政事情研究会（きんざい）「金融リテラシー検定試験の概要」
+ * https://products.kinzai.or.jp/exam/financialliteracy/ （2026-11-25 確認）
  */
 export const EXAM_SPEC_SOURCE = {
   title: '日本FP協会 2級・3級FP技能検定 試験要綱',
@@ -10,10 +12,18 @@ export const EXAM_SPEC_SOURCE = {
   checkedAt: '2026-10-20',
 } as const;
 
+export const LIT_EXAM_SPEC_SOURCE = {
+  title: '金融財政事情研究会（きんざい）金融リテラシー検定試験の概要',
+  url: 'https://products.kinzai.or.jp/exam/financialliteracy/',
+  checkedAt: '2026-11-25',
+} as const;
+
 export interface ExamSpec {
   key: ExamKey;
-  grade: Grade;
-  subject: Subject;
+  /** FP技能検定のみ（金融リテラシー検定は級なし） */
+  grade?: Grade;
+  /** FP技能検定のみ（金融リテラシー検定は学科・実技の区別なし） */
+  subject?: Subject;
   label: string;
   shortLabel: string;
   minutes: number;
@@ -85,10 +95,34 @@ export const EXAM_SPECS: Record<ExamKey, ExamSpec> = {
     // 100点満点・40問は公式。1問2.5点の均等配点は独自仕様
     pointsOfficial: false,
   },
+  lit: {
+    key: 'lit',
+    label: '金融リテラシー検定',
+    shortLabel: 'リテラシー検定',
+    minutes: 40,
+    questionCount: 50,
+    format: '正誤問題35問・三答択一式15問',
+    maxScore: 100,
+    passScore: 60,
+    pointsPerQuestion: 2,
+    // 100点満点・60点合格は公式。配点は公式に公表されていないため均等2点は独自仕様
+    pointsOfficial: false,
+  },
 };
 
 export function examKeyOf(grade: Grade, subject: Subject): ExamKey {
   return `${subject === 'gakka' ? 'g' : 'j'}${grade}` as ExamKey;
+}
+
+/** 試験区分が属する最上位ユニット */
+export function unitOfExam(exam: ExamKey): Unit {
+  if (exam === 'lit') return 'lit';
+  return exam.endsWith('3') ? 'fp3' : 'fp2';
+}
+
+/** ユニットに対応する用語・カードの所属区分（FP3級=3、FP2級=2、金融リテラシー検定='lit'） */
+export function contentGradeOfUnit(unit: Unit): Grade | 'lit' {
+  return unit === 'lit' ? 'lit' : unit === 'fp2' ? 2 : 3;
 }
 
 export const FIELDS: Record<FieldId, { name: string; short: string }> = {
@@ -100,6 +134,35 @@ export const FIELDS: Record<FieldId, { name: string; short: string }> = {
   F: { name: '相続・事業承継', short: '相続' },
 };
 export const FIELD_IDS: FieldId[] = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+/**
+ * 金融リテラシー検定の5分野（公式の出題範囲）。
+ * FPの分野記号（A〜F）とは意味が異なるため、試験ごとに解決する。
+ */
+export const LIT_FIELDS: Record<'A' | 'B' | 'C' | 'D' | 'E', { name: string; short: string }> = {
+  A: { name: 'ライフプラン・キャリア', short: 'ライフプラン' },
+  B: { name: '消費者トラブル・消費者信用', short: '消費者' },
+  C: { name: '金融・経済', short: '金融・経済' },
+  D: { name: '金融商品・保険', short: '金融商品' },
+  E: { name: '社会保険・税金', short: '社会保険・税金' },
+};
+export const LIT_FIELD_IDS: FieldId[] = ['A', 'B', 'C', 'D', 'E'];
+
+/** 試験区分に応じた分野一覧 */
+export function fieldIdsFor(exam: ExamKey | undefined): FieldId[] {
+  return exam === 'lit' ? LIT_FIELD_IDS : FIELD_IDS;
+}
+
+/** 試験区分に応じた分野名の対応表（lit の F は存在しないため FP の表で代替する） */
+export function fieldsFor(exam: ExamKey | undefined): Record<FieldId, { name: string; short: string }> {
+  if (exam !== 'lit') return FIELDS;
+  return { ...LIT_FIELDS, F: FIELDS.F } as Record<FieldId, { name: string; short: string }>;
+}
+
+/** 分野の表示名を試験区分に応じて解決する */
+export function fieldInfo(exam: ExamKey | undefined, field: FieldId): { name: string; short: string } {
+  return fieldsFor(exam)[field];
+}
 
 /**
  * 2級・3級CBT試験の法令基準日。出典：日本FP協会「試験日程」

@@ -2,8 +2,8 @@ import { useEffect, useRef, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
-import { FIELDS } from '../domain/exam';
-import type { FieldId, Question } from '../domain/types';
+import { fieldsFor } from '../domain/exam';
+import type { ExamKey, FieldId, Question } from '../domain/types';
 
 export function Tex({ tex, block = false }: { tex: string; block?: boolean }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -24,7 +24,7 @@ export function questionLabel(q: Question): string {
   return `${src}・${q.theme}`;
 }
 
-export function FieldBadge({ field }: { field: FieldId }) {
+export function FieldBadge({ field, exam }: { field: FieldId; exam?: ExamKey }) {
   const colors: Record<FieldId, string> = {
     A: 'bg-sky-100 text-sky-800 dark:bg-sky-900/50 dark:text-sky-200',
     B: 'bg-rose-100 text-rose-800 dark:bg-rose-900/50 dark:text-rose-200',
@@ -33,7 +33,7 @@ export function FieldBadge({ field }: { field: FieldId }) {
     E: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-200',
     F: 'bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100',
   };
-  return <span className={`badge ${colors[field]}`}>{FIELDS[field].short}</span>;
+  return <span className={`badge ${colors[field]}`}>{fieldsFor(exam)[field].short}</span>;
 }
 
 export function ReviewBadge({ status }: { status: 'verified' | 'draft' }) {

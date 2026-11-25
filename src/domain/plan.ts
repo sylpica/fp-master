@@ -1,11 +1,21 @@
-import type { FieldId, Grade } from './types';
+import type { FieldId, Grade, Unit } from './types';
 import { FIELD_IDS } from './exam';
 import { addDays, daysBetween } from './srs';
+
+/** 1問あたりの想定時間（分）。金融リテラシー検定は本試験が50問40分のため0.8分 */
+export function minutesPerQuestionFor(unit: Unit | undefined, grade: Grade): number {
+  if (unit === 'lit') return 0.8;
+  return grade === 2 ? 2 : 1.5;
+}
 
 export interface PlanInput {
   today: string;
   examDate: string;
   grade: Grade;
+  /** 最上位ユニット（未指定はFPとして扱う） */
+  unit?: Unit;
+  /** 対象分野（未指定はFPの6分野） */
+  fields?: FieldId[];
   /** 1日の学習可能時間（分） */
   minutesPerDay: number;
   /** 週の学習日数（1〜7） */
@@ -57,7 +67,8 @@ export function buildPlan(inp: PlanInput): StudyPlan {
   }
   const dpw = Math.min(7, Math.max(1, Math.round(inp.daysPerWeek)));
   const restDays = REST_PATTERN[dpw]!;
-  const minutesPerQuestion = inp.grade === 2 ? 2 : 1.5;
+  const fieldIds = inp.fields ?? FIELD_IDS;
+  const minutesPerQuestion = minutesPerQuestionFor(inp.unit, inp.grade);
   // 復習に充てる割合：理解度が低いほど新規学習を多めにする
   const reviewShare = 0.25 + (inp.understanding - 1) * 0.05;
 
@@ -87,12 +98,12 @@ export function buildPlan(inp: PlanInput): StudyPlan {
   if (daysLeft < 14) warnings.push('受験日まで2週間未満です。新規学習より復習と模擬試験を優先しましょう。');
 
   // 分野ローテーション：苦手分野は2回分の枠を持つ
-  const rotation: FieldId[] = [...FIELD_IDS, ...inp.weakFields];
+  const rotation: FieldId[] = [...fieldIds, ...inp.weakFields];
   let r = 0;
   const days: PlanDay[] = dates.map((date) => {
     if (isRest(date)) return { date, kind: 'rest', fields: [], newQuestions: 0, reviewMinutes: 0 };
-    if (date === finalDate) return { date, kind: 'final', fields: [...FIELD_IDS], newQuestions: 0, reviewMinutes: inp.minutesPerDay };
-    if (mockDates.has(date)) return { date, kind: 'mock', fields: [...FIELD_IDS], newQuestions: 0, reviewMinutes: 0 };
+    if (date === finalDate) return { date, kind: 'final', fields: [...fieldIds], newQuestions: 0, reviewMinutes: inp.minutesPerDay };
+    if (mockDates.has(date)) return { date, kind: 'mock', fields: [...fieldIds], newQuestions: 0, reviewMinutes: 0 };
     const f1 = rotation[r++ % rotation.length]!;
     return {
       date,

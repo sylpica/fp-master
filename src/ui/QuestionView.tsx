@@ -55,7 +55,7 @@ export function QuestionHeader({ q, index, total }: { q: Question; index?: numbe
           {index + 1} / {total}
         </span>
       )}
-      <FieldBadge field={q.field} />
+      <FieldBadge field={q.field} exam={q.exam} />
       <span>{q.theme}</span>
       <span className="text-xs">{EXAM_SPECS[q.exam].shortLabel}</span>
       {q.source.kind === 'original' && <span className="badge bg-indigo-100 text-indigo-800 dark:bg-indigo-900/50 dark:text-indigo-200">オリジナル</span>}

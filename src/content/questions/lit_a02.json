@@ -1,0 +1,874 @@
+{
+ "id": "lit_a02",
+ "exam": "lit",
+ "title": "金融リテラシー検定 A ライフプラン・キャリア②",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-a02-01",
+   "exam": "lit",
+   "field": "A",
+   "theme": "給与明細と源泉徴収票の見方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 FPコラム「理解すると役立つ源泉徴収票の見るべきポイント」",
+      "url": "https://www.jafp.or.jp/know/info/column/20221125.shtml"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "源泉徴収票の「支払金額」は、税金や社会保険料を天引きされる前の額面金額である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-3"
+  },
+  {
+   "id": "lit-a02-02",
+   "exam": "lit",
+   "field": "A",
+   "theme": "源泉徴収の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.2502 源泉徴収義務者とは",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得税は、給与の支払者が、給与を支払う際にその給与から差し引いて国に納める仕組みになっている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-3"
+  },
+  {
+   "id": "lit-a02-03",
+   "exam": "lit",
+   "field": "A",
+   "theme": "労災保険料の負担",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省 労災保険制度",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労災保険料は、健康保険料や厚生年金保険料と同じように、労働者の毎月の給与から控除される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-3"
+  },
+  {
+   "id": "lit-a02-04",
+   "exam": "lit",
+   "field": "A",
+   "theme": "控除項目の見方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.2502 源泉徴収義務者とは",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm"
+     },
+     {
+      "title": "日本FP協会 FPコラム「理解すると役立つ源泉徴収票の見るべきポイント」",
+      "url": "https://www.jafp.or.jp/know/info/column/20221125.shtml"
+     },
+     {
+      "title": "厚生労働省 労災保険制度",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "給与明細における控除（天引き）に関する説明として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "労災保険料は、労働者と事業主が折半して給与から控除される"
+      },
+      {
+       "id": "2",
+       "text": "社会保険料は、税金と同様に給与から天引きされる"
+      },
+      {
+       "id": "3",
+       "text": "所得税は、給与の支払者によって給与から源泉徴収される"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-3"
+  },
+  {
+   "id": "lit-a02-05",
+   "exam": "lit",
+   "field": "A",
+   "theme": "副業と確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.1900 給与所得者で確定申告が必要な人",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "給与を1か所から受けている会社員は、給与所得と退職所得以外の所得の合計額が20万円を超えると、確定申告をしなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-4"
+  },
+  {
+   "id": "lit-a02-06",
+   "exam": "lit",
+   "field": "A",
+   "theme": "年末調整と確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.1900 給与所得者で確定申告が必要な人",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "会社員は勤務先で年末調整を受けていれば、副業の所得がどれだけ大きくても確定申告をする必要はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-4"
+  },
+  {
+   "id": "lit-a02-07",
+   "exam": "lit",
+   "field": "A",
+   "theme": "退職後の健康保険（任意継続）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "藤沢市「会社を退職した後の健康保険について」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/honen/kurashi/hoken/kokuho/gaiyo/nini.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "退職後に健康保険の任意継続に加入するには、退職日までに被保険者期間が継続して2か月以上あり、退職日の翌日から20日以内に手続きする必要がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-4"
+  },
+  {
+   "id": "lit-a02-08",
+   "exam": "lit",
+   "field": "A",
+   "theme": "任意継続の加入期間",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "藤沢市「会社を退職した後の健康保険について」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/honen/kurashi/hoken/kokuho/gaiyo/nini.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "退職後の健康保険の任意継続に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "任意継続の手続きは、退職後であればいつでも行うことができる"
+      },
+      {
+       "id": "2",
+       "text": "任意継続の被保険者でいられる期間は、最長で2年間である"
+      },
+      {
+       "id": "3",
+       "text": "任意継続は、退職前に被保険者期間が1日でもあれば加入できる"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A2-4"
+  },
+  {
+   "id": "lit-a02-09",
+   "exam": "lit",
+   "field": "A",
+   "theme": "奨学金の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本学生支援機構「奨学金制度の種類と概要」",
+      "url": "https://www.jasso.go.jp/shogakukin/about/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本学生支援機構の奨学金には、返還が必要な貸与型と、返還が不要な給付型がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-5"
+  },
+  {
+   "id": "lit-a02-10",
+   "exam": "lit",
+   "field": "A",
+   "theme": "第一種・第二種奨学金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本学生支援機構「貸与奨学金」",
+      "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本学生支援機構の第一種奨学金は有利子、第二種奨学金は無利子である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-5"
+  },
+  {
+   "id": "lit-a02-11",
+   "exam": "lit",
+   "field": "A",
+   "theme": "貸与奨学金の返還開始",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本学生支援機構「返還までの流れ」",
+      "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/flow/index.html"
+     },
+     {
+      "title": "日本学生支援機構「奨学金の返還について」",
+      "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本学生支援機構の貸与奨学金の返還に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "返還は、貸与終了の翌月から数えて7か月目に始まる"
+      },
+      {
+       "id": "2",
+       "text": "奨学金は、貸与終了後に繰り上げて返還することはできない"
+      },
+      {
+       "id": "3",
+       "text": "返還は、卒業した月の翌月から直ちに始まる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-5"
+  },
+  {
+   "id": "lit-a02-12",
+   "exam": "lit",
+   "field": "A",
+   "theme": "返還が困難なときの制度",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本学生支援機構「奨学金の返還について」",
+      "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html"
+     },
+     {
+      "title": "日本学生支援機構「返還が免除となる場合（返還免除）」",
+      "url": "https://www.jasso.go.jp/shogakukin/henkan/menjo/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "奨学金の返還が困難になった場合の制度に関する説明として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "減額返還制度では、毎月の返還額を減額し、その分返還期間を延長することができる"
+      },
+      {
+       "id": "2",
+       "text": "返還が困難になった場合は、届出をするだけで残りの返還がすべて免除される"
+      },
+      {
+       "id": "3",
+       "text": "返還期限猶予では、願い出と審査により返還期限を猶予してもらうことができる"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A2-5"
+  },
+  {
+   "id": "lit-a02-13",
+   "exam": "lit",
+   "field": "A",
+   "theme": "一人暮らしの初期費用",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "UR都市機構 URくらしのカレッジ「一人暮らしの初期費用の目安とは？」",
+      "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "賃貸住宅への入居時にかかる初期費用は、家賃の5〜7か月分程度になることが多い。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-1"
+  },
+  {
+   "id": "lit-a02-14",
+   "exam": "lit",
+   "field": "A",
+   "theme": "敷金と礼金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "UR都市機構 URくらしのカレッジ「一人暮らしの初期費用の目安とは？」",
+      "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "礼金は敷金と同じように、退去時に家賃の滞納や部屋の損傷がなければ返金されるお金である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-1"
+  },
+  {
+   "id": "lit-a02-15",
+   "exam": "lit",
+   "field": "A",
+   "theme": "仲介手数料の上限",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "UR都市機構 URくらしのカレッジ「一人暮らしの初期費用の目安とは？」",
+      "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "賃貸借契約の初期費用に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "敷金は、退去時に部屋の損傷がなくても一切返金されない"
+      },
+      {
+       "id": "2",
+       "text": "仲介手数料は、法律で家賃の1か月分に消費税を加えた額が上限と決められている"
+      },
+      {
+       "id": "3",
+       "text": "初期費用のうち法律で上限額が定められているのは、敷金と礼金である"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A3-1"
+  },
+  {
+   "id": "lit-a02-16",
+   "exam": "lit",
+   "field": "A",
+   "theme": "児童手当の支給対象",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "こども家庭庁「児童手当」",
+      "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "児童手当は、0歳から18歳に達する日以後の最初の3月31日までの児童、いわゆる高校生年代までの子を養育している方に支給される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-2"
+  },
+  {
+   "id": "lit-a02-17",
+   "exam": "lit",
+   "field": "A",
+   "theme": "児童手当の支給額",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "こども家庭庁「児童手当制度のご案内」",
+      "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "児童手当の月額は、第3子以降の子についても第1子・第2子と同じ金額である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A3-2"
+  },
+  {
+   "id": "lit-a02-18",
+   "exam": "lit",
+   "field": "A",
+   "theme": "出産・子育ての公的給付",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省「出産育児一時金等について」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/shussan/index.html"
+     },
+     {
+      "title": "こども家庭庁「児童手当制度のご案内」",
+      "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
+     },
+     {
+      "title": "こども家庭庁「児童手当」",
+      "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "出産・子育てに関する公的給付の説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "児童手当は、毎月1か月分ずつ支給される"
+      },
+      {
+       "id": "2",
+       "text": "児童手当の支給対象は、中学生までの児童である"
+      },
+      {
+       "id": "3",
+       "text": "出産育児一時金は、健康保険の被保険者やその被扶養者が出産したときに支給される"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A3-2"
+  },
+  {
+   "id": "lit-a02-19",
+   "exam": "lit",
+   "field": "A",
+   "theme": "フラット35の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "住宅金融支援機構「【フラット35】」",
+      "url": "https://www.flat35.com/loan/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "【フラット35】は、民間金融機関と住宅金融支援機構が提携して提供する最長35年の全期間固定金利の住宅ローンである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-3"
+  },
+  {
+   "id": "lit-a02-20",
+   "exam": "lit",
+   "field": "A",
+   "theme": "フラット35の金利の決まり方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "住宅金融支援機構「【フラット35】」",
+      "url": "https://www.flat35.com/loan/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "【フラット35】の借入金利は申込時に確定し、資金の受取時までに見直されることはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A3-3"
+  },
+  {
+   "id": "lit-a02-21",
+   "exam": "lit",
+   "field": "A",
+   "theme": "住宅ローン控除",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.1210 住宅借入金等特別控除",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "住宅借入金等特別控除（住宅ローン控除）は、借入時のローン金額を基に計算した金額を所得税額から控除する制度である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A3-3"
+  },
+  {
+   "id": "lit-a02-22",
+   "exam": "lit",
+   "field": "A",
+   "theme": "住宅ローンの基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "住宅金融支援機構「【フラット35】」",
+      "url": "https://www.flat35.com/loan/index.html"
+     },
+     {
+      "title": "国税庁 タックスアンサー No.1210 住宅借入金等特別控除",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "住宅ローンに関する説明として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "【フラット35】は、住宅金融支援機構が単独で直接融資を行う住宅ローンである"
+      },
+      {
+       "id": "2",
+       "text": "全期間固定金利型の住宅ローンは、返済終了まで借入金利と返済額が変わらない"
+      },
+      {
+       "id": "3",
+       "text": "住宅ローン控除の控除額は、各年末のローン残高を基に計算される"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A3-3"
+  },
+  {
+   "id": "lit-a02-23",
+   "exam": "lit",
+   "field": "A",
+   "theme": "老齢基礎年金の満額",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構「老齢基礎年金の受給要件・支給開始時期・年金額」",
+      "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "老齢基礎年金は、20歳から60歳までの40年間の保険料をすべて納めると、満額を受け取ることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-4"
+  },
+  {
+   "id": "lit-a02-24",
+   "exam": "lit",
+   "field": "A",
+   "theme": "老齢基礎年金の受給資格期間",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構「老齢基礎年金の受給要件・支給開始時期・年金額」",
+      "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "老齢基礎年金を受け取るには、保険料を納めた期間などが25年以上必要である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A3-4"
+  },
+  {
+   "id": "lit-a02-25",
+   "exam": "lit",
+   "field": "A",
+   "theme": "繰下げ受給",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省「年金制度の仕組みと考え方 第3 公的年金制度の体系（年金給付）」",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_003.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "老齢基礎年金の繰下げ受給に関する説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "繰下げ受給の申出は、65歳になる前に済ませなければならない"
+      },
+      {
+       "id": "2",
+       "text": "繰下げ受給は、受給開始を70歳までしか遅らせることができない"
+      },
+      {
+       "id": "3",
+       "text": "繰下げ受給では、繰り下げた月数に応じて年金額が1月あたり0.7％増額される"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A3-4"
+  }
+ ]
+}

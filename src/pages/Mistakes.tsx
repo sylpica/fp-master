@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { FIELDS } from '../domain/exam';
+import { fieldsFor } from '../domain/exam';
 import { buildItemStats } from '../domain/stats';
 import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
@@ -41,8 +41,8 @@ export function MistakesPage() {
             {rows.map(({ q, s, wrong, note }) => (
               <li key={q!.id} className="card">
                 <div className="mb-1 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
-                  <FieldBadge field={q!.field} />
-                  <span>{FIELDS[q!.field].short}</span>
+                  <FieldBadge field={q!.field} exam={q!.exam} />
+                  <span>{fieldsFor(q!.exam)[q!.field].short}</span>
                   <span className="ml-auto">
                     誤答 {wrong}回・直近 {s.lastCorrect ? '○' : '×'}
                   </span>

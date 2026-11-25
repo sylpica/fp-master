@@ -27,7 +27,7 @@ export function BookmarksPage() {
       {items.map((q) => (
         <li key={q!.id} className="flex items-center gap-2 px-4 py-2">
           <Link to={`/q/${q!.id}`} className="min-h-12 flex-1 text-sm">
-            <FieldBadge field={q!.field} /> {questionLabel(q!)}
+            <FieldBadge field={q!.field} exam={q!.exam} /> {questionLabel(q!)}
           </Link>
           <button className="min-h-10 px-2 text-xs text-slate-600 dark:text-slate-400" onClick={() => toggleFlag(table, q!.id)} aria-label="登録を解除">
             解除

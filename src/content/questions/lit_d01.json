@@ -1,0 +1,842 @@
+{
+ "id": "lit_d01",
+ "exam": "lit",
+ "title": "金融リテラシー検定 D 金融商品・保険①",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-d01-01",
+   "exam": "lit",
+   "field": "D",
+   "theme": "預貯金の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 銀行の預金口座の種類を解説",
+      "url": "https://www2.smbc.co.jp/kojin/money-viva/olive-times/0004/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "普通預金は、自由に預け入れや引き出しができる預金である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-1"
+  },
+  {
+   "id": "lit-d01-02",
+   "exam": "lit",
+   "field": "D",
+   "theme": "預貯金の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 銀行の預金口座の種類を解説",
+      "url": "https://www2.smbc.co.jp/kojin/money-viva/olive-times/0004/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "定期預金は、普通預金と同じくいつでも自由に引き出すことができ、満期前に解約しても約定利率のまま利息が支払われる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-1"
+  },
+  {
+   "id": "lit-d01-03",
+   "exam": "lit",
+   "field": "D",
+   "theme": "預貯金の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 外貨預金のメリット・デメリット",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/gaikayokin/0001/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "外貨預金は米ドルやユーロなどの外国の通貨で預け入れる預金であり、預入時よりも円高に変動すると、円換算で為替差損が生じることがある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D1-1"
+  },
+  {
+   "id": "lit-d01-04",
+   "exam": "lit",
+   "field": "D",
+   "theme": "預貯金の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 預金保険制度",
+      "url": "https://www.fsa.go.jp/policy/payoff/"
+     },
+     {
+      "title": "三井住友銀行 外貨預金のメリット・デメリット",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/gaikayokin/0001/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "預金保険制度に関する次の記述のうち、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "利息の付く普通預金や定期預金などの一般預金等は、1金融機関ごとに合算され、元本1,000万円までと破綻日までの利息等が保護される。"
+      },
+      {
+       "id": "2",
+       "text": "利息の付かない普通預金などの決済用預金も、一般預金等と同じく元本1,000万円までしか保護されない。"
+      },
+      {
+       "id": "3",
+       "text": "外貨預金も円建て預金と同様に、預金保険制度の対象であり、元本1,000万円までと利息が保護される。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D1-1"
+  },
+  {
+   "id": "lit-d01-05",
+   "exam": "lit",
+   "field": "D",
+   "theme": "利息の計算",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 わかると差が出る「単利、複利」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0009/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "単利では、利息は常に当初の元本に対してのみ計算される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-2"
+  },
+  {
+   "id": "lit-d01-06",
+   "exam": "lit",
+   "field": "D",
+   "theme": "利息の計算",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 わかると差が出る「単利、複利」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0009/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "複利では、受け取った利息は元本に組み入れられず、翌期以降も当初の元本だけに対して利息が計算される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-2"
+  },
+  {
+   "id": "lit-d01-07",
+   "exam": "lit",
+   "field": "D",
+   "theme": "利息の計算",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 わかると差が出る「単利、複利」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0009/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "元本100万円を年利2％の1年複利で3年間運用すると、利息の合計は61,208円となり、単利で運用した場合の利息60,000円を上回る。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "D1-2",
+   "calcReason": "複利の元利合計（100万円×1.02^3）と単利の利息（100万円×2％×3年）を実際に計算し、金額を比較する必要があるため"
+  },
+  {
+   "id": "lit-d01-08",
+   "exam": "lit",
+   "field": "D",
+   "theme": "利息の計算",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 わかると差が出る「単利、複利」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0009/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "元本50万円を年利3％で2年間運用する場合の利息について、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "単利では利息は30,000円、1年複利では利息は30,450円となり、複利の方が450円多くなる。"
+      },
+      {
+       "id": "2",
+       "text": "単利でも複利でも、利息は30,000円で同額になる。"
+      },
+      {
+       "id": "3",
+       "text": "1年複利では利息は29,550円となり、単利の場合より少なくなる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "D1-2",
+   "calcReason": "単利と複利それぞれの利息額を実際に計算して比較する必要があるため"
+  },
+  {
+   "id": "lit-d01-09",
+   "exam": "lit",
+   "field": "D",
+   "theme": "決済手段とキャッシュレス決済の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "経済産業省 キャッシュレス",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "キャッシュレスとは、物理的な現金（紙幣・硬貨）を使用しなくても活動できる状態をいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-3"
+  },
+  {
+   "id": "lit-d01-10",
+   "exam": "lit",
+   "field": "D",
+   "theme": "決済手段とキャッシュレス決済の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "経済産業省 キャッシュレス",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "キャッシュレス決済の手段はクレジットカードのみであり、電子マネーやコード決済、デビットカードはキャッシュレス決済には含まれない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D1-3"
+  },
+  {
+   "id": "lit-d01-11",
+   "exam": "lit",
+   "field": "D",
+   "theme": "決済手段とキャッシュレス決済の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "経済産業省 キャッシュレス",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "キャッシュレス決済に関する次の記述のうち、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "キャッシュレスとは、現金とカードを併用して支払う状態のことである。"
+      },
+      {
+       "id": "2",
+       "text": "電子マネーは、キャッシュレス決済の手段の一つである。"
+      },
+      {
+       "id": "3",
+       "text": "デビットカードは、キャッシュレス決済の手段の一つである。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D1-3"
+  },
+  {
+   "id": "lit-d01-12",
+   "exam": "lit",
+   "field": "D",
+   "theme": "口座の安全な管理",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "警察庁 フィッシング対策",
+      "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融機関が、IDやパスワード等をメールやSMSで問い合わせることはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D1-4"
+  },
+  {
+   "id": "lit-d01-13",
+   "exam": "lit",
+   "field": "D",
+   "theme": "口座の安全な管理",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "警察庁 フィッシング対策",
+      "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "複数のサイトで同じIDとパスワードを使い回していても、一つのサイトから情報が盗まれない限り、他のサービスの安全に影響はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D1-4"
+  },
+  {
+   "id": "lit-d01-14",
+   "exam": "lit",
+   "field": "D",
+   "theme": "口座の安全な管理",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "警察庁 フィッシング対策",
+      "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "フィッシング対策として適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "「取引の停止」など切迫感のある文面のメールが届いたら、文中のURLから速やかにログインして手続を行う。"
+      },
+      {
+       "id": "2",
+       "text": "メールやSMS内のリンクを安易にクリックせず、あらかじめ公式サイトをブックマークに登録しておいたり、公式アプリを活用したりして正しいサイトに接続する。"
+      },
+      {
+       "id": "3",
+       "text": "フィッシングサイトにIDとパスワードを入力してしまった場合は、被害が確認できるまで様子を見る。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D1-4"
+  },
+  {
+   "id": "lit-d01-15",
+   "exam": "lit",
+   "field": "D",
+   "theme": "株式の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集「配当」",
+      "url": "https://www.jpx.co.jp/glossary/ha/556.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "配当は、株式を保有していれば、会社の利益の状況にかかわらず必ず一定の金額が支払われる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-1"
+  },
+  {
+   "id": "lit-d01-16",
+   "exam": "lit",
+   "field": "D",
+   "theme": "株式の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集「株主優待」",
+      "url": "https://www.jpx.co.jp/glossary/ka/543.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株主優待は、法律に基づいてすべての上場企業が実施しなければならない制度である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-1"
+  },
+  {
+   "id": "lit-d01-17",
+   "exam": "lit",
+   "field": "D",
+   "theme": "株式の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集「配当」",
+      "url": "https://www.jpx.co.jp/glossary/ha/556.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "配当は持株数に応じて分配されるため、同じ企業でも、保有する株式の数が多い株主ほど受け取る配当の総額は多くなる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-1"
+  },
+  {
+   "id": "lit-d01-18",
+   "exam": "lit",
+   "field": "D",
+   "theme": "株式の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集「配当」",
+      "url": "https://www.jpx.co.jp/glossary/ha/556.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集「株主優待」",
+      "url": "https://www.jpx.co.jp/glossary/ka/543.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式に関する次の記述のうち、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "株主は、持株数に応じて会社の利益の分配を受ける権利を有している。"
+      },
+      {
+       "id": "2",
+       "text": "株主優待は、配当とは別に、自社製品やサービスを株主に無料でプレゼントする制度である。"
+      },
+      {
+       "id": "3",
+       "text": "株主優待は諸外国でも広く行われている制度であり、日本の企業に限ったものではない。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-1"
+  },
+  {
+   "id": "lit-d01-19",
+   "exam": "lit",
+   "field": "D",
+   "theme": "債券の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "野村證券 債券投資の基礎知識",
+      "url": "https://www.nomura.co.jp/solution/financial-assets/bond/hajimete/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券を購入した投資家は、保有期間中の利子を受け取ることができ、満期日を迎えれば額面金額を受け取ることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-2"
+  },
+  {
+   "id": "lit-d01-20",
+   "exam": "lit",
+   "field": "D",
+   "theme": "債券の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "野村證券 債券投資の基礎知識",
+      "url": "https://www.nomura.co.jp/solution/financial-assets/bond/hajimete/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "市場金利が上昇すると、すでに発行されている債券の価格は上昇する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-2"
+  },
+  {
+   "id": "lit-d01-21",
+   "exam": "lit",
+   "field": "D",
+   "theme": "債券の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "野村證券 債券投資の基礎知識",
+      "url": "https://www.nomura.co.jp/solution/financial-assets/bond/hajimete/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "利率が同じ債券であれば、購入時の価格が異なっても、利回りは同じになる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-2"
+  },
+  {
+   "id": "lit-d01-22",
+   "exam": "lit",
+   "field": "D",
+   "theme": "債券の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "野村證券 債券投資の基礎知識",
+      "url": "https://www.nomura.co.jp/solution/financial-assets/bond/hajimete/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券投資に関する次の記述のうち、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "債券は発行体により満期時の元本償還が約束されているため、発行体が倒産した場合でも必ず全額が返済される。"
+      },
+      {
+       "id": "2",
+       "text": "債券の投資判断をする上では、利率だけでなく、購入時の価格を反映した利回りをあわせて確認することが重要である。"
+      },
+      {
+       "id": "3",
+       "text": "市場金利が低下すると、すでに発行されている債券の価格は下がる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "D2-2"
+  },
+  {
+   "id": "lit-d01-23",
+   "exam": "lit",
+   "field": "D",
+   "theme": "投資信託の仕組みとコスト",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 投資信託とは？基本的な仕組みからメリット・デメリットまで徹底解説",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/toushi-ippo/0003/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託とは、多くの利用者から集めた資金をまとめ、株式や債券、その他さまざまな資産で運用する金融商品である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-3"
+  },
+  {
+   "id": "lit-d01-24",
+   "exam": "lit",
+   "field": "D",
+   "theme": "投資信託の仕組みとコスト",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 投資信託とは？基本的な仕組みからメリット・デメリットまで徹底解説",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/toushi-ippo/0003/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託は元本保証のある商品であり、売却時に購入時の価格を下回ることはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D2-3"
+  },
+  {
+   "id": "lit-d01-25",
+   "exam": "lit",
+   "field": "D",
+   "theme": "投資信託の仕組みとコスト",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行 投資信託とは？基本的な仕組みからメリット・デメリットまで徹底解説",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/toushi-ippo/0003/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託の仕組みとコストに関する次の記述のうち、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信託報酬は、投資信託の保有期間中に信託財産から徴収される運用管理にかかる手数料である。"
+      },
+      {
+       "id": "2",
+       "text": "購入時手数料や信託財産留保額は、投資信託によってはかからないものもある。"
+      },
+      {
+       "id": "3",
+       "text": "信託銀行は、投資信託を設定し、信託財産を何に投資するかを決めて運用の指図を出す機関である。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D2-3"
+  }
+ ]
+}

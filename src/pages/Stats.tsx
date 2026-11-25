@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { EXAM_SPECS, FIELD_IDS, FIELDS } from '../domain/exam';
+import { EXAM_SPECS, fieldIdsFor, fieldsFor } from '../domain/exam';
 import { accuracy, accuracyByField, dailyTrend, medianTimeMs } from '../domain/stats';
 import { estimateReadiness } from '../domain/readiness';
 import { eligibleForPractice } from '../domain/selection';
@@ -42,7 +42,7 @@ export function StatsPage() {
   const byField = accuracyByField(attempts);
   const attempted = new Set(attempts.map((a) => a.itemId));
   const coverage = Object.fromEntries(
-    FIELD_IDS.map((f) => {
+    fieldIdsFor(exam).map((f) => {
       const qs = pool.filter((q) => q.field === f);
       return [f, qs.length ? qs.filter((q) => attempted.has(q.id)).length / qs.length : 0];
     }),
@@ -66,6 +66,7 @@ export function StatsPage() {
     mockRates: [...mocks].reverse().map((m) => m.score / m.max),
     reviewCompletion: pending + doneToday > 0 ? doneToday / (pending + doneToday) : null,
     passRate: EXAM_SPECS[exam].passScore / EXAM_SPECS[exam].maxScore,
+    fields: fieldIdsFor(exam),
   });
   const median = medianTimeMs(attempts);
 
@@ -99,15 +100,15 @@ export function StatsPage() {
       <section className="card">
         <h2 className="mb-2 font-bold">分野別</h2>
         <ul className="space-y-2">
-          {FIELD_IDS.map((f) => (
+          {fieldIdsFor(exam).map((f) => (
             <li key={f} className="text-sm">
               <div className="flex justify-between">
-                <span>{FIELDS[f].name}</span>
+                <span>{fieldsFor(exam)[f].name}</span>
                 <span className="tabular-nums text-slate-600 dark:text-slate-400">
                   正答率 {pct(byField[f].rate)}・学習済み {pct(coverage[f])}
                 </span>
               </div>
-              <ProgressBar value={Math.round(coverage[f] * 100)} max={100} label={`${FIELDS[f].name}の学習済み割合`} />
+              <ProgressBar value={Math.round(coverage[f] * 100)} max={100} label={`${fieldsFor(exam)[f].name}の学習済み割合`} />
             </li>
           ))}
         </ul>
@@ -121,7 +122,7 @@ export function StatsPage() {
             .map(([k, t]) => (
               <li key={k} className="flex justify-between">
                 <span>
-                  {FIELDS[t.field].short}：{k.split('|')[1]}
+                  {fieldsFor(exam)[t.field].short}：{k.split('|')[1]}
                 </span>
                 <span className="tabular-nums text-slate-600 dark:text-slate-400">
                   {t.done}/{t.total}

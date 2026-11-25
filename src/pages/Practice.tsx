@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
 import { useContent } from '../content/store';
-import { EXAM_SPECS, FIELD_IDS, FIELDS } from '../domain/exam';
+import { EXAM_SPECS, fieldIdsFor, fieldsFor } from '../domain/exam';
 import { eligibleForPractice, type PracticeConfig, type PracticeFilter } from '../domain/selection';
 import type { FieldId } from '../domain/types';
 import { setSetting, useSettings, type Settings } from '../state/settings';
@@ -34,7 +34,11 @@ export function PracticePage() {
     if (settings && exam && !cfg) setCfg(defaultConfig(settings, exam));
   }, [settings, exam, cfg]);
   useEffect(() => {
-    if (cfg && exam && cfg.exams[0] !== exam) setCfg({ ...cfg, exams: [exam] });
+    if (cfg && exam && cfg.exams[0] !== exam) {
+      // ユニットを切り替えたら、対象外の分野（例：FPのF分野）の選択を引き継がない
+      const ids = fieldIdsFor(exam);
+      setCfg({ ...cfg, exams: [exam], fields: cfg.fields?.filter((f) => ids.includes(f)), themes: [] });
+    }
   }, [exam, cfg]);
 
   const pool = useMemo(() => (cfg ? eligibleForPractice(questions, cfg) : []), [questions, cfg]);
@@ -122,9 +126,9 @@ export function PracticePage() {
           分野（未選択はすべて）
         </h2>
         <div className="flex flex-wrap gap-2">
-          {FIELD_IDS.map((f: FieldId) => (
+          {fieldIdsFor(exam).map((f: FieldId) => (
             <button key={f} className={`chip ${cfg.fields?.includes(f) ? 'chip-on' : ''}`} onClick={() => setCfg({ ...cfg, fields: toggle(cfg.fields, f), themes: [] })} aria-pressed={!!cfg.fields?.includes(f)}>
-              {FIELDS[f].short}
+              {fieldsFor(exam)[f].short}
             </button>
           ))}
         </div>

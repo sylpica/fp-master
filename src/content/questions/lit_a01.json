@@ -1,0 +1,860 @@
+{
+ "id": "lit_a01",
+ "exam": "lit",
+ "title": "金融リテラシー検定 A ライフプラン・キャリア①",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-a01-01",
+   "exam": "lit",
+   "field": "A",
+   "theme": "ライフプランとは",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "J-FLEC 用語・金融商品解説 ライフプランニング（生活設計）",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/r_life_planning/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ライフプランニング（生活設計）とは、将来、どんな生活をしたいか、そのために何が必要かを考えて、目的達成のため、具体的に計画を立てることである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-1"
+  },
+  {
+   "id": "lit-a01-02",
+   "exam": "lit",
+   "field": "A",
+   "theme": "人生の3大支出",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "人生の3大支出とは、住宅購入資金、教育資金、医療費の3つをいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-1"
+  },
+  {
+   "id": "lit-a01-03",
+   "exam": "lit",
+   "field": "A",
+   "theme": "ライフイベントと費用の見積もり",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 便利ツールで家計をチェック",
+      "url": "https://www.jafp.or.jp/know/fp/sheet/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ライフイベントにかかる費用は、正確な金額が分からないものは計画に含めず、金額が確定したものだけを書き込むべきである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-1"
+  },
+  {
+   "id": "lit-a01-04",
+   "exam": "lit",
+   "field": "A",
+   "theme": "3大支出への備え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "人生の3大支出への備え方として、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "老後資金は、3大支出に含まれないため、現役時代に準備する必要はない。"
+      },
+      {
+       "id": "2",
+       "text": "教育費は、子どもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始める。"
+      },
+      {
+       "id": "3",
+       "text": "住宅購入では、頭金が準備できなくても物件価格の全額をローンで借りるのが安全である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-1"
+  },
+  {
+   "id": "lit-a01-05",
+   "exam": "lit",
+   "field": "A",
+   "theme": "可処分所得",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 家計調査 用語の解説",
+      "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "可処分所得とは、実収入から税金や社会保険料などの非消費支出を差し引いた額で、いわゆる手取り収入のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-2"
+  },
+  {
+   "id": "lit-a01-06",
+   "exam": "lit",
+   "field": "A",
+   "theme": "消費支出と非消費支出",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 家計調査 用語の解説",
+      "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "家計調査でいう消費支出とは、税金や社会保険料など、原則として世帯の自由にならない支出のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-2"
+  },
+  {
+   "id": "lit-a01-07",
+   "exam": "lit",
+   "field": "A",
+   "theme": "家計の黒字・赤字",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省統計局 家計調査 用語の解説",
+      "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "家計の黒字とは、実収入と実支出との差であり、その差がマイナスの場合は赤字ということになる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-2"
+  },
+  {
+   "id": "lit-a01-08",
+   "exam": "lit",
+   "field": "A",
+   "theme": "収支構造の理解",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "家計の収支構造の説明として、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "変動費は、家賃や通信費といった毎月ほぼ一定額で発生する費用をいう。"
+      },
+      {
+       "id": "2",
+       "text": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用をいう。"
+      },
+      {
+       "id": "3",
+       "text": "手取り収入を確認する際は、総支給額ではなく、社会保険料や税金が差し引かれた後の額を見る。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-2"
+  },
+  {
+   "id": "lit-a01-09",
+   "exam": "lit",
+   "field": "A",
+   "theme": "先取り貯蓄",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+      "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "先取り貯蓄とは、給料が入ったら、まず一定額を貯蓄し、残りで生活する方法である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-3"
+  },
+  {
+   "id": "lit-a01-10",
+   "exam": "lit",
+   "field": "A",
+   "theme": "先取り貯蓄の誤解",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+      "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "先取り貯蓄とは、1か月の生活費を支払った後、月末に残ったお金を貯蓄に回す方法のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-3"
+  },
+  {
+   "id": "lit-a01-11",
+   "exam": "lit",
+   "field": "A",
+   "theme": "財形貯蓄制度",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "J-FLEC 用語・金融商品解説 一般財形貯蓄",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/a_ippan_zaikeichochiku/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "一般財形貯蓄は、賃金からの控除（給与天引）により事業主を通じて積み立てていく使途自由な貯蓄で、財形年金貯蓄や財形住宅貯蓄のような税制上の優遇措置はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-3"
+  },
+  {
+   "id": "lit-a01-12",
+   "exam": "lit",
+   "field": "A",
+   "theme": "貯蓄の仕組み化",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     },
+     {
+      "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+      "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+     },
+     {
+      "title": "J-FLEC 用語・金融商品解説 家計管理",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/k_kakei_kanri/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "貯蓄を無理なく続けるための仕組みづくりとして、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "無理のない範囲で、給与天引きや口座引落としなどの方法でお金を貯める仕組みを作る。"
+      },
+      {
+       "id": "2",
+       "text": "貯蓄は、生活費に余裕が出た月にだけ、その都度判断してまとめて行う。"
+      },
+      {
+       "id": "3",
+       "text": "貯めるお金は生活費と同じ口座に入れたままにし、残高を見ながら使い分ける。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A1-3"
+  },
+  {
+   "id": "lit-a01-13",
+   "exam": "lit",
+   "field": "A",
+   "theme": "キャッシュフロー表とは",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "J-FLEC 用語・金融商品解説 キャッシュフロー表",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/k_cashflow_hyo/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "キャッシュフロー表とは、家計の状況やライフイベントに沿って、将来の支出額、収入額、貯蓄額を予測して時系列であらわした表のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-4"
+  },
+  {
+   "id": "lit-a01-14",
+   "exam": "lit",
+   "field": "A",
+   "theme": "キャッシュフロー表の作り方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 便利ツールで家計をチェック",
+      "url": "https://www.jafp.or.jp/know/fp/sheet/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "家計のキャッシュフロー表は、家計の収支表だけをもとに作成するもので、ライフイベント表の内容を数字に反映させることはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-4"
+  },
+  {
+   "id": "lit-a01-15",
+   "exam": "lit",
+   "field": "A",
+   "theme": "ライフプランの見直し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 便利ツールで家計をチェック",
+      "url": "https://www.jafp.or.jp/know/fp/sheet/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ライフプランは、一度作成すれば、家族の状況や夢が変わっても見直す必要はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-4"
+  },
+  {
+   "id": "lit-a01-16",
+   "exam": "lit",
+   "field": "A",
+   "theme": "ライフプランのツール",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 便利ツールで家計をチェック",
+      "url": "https://www.jafp.or.jp/know/fp/sheet/"
+     },
+     {
+      "title": "J-FLEC 用語・金融商品解説 キャッシュフロー表",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/k_cashflow_hyo/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ライフプランづくりに使う表についての説明として、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "家計のバランスシートでは、資産と負債を書き出しても純資産の額は分からない。"
+      },
+      {
+       "id": "2",
+       "text": "ライフイベント表には、自分や家族の今後10年、20年の予定を書き込み、将来のイメージを具体化する。"
+      },
+      {
+       "id": "3",
+       "text": "キャッシュフロー表は、過去の家計の実績を記録し、節約できた金額を確認するための表である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A1-4"
+  },
+  {
+   "id": "lit-a01-17",
+   "exam": "lit",
+   "field": "A",
+   "theme": "緊急予備資金の役割",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "緊急予備資金は、病気やケガといった想定外の支出に備えるための資金である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A1-5"
+  },
+  {
+   "id": "lit-a01-18",
+   "exam": "lit",
+   "field": "A",
+   "theme": "備えのお金の管理",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "万一への備えのお金は、毎月の生活費と一緒の枠で管理し、生活費が不足したときはその都度回して使うのが基本である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A1-5"
+  },
+  {
+   "id": "lit-a01-19",
+   "exam": "lit",
+   "field": "A",
+   "theme": "緊急予備資金の持ち方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+      "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+     },
+     {
+      "title": "J-FLEC 用語・金融商品解説 普通預貯金",
+      "url": "https://www.j-flec.go.jp/public/learn/glossary/h_futsu_yochokin/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "緊急予備資金の持ち方として、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "病気やケガなど、想定外の支出に備える資金として、生活費とは分けて用意する。"
+      },
+      {
+       "id": "2",
+       "text": "いつでも引出しが可能な普通預貯金など、必要なときにすぐ使える形で持つ。"
+      },
+      {
+       "id": "3",
+       "text": "値上がり益を狙い、全額を株式に投資しておき、必要になった時点で売却して現金化する。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A1-5"
+  },
+  {
+   "id": "lit-a01-20",
+   "exam": "lit",
+   "field": "A",
+   "theme": "労働者派遣の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 労働者派遣事業の適正な運営の確保及び派遣労働者の保護等に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/360AC0000000088"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労働者派遣とは、自己の雇用する労働者を、雇用関係の下に、他人の指揮命令を受けて、その他人のために労働に従事させることをいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-1"
+  },
+  {
+   "id": "lit-a01-21",
+   "exam": "lit",
+   "field": "A",
+   "theme": "パートタイム労働者の待遇",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省 確かめよう労働条件 Q&A 正社員とパートの賃金格差について説明を求めることができますか？",
+      "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/parttime/q1.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "パートタイム労働者は、正社員との待遇の相違について、事業主に説明を求めることはできない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "A2-1"
+  },
+  {
+   "id": "lit-a01-22",
+   "exam": "lit",
+   "field": "A",
+   "theme": "無期転換ルール",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 労働契約法",
+      "url": "https://laws.e-gov.go.jp/law/419AC0000000128"
+     },
+     {
+      "title": "厚生労働省 確かめよう労働条件 Q&A 採用時にはどのような労働条件が明示されるのでしょうか？",
+      "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "有期労働契約の無期転換ルールについて、正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "契約の更新が一度もなくても、最初の契約が5年を超えれば無期転換申込権が発生する。"
+      },
+      {
+       "id": "2",
+       "text": "無期転換すると、労働条件は正社員と全く同一の内容に自動的に変更される。"
+      },
+      {
+       "id": "3",
+       "text": "同一の使用者との有期労働契約の通算期間が5年を超える労働者が申し込むと、使用者は申込みを承諾したものとみなされる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A2-1"
+  },
+  {
+   "id": "lit-a01-23",
+   "exam": "lit",
+   "field": "A",
+   "theme": "法定労働時間",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 労働基準法",
+      "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "使用者は、労働者に、休憩時間を除き1週間について40時間を超えて、また1日について8時間を超えて労働させてはならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "A2-2"
+  },
+  {
+   "id": "lit-a01-24",
+   "exam": "lit",
+   "field": "A",
+   "theme": "休憩時間のルール",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 労働基準法",
+      "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労働時間が6時間を超える場合に与えなければならない休憩時間は、少なくとも30分である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A2-2"
+  },
+  {
+   "id": "lit-a01-25",
+   "exam": "lit",
+   "field": "A",
+   "theme": "労働条件の基礎ルール",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 労働基準法",
+      "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+     },
+     {
+      "title": "e-Gov法令検索 最低賃金法",
+      "url": "https://laws.e-gov.go.jp/law/334AC0000000137"
+     },
+     {
+      "title": "厚生労働省 確かめよう労働条件 Q&A 採用時にはどのような労働条件が明示されるのでしょうか？",
+      "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労働条件のルールについて、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "労働条件の明示は口頭で行えば足り、賃金や労働時間などを書面で交付する必要はない。"
+      },
+      {
+       "id": "2",
+       "text": "使用者は、労働者に対して、毎週少なくとも1回の休日を与えなければならない。"
+      },
+      {
+       "id": "3",
+       "text": "最低賃金額に達しない賃金を定める労働契約は、その部分については無効となる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "A2-2"
+  }
+ ]
+}

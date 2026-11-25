@@ -3,8 +3,8 @@ import { Link, useLocation, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { FIELD_IDS, FIELDS } from '../domain/exam';
-import type { FieldId, Term } from '../domain/types';
+import { contentGradeOfUnit, fieldIdsFor, fieldsFor } from '../domain/exam';
+import type { ContentGrade, FieldId, Term } from '../domain/types';
 import { useSettings } from '../state/settings';
 import { openSummaryPdf } from '../lib/summaryPdf';
 import { PageTitle } from '../ui/Layout';
@@ -55,13 +55,20 @@ export function GlossaryPage() {
 
 /** 要点まとめPDFを開くボタン（同梱PDFは用語データと無関係に開けるため、コンテンツ読込の完了を待たずに表示する） */
 function SummaryPdfButtons() {
+  const settings = useSettings();
   return (
     <>
       <PageTitle>用語集</PageTitle>
-      <div className="flex flex-wrap gap-2">
-        <button className="chip" onClick={() => void openSummaryPdf(2)}>2級 要点まとめPDFを開く</button>
-        <button className="chip" onClick={() => void openSummaryPdf(3)}>3級 要点まとめPDFを開く</button>
-      </div>
+      {settings?.unit === 'lit' ? (
+        <div className="flex flex-wrap gap-2">
+          <button className="chip" onClick={() => void openSummaryPdf('lit')}>金融リテラシー検定 要点まとめPDFを開く</button>
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-2">
+          <button className="chip" onClick={() => void openSummaryPdf(2)}>2級 要点まとめPDFを開く</button>
+          <button className="chip" onClick={() => void openSummaryPdf(3)}>3級 要点まとめPDFを開く</button>
+        </div>
+      )}
     </>
   );
 }
@@ -75,15 +82,21 @@ function GlossaryList() {
   const [field, setField] = useState<FieldId | ''>('');
   const [only, setOnly] = useState<'' | 'fav' | 'unlearned'>('');
   const [imp, setImp] = useState<'' | 1 | 2 | 3>('');
-  const [gradeFilter, setGradeFilter] = useState<'' | 2 | 3>('');
+  const [gradeFilter, setGradeFilter] = useState<'' | ContentGrade>('');
   const st = useMemo(() => new Map(states?.map((s) => [s.termId, s])), [states]);
+  // 表示範囲（級または金融リテラシー検定）。lit の範囲では分野も lit の対応で解決する
+  const scope: ContentGrade | undefined = gradeFilter || (settings ? contentGradeOfUnit(settings.unit) : undefined);
+  const scopeExam = scope === 'lit' ? ('lit' as const) : undefined;
+  // 範囲を切り替えたとき、対象外の分野（例：FPのF）の選択が残らないようにする
+  if (field && !fieldIdsFor(scopeExam).includes(field)) setField('');
+  const effField = (t: Term): FieldId => (scope === 'lit' ? (t.litField ?? t.field) : t.field);
   const list = useMemo(() => {
-    const grade = gradeFilter || settings?.grade;
+    const grade = scope;
     const norm = q.trim();
     const normK = kataToHira(norm);
     return terms
       .filter((t) => !grade || t.grades.includes(grade))
-      .filter((t) => !field || t.field === field)
+      .filter((t) => !field || effField(t) === field)
       .filter((t) => !imp || t.importance === imp)
       .filter((t) => (only === 'fav' ? st.get(t.id)?.favorite : only === 'unlearned' ? !st.get(t.id)?.learned : true))
       .filter(
@@ -97,23 +110,28 @@ function GlossaryList() {
         sort === 'kana'
           ? a.reading.localeCompare(b.reading, 'ja')
           : sort === 'field'
-            ? a.field.localeCompare(b.field) || a.reading.localeCompare(b.reading, 'ja')
+            ? effField(a).localeCompare(effField(b)) || a.reading.localeCompare(b.reading, 'ja')
             : b.importance - a.importance || a.reading.localeCompare(b.reading, 'ja'),
       );
-  }, [terms, settings, field, only, q, sort, st, imp, gradeFilter]);
+    // effField は scope（gradeFilter と設定）から決まるため、依存には scope を含める
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [terms, scope, field, only, q, sort, st, imp]);
 
   const groups = useMemo(() => {
     const m = new Map<string, Term[]>();
     for (const t of list) {
-      const k = sort === 'kana' ? kanaRow(t.reading) : sort === 'field' ? FIELDS[t.field].name : `重要度 ${'★'.repeat(t.importance)}`;
+      const k = sort === 'kana' ? kanaRow(t.reading) : sort === 'field' ? fieldsFor(scopeExam)[effField(t)].name : `重要度 ${'★'.repeat(t.importance)}`;
       m.set(k, [...(m.get(k) ?? []), t]);
     }
     return [...m.entries()];
-  }, [list, sort]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [list, sort, scope]);
 
   return (
     <>
-      <p className="-mt-3 text-sm text-slate-600 dark:text-slate-400">{list.length}語（{settings?.grade ?? ''}級の範囲）</p>
+      <p className="-mt-3 text-sm text-slate-600 dark:text-slate-400">
+        {list.length}語（{scope === 'lit' ? '金融リテラシー検定の範囲' : `${scope ?? ''}級の範囲`}）
+      </p>
       <input className="input" type="search" placeholder="用語・読み・説明で検索" value={q} onChange={(e) => setQ(e.target.value)} aria-label="用語を検索" />
       <div className="flex flex-wrap gap-2">
         {(['kana', 'field', 'importance'] as const).map((s) => (
@@ -123,9 +141,9 @@ function GlossaryList() {
         ))}
         <select className="chip bg-transparent" value={field} onChange={(e) => setField(e.target.value as FieldId | '')} aria-label="分野で絞り込み">
           <option value="">全分野</option>
-          {FIELD_IDS.map((f) => (
+          {fieldIdsFor(scopeExam).map((f) => (
             <option key={f} value={f}>
-              {FIELDS[f].short}
+              {fieldsFor(scopeExam)[f].short}
             </option>
           ))}
         </select>
@@ -135,10 +153,16 @@ function GlossaryList() {
           <option value={2}>★★のみ</option>
           <option value={1}>★のみ</option>
         </select>
-        <select className="chip bg-transparent" value={gradeFilter} onChange={(e) => setGradeFilter(e.target.value === '' ? '' : (Number(e.target.value) as 2 | 3))} aria-label="級で絞り込み">
-          <option value="">級：設定に連動</option>
+        <select
+          className="chip bg-transparent"
+          value={gradeFilter === '' ? '' : String(gradeFilter)}
+          onChange={(e) => setGradeFilter(e.target.value === '' ? '' : e.target.value === 'lit' ? 'lit' : (Number(e.target.value) as 2 | 3))}
+          aria-label="範囲で絞り込み"
+        >
+          <option value="">範囲：設定に連動</option>
           <option value={2}>2級の範囲</option>
           <option value={3}>3級の範囲</option>
+          <option value="lit">金融リテラシー検定の範囲</option>
         </select>
         <button className={`chip ${only === 'fav' ? 'chip-on' : ''}`} onClick={() => setOnly(only === 'fav' ? '' : 'fav')}>
           ★お気に入り
@@ -192,6 +216,7 @@ export function TermPage() {
   const loc = useLocation();
   const from = (loc.state as { from?: string } | null)?.from;
   const { termById, questions } = useContent();
+  const settings = useSettings();
   const t = termById.get(id ?? '');
   const state = useLiveQuery(() => db.termState.get(id ?? ''), [id]);
   const related = useMemo(() => {
@@ -212,8 +237,8 @@ export function TermPage() {
         )}
         <div>
           <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
-            <FieldBadge field={t.field} />
-            <span>{t.grades.map((g) => `${g}級`).join('・')}</span>
+            <FieldBadge field={settings?.unit === 'lit' ? (t.litField ?? t.field) : t.field} exam={settings?.unit === 'lit' ? 'lit' : undefined} />
+            <span>{t.grades.map((g) => (g === 'lit' ? '金融リテラシー検定' : `${g}級`)).join('・')}</span>
             <span>重要度 {'★'.repeat(t.importance)}</span>
             <ReviewBadge status={t.reviewStatus} />
           </div>

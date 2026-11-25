@@ -1196,3 +1196,8 @@ _sys.path.insert(0, str(_Path(__file__).resolve().parents[1] / 'original'))
 from fporig import all_batches as _all_batches  # noqa: E402
 for _b in _all_batches():
     EXPLANATIONS = EXPLANATIONS + _b.explanations()
+
+# 金融リテラシー検定オリジナル問題（scripts/original/fporig/litbatches）の解説
+from fporig.lit import all_lit_batches as _all_lit_batches  # noqa: E402
+for _b in _all_lit_batches():
+    EXPLANATIONS = EXPLANATIONS + _b.explanations()

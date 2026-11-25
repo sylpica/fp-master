@@ -1132,5 +1132,621 @@
   "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "zoyo-haigusha-kojo"
+ },
+ {
+  "id": "lit-a-muki-tenkan",
+  "front": "無期転換申込権が発生する有期労働契約の通算期間は？",
+  "back": "通算5年を超えたとき（契約の更新回数が1回以上あることなども必要）",
+  "field": "A",
+  "category": "deadline",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 確かめよう労働条件 Q&A 採用時にはどのような労働条件が明示されるのでしょうか？",
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html",
+    "quote": "有期労働契約で、①有期労働契約の通算期間が5年を超えていること、②契約の更新回数が1回以上あること、③現時点で同一の使用者との間で契約していること、以上のすべてを満たす場合に、無期転換申込権が発生します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "muki-tenkan"
+ },
+ {
+  "id": "lit-a-rodo-jikan",
+  "front": "法定労働時間の上限は？",
+  "back": "休憩時間を除き、1週間について40時間・1日について8時間",
+  "field": "A",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 労働基準法",
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "hotei-rodo-jikan"
+ },
+ {
+  "id": "lit-a-kyukei",
+  "front": "労働時間に応じた休憩時間の最低基準は？",
+  "back": "6時間を超える場合は少なくとも45分、8時間を超える場合は少なくとも1時間（労働時間の途中に与える）",
+  "field": "A",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 労働基準法",
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、労働時間が六時間を超える場合においては少くとも四十五分、八時間を超える場合においては少くとも一時間の休憩時間を労働時間の途中に与えなければならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "hotei-rodo-jikan"
+ },
+ {
+  "id": "lit-a-taiyo-shogakukin",
+  "front": "貸与奨学金の第一種・第二種の違いは？",
+  "back": "第一種奨学金は利子が付かない（無利子）、第二種奨学金は利子が付く（有利子）",
+  "field": "A",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本学生支援機構 貸与奨学金",
+    "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html",
+    "quote": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "taiyo-shogakukin"
+ },
+ {
+  "id": "lit-a-zaikei-kikan",
+  "front": "一般財形貯蓄の積立期間は？",
+  "back": "3年以上の期間にわたって、賃金からの控除（給与天引）により積み立てる",
+  "field": "A",
+  "category": "deadline",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "J-FLEC 用語・金融商品解説 一般財形貯蓄",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/a_ippan_zaikeichochiku/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/a_ippan_zaikeichochiku/",
+    "quote": "勤労者が、金融機関などと契約を結んで３年以上の期間にわたって、定期的に賃金からの控除（給与天引）により、事業主を通じて積み立てていく貯蓄"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "zaikei-chochiku"
+ },
+ {
+  "id": "lit-a-jido-teate",
+  "front": "児童手当の支給月と支給単位は？",
+  "back": "偶数月（2・4・6・8・10・12月）に、それぞれの前月分までの2か月分ずつ支給される",
+  "field": "A",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "こども家庭庁 児童手当制度のご案内",
+    "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai",
+    "quote": "児童手当は、毎年2月、4月、6月、8月、10月、12月（偶数月）に、それぞれの前月分まで（2か月分）を支給します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "jido-teate"
+ },
+ {
+  "id": "lit-cooling-off-8",
+  "front": "訪問販売のクーリング・オフができる期間は？",
+  "back": "法定書面を受け取った日を含めて8日間",
+  "field": "B",
+  "category": "deadline",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "訪問販売法定書面を受領した日を含めて8日間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "cooling-off-tokushoho"
+ },
+ {
+  "id": "lit-cooling-off-20",
+  "front": "連鎖販売取引（マルチ商法）のクーリング・オフができる期間は？",
+  "back": "法定書面を受け取った日を含めて20日間",
+  "field": "B",
+  "category": "deadline",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "maruchi-shoho"
+ },
+ {
+  "id": "lit-hotline-188",
+  "front": "消費者ホットラインの電話番号は？",
+  "back": "188（全国共通。身近な消費生活センターや消費生活相談窓口を案内する番号）",
+  "field": "B",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "消費者庁 消費者ホットライン",
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+    "quote": "困ったときは、一人で悩まずに、「消費者ホットライン」188にご相談ください"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shohisha-hotline"
+ },
+ {
+  "id": "lit-soryo-kisei",
+  "front": "総量規制により、貸金業者から借りられる借入残高の上限は？",
+  "back": "年収の3分の1まで（複数の貸金業者からの借入れの合計）",
+  "field": "B",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 貸金業法Q＆A",
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html",
+    "quote": "貸金業者からの借入残高が年収の3分の1を超える場合は、新たな借入れはできなくなる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "soryo-kisei"
+ },
+ {
+  "id": "lit-shinyo-joho-5",
+  "front": "全国銀行個人信用情報センターの取引情報が登録される期間は？",
+  "back": "契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間",
+  "field": "B",
+  "category": "deadline",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "全国銀行個人信用情報センター 登録情報と登録期間",
+    "url": "https://www.zenginkyo.or.jp/pcic/about/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.zenginkyo.or.jp/pcic/about/",
+    "quote": "契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shinyo-joho-kikan"
+ },
+ {
+  "id": "lit-c-yokin-gendo",
+  "front": "預金保険で保護される一般預金等の上限は（決済用預金を除く）？",
+  "back": "1金融機関ごとに預金者1人当たり元本1,000万円までとその利息等",
+  "field": "C",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三菱UFJ銀行「預金保険制度について」",
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken",
+    "quote": "それ以外の預金については1金融機関ごとに預金者1人当たり元本1,000万円までとそのお利息等です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "yokin-hoken"
+ },
+ {
+  "id": "lit-c-kessai-yokin",
+  "front": "決済用預金の3要件と、預金保険での保護の範囲は？",
+  "back": "無利息・要求払い・決済サービスを提供できることの3要件を満たす預金で、全額保護される",
+  "field": "C",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三菱UFJ銀行「預金保険制度について」",
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken",
+    "quote": "決済用預金（無利息、要求払い、決済サービスを提供できること、という3要件を満たす預金）に該当するものは全額"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kessai-yokin"
+ },
+ {
+  "id": "lit-c-bukka-mokuhyo",
+  "front": "日本銀行の「物価安定の目標」は何％？",
+  "back": "消費者物価の前年比上昇率2％",
+  "field": "C",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行の『物価の安定』についての考え方および『物価安定の目標』について教えてください」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm",
+    "quote": "消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "nippon-ginko"
+ },
+ {
+  "id": "lit-c-kawase-kainyu",
+  "front": "為替介入の実施権限と実務の担当は？",
+  "back": "実施権限は財務大臣。実務は日本銀行が財務大臣の代理人として遂行する",
+  "field": "C",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「為替介入（外国為替市場介入）とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm",
+    "quote": "わが国では、為替介入は財務大臣の権限において実施することとされています"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm",
+    "quote": "財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行しています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kawase-kainyu"
+ },
+ {
+  "id": "lit-d-fukuri-calc",
+  "front": "元本100万円を年利3％で2年間、複利で運用すると元利合計はいくら？",
+  "back": "106万900円（100万円×1.03×1.03）。利息は6万900円で、単利の場合（106万円）より900円多い",
+  "field": "D",
+  "category": "formula",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "投資や預金などで得た収益を、当初の元本にプラスして運用することで得られる利益を「複利」と呼びます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "fukuri"
+ },
+ {
+  "id": "lit-d-kessai-yokin",
+  "front": "預金保険制度で全額保護される預金は？",
+  "back": "当座預金や利息の付かない普通預金等の決済用預金（一般預金等は元本1,000万円までとその利息等）",
+  "field": "D",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 預金保険制度",
+    "url": "https://www.fsa.go.jp/policy/payoff/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/payoff/",
+    "quote": "当座預金や利息の付かない普通預金等（決済用預金）は、全額保護されます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "yokin-hoken"
+ },
+ {
+  "id": "lit-d-nisa-age",
+  "front": "NISA口座を開設できるのは何歳から？",
+  "back": "日本国内に住んでいる18歳以上（利用する年の1月1日時点で18歳以上の成人の方が対象）",
+  "field": "D",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト NISAを知る",
+    "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html",
+    "quote": "利用する年の1月1日時点で18歳以上の成人の方が対象"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html",
+    "quote": "NISAを利用するには、銀行や証券会社などにNISA口座を開設する必要があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "nisa"
+ },
+ {
+  "id": "lit-d-kijun-kagaku",
+  "front": "投資信託の基準価額は、いつ計算される？",
+  "back": "毎営業日（委託会社が毎営業日に計算し、購入・換金はその価額で行われる。多くは1万口あたりで公表される）",
+  "field": "D",
+  "category": "rule",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三菱UFJ銀行 投資信託の基礎用語集",
+    "url": "https://www.bk.mufg.jp/tameru/toushin/yougo/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.bk.mufg.jp/tameru/toushin/yougo/index.html",
+    "quote": "委託会社が毎営業日に計算し"
+   },
+   {
+    "url": "https://www.bk.mufg.jp/tameru/toushin/yougo/index.html",
+    "quote": "ファンドの1口あたりの値段です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "toshi-shintaku"
+ },
+ {
+  "id": "lit-e-kaigo-ichigo",
+  "front": "介護保険の第1号被保険者は何歳以上？",
+  "back": "65歳以上（第2号被保険者は40歳以上65歳未満）",
+  "field": "E",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "大阪府 介護保険FAQ 介護保険制度の概要",
+    "url": "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html",
+    "quote": "被保険者は、2つの区分にわかれ、65歳以上の方は第1号被保険者、40歳から64歳の方は第2号被保険者となります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kaigo-hihokensha"
+ },
+ {
+  "id": "lit-e-koreisha-iryo",
+  "front": "後期高齢者医療制度の対象者は？",
+  "back": "75歳以上の方（65〜74歳で一定の障害の状態にあることにつき認定を受けた人を含む）",
+  "field": "E",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "全国健康保険協会（協会けんぽ） 健康保険制度の概要",
+    "url": "https://www.kyoukaikenpo.or.jp/about/business/overview/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.kyoukaikenpo.or.jp/about/business/overview/",
+    "quote": "75歳以上の方および65歳～74歳で一定の障害の状態にあることにつき後期高齢者医療広域連合の認定を受けた人"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "koki-koreisha-iryo-seido"
+ },
+ {
+  "id": "lit-e-kokumin-nenkin",
+  "front": "国民年金の加入対象年齢は？",
+  "back": "20歳以上60歳未満（日本国内に住む人）",
+  "field": "E",
+  "category": "number",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 年金制度の仕組みと考え方 第3 公的年金制度の体系",
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "日本国内に住む20歳以上60歳未満の人は、全て国民年金の被保険者となる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kokumin-nenkin"
+ },
+ {
+  "id": "lit-e-kokumin-futanritsu",
+  "front": "国民負担率の計算式は？",
+  "back": "（租税負担＋社会保障負担）÷国民所得",
+  "field": "E",
+  "category": "formula",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "財務省 税制の資料 負担率に関する資料",
+    "url": "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm",
+    "quote": "「国民負担率」は、租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kokumin-futanritsu"
+ },
+ {
+  "id": "lit-e-kazei-shotoku",
+  "front": "所得税の課税所得金額の求め方は？",
+  "back": "各種所得の金額の合計額 − 所得控除の額の合計額",
+  "field": "E",
+  "category": "formula",
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1100 所得控除のあらまし",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+    "quote": "それぞれの所得控除の要件に当てはまる場合には、各種所得の金額の合計額から各種所得控除の額の合計額を差し引きます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shotokuzei"
  }
 ]

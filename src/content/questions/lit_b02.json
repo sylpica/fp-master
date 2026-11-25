@@ -1,0 +1,860 @@
+{
+ "id": "lit_b02",
+ "exam": "lit",
+ "title": "金融リテラシー検定 B 消費者トラブル・消費者信用②",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-b02-01",
+   "exam": "lit",
+   "field": "B",
+   "theme": "SNS・インターネットを悪用したトラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁「SNS等を利用した「個人間融資」にご注意ください！」",
+      "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人であっても、反復継続する意思をもって金銭の貸付けを行うことは、貸金業法上の「貸金業」に該当し、国又は都道府県の登録を受ける必要がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-3"
+  },
+  {
+   "id": "lit-b02-02",
+   "exam": "lit",
+   "field": "B",
+   "theme": "SNS・インターネットを悪用したトラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁「SNS等を利用した「個人間融資」にご注意ください！」",
+      "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "SNSで知り合った個人同士の融資であれば、相手が個人を装ったヤミ金融業者である心配はなく、個人情報が悪用されることもない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-3"
+  },
+  {
+   "id": "lit-b02-03",
+   "exam": "lit",
+   "field": "B",
+   "theme": "SNS・インターネットを悪用したトラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁「給与の買取りをうたった違法なヤミ金融にご注意ください！」",
+      "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui2.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "いわゆる「給与ファクタリング」に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "給与ファクタリングと称して賃金債権を買い取り金銭を交付し、本人を通じて回収を行うことは、貸金業に該当する。"
+      },
+      {
+       "id": "2",
+       "text": "給与ファクタリングは給与の買取りであって貸付けではないため、貸金業の登録を受けずに業として行うことができる。"
+      },
+      {
+       "id": "3",
+       "text": "給与ファクタリングでは、年利に換算して数百％になるような利息であっても、利用者が合意していれば問題はない。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-3"
+  },
+  {
+   "id": "lit-b02-04",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人情報の取扱いと漏えい対策",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 個人情報の保護に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人情報保護法において「個人情報」とは、生存する個人に関する情報であって、氏名・生年月日その他の記述等により特定の個人を識別することができるものをいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-4"
+  },
+  {
+   "id": "lit-b02-05",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人情報の取扱いと漏えい対策",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 個人情報の保護に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人情報取扱事業者は、本人の同意がなくても、法令に基づく場合などの例外を除き、自由に個人データを第三者に提供することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-4"
+  },
+  {
+   "id": "lit-b02-06",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人情報の取扱いと漏えい対策",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 個人情報の保護に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+     },
+     {
+      "title": "個人情報保護委員会「漏えい等の対応とお役立ち資料」",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人情報保護法に定める「要配慮個人情報」に関する次の記述のうち、最も誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "氏名と住所のみの情報は、病歴などと同じ要配慮個人情報に当たる。"
+      },
+      {
+       "id": "2",
+       "text": "要配慮個人情報には、本人の人種、信条、社会的身分、病歴、犯罪の経歴などが含まれる。"
+      },
+      {
+       "id": "3",
+       "text": "要配慮個人情報とは、その取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B2-4"
+  },
+  {
+   "id": "lit-b02-07",
+   "exam": "lit",
+   "field": "B",
+   "theme": "相談窓口（消費者ホットライン188・消費生活センター）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "消費者庁「消費者ホットライン」",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者ホットライン188に電話すると、地方公共団体が設置している身近な消費生活センターや消費生活相談窓口を案内してもらえる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-5"
+  },
+  {
+   "id": "lit-b02-08",
+   "exam": "lit",
+   "field": "B",
+   "theme": "相談窓口（消費者ホットライン188・消費生活センター）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "消費者庁「消費者ホットライン」",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者ホットライン188は、消費者庁の相談員に直接つながり、消費者庁が相談を受け付けるための番号である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-5"
+  },
+  {
+   "id": "lit-b02-09",
+   "exam": "lit",
+   "field": "B",
+   "theme": "相談窓口（消費者ホットライン188・消費生活センター）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "消費者庁「消費者ホットライン」",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者ホットライン188の利用に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "消費者ホットラインでは、通話料金とは別に、相談そのものにも料金がかかる。"
+      },
+      {
+       "id": "2",
+       "text": "消費者ホットラインが話中でつながらない場合に利用できる代替の相談手段はない。"
+      },
+      {
+       "id": "3",
+       "text": "電話で郵便番号等を入力すると、お近くの市区町村や都道府県の消費生活センター等の相談窓口を案内してもらえる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-5"
+  },
+  {
+   "id": "lit-b02-10",
+   "exam": "lit",
+   "field": "B",
+   "theme": "クレジットカードの仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「クレジットの契約関係」",
+      "url": "https://www.j-credit.or.jp/customer/basis/classification.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "クレジットカードの3者間契約では、消費者が販売会社で購入した商品等の代金をクレジット会社が立て替えて販売会社に支払い、後日、消費者がクレジット会社に支払う。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-1"
+  },
+  {
+   "id": "lit-b02-11",
+   "exam": "lit",
+   "field": "B",
+   "theme": "クレジットカードの仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「クレジットの契約関係」",
+      "url": "https://www.j-credit.or.jp/customer/basis/classification.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "クレジットカードは、カード会員本人以外でも、家族であれば自由に利用することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B3-1"
+  },
+  {
+   "id": "lit-b02-12",
+   "exam": "lit",
+   "field": "B",
+   "theme": "クレジットカードの仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「クレジットの特徴」",
+      "url": "https://www.j-credit.or.jp/customer/basis/characteristic.html"
+     },
+     {
+      "title": "日本クレジット協会「クレジットの契約関係」",
+      "url": "https://www.j-credit.or.jp/customer/basis/classification.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "クレジットの特徴に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "クレジットは、消費者の信用とは無関係に、誰でも契約して利用することができる。"
+      },
+      {
+       "id": "2",
+       "text": "クレジットは、代金後払いで商品やサービスを手に入れることができるシステムである。"
+      },
+      {
+       "id": "3",
+       "text": "クレジットカードには利用金額の上限はなく、利用可能枠を超えて利用することができる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-1"
+  },
+  {
+   "id": "lit-b02-13",
+   "exam": "lit",
+   "field": "B",
+   "theme": "分割払い・リボルビング払いの仕組みと手数料",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「クレジットの支払方式の種類」",
+      "url": "https://www.j-credit.or.jp/customer/basis/payment.html"
+     },
+     {
+      "title": "日本クレジット協会「リボ払いの特徴と利用上の注意」",
+      "url": "https://www.j-credit.or.jp/customer/basis/revolving.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "分割払いは、利用時に支払回数を決めて支払っていく方式であり、利用金額や支払回数に応じた手数料がかかる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-2"
+  },
+  {
+   "id": "lit-b02-14",
+   "exam": "lit",
+   "field": "B",
+   "theme": "分割払い・リボルビング払いの仕組みと手数料",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「クレジットの支払方式の種類」",
+      "url": "https://www.j-credit.or.jp/customer/basis/payment.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "リボルビング払いの手数料は利用金額に対して計算され、残高が残っていても支払いはいつか自動的に終わるため、支払期間が延びることはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B3-2"
+  },
+  {
+   "id": "lit-b02-15",
+   "exam": "lit",
+   "field": "B",
+   "theme": "分割払い・リボルビング払いの仕組みと手数料",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本クレジット協会「リボ払いの特徴と利用上の注意」",
+      "url": "https://www.j-credit.or.jp/customer/basis/revolving.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "リボ払いの支払残高が10万円で、手数料率が年15.0%であるとき、1か月分の手数料を単純計算（支払残高×年率÷12）で求めた場合の金額として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "125円"
+      },
+      {
+       "id": "2",
+       "text": "1,250円"
+      },
+      {
+       "id": "3",
+       "text": "15,000円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "B3-2",
+   "calcReason": "支払残高×手数料率÷12の単純計算で1か月分の手数料を求める計算問題のため"
+  },
+  {
+   "id": "lit-b02-16",
+   "exam": "lit",
+   "field": "B",
+   "theme": "ローンの金利と返済総額",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行「元利均等返済と元金均等返済の違い」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0027/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "元利均等返済は、元金と利息を含めた毎月の返済額が一定になる返済方法である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-3"
+  },
+  {
+   "id": "lit-b02-17",
+   "exam": "lit",
+   "field": "B",
+   "theme": "ローンの金利と返済総額",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行「元利均等返済と元金均等返済の違い」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0027/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "元金均等返済は、返済が進んでも毎月の返済額は変わらず、返済期間が同じ場合、元利均等返済よりも総返済額は多くなる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B3-3"
+  },
+  {
+   "id": "lit-b02-18",
+   "exam": "lit",
+   "field": "B",
+   "theme": "ローンの金利と返済総額",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "三井住友銀行「元利均等返済と元金均等返済の違い」",
+      "url": "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0027/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "元金均等返済で120万円を年利12%で借り入れた場合に関する次の記述のうち、最も誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "初月の利息は、120万円に年利12%を乗じた144,000円である。"
+      },
+      {
+       "id": "2",
+       "text": "毎月返済する元金の額は一定であり、返済が進むにつれて毎月の返済額は減っていく。"
+      },
+      {
+       "id": "3",
+       "text": "初月の利息は、120万円に年利12%を乗じて12で割った12,000円である。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "B3-3",
+   "calcReason": "借入残高×年利÷12で初月の利息を計算する問題のため"
+  },
+  {
+   "id": "lit-b02-19",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人信用情報機関と信用情報の影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "CIC「信用情報とは」",
+      "url": "https://www.cic.co.jp/guide/credit-information/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用情報とは、クレジットやローン等の契約に関する内容や支払状況といった「実際の取引の記録」をまとめた個人の情報である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-4"
+  },
+  {
+   "id": "lit-b02-20",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人信用情報機関と信用情報の影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国銀行個人信用情報センター「登録情報と登録期間」",
+      "url": "https://www.zenginkyo.or.jp/pcic/about/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用情報機関に登録された延滞などの情報は、登録期間が経過した後も削除されることなく、一生残り続ける。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B3-4"
+  },
+  {
+   "id": "lit-b02-21",
+   "exam": "lit",
+   "field": "B",
+   "theme": "個人信用情報機関と信用情報の影響",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国銀行個人信用情報センター「登録情報と登録期間」",
+      "url": "https://www.zenginkyo.or.jp/pcic/about/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "全国銀行個人信用情報センターに登録される「官報情報」に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "取引情報は、契約期間中および契約終了日から10年を超えない期間、登録される。"
+      },
+      {
+       "id": "2",
+       "text": "破産の事実は官報情報としては登録されず、信用情報には一切残らない。"
+      },
+      {
+       "id": "3",
+       "text": "官報に公告された破産・民事再生手続開始決定が、当該決定日から7年を超えない期間、登録される。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "B3-4"
+  },
+  {
+   "id": "lit-b02-22",
+   "exam": "lit",
+   "field": "B",
+   "theme": "多重債務と債務整理・相談機関",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン「多重債務相談窓口のご紹介」",
+      "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "複数の業者から借金をして返しきれない借金を抱えた状態にある人を多重債務者といい、借金問題で困った人のために全国各地に無料の多重債務相談窓口がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B3-5"
+  },
+  {
+   "id": "lit-b02-23",
+   "exam": "lit",
+   "field": "B",
+   "theme": "多重債務と債務整理・相談機関",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン「多重債務相談窓口のご紹介」",
+      "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債務整理の方法は自己破産しかなく、裁判所を通さずに債権者と交渉する任意整理という方法は存在しない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B3-5"
+  },
+  {
+   "id": "lit-b02-24",
+   "exam": "lit",
+   "field": "B",
+   "theme": "多重債務と債務整理・相談機関",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン「多重債務相談窓口のご紹介」",
+      "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債務整理の方法に関する次の記述のうち、最も誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "自己破産は、裁判所へ申し立て、裁判所より免責が許可されれば借金から解放される方法である。"
+      },
+      {
+       "id": "2",
+       "text": "特定調停は、裁判所は関与せず、債権者である金融機関同士だけで債務整理を調整する方法である。"
+      },
+      {
+       "id": "3",
+       "text": "任意整理は、弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B3-5"
+  },
+  {
+   "id": "lit-b02-25",
+   "exam": "lit",
+   "field": "B",
+   "theme": "多重債務と債務整理・相談機関",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁「多重債務についての相談窓口」",
+      "url": "https://www.fsa.go.jp/soudan/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融庁の案内では、債務整理（借金問題）についての相談先として、日本司法支援センター（法テラス）、日本弁護士連合会、日本司法書士会連合会などが挙げられている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B3-5"
+  }
+ ]
+}
