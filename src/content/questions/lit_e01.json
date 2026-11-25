@@ -1,0 +1,868 @@
+{
+ "id": "lit_e01",
+ "exam": "lit",
+ "title": "金融リテラシー検定 E 社会保険・税金①",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-e01-01",
+   "exam": "lit",
+   "field": "E",
+   "theme": "被扶養者の保険料",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国健康保険協会（協会けんぽ） 任意継続",
+      "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "健康保険の被扶養者については、保険料の負担はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-1"
+  },
+  {
+   "id": "lit-e01-02",
+   "exam": "lit",
+   "field": "E",
+   "theme": "国民健康保険の保険料",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国健康保険協会（協会けんぽ） 任意継続",
+      "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "国民健康保険の保険料額は、全国の市区町村で一律に定められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-1"
+  },
+  {
+   "id": "lit-e01-03",
+   "exam": "lit",
+   "field": "E",
+   "theme": "高額療養費制度",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "藤沢市 国民健康保険 高額療養費",
+      "url": "https://www.city.fujisawa.kanagawa.jp/honen/kurashi/hoken/kokuho/kakushukyufu/kogaku.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "同じ月に医療機関等で支払った自己負担額が自己負担限度額を超えたときは、申請により、その超えた分が後日、高額療養費として支給される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-1"
+  },
+  {
+   "id": "lit-e01-04",
+   "exam": "lit",
+   "field": "E",
+   "theme": "任意継続被保険者",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国健康保険協会（協会けんぽ） 任意継続",
+      "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "退職後に健康保険の任意継続被保険者でいることができる期間は、最長で3年間である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-1"
+  },
+  {
+   "id": "lit-e01-05",
+   "exam": "lit",
+   "field": "E",
+   "theme": "傷病手当金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "全国健康保険協会（協会けんぽ） 傷病手当金",
+      "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/"
+     },
+     {
+      "title": "全国健康保険協会（協会けんぽ） 任意継続",
+      "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "健康保険の傷病手当金について述べたものとして、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "任意継続被保険者期間中に発生した病気やケガでも、傷病手当金が支給される"
+      },
+      {
+       "id": "2",
+       "text": "仕事を休んだ初日から支給される"
+      },
+      {
+       "id": "3",
+       "text": "業務外の事由による病気やケガの療養のため仕事を休んだ場合に支給される"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-1"
+  },
+  {
+   "id": "lit-e01-06",
+   "exam": "lit",
+   "field": "E",
+   "theme": "国民年金の第1号被保険者",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構 国民年金の「第1号被保険者」、「第3号被保険者」とは何ですか。",
+      "url": "https://www.nenkin.go.jp/section/faq/kokunen/seido/kanyu/seidosetsumei/20140602-01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "国民年金の第1号被保険者は、日本国内に住む20歳以上60歳未満の自営業者、農業者、学生、無職の人などである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-2"
+  },
+  {
+   "id": "lit-e01-07",
+   "exam": "lit",
+   "field": "E",
+   "theme": "年金の2階建て構造",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構 国民年金の「第1号被保険者」、「第3号被保険者」とは何ですか。",
+      "url": "https://www.nenkin.go.jp/section/faq/kokunen/seido/kanyu/seidosetsumei/20140602-01.html"
+     },
+     {
+      "title": "厚生労働省 年金制度の仕組みと考え方 第2 公的年金制度の体系（被保険者、保険料）",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_002.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "厚生年金保険に加入している会社員は、国民年金には加入していない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-2"
+  },
+  {
+   "id": "lit-e01-08",
+   "exam": "lit",
+   "field": "E",
+   "theme": "老齢基礎年金の受給資格期間",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構 老齢基礎年金の受給要件・支給開始時期・年金額",
+      "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "老齢基礎年金は、保険料納付済期間と保険料免除期間などを合算した受給資格期間が10年以上ある場合に、65歳から受け取ることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E1-2"
+  },
+  {
+   "id": "lit-e01-09",
+   "exam": "lit",
+   "field": "E",
+   "theme": "老齢基礎年金の繰上げ受給",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構 老齢基礎年金の受給要件・支給開始時期・年金額",
+      "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "老齢基礎年金は65歳からしか受け取ることができず、受給開始を早めることはできない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-2"
+  },
+  {
+   "id": "lit-e01-10",
+   "exam": "lit",
+   "field": "E",
+   "theme": "第3号被保険者と学生納付特例",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本年金機構 国民年金の「第1号被保険者」、「第3号被保険者」とは何ですか。",
+      "url": "https://www.nenkin.go.jp/section/faq/kokunen/seido/kanyu/seidosetsumei/20140602-01.html"
+     },
+     {
+      "title": "厚生労働省 年金制度の仕組みと考え方 第2 公的年金制度の体系（被保険者、保険料）",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_002.html"
+     },
+     {
+      "title": "厚生労働省 年金制度の仕組みと考え方 第3 公的年金制度の体系（年金給付）",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_003.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "公的年金制度について述べたものとして、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "第3号被保険者は、第2号被保険者に扶養されている20歳以上60歳未満の配偶者である"
+      },
+      {
+       "id": "2",
+       "text": "学生納付特例の承認を受けた期間は、保険料を追納しなくても老齢基礎年金の年金額に全額反映される"
+      },
+      {
+       "id": "3",
+       "text": "公的年金の給付は、基礎年金と厚生年金による2階建ての構造になっている"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E1-2"
+  },
+  {
+   "id": "lit-e01-11",
+   "exam": "lit",
+   "field": "E",
+   "theme": "雇用保険の適用",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "ハローワークインターネットサービス 雇用保険制度の概要",
+      "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_summary.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "雇用保険は政府が管掌する強制保険制度であり、労働者を雇用する事業は、原則として強制的に適用される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-3"
+  },
+  {
+   "id": "lit-e01-12",
+   "exam": "lit",
+   "field": "E",
+   "theme": "雇用保険料の負担",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大阪労働局 労働保険料の計算",
+      "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "雇用保険の保険料は、労働者がその全額を負担する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-3"
+  },
+  {
+   "id": "lit-e01-13",
+   "exam": "lit",
+   "field": "E",
+   "theme": "労災保険料の負担",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大阪労働局 労働保険料の計算",
+      "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労災保険の保険料は、事業主と労働者が半分ずつ負担する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E1-3"
+  },
+  {
+   "id": "lit-e01-14",
+   "exam": "lit",
+   "field": "E",
+   "theme": "労災保険の給付対象",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省 労災保険制度",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "労災保険制度について述べたものとして、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "労働者の業務上の事由による傷病だけでなく、通勤による傷病に対しても保険給付が行われる"
+      },
+      {
+       "id": "2",
+       "text": "労災保険の費用は、労働者が負担する保険料によってまかなわれている"
+      },
+      {
+       "id": "3",
+       "text": "労災保険は、労働者を10人以上使用する事業にだけ適用される"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-3"
+  },
+  {
+   "id": "lit-e01-15",
+   "exam": "lit",
+   "field": "E",
+   "theme": "基本手当の受給要件",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "ハローワークインターネットサービス 基本手当について",
+      "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "雇用保険の基本手当について述べたものとして、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "基本手当の受給期間は、原則として離職した日の翌日から2年間である"
+      },
+      {
+       "id": "2",
+       "text": "基本手当を受けるには、原則として離職の日以前2年間に、被保険者期間が通算して12か月以上あることが必要である"
+      },
+      {
+       "id": "3",
+       "text": "基本手当の所定給付日数は、離職の日における年齢、被保険者であった期間、離職の理由などによって決まる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E1-3"
+  },
+  {
+   "id": "lit-e01-16",
+   "exam": "lit",
+   "field": "E",
+   "theme": "介護保険の被保険者",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "介護サービス情報公表システム 介護保険とは",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "介護保険の被保険者は、65歳以上の人だけである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-4"
+  },
+  {
+   "id": "lit-e01-17",
+   "exam": "lit",
+   "field": "E",
+   "theme": "介護保険の保険者",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "介護サービス情報公表システム 介護保険とは",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "介護保険制度は、お住まいの市区町村が保険者となって運営している。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E1-4"
+  },
+  {
+   "id": "lit-e01-18",
+   "exam": "lit",
+   "field": "E",
+   "theme": "介護サービスの利用者負担",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "介護サービス情報公表システム 介護保険サービスの費用",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "介護保険サービスを利用した場合の利用者負担は、原則として介護サービスにかかった費用の1割であり、一定以上所得者の場合は2割又は3割である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-4"
+  },
+  {
+   "id": "lit-e01-19",
+   "exam": "lit",
+   "field": "E",
+   "theme": "要介護認定",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "介護サービス情報公表システム 介護保険とは",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html"
+     },
+     {
+      "title": "介護サービス情報公表システム 介護保険サービス利用の流れ",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "介護保険の要介護認定は、都道府県が行う。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E1-4"
+  },
+  {
+   "id": "lit-e01-20",
+   "exam": "lit",
+   "field": "E",
+   "theme": "第1号・第2号被保険者の利用条件",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "介護サービス情報公表システム 介護保険とは",
+      "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "介護保険制度について述べたものとして、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "第1号被保険者は、特定疾病が原因で介護が必要になった場合にだけ、介護サービスを受けることができる"
+      },
+      {
+       "id": "2",
+       "text": "私たちは40歳になると、被保険者として介護保険に加入する"
+      },
+      {
+       "id": "3",
+       "text": "第2号被保険者は、介護保険の対象となる特定疾病により介護が必要と認定された場合に、介護サービスを受けることができる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E1-4"
+  },
+  {
+   "id": "lit-e01-21",
+   "exam": "lit",
+   "field": "E",
+   "theme": "所得の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1000 所得税のしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得税の所得は、その性質によって10種類に分かれ、それぞれ計算方法などが定められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-1"
+  },
+  {
+   "id": "lit-e01-22",
+   "exam": "lit",
+   "field": "E",
+   "theme": "給与所得控除",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1410 給与所得控除",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "給与所得控除額は、給与等の収入金額の多少にかかわらず、一定の金額である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-1"
+  },
+  {
+   "id": "lit-e01-23",
+   "exam": "lit",
+   "field": "E",
+   "theme": "所得税額の計算と超過累進税率",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1000 所得税のしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得税額は、1年間のすべての所得金額から所得控除額を差し引いた課税所得金額に税率を適用して計算し、その税率は所得が多くなるに従って段階的に高くなる超過累進税率である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "E2-1"
+  },
+  {
+   "id": "lit-e01-24",
+   "exam": "lit",
+   "field": "E",
+   "theme": "所得の区分",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1420 退職金を受け取ったとき（退職所得）",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
+     },
+     {
+      "title": "国税庁タックスアンサー No.1500 雑所得",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm"
+     },
+     {
+      "title": "国税庁タックスアンサー No.1490 一時所得",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得の区分について述べたものとして、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "会社員が副業で得た原稿料は、給与所得に区分される"
+      },
+      {
+       "id": "2",
+       "text": "退職により勤務先から受ける退職手当は、退職所得に区分される"
+      },
+      {
+       "id": "3",
+       "text": "一時所得は、その所得金額の全額を他の所得の金額と合計して税額を計算する"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-1"
+  },
+  {
+   "id": "lit-e01-25",
+   "exam": "lit",
+   "field": "E",
+   "theme": "所得税の税率と雑所得",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1000 所得税のしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm"
+     },
+     {
+      "title": "国税庁タックスアンサー No.1500 雑所得",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm"
+     },
+     {
+      "title": "国税庁タックスアンサー No.2260 所得税の税率",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得税について述べたものとして、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "公的年金等の収入に係る所得は、雑所得として計算される"
+      },
+      {
+       "id": "2",
+       "text": "所得税は、個人の所得に対してかかる税金である"
+      },
+      {
+       "id": "3",
+       "text": "所得税の税率は、課税所得金額の多少にかかわらず一律10％である"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-1"
+  }
+ ]
+}

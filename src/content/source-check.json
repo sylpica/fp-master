@@ -3,12 +3,12 @@
  "pages": {
   "https://www.stat.go.jp/data/kakei/kaisetsu.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.jafp.or.jp/know/fp/sheet/": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html": {
@@ -23,7 +23,7 @@
   },
   "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/334AC0000000141": {
@@ -268,12 +268,12 @@
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm": {
@@ -288,7 +288,7 @@
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm": {
@@ -358,7 +358,7 @@
   },
   "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm": {
@@ -378,7 +378,7 @@
   },
   "https://laws.e-gov.go.jp/law/129AC0000000089": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm": {
@@ -533,17 +533,17 @@
   },
   "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html": {
@@ -553,7 +553,7 @@
   },
   "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html": {
@@ -668,7 +668,7 @@
   },
   "https://www.sonpo.or.jp/insurance/car/index.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://soudanguide.sonpo.or.jp/car/about.html": {
@@ -1003,7 +1003,7 @@
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm": {
@@ -1013,7 +1013,7 @@
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm": {
@@ -1323,7 +1323,7 @@
   },
   "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.jasso.go.jp/shogakukin/about/kyufu/index.html": {
@@ -1368,7 +1368,7 @@
   },
   "https://www.sonpo.or.jp/insurance/kasai/index.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.sonpo.or.jp/insurance/shizen/index.html": {
@@ -1483,7 +1483,7 @@
   },
   "https://www.esri.cao.go.jp/jp/stat/di/di3.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.jpx.co.jp/glossary/ha/416.html": {
@@ -1703,7 +1703,7 @@
   },
   "https://www.jpx.co.jp/glossary/ka/543.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/law/shitsugi/shotoku/02/43.htm": {
@@ -1773,7 +1773,7 @@
   },
   "https://www.sonpo.or.jp/insurance/jibai/index.html": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/346CO0000000111": {
@@ -1863,7 +1863,7 @@
   },
   "https://laws.e-gov.go.jp/law/415AC0000000057": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/345AC0000000048": {
@@ -2438,7 +2438,7 @@
   },
   "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.boj.or.jp/about/education/oshiete/statistics/h14.htm": {
@@ -2458,7 +2458,7 @@
   },
   "https://www.boj.or.jp/statistics/outline/exp/faqms.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.boj.or.jp/about/education/oshiete/seisaku/b34.htm": {
@@ -2483,17 +2483,17 @@
   },
   "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/322AC0000000034": {
@@ -2838,7 +2838,7 @@
   },
   "https://www.fsa.go.jp/policy/payoff/": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.imaj.or.jp/study/investmenttrust/meritrisk/safety.html": {
@@ -3178,7 +3178,7 @@
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm": {
    "fetched": true,
-   "checkedAt": "2026-11-11",
+   "checkedAt": "2026-11-25",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2665.htm": {
@@ -3970,6 +3970,693 @@
    "fetched": true,
    "checkedAt": "2026-11-11",
    "missing": []
+  },
+  "http://www.mof.go.jp/kids/2018/qanda/q6.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": [
+    {
+     "item": "shakai-hosho",
+     "quote": "「社会保障」というのは、国が国民の生活を支えるためにつくられた制度で、「年金」、「医療」、「介護」、「子育て」などがあります"
+    },
+    {
+     "item": "zeikin-no-tsukawarekata",
+     "quote": "国の税金の使いみちで一番多いのは、「社会保障」です"
+    },
+    {
+     "item": "zeikin-no-tsukawarekata",
+     "quote": "「社会保障」というのは、国が国民の生活を支えるためにつくられた制度で、「年金」、「医療」、「介護」、「子育て」などがあります"
+    }
+   ]
+  },
+  "http://www.mof.go.jp/tax_information/qanda018.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E7%B7%8F%E7%94%9F%E7%94%A3": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/322AC0000000049": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/334AC0000000137": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/353AC1000000101": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/356AC0000000059": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/360AC0000000088": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/413AC0000000095": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/419AC0000000128": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.bk.mufg.jp/column/keizai/b0051.html?link_id=r_UPU_20231228_kojintop_column2": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.bk.mufg.jp/column/keizai/b0052.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.bk.mufg.jp/tameru/toushin/yougo/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/intl/g16.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/outline/a11.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/pfsys/e28.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b31.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b43.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/outline/index.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/mopo/outline/index.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/statistics/outline/exp/exms01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.boj.or.jp/statistics/outline/exp/exyaku.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.cfa.go.jp/policies/kokoseido/jidouteate/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.check-roudou.mhlw.go.jp/qa/roudousya/parttime/q1.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.cic.co.jp/guide/credit-information/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.city.sendai.jp/hogoshien/kurashi/tetsuzuki/sekatsu/sekatsu/sekatsuhogo.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.dic.go.jp/yokinsha/gaiyo.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.env.go.jp/policy/hakusyo/h29/html/hj17010301.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.esri.cao.go.jp/jp/stat/di/yogo.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.flat35.com/loan/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/access/27/152b.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/ordinary/chuui/attention.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui2.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/policy/kashikin/qa.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/policy/nisa2/invest/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/policy/nisa2/know/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/soudan/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.gov-online.go.jp/article/201803/entry-8412.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.gov-online.go.jp/article/202412/entry-6812.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.hellowork.mhlw.go.jp/insurance/insurance_summary.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-credit.or.jp/customer/basis/characteristic.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-credit.or.jp/customer/basis/classification.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-credit.or.jp/customer/basis/payment.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-credit.or.jp/customer/basis/revolving.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/columns/026_columns/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/glossary/a_ippan_zaikeichochiku/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/glossary/h_futsu_yochokin/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/glossary/k_cashflow_hyo/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/glossary/k_kakei_kanri/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.j-flec.go.jp/public/learn/glossary/r_life_planning/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jafp.or.jp/know/info/column/20221125.shtml": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jasso.go.jp/shogakukin/about/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jasso.go.jp/shogakukin/henkan/houhou/flow/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jasso.go.jp/shogakukin/henkan/menjo/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/basic/needs.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/basic/whatis.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/35.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/37.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/38.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/41.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/556.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/about/business/overview/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/benefit/childbirth/002/index.html": {
+   "fetched": false,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/": {
+   "fetched": false,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/faq/benefit/001/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": [
+    {
+     "item": "kenko-hoken",
+     "quote": "健康保険の被保険者や被扶養者が業務外の事由により病気やケガをしたときは、保険医療機関（病院・診療所）でマイナ保険証等を利用し、一部負担金を支払うことで、診察・処置・投薬などの治療を受けることができます"
+    },
+    {
+     "item": "kenko-hoken",
+     "quote": "このことを「療養の給付」といいます"
+    }
+   ]
+  },
+  "https://www.kyoukaikenpo.or.jp/shibu/nagasaki/public_relations/002/001/index.html": {
+   "fetched": false,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/file/06-Seisakujouhou-12600000-Seisakutoukatsukan/syakaihosyou2_1.pdf": {
+   "fetched": false,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/nenkin_shikumi_002.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/nenkin_shikumi_003.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mof.go.jp/kids/2018/gakusyu_y/tax_gakusyu.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mof.go.jp/kids/gakusyu_a_html/jp_01.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.moj.go.jp/MINJI/minji07_00238.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/section/faq/kokunen/seido/kanyu/seidosetsumei/20140602-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/kokunen/kanyu/20140710-04.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.no-trouble.caa.go.jp/what/doortodoorsales/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.no-trouble.caa.go.jp/what/mailorder/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.no-trouble.caa.go.jp/what/multilevelmarketing/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nomura.co.jp/solution/financial-assets/bond/hajimete/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.npa.go.jp/bureau/safetylife/sos47/case/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.ppc.go.jp/personalinfo/legal/leakAction": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.pref.nagano.lg.jp/kaigo-shien/kenko/koureisha/kaigo/kaigo.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.pref.shiga.lg.jp/shohi/17169.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.smbc.co.jp/kojin/money-viva/gaikayokin/0001/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0009/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.smbc.co.jp/kojin/money-viva/kihon-no-ki/0027/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.smbc.co.jp/kojin/money-viva/toushi-ippo/0003/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.stat.go.jp/data/cpi/1.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.stat.go.jp/data/cpi/gaiyou.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.stat.go.jp/naruhodo/9_graph/kihon.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.ur-net.go.jp/chintai/college/202304/001045.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.zenginkyo.or.jp/pcic/about/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www2.smbc.co.jp/kojin/money-viva/olive-times/0004/": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mof.go.jp/public_relations/finance/denshi/202312/pageindices/index15.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/kids/oyo/page13.htm": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.city.fujisawa.kanagawa.jp/honen/kurashi/hoken/kokuho/gaiyo/nini.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/shussan/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://www.city.fujisawa.kanagawa.jp/honen/kurashi/hoken/kokuho/kakushukyufu/kogaku.html": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
+  },
+  "https://ja.wikipedia.org/wiki/%E7%99%82%E9%A4%8A%E3%81%AE%E7%B5%A6%E4%BB%98": {
+   "fetched": true,
+   "checkedAt": "2026-11-25",
+   "missing": []
   }
  },
  "items": {
@@ -4405,6 +5092,120 @@
   "suitei-sozokunin": "verified",
   "himitsu-shosho-igon": "verified",
   "soshiki-hiyo": "verified",
+  "life-planning": "verified",
+  "sandai-shishutsu": "verified",
+  "kakei-kanri": "verified",
+  "kotei-hi": "verified",
+  "hendo-hi": "verified",
+  "sakidori-chokin": "verified",
+  "kakeibo": "verified",
+  "needs-wants": "verified",
+  "kinkyu-yobi-shikin": "verified",
+  "kyoiku-shikin": "verified",
+  "kyuyo-meisai": "verified",
+  "rodo-haken": "verified",
+  "muki-tenkan": "verified",
+  "saitei-chingin": "verified",
+  "hotei-rodo-jikan": "verified",
+  "rodo-joken-meiji": "verified",
+  "hiseiki-koyo": "verified",
+  "fukugyo": "verified",
+  "taiyo-shogakukin": "verified",
+  "shogakukin-henkan": "verified",
+  "hitorigurashi-shokihi": "verified",
+  "rogo-shikin": "verified",
+  "atamakin": "verified",
+  "keiyaku-seiritsu": "verified",
+  "seigen-koui-noryokusha": "verified",
+  "miseinensha-torikeshiken": "verified",
+  "fujitsu-kokuchi": "verified",
+  "danteki-handan": "verified",
+  "tokutei-shotorihiki-ho": "verified",
+  "cooling-off-tokushoho": "verified",
+  "homon-hanbai": "verified",
+  "tsushin-hanbai": "verified",
+  "denshi-shohisha-keiyakuho": "verified",
+  "akushitsu-shoho": "verified",
+  "tenken-shoho": "verified",
+  "kaku-seikyu": "verified",
+  "maruchi-shoho": "verified",
+  "nezumiko": "verified",
+  "yami-kinyu": "verified",
+  "kojinjoho-hogo-ho": "verified",
+  "yohairyo-kojinjoho": "verified",
+  "shohisha-hotline": "verified",
+  "credit-card-shikumi": "verified",
+  "bunkatsubarai": "verified",
+  "revolving-barai": "verified",
+  "shinyo-joho-kikan": "verified",
+  "tajusaimu": "verified",
+  "saimu-seiri": "verified",
+  "soryo-kisei": "verified",
+  "ginko": "verified",
+  "shinkin-shinkumi": "verified",
+  "shoken-gaisha": "verified",
+  "nippon-ginko": "verified",
+  "kinyu-seisaku": "verified",
+  "seisaku-kinri": "verified",
+  "kokai-shijo-sosa": "verified",
+  "payoff": "verified",
+  "chokusetsu-kinyu": "verified",
+  "kansetsu-kinyu": "verified",
+  "gdp": "verified",
+  "keiki-junkan": "verified",
+  "inflation": "verified",
+  "deflation": "verified",
+  "kinri": "verified",
+  "kashidashi-yakujo-kinri": "verified",
+  "kawase-soba": "verified",
+  "endaka-enyasu": "verified",
+  "kawase-kainyu": "verified",
+  "heikinchi": "verified",
+  "chuochi": "verified",
+  "kigyo-bukka-shisu": "verified",
+  "money-stock": "verified",
+  "kanzen-shitsugyoritsu": "verified",
+  "ryoteki-kanwa": "verified",
+  "futsu-yokin": "verified",
+  "teiki-yokin": "verified",
+  "cashless-kessai": "verified",
+  "tokushu-sagi": "verified",
+  "phishing": "verified",
+  "one-time-password": "verified",
+  "kabushiki": "verified",
+  "haito": "verified",
+  "saiken": "verified",
+  "rimawari": "verified",
+  "risk-return": "verified",
+  "choki-toshi": "verified",
+  "tsumitate-toshi": "verified",
+  "genpon-hosho": "verified",
+  "toshi-sagi": "verified",
+  "seimei-hoken": "verified",
+  "hoken-ryo": "verified",
+  "shushi-soto": "verified",
+  "songai-hoken": "verified",
+  "jidousha-hoken": "verified",
+  "minkan-hoken": "verified",
+  "shakai-hoken": "verified",
+  "kenko-hoken": "verified",
+  "kouteki-nenkin-seido": "verified",
+  "kokumin-nenkin": "verified",
+  "kosei-nenkin-hoken": "verified",
+  "kaigo-hihokensha": "verified",
+  "shotokuzei": "verified",
+  "shotoku-kojo": "verified",
+  "kokuzei-to-chihouzei": "verified",
+  "chokusetsuzei-kansetsuzei": "verified",
+  "shakai-hosho": "verified",
+  "shotoku-saibunpai": "verified",
+  "kokumin-futanritsu": "verified",
+  "shoshi-koreika": "verified",
+  "seikatsu-hogo": "verified",
+  "zeikin-no-tsukawarekata": "verified",
+  "shakai-fukushi": "verified",
+  "kouteki-fujo": "verified",
+  "kyosai-to-kojo": "verified",
   "f-kurisage-rate": "verified",
   "f-kuriage-rate": "verified",
   "f-kiso-shikaku": "verified",
@@ -4447,6 +5248,30 @@
   "f-zoyo-kiso": "verified",
   "f-seisan-kazei": "verified",
   "f-zoyo-haigusha": "verified",
+  "lit-a-muki-tenkan": "verified",
+  "lit-a-rodo-jikan": "verified",
+  "lit-a-kyukei": "verified",
+  "lit-a-taiyo-shogakukin": "verified",
+  "lit-a-zaikei-kikan": "verified",
+  "lit-a-jido-teate": "verified",
+  "lit-cooling-off-8": "verified",
+  "lit-cooling-off-20": "verified",
+  "lit-hotline-188": "verified",
+  "lit-soryo-kisei": "verified",
+  "lit-shinyo-joho-5": "verified",
+  "lit-c-yokin-gendo": "verified",
+  "lit-c-kessai-yokin": "verified",
+  "lit-c-bukka-mokuhyo": "verified",
+  "lit-c-kawase-kainyu": "verified",
+  "lit-d-fukuri-calc": "verified",
+  "lit-d-kessai-yokin": "verified",
+  "lit-d-nisa-age": "verified",
+  "lit-d-kijun-kagaku": "verified",
+  "lit-e-kaigo-ichigo": "verified",
+  "lit-e-koreisha-iryo": "verified",
+  "lit-e-kokumin-nenkin": "verified",
+  "lit-e-kokumin-futanritsu": "verified",
+  "lit-e-kazei-shotoku": "verified",
   "r7-kiso-kojo": "verified",
   "r7-kyuyo-kojo": "verified",
   "r7-haigusha-shotoku": "verified",
@@ -6160,7 +6985,257 @@
   "expl:g2n-k01-05": "verified",
   "expl:g2n-k01-06": "verified",
   "expl:g2n-k01-07": "verified",
-  "expl:g2n-k01-08": "verified"
+  "expl:g2n-k01-08": "verified",
+  "expl:lit-a01-01": "verified",
+  "expl:lit-a01-02": "verified",
+  "expl:lit-a01-03": "verified",
+  "expl:lit-a01-04": "verified",
+  "expl:lit-a01-05": "verified",
+  "expl:lit-a01-06": "verified",
+  "expl:lit-a01-07": "verified",
+  "expl:lit-a01-08": "verified",
+  "expl:lit-a01-09": "verified",
+  "expl:lit-a01-10": "verified",
+  "expl:lit-a01-11": "verified",
+  "expl:lit-a01-12": "verified",
+  "expl:lit-a01-13": "verified",
+  "expl:lit-a01-14": "verified",
+  "expl:lit-a01-15": "verified",
+  "expl:lit-a01-16": "verified",
+  "expl:lit-a01-17": "verified",
+  "expl:lit-a01-18": "verified",
+  "expl:lit-a01-19": "verified",
+  "expl:lit-a01-20": "verified",
+  "expl:lit-a01-21": "verified",
+  "expl:lit-a01-22": "verified",
+  "expl:lit-a01-23": "verified",
+  "expl:lit-a01-24": "verified",
+  "expl:lit-a01-25": "verified",
+  "expl:lit-a02-01": "verified",
+  "expl:lit-a02-02": "verified",
+  "expl:lit-a02-03": "verified",
+  "expl:lit-a02-04": "verified",
+  "expl:lit-a02-05": "verified",
+  "expl:lit-a02-06": "verified",
+  "expl:lit-a02-07": "verified",
+  "expl:lit-a02-08": "verified",
+  "expl:lit-a02-09": "verified",
+  "expl:lit-a02-10": "verified",
+  "expl:lit-a02-11": "verified",
+  "expl:lit-a02-12": "verified",
+  "expl:lit-a02-13": "verified",
+  "expl:lit-a02-14": "verified",
+  "expl:lit-a02-15": "verified",
+  "expl:lit-a02-16": "verified",
+  "expl:lit-a02-17": "verified",
+  "expl:lit-a02-18": "verified",
+  "expl:lit-a02-19": "verified",
+  "expl:lit-a02-20": "verified",
+  "expl:lit-a02-21": "verified",
+  "expl:lit-a02-22": "verified",
+  "expl:lit-a02-23": "verified",
+  "expl:lit-a02-24": "verified",
+  "expl:lit-a02-25": "verified",
+  "expl:lit-b01-01": "verified",
+  "expl:lit-b01-02": "verified",
+  "expl:lit-b01-03": "verified",
+  "expl:lit-b01-04": "verified",
+  "expl:lit-b01-05": "verified",
+  "expl:lit-b01-06": "verified",
+  "expl:lit-b01-07": "verified",
+  "expl:lit-b01-08": "verified",
+  "expl:lit-b01-09": "verified",
+  "expl:lit-b01-10": "verified",
+  "expl:lit-b01-11": "verified",
+  "expl:lit-b01-12": "verified",
+  "expl:lit-b01-13": "verified",
+  "expl:lit-b01-14": "verified",
+  "expl:lit-b01-15": "verified",
+  "expl:lit-b01-16": "verified",
+  "expl:lit-b01-17": "verified",
+  "expl:lit-b01-18": "verified",
+  "expl:lit-b01-19": "verified",
+  "expl:lit-b01-20": "verified",
+  "expl:lit-b01-21": "verified",
+  "expl:lit-b01-22": "verified",
+  "expl:lit-b01-23": "verified",
+  "expl:lit-b01-24": "verified",
+  "expl:lit-b01-25": "verified",
+  "expl:lit-b02-01": "verified",
+  "expl:lit-b02-02": "verified",
+  "expl:lit-b02-03": "verified",
+  "expl:lit-b02-04": "verified",
+  "expl:lit-b02-05": "verified",
+  "expl:lit-b02-06": "verified",
+  "expl:lit-b02-07": "verified",
+  "expl:lit-b02-08": "verified",
+  "expl:lit-b02-09": "verified",
+  "expl:lit-b02-10": "verified",
+  "expl:lit-b02-11": "verified",
+  "expl:lit-b02-12": "verified",
+  "expl:lit-b02-13": "verified",
+  "expl:lit-b02-14": "verified",
+  "expl:lit-b02-15": "verified",
+  "expl:lit-b02-16": "verified",
+  "expl:lit-b02-17": "verified",
+  "expl:lit-b02-18": "verified",
+  "expl:lit-b02-19": "verified",
+  "expl:lit-b02-20": "verified",
+  "expl:lit-b02-21": "verified",
+  "expl:lit-b02-22": "verified",
+  "expl:lit-b02-23": "verified",
+  "expl:lit-b02-24": "verified",
+  "expl:lit-b02-25": "verified",
+  "expl:lit-c01-01": "verified",
+  "expl:lit-c01-02": "verified",
+  "expl:lit-c01-03": "verified",
+  "expl:lit-c01-04": "verified",
+  "expl:lit-c01-05": "verified",
+  "expl:lit-c01-06": "verified",
+  "expl:lit-c01-07": "verified",
+  "expl:lit-c01-08": "verified",
+  "expl:lit-c01-09": "verified",
+  "expl:lit-c01-10": "verified",
+  "expl:lit-c01-11": "verified",
+  "expl:lit-c01-12": "verified",
+  "expl:lit-c01-13": "verified",
+  "expl:lit-c01-14": "verified",
+  "expl:lit-c01-15": "verified",
+  "expl:lit-c01-16": "verified",
+  "expl:lit-c01-17": "verified",
+  "expl:lit-c01-18": "verified",
+  "expl:lit-c01-19": "verified",
+  "expl:lit-c01-20": "verified",
+  "expl:lit-c01-21": "verified",
+  "expl:lit-c01-22": "verified",
+  "expl:lit-c01-23": "verified",
+  "expl:lit-c01-24": "verified",
+  "expl:lit-c01-25": "verified",
+  "expl:lit-c02-01": "verified",
+  "expl:lit-c02-02": "verified",
+  "expl:lit-c02-03": "verified",
+  "expl:lit-c02-04": "verified",
+  "expl:lit-c02-05": "verified",
+  "expl:lit-c02-06": "verified",
+  "expl:lit-c02-07": "verified",
+  "expl:lit-c02-08": "verified",
+  "expl:lit-c02-09": "verified",
+  "expl:lit-c02-10": "verified",
+  "expl:lit-c02-11": "verified",
+  "expl:lit-c02-12": "verified",
+  "expl:lit-c02-13": "verified",
+  "expl:lit-c02-14": "verified",
+  "expl:lit-c02-15": "verified",
+  "expl:lit-c02-16": "verified",
+  "expl:lit-c02-17": "verified",
+  "expl:lit-c02-18": "verified",
+  "expl:lit-c02-19": "verified",
+  "expl:lit-c02-20": "verified",
+  "expl:lit-c02-21": "verified",
+  "expl:lit-c02-22": "verified",
+  "expl:lit-c02-23": "verified",
+  "expl:lit-c02-24": "verified",
+  "expl:lit-c02-25": "verified",
+  "expl:lit-d01-01": "verified",
+  "expl:lit-d01-02": "verified",
+  "expl:lit-d01-03": "verified",
+  "expl:lit-d01-04": "verified",
+  "expl:lit-d01-05": "verified",
+  "expl:lit-d01-06": "verified",
+  "expl:lit-d01-07": "verified",
+  "expl:lit-d01-08": "verified",
+  "expl:lit-d01-09": "verified",
+  "expl:lit-d01-10": "verified",
+  "expl:lit-d01-11": "verified",
+  "expl:lit-d01-12": "verified",
+  "expl:lit-d01-13": "verified",
+  "expl:lit-d01-14": "verified",
+  "expl:lit-d01-15": "verified",
+  "expl:lit-d01-16": "verified",
+  "expl:lit-d01-17": "verified",
+  "expl:lit-d01-18": "verified",
+  "expl:lit-d01-19": "verified",
+  "expl:lit-d01-20": "verified",
+  "expl:lit-d01-21": "verified",
+  "expl:lit-d01-22": "verified",
+  "expl:lit-d01-23": "verified",
+  "expl:lit-d01-24": "verified",
+  "expl:lit-d01-25": "verified",
+  "expl:lit-d02-01": "verified",
+  "expl:lit-d02-02": "verified",
+  "expl:lit-d02-03": "verified",
+  "expl:lit-d02-04": "verified",
+  "expl:lit-d02-05": "verified",
+  "expl:lit-d02-06": "verified",
+  "expl:lit-d02-07": "verified",
+  "expl:lit-d02-08": "verified",
+  "expl:lit-d02-09": "verified",
+  "expl:lit-d02-10": "verified",
+  "expl:lit-d02-11": "verified",
+  "expl:lit-d02-12": "verified",
+  "expl:lit-d02-13": "verified",
+  "expl:lit-d02-14": "verified",
+  "expl:lit-d02-15": "verified",
+  "expl:lit-d02-16": "verified",
+  "expl:lit-d02-17": "verified",
+  "expl:lit-d02-18": "verified",
+  "expl:lit-d02-19": "verified",
+  "expl:lit-d02-20": "verified",
+  "expl:lit-d02-21": "verified",
+  "expl:lit-d02-22": "verified",
+  "expl:lit-d02-23": "verified",
+  "expl:lit-d02-24": "verified",
+  "expl:lit-d02-25": "verified",
+  "expl:lit-e01-01": "verified",
+  "expl:lit-e01-02": "verified",
+  "expl:lit-e01-03": "verified",
+  "expl:lit-e01-04": "verified",
+  "expl:lit-e01-05": "verified",
+  "expl:lit-e01-06": "verified",
+  "expl:lit-e01-07": "verified",
+  "expl:lit-e01-08": "verified",
+  "expl:lit-e01-09": "verified",
+  "expl:lit-e01-10": "verified",
+  "expl:lit-e01-11": "verified",
+  "expl:lit-e01-12": "verified",
+  "expl:lit-e01-13": "verified",
+  "expl:lit-e01-14": "verified",
+  "expl:lit-e01-15": "verified",
+  "expl:lit-e01-16": "verified",
+  "expl:lit-e01-17": "verified",
+  "expl:lit-e01-18": "verified",
+  "expl:lit-e01-19": "verified",
+  "expl:lit-e01-20": "verified",
+  "expl:lit-e01-21": "verified",
+  "expl:lit-e01-22": "verified",
+  "expl:lit-e01-23": "verified",
+  "expl:lit-e01-24": "verified",
+  "expl:lit-e01-25": "verified",
+  "expl:lit-e02-01": "verified",
+  "expl:lit-e02-02": "verified",
+  "expl:lit-e02-03": "verified",
+  "expl:lit-e02-04": "verified",
+  "expl:lit-e02-05": "verified",
+  "expl:lit-e02-06": "verified",
+  "expl:lit-e02-07": "verified",
+  "expl:lit-e02-08": "verified",
+  "expl:lit-e02-09": "verified",
+  "expl:lit-e02-10": "verified",
+  "expl:lit-e02-11": "verified",
+  "expl:lit-e02-12": "verified",
+  "expl:lit-e02-13": "verified",
+  "expl:lit-e02-14": "verified",
+  "expl:lit-e02-15": "verified",
+  "expl:lit-e02-16": "verified",
+  "expl:lit-e02-17": "verified",
+  "expl:lit-e02-18": "verified",
+  "expl:lit-e02-19": "verified",
+  "expl:lit-e02-20": "verified",
+  "expl:lit-e02-21": "verified",
+  "expl:lit-e02-22": "verified",
+  "expl:lit-e02-23": "verified",
+  "expl:lit-e02-24": "verified",
+  "expl:lit-e02-25": "verified"
  },
  "itemQuotes": {
   "shuka-keisu": "",
@@ -6595,6 +7670,120 @@
   "suitei-sozokunin": "遺留分を有する推定相続人（相続が開始した場合に相続人となるべき者をいう。以下同じ。）",
   "himitsu-shosho-igon": "秘密証書によって遺言をするには、次に掲げる方式に従わなければならない。|遺言者が、その証書を封じ、証書に用いた印章をもってこれに封印すること。",
   "soshiki-hiyo": "葬式費用は債務ではありませんが、相続税を計算するときは遺産総額から差し引くことができます。",
+  "life-planning": "ライフプランはあくまで計画ですから、その時々に合わせて柔軟に見直しをしていくものです|将来、どんな生活をしたいか、そのために何が必要かを考えて、目的達成のため、具体的に計画を立てること|将来どのような人生を送りたいかについて構想を描くことを「生活設計（ライフプランニング）」といいます|消費生活の安定・向上、健康づくり、子供の教育・自立、自己実現、余暇活動、老後生活への準備などへの計画が含まれる",
+  "sandai-shishutsu": "人生には3大支出といわれる「住宅購入資金」、「教育資金」、「老後資金」があります|教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントです|誰にでも必要となるのが老後資金です",
+  "kakei-kanri": "支出は収入の範囲内に収めることが重要であり、お金を「使う」「貯める」「増やす・備える」の3つの目的に分類するとともに、「貯める」お金は仕組み化で確保することで管理しやすくなる|普段生活するうえで、家計の収入と支出のバランスを管理すること",
+  "kotei-hi": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用、変動費は食費や娯楽費といったその時々で変動する費用です|固定費（住居費・通信費、保険料など）は一度見直すと毎月安定して支出を削減することができます|家賃や光熱費などの固定費の割合が大きいため、早い段階から家計管理を意識することが大事です",
+  "hendo-hi": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用、変動費は食費や娯楽費といったその時々で変動する費用です",
+  "sakidori-chokin": "上手にお金を貯めるコツは「先取り貯蓄」をすることです。給料が入ったら、まず一定額を貯蓄し、残りで生活する方法です|無理のない範囲で「給与天引き」や「口座引落とし」などの方法でお金を貯める仕組みを作ることが大切です|銀行の自動積立や、NISA（少額投資非課税制度）などを活用すれば無理なくお金を貯める仕組みを作ることができます",
+  "kakeibo": "もし支出を把握できていないという人は、家計簿をつけることをおすすめします|家計簿は継続することが大切です|最近では銀行口座やクレジットカードと連携した家計簿アプリなど便利なものもあります",
+  "needs-wants": "ウォンツの中でもさらに優先順位をつけます|ウォンツはあったらいいけど、なくても困らないものです|必要なもの・こと（Needs：ニーズ）か、欲しいもの・やりたいこと（Wants：ウォンツ）かに区別しましょう",
+  "kinkyu-yobi-shikin": "いつでも引出しが可能な状態で、銀行などの金融機関に預けているお金|お金を、①毎月の生活費などの「日常生活に必要なお金」、②車や住宅購入費などの「近い将来に使う予定のお金」、③老後資金や大きな病気などに備える「当面使う予定のないお金」の3つに分類し、それぞれ別枠で確保しておくことも重要です|病気やケガといった想定外の支出があり得ることもイメージしておきましょう",
+  "kyoiku-shikin": "もし、教育費の確保に悩んだときは、家計の教育費の負担を軽減し、こどもたちの進学・在学を応援する「国の教育ローン」もご検討ください|教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントです",
+  "kyuyo-meisai": "「住民税」は前年の所得に対して課税されるため、新卒1年目は原則かからず、2年目の6月から天引きが始まります|所得税は給与から毎月天引きされる「源泉徴収」という仕組みで差し引かれます|求人票などに記載されている金額は「総支給額」であり、ここから社会保険料や税金が差し引かれます|社会保険料には、雇用保険・健康保険・厚生年金保険が含まれます（介護保険料は40歳から納付）|給与明細は企業ごとに形式は異なりますが、基本は支給（もらうお金）と控除（引かれるお金）で構成されています",
+  "rodo-haken": "自己の雇用する労働者を、当該雇用関係の下に、かつ、他人の指揮命令を受けて、当該他人のために労働に従事させることをいい",
+  "muki-tenkan": "が五年を超える労働者が、当該使用者に対し、現に締結している有期労働契約の契約期間が満了する日までの間に、当該満了する日の翌日から労務が提供される期間の定めのない労働契約の締結の申込みをしたときは、使用者は当該申込みを承諾したものとみなす|当該申込みに係る期間の定めのない労働契約の内容である労働条件は、現に締結している有期労働契約の内容である労働条件（契約期間を除く。）と同一の労働条件|有期労働契約で、①有期労働契約の通算期間が5年を超えていること、②契約の更新回数が1回以上あること、③現時点で同一の使用者との間で契約していること、以上のすべてを満たす場合に、無期転換申込権が発生します",
+  "saitei-chingin": "使用者は、最低賃金の適用を受ける労働者に対し、その最低賃金額以上の賃金を支払わなければならない|最低賃金額に達しない賃金を定めるものは、その部分については無効とする",
+  "hotei-rodo-jikan": "使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない|使用者は、労働時間が六時間を超える場合においては少くとも四十五分、八時間を超える場合においては少くとも一時間の休憩時間を労働時間の途中に与えなければならない|使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない|使用者は、労働者に対して、毎週少くとも一回の休日を与えなければならない",
+  "rodo-joken-meiji": "明示の方法は、①から⑥までの事項（⑤の昇給に関する事項を除く）については労働者に書面を交付して明示しなければならないとされています",
+  "hiseiki-koyo": "事業主には、パートタイム労働者、有期雇用労働者といった非正規雇用労働者に対し、その待遇に関して説明する義務があります|給料の相違の内容や理由について、事業主に対して説明を求めることができます",
+  "fukugyo": "副業・兼業について、企業や働く方が現行の法令のもとでどういう事項に留意すべきかをまとめたガイドラインを作成しました|副業・兼業を希望する労働者が、適切な職業選択を通じ、多様なキャリア形成を図っていくことを促進するため|労働者の遵守事項の「許可なく他の会社等の業務に従事しないこと。」という規定を削除し、副業・兼業について規定を新設しました|給与を1か所から受けていて、かつ、その給与の全部が源泉徴収の対象となる場合において、各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人",
+  "taiyo-shogakukin": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります",
+  "shogakukin-henkan": "奨学金の身分終了後は、いつでも繰上返還ができます|奨学金の返還が困難になった場合、返還期限を猶予する制度です|死亡又は精神若しくは身体の障害による返還免除|毎月の返還額を2分の1、3分の1、4分の1、3分の2に減額し、減額返還適用期間に応じた分の返還期間を延長する制度です|返還は、貸与終了の翌月から数えて7か月目に始まります",
+  "hitorigurashi-shokihi": "この初期費用は家賃の５～７カ月分となることがあり、負担は少なくありません|そのため、敷金と違って退去するときに返金されることはありません|初期費用のうち法律で上限額が明確に定められているのは仲介手数料のみです|法律で「１カ月分の家賃＋消費税を上限とする」ことが決められています|退去時に滞納や損傷がなかった場合は、使われなかった敷金はそのまま返金してもらえます",
+  "rogo-shikin": "将来どのくらい年金がもらえるのか、年金以外でいくら必要かを今から確認してイメージしておきましょう|老後の生活に足りない分は今から貯蓄や私的年金制度（iDeCoなど）も活用しながら準備しておきましょう|誰にでも必要となるのが老後資金です",
+  "atamakin": "昨今の住宅ローンには、物件価格と同額（100％）を融資してくれるものもありますが、頭金の準備ができない人が住宅ローンに頼り過ぎるのは危険です",
+  "keiyaku-seiritsu": "契約の成立には、法令に特別の定めがある場合を除き、書面の作成その他の方式を具備することを要しない。|契約は、契約の内容を示してその締結を申し入れる意思表示（以下「申込み」という。）に対して相手方が承諾をしたときに成立する。",
+  "seigen-koui-noryokusha": "保佐開始の審判を受けた者は、被保佐人とし、これに保佐人を付する。|制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。|後見開始の審判を受けた者は、成年被後見人とし、これに成年後見人を付する。|未成年者が法律行為をするには、その法定代理人の同意を得なければならない。|補助開始の審判を受けた者は、被補助人とし、これに補助人を付する。",
+  "miseinensha-torikeshiken": "制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。|前項の規定に反する法律行為は、取り消すことができる。|成年年齢を１８歳に引き下げることを内容とする「民法の一部を改正する法律」は，２０２２年４月１日から施行されます|未成年者が法律行為をするには、その法定代理人の同意を得なければならない。|未成年者が親の同意を得ずに契約した場合には，原則として，契約を取り消すことができるとされています（未成年者取消権）|民法の成年年齢が１８歳に引き下げられても，お酒やたばこに関する年齢制限については，２０歳のまま維持されます",
+  "fujitsu-kokuchi": "「取消し」ができる期間を以下のように定めています。契約の締結から5年間|事業者からの不当な勧誘によって、消費者が誤認したり困惑したりして締結した契約については、後から「取消し」できるものとしています。|消費者に不利な情報を告げなかった場合（不利益事実の不告知）|重要事項について事実と異なる説明があった場合（不実告知）|霊感などによる知見を用いた告知の場合は10年間",
+  "danteki-handan": "不確実な事項について「確実」と説明された場合（断定的判断の提供）|将来、確実に値上がりするとは限らない金融商品を、事業者が「確実に値上がりする」「必ず儲かる」などと説明して消費者に販売した。",
+  "tokutei-shotorihiki-ho": "特定商取引法では、事業者の不適正な勧誘・取引を取り締まるための「行為規制」やトラブル防止・解決のための「民事ルール」(クーリング・オフ等)を定めています|訪問販売、通信販売、連鎖販売取引等といった消費者トラブルを生じやすい特定の取引形態を対象として",
+  "cooling-off-tokushoho": "クーリング・オフとは、特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約の解除をできる制度です。|書面または電磁的記録（メールやFAX、事業者のウェブサイト上のクーリング・オフ専用フォーム等。令和4年6月1日より、これら電磁的記録による通知も可能になりました。）により、事業者に通知します。|訪問販売法定書面を受領した日を含めて8日間|通信販売で購入したときはクーリング・オフができません。|連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間",
+  "homon-hanbai": "「訪問販売」とは、販売業者又は役務提供事業者(※)が、営業所等以外の場所（例えば、消費者の自宅）で契約を締結等して行う商品、特定権利の販売又は役務の提供等のことをいいます|キャッチセールス、アポイントメントセールスを含みます|街頭で呼び止められて店舗に連れて行かれた（キャッチセールス）",
+  "tsushin-hanbai": "契約の申込みの撤回又は解除に関する事項（売買契約に係る返品特約がある場合はその内容を含む。）|返品特約が表示されていない場合は、商品到着後8日以内であれば返品が可能です。|通信販売で購入したときはクーリング・オフができません。|通信販売事業者が新聞、雑誌、インターネット等で広告し、郵便、電話等の通信手段により申込みを受ける取引のこと",
+  "denshi-shohisha-keiyakuho": "この法律において「電子消費者契約」とは、消費者と事業者との間で電磁的方法により電子計算機の映像面を介して締結される契約であって、事業者又はその委託を受けた者が当該映像面に表示する手続に従って消費者がその使用する電子計算機を用いて送信することによってその申込み又はその承諾の意思表示を行うものをいう|その消費者の申込み若しくはその承諾の意思表示を行う意思の有無について確認を求める措置を講じた場合又はその消費者から当該事業者に対して当該措置を講ずる必要がない旨の意思の表明があった場合は、この限りでない。|消費者がその使用する電子計算機を用いて送信した時に当該事業者との間で電子消費者契約の申込み又はその承諾の意思表示を行う意思がなかったとき",
+  "akushitsu-shoho": "「無料点検に来た」と言って上がり込み、「白アリ被害がある」・「家が地震で倒壊する」・「飲料水が汚れている」・「布団にダニがいる」などと不安をあおって、新品や別の商品・サービスを契約させるものです。|身に覚えのない請求は、慌てて連絡（支払）はせず、無視しましょう。|電話やメールで突然見知らぬ異性から会おうと誘われたとき→デート商法",
+  "tenken-shoho": "「無料点検に来た」と言って上がり込み、「白アリ被害がある」・「家が地震で倒壊する」・「飲料水が汚れている」・「布団にダニがいる」などと不安をあおって、新品や別の商品・サービスを契約させるものです。",
+  "kaku-seikyu": "ハガキや封書、電子メールによる架空の請求で、請求内容も不明な未納料金に係る訴訟の取り下げを引き受けるなどとして、弁護士費用の名目で金銭をだまし取ろうとするもの|裁判所からの「特別送達」と記載された封書（受取の際に郵便職員から押印又は署名を求められる封書）の場合には、放置しておくと、不利益になる恐れがあり|身に覚えのない請求は、慌てて連絡（支払）はせず、無視しましょう。",
+  "maruchi-shoho": "友人に「商品を買って会員になり、友だちを紹介していけばマージンが入ってくる」と勧誘された等|物品（施設を利用し又は役務の提供を受ける権利を含む。）の販売（又は役務の提供など）の事業であって再販売、受託販売若しくは販売のあっせん（又は同種役務の提供若しくは役務提供のあっせん）をする者を特定利益が得られると誘引し特定負担を伴う取引（取引条件の変更を含む。）をするもの|連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間",
+  "nezumiko": "何人も、無限連鎖講を開設し、若しくは運営し、無限連鎖講に加入し、若しくは加入することを勧誘し、又はこれらの行為を助長する行為をしてはならない|無限連鎖講が、終局において破たんすべき性質のものである|順次先順位者が後順位者の出えんする金品から自己の出えんした金品の価額又は数量を上回る価額又は数量の金品を受領することを内容とする金品の配当組織をいう",
+  "yami-kinyu": "個人であっても、反復継続する意思をもって金銭の貸付けを行うことは、貸金業法上の「貸金業」に該当します|個人を装ったヤミ金融業者により違法な高金利での貸付けが行われるほか、個人情報が悪用されるなどして、更なる犯罪被害やトラブルに巻き込まれる危険性があります|貸金業を営む場合は、国又は都道府県の登録を受ける必要があります",
+  "kojinjoho-hogo-ho": "この法律において「個人情報」とは、生存する個人に関する情報であって、次の各号のいずれかに該当するものをいう|により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）|個人情報取扱事業者は、次に掲げる場合を除くほか、あらかじめ本人の同意を得ないで、個人データを第三者に提供してはならない",
+  "yohairyo-kojinjoho": "その取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう|個人情報取扱事業者は、次に掲げる場合を除くほか、あらかじめ本人の同意を得ないで、要配慮個人情報を取得してはならない|本人の人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実その他本人に対する不当な差別、偏見その他の不利益が生じないように",
+  "shohisha-hotline": "お近くの市区町村や都道府県の消費生活センター等の消費生活相談窓口をご案内するもので、消費者庁につながるものではありません|困ったときは、一人で悩まずに、「消費者ホットライン」188にご相談ください|地方公共団体が設置している身近な消費生活センターや消費生活相談窓口をご案内します",
+  "credit-card-shikumi": "この契約は「消費者は支払うことができる」という消費者の「信用」に基づいています|カード会員本人以外は利用できません|代金後払いで商品やサービスを手に入れることのできるシステム|消費者が販売会社で購入した商品等の代金をクレジット会社が立て替えて販売会社に支払い、後日、消費者がクレジット会社に支払います",
+  "bunkatsubarai": "分割払いは、クレジットカード利用時に購入する商品等の代金の支払回数を選んでその都度分割で支払う方式です|分割払い利用の際、商品等の金額等を考慮して、支払回数、月々の支払額を決めて支払っていく方式です|利用金額や支払回数に応じた手数料がかかります",
+  "revolving-barai": "この支払方式には手数料がかかり、手数料は「残高」に応じて計算されます|リボ払いの支払期間は、分割払いとは異なり、自分で決めることはできません|月々の支払金額を一定額または「（支払）残高」に対する一定率に決めておき、その額を支払っていく方式です|特徴は、利用の仕方にかかわらず月々の支払いが常に一定であること、「残高」があるかぎり支払いが終わらないことです",
+  "shinyo-joho-kikan": "この信用情報は、クレジット会社等が、お客さまの「信用力」を判断する際の参考として利用します|信用情報とは、クレジットやローン等の契約に関する内容や支払状況といった「実際の取引の記録」をまとめた個人の情報です|各情報は、登録期間経過後に自動的に削除されます|契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間",
+  "tajusaimu": "借金問題でお困りの方のために、全国各地に無料の多重債務相談窓口があります|消費者金融やクレジットカード会社などの複数の業者から借金をすることにより、いつのまにか返しきれない借金を抱えてしまう方がいます。こうした状態にある方を多重債務者といいます",
+  "saimu-seiri": "一つ目は、任意整理です。弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法です|三つ目は、個人版民事再生です。裁判所の関与の下、再生計画を立て、計画に沿って借金を返済する方法です|二つ目は、特定調停です。裁判所がお金を借りた人と金融機関の間（あいだ）に入り、債務整理を調整する方法です|債務整理とは、支払えなくなった借金を減額したり、支払えないことを認めてもらう手続きですが、それには4つの方法があります|債務整理（借金問題）についての相談先日本司法支援センター（法テラス）、日本弁護士連合会、日本司法書士会連合会、日本貸金業協会、日本クレジットカウンセリング協会、全国銀行協会|裁判所へ申し立て、借金を帳消しにする方法です。裁判所より免責が許可されれば借金から解放されますが、持ち家や自動車などの財産を失います",
+  "soryo-kisei": "例えば、年収300万円の方は、貸金業者から100万円までしか借りることができないということになります|借り過ぎ・貸し過ぎを防ぐために設けられた新しい規制です|複数の貸金業者から借りている場合、全ての貸金業者からの借入れの合計が、年収の3分の1以内であることが必要です|貸金業者からの借入残高が年収の3分の1を超える場合は、新たな借入れはできなくなる",
+  "ginko": "この法律において「銀行」とは、第四条第一項の内閣総理大臣の免許を受けて銀行業を営む者をいう|この法律において「銀行業」とは、次に掲げる行為のいずれかを行う営業をいう|為替取引を行うこと|預金又は定期積金の受入れと資金の貸付け又は手形の割引とを併せ行うこと",
+  "shinkin-shinkumi": "信用協同組合（一般的に、信用組合と呼ばれている）とは、協同組織金融機関の1つであり、組合員の出資によって運営される非営利の金融仲介機関である|信用金庫とは、協同組織金融機関の1つであり、会員の出資による非営利の金融仲介機関である|同様の主要業務を行う銀行との大きな違いは、与信業務を行えるのが原則、会員に対してのみとなることである|同様の主要業務を行う銀行との大きな違いは、預金業務と与信業務を行えるのが原則、組合員に限定されることである",
+  "shoken-gaisha": "有価証券の売買を取引所に取り次ぐ「ブローキング」|有価証券の引き受けを行う「アンダーライティング」|有価証券を売買するときの窓口になる会社のこと|金融商品取引法に基づき、内閣総理大臣の登録を受ける必要があります",
+  "nippon-ginko": "日本銀行は、2013年（平成25年）1月の金融政策決定会合で、消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました|日本銀行は、物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として、金融政策を運営している|日本銀行はわが国唯一の中央銀行です|日本銀行は株式会社ではなく、また株主総会もありません",
+  "kinyu-seisaku": "ここでいう物価とは、モノやサービスの価格を全体としてとらえたものです|日本銀行の通貨及び金融の調節における自主性は、尊重されなければならない|景気の過熱を抑えるために行われる金融政策は、金融引締め政策と呼ばれます|景気を上向かせるために行われる金融政策は、金融緩和政策と呼ばれます",
+  "seisaku-kinri": "2024年（令和6年）3月からは、金融政策の枠組みを見直し、政策金利を無担保コールレート（オーバーナイト物）としたうえで、金融市場調節方針において、その誘導目標を定めています|無担保コールレート（オーバーナイト物）とは、コール市場における無担保での資金貸借のうち、約定日に資金の受払を行い、翌営業日を返済期日とするものにかかる金利のことです",
+  "kokai-shijo-sosa": "金融市場調節の主たる手段は、金融機関を相手に行う資金の貸付けや国債等の売買です。これをオペレーション（公開市場操作）といいます",
+  "payoff": "決済用預金（無利息、要求払い、決済サービスを提供できること、という3要件を満たす預金）に該当するものは全額、それ以外の預金については1金融機関ごとに預金者1人当たり元本1,000万円までとそのお利息等です|金融機関が破綻した際に、預金等の一定額しか預金保険による保護の対象にならないこと",
+  "chokusetsu-kinyu": "借り手が貸し手から第三者を介さずに直接お金を供給してもらう方法|国や企業などが有価証券を発行して、証券市場を通じて投資家から資金を直接調達する証券取引などを指します|証券会社は仲介は行いますが、借り手が債務を返さないというリスクは貸し手が負います",
+  "kansetsu-kinyu": "貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法|貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法を「間接金融」といい、リスクは金融機関が負います|銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付けます",
+  "gdp": "一定期間内に国内で産み出された物やサービスの付加価値の合計のこと|居住者たる生産者による国内生産活動の結果、生み出された付加価値の総額|日本経済全体の景気動向を把握するためには「GDP（国内総生産）」が適しています",
+  "keiki-junkan": "CI一致指数が上昇している時は景気の拡張局面、低下している時は後退局面であり|景気の動きに対し、一致して動く指標。景気の現状を把握するのに用いられる|景気の動きに対し、先行して動く指標。景気の先行きに対する予測を行うときに参照される|景気の動きに対し、遅行して動く指標。景気の転換点を確認するものとして利用される",
+  "inflation": "ここでいう物価とは、モノやサービスの価格を全体としてとらえたものです|一定期間にわたって物価の水準が上昇し続ける状態を指す",
+  "deflation": "日本銀行は、物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として、金融政策を運営している|財やサービスの一般的な価格水準が持続的に低下することである",
+  "kinri": "「金利」とは、預金や借入などにおいて、元本に対してどのくらいの割合で利息が発生するのかを示したもので、一般的にパーセント（％）で表されます|企業は、運転資金（従業員への給料の支払いや仕入れなどに必要なお金）や設備資金（工場や店舗建設など設備投資に必要なお金）を調達し易くなります|企業や個人は、資金を借りにくくなり、経済活動が抑制されて、景気の過熱が抑えられることになります|利息は、基本的に「元本 × 金利 × 期間」をもとに計算します",
+  "kashidashi-yakujo-kinri": "国内銀行および信用金庫における約定時の貸出金利の集計・把握を目的として、「貸出約定平均金利の推移」という月次資料を作成し、公表しています",
+  "kawase-soba": "変動相場制においては、為替相場は、誰かが一方的、恣意的に決めるわけではなく、市場における需要と供給のバランスによって決まります|外国為替市場（単に「為替市場」ということもあります）とは、円やドルなどの異なる通貨を交換（売買）する場をいいます|為替相場（為替レート）は、外国為替市場において異なる通貨が交換（売買）される際の交換比率です",
+  "endaka-enyasu": "1ドル＝80円の場合は、1ドル＝100円の場合と比べて、同じ金額の円についてより多くのドルを取得できるので、円高ということになります|円高とは、円の他通貨に対する相対的価値、言い換えると、円1単位で交換できる他通貨の単位数が相対的に多い状態のことです|輸入にかかるコストが安くなるため、輸入企業の利益がふえる傾向にあります|輸出企業にとっては円建てでの売り上げが減少してしまうため、企業業績に悪影響を及ぼす可能性があります",
+  "kawase-kainyu": "わが国では、為替介入は財務大臣の権限において実施することとされています|日本銀行は、特別会計に関する法律および日本銀行法に基づき、財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行しています|為替介入の目的は、為替相場の急激な変動を抑え、その安定化を図ることです",
+  "heikinchi": "あるデータに外れ値が加わった場合、平均値は三つの指標の中で最も影響を受けるデータといってもよいでしょう|平均とは変量の総和を個数で割ったものです",
+  "chuochi": "中央値は、データを並べてちょうど真ん中にくる値なので、外れ値が増えても、多くの場合はそれほど影響ありません|変量の個数nが奇数の時は真ん中の値を取りますが、偶数のときは真ん中の2つを加えて2で割った値となります|母集団の分布の中央にくる値のことです",
+  "kigyo-bukka-shisu": "企業物価指数は、企業間で取引される財の価格変動を測定するものである|企業間で取引される財の物価としては「企業物価指数＜CGPI＞」があります|消費者が購入する財やサービスの物価としては「消費者物価指数＜CPI＞」があります|現在時点の価格を、基準時点（2020年）の価格を100として、指数化したものである",
+  "money-stock": "マネーストック統計とは、「金融部門から経済全体に供給されている通貨の総量」を示す統計です|具体的には、一般法人、個人、地方公共団体などの通貨保有主体が保有する通貨量の残高を集計しています|対象とする通貨の範囲に応じて、M1、M2、M3、広義流動性といった4つの指標を作成・公表しています",
+  "kanzen-shitsugyoritsu": "仕事があればすぐ就くことができる|仕事がなくて調査期間中に少しも仕事をしなかった|完全失業率（労働力人口に占める完全失業者の割合）|完全失業者は次の3つの要件を満たす者|調査期間中に仕事を探す活動や事業を始める準備をしていた（過去の求職活動の結果を待っている場合を含む）",
+  "ryoteki-kanwa": "2001年（平成13年）には、「量的緩和政策」が開始され、金融市場調節の主たる操作目標は、無担保コールレートから日本銀行当座預金残高に変更されました|2013年（平成25年）には、「量的・質的金融緩和」が開始され、金融市場調節の主たる操作目標は、無担保コールレートからマネタリーベースに変更されました",
+  "futsu-yokin": "給与・年金の受取口座や公共料金の引き落とし口座としても活用でき、日常の資金管理に適した口座です|自由に預け入れや引き出しができることが特徴です",
+  "teiki-yokin": "あらかじめ預入期間を指定して預ける預金口座です|満期までの間に中途解約した場合は、当初の約定利率よりも低い利率が適用されることもあるため注意が必要です|預金金利は預入期間が長くなるほど高くなることが一般的で、一定期間使う予定のないお金の置き場所として適しています",
+  "cashless-kessai": "主なキャッシュレスの手段として、電子マネー、コード決済、デビットカード、クレジットカードがあります|物理的な現金（紙幣・硬貨）を使用しなくても活動できる状態をキャッシュレスと定義しています",
+  "tokushu-sagi": "特殊詐欺対策では、何よりも「犯人と話をしない」ことが大切です|被害者に電話やＳＮＳ等を通じて、対面することなく信頼させ又は関係を深めて信用させ、指定した預貯金口座への振込その他の方法により、現金等をだまし取る犯罪を特殊詐欺といいます|親族、警察官、弁護士等を装い、親族が起こした事件・事故に対する示談金等を名目に金銭等をだまし取る（脅し取る）手口です",
+  "phishing": "実在のサービスや企業をかたり、偽のメールやＳＭＳ（携帯電話のショートメッセージ）で偽サイトに誘導し、ＩＤやパスワードなどの情報を盗んだり、マルウェアに感染させたりする手口です|金融機関が、ＩＤ、パスワード等をメールやＳＭＳで問い合わせることはありません|電子メールやＳＭＳ内のリンクを安易にクリックせず、あらかじめ公式サイトを「お気に入り」や「ブックマーク」に登録しておいたり、公式アプリを活用するなどして正しいサイトに接続するようにしてください",
+  "one-time-password": "パスワードに加え、メールやＳＭＳに通知されるワンタイムパスワードを入力しなければログインすることができないサービス（ワンタイムパスワードサービス）が提供されています|ＩＤやパスワードが盗まれた時のため、ワンタイムパスワードサービスを活用してください",
+  "kabushiki": "株式会社が事業資金を集めるために発行する有価証券",
+  "haito": "株主は持株数に応じてその利益の分配を受ける権利を有しています。分配された利益を配当といいます",
+  "saiken": "債券の価格は、債券利回りと反対方向に動きます。利回りが上昇すると、債券価格は下落して、逆に利回りが低下すると債券価格は上昇します|債券の額面金額に対して1年間に支払われる利子のこと|発行体がお金を借りるために発行する有価証券",
+  "rimawari": "債券の購入から償還までに受け取る利払いと償還時の差損益の合計を年換算して投資元本に対して年率何％の利回りになるかが計算されたものです|債券は通常額面金額で償還される為、アンダーパーで購入した場合、償還時には償還差益が発生することになります|額面金額に対しての割合である表面利率（利率・クーポンレート）を指す場合もあります",
+  "risk-return": "3つとも◎の金融商品はありません|収益性：どのくらいの収益が期待できるかの度合い|安全性：元本および利子の支払いが確実かの度合い|株式や投資信託などの運用商品に投資することで、預貯金よりも高いリターンを期待することはできますが、元本割れのおそれもあります|流動性：必要になったときにすぐ換金できるかの度合い",
+  "choki-toshi": "長い期間投資を続けると複利※の効果が大きくなります|長期投資をうまく活用することで、安定した収益の確保が期待できます",
+  "tsumitate-toshi": "一括で投資するのではなく「あらかじめ決まった金額」を「続けて」投資することです|少ない金額からコツコツ始めることができます|積立投資することで安いときに買わなかったり、高いときにだけ買ってしまうことを避けられます",
+  "genpon-hosho": "「元本保証」「絶対に儲かる」などと説明して勧誘することは、禁じられています|預金保険制度は、万が一金融機関が破綻した場合に、預金者等の保護や資金決済の履行の確保を図ることによって、信用秩序を維持することを目的としています",
+  "toshi-sagi": "「未公開株」や「ファンド」取引に関する詐欺的な投資勧誘が多発しています|実際に投資を行うかどうかの判断は、取引内容を十分に理解した上で行うことが重要です|少しでも不審に思った場合には、取引を見合わせることを含めて、慎重に対応することをお勧めします",
+  "seimei-hoken": "このようないつ起きるかわからないけれども、いったん起きるとまとまったお金が必要となるような場合に備えておくのが生命保険なのです|生命保険は、大勢の加入者があらかじめ公平に保険料を負担しあい、「もしも」のことが現実に起きたときに給付を受ける仕組みです|生命保険は自分や家族を守る「生活保障」の手段です",
+  "hoken-ryo": "契約者が保障を得る対価として生命保険会社に払い込むお金|被保険者が入院したとき、手術をしたときなどに生命保険会社から受取人に支払われるお金|被保険者が死亡・高度障害状態のとき、または満期まで生存したときに生命保険会社から受取人に支払われるお金",
+  "shushi-soto": "「収支相等の原則」とは、保険の支払対象となるリスクを持った集団の構成員が支払う保険料の総額は支払われる保険金の総額に等しくなければならないということ|保険に加入している人すべてが支払った保険料の総額（収入）と保険会社が事故によって支払う補償（これを保険金といいます。）の総額（支出）が等しくなるように算出されています",
+  "songai-hoken": "損害保険は、ふだんから多くの人々が少しずつお金を出し合って、その中の誰かが事故や災害で損害を被ったときに、出し合ったお金で補償する「相互扶助」の精神から生まれた助け合いの制度です|損害保険は、契約して保険料を支払ったときから十分な補償を得ることができます|火災保険は、住宅を取り巻くさまざまなリスクを総合的に補償するタイプ（住宅総合保険）とベーシックな補償のタイプ（住宅火災保険）に大きく分かれます",
+  "jidousha-hoken": "他人を死亡させたり、ケガを負わせて法律上の損害賠償責任が生じた場合に、自賠責保険の補償額を超える部分に対し保険金が支払われます|偶然な事故により、自動車が損害を受けた場合に保険金が支払われます|自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です|自賠責保険の補償内容は、自動車事故に遭った他人（被害者）の人身損害のみに限定されています|自賠責保険は、交通事故による被害者を救済するため法律に基づき、すべての自動車に加入することが義務付けられている強制保険です",
+  "minkan-hoken": "まず、どんな保障が必要か確認することが先決です|保険選びのポイントは、自分の生活設計からみて、今の、そして将来の保障ニーズと保険の種類が適合していることが大切です|生命保険は自分や家族を守る「生活保障」の手段です",
+  "shakai-hoken": "国が管理・運営する公的年金には「国民年金」と「厚生年金」があります|病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度",
+  "kenko-hoken": "大きく分けると、農業や自営業を営む人たちが加入する「国民健康保険」と、会社や工場、商店などで働く人が加入する『健康保険』になります|業務外の病気・けが、出産、死亡|療養の給付を受ける者は、その給付を受ける際、以下の区分に応じ、当該給付につき所定の算定額に当該各号に定める割合を乗じて得た額を、一部負担金として、当該保険医療機関又は保険薬局に支払わなければならない（第74条、施行令第34条）|薬剤又は治療材料の支給処置、手術その他の治療|被保険者の疾病又は負傷に関しては、次に掲げる療養の給付（現物給付）を行う（第63条1項）",
+  "kouteki-nenkin-seido": "専業主婦（夫）などの国民年金の第３号被保険者は、自ら保険料を納める必要はなく、その費用は第３号被保険者の配偶者が加入する厚生年金から拠出される|我が国の公的年金制度は、「国民皆年金」という特徴を持っており、①20歳以上の人が共通して加入する国民年金と、②会社員や公務員等が加入する厚生年金による、いわゆる「２階建て」と呼ばれる構造になっている|老後には、全ての人が老齢基礎年金を、厚生年金に加入していた人は、それに加えて、老齢厚生年金を受けることができる",
+  "kokumin-nenkin": "国民年金第1号被保険者は毎月、保険料を納める必要があります|日本国内に住む20歳以上60歳未満の人は、全て国民年金の被保険者となる|日本国内に住んでいる20歳以上60歳未満の方で、厚生年金保険に加入していない方は、すべて国民年金の第1号被保険者または第3号被保険者となります",
+  "kosei-nenkin-hoken": "定められた厚生年金保険料率（18.3％）で計算した額を事業主と折半で負担する|適用事業所において使用されている人が厚生年金の被保険者となる",
+  "kaigo-hihokensha": "介護を社会全体で支えるため、原則として加入者全員が保険料を納めます|介護保険は、介護が必要な状態になった高齢者が、自立した生活ができるよう高齢者の介護を社会全体で支え合うことを目的に平成12年4月から始まった制度で、介護保険制度の運営は、各市町村が行います|被保険者は、2つの区分にわかれ、65歳以上の方は第1号被保険者、40歳から64歳の方は第2号被保険者となります",
+  "shotokuzei": "所得税の税率は、分離課税に対するものなどを除くと、5パーセントから45パーセントの7段階に区分されています|所得税は、会社からもらう給料や、自分で商売をして稼いだお金などにかかる税金です|控除後の所得が高い部分ほど、適用される税率は高くなる仕組みになっています（「累進税率」といいます）",
+  "shotoku-kojo": "これは、所得税額を計算するうえで、社会政策上の要請によるもの、各納税者の個人的事情への考慮や最低生活費を保障するためのものなど、税負担面での調整を行う趣旨から設けられているものです|それぞれの所得控除の要件に当てはまる場合には、各種所得の金額の合計額から各種所得控除の額の合計額を差し引きます|所得税法では所得控除の制度を設けています",
+  "kokuzei-to-chihouzei": "固定資産税とは、こうした固定資産にかかる税金です。固定資産の所有者が、その資産価値に応じて算定された税額を、固定資産の所在する市町村に納めます|国税には、所得税（給与所得者や個人事業者などの個人の所得にかかる税）、法人税（株式会社などの会社の所得にかかる税）、消費税、酒税などがあります|地方税は、道府県税と市町村税に大きく分かれます",
+  "chokusetsuzei-kansetsuzei": "所得課税は、所得税や法人税のように、個人や会社の利益（所得）を対象として課税される税です|直接税は、所得税や法人税のように、税を負担する人が直接、国や地方公共団体に納める税です（負担する人＝納める人）|間接税は、消費税や酒税のように、実質的に税を負担する人と、それを納める人が異なる税です（負担する人≠納める人）",
+  "shakai-hosho": "「社会保障制度」は、国民生活の安定や健康の確保を目的として、所得の保障や医療・福祉サービスの提供を行う制度の総称です。社会保険、社会福祉、公的扶助、保健医療・公衆衛生の4つの分野から構成されます|病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度",
+  "shotoku-saibunpai": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度|病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度|税にはこうした財源確保機能の他、所得再分配機能や経済安定化機能といった大切な役割もあります",
+  "kokumin-futanritsu": "「国民負担率」は、租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率です|「財政赤字を含む国民負担率」は、これに将来世代の潜在的な負担として財政赤字を加えたものです",
+  "shoshi-koreika": "我が国は既に人口減少時代に突入し、かつて経験したことのない人口減少・少子高齢化が進行しつつあります|高齢化による医療・社会保障関係費の急増、財政赤字の深刻化と相まって、生産年齢人口の減少等による供給制約が顕在化し",
+  "seikatsu-hogo": "厚生労働大臣の定める基準に基づいて計算される世帯の最低生活費と収入を比較して、収入が最低生活費に満たない場合に、不足分が保護費として支給されます|日本国憲法は「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」と定めており|生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度|生活扶助……衣食、光熱水費などの日常生活に必要な費用",
+  "zeikin-no-tsukawarekata": "国の予算の使い方は、国会で決めれられており、全て国民のために税金を使っています|国の支出の約7割を、社会保障関係費・国債費（借金の返済と利子の支払い）・地方交付税交付金等で占めています|病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度",
+  "shakai-fukushi": "社会保険、社会福祉、公的扶助、保健医療・公衆衛生の4つの分野から構成されます|高齢者、障害者、子ども、ひとり親家庭など、生活上の困難を抱える人が安心して暮らせるよう公的な支援・サービスを提供する制度",
+  "kouteki-fujo": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度|生活保護制度",
+  "kyosai-to-kojo": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度|病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度",
   "f-kurisage-rate": "増額率（最大84％※1）＝0.7%",
   "f-kuriage-rate": "減額率（最大24％）＝0.4%",
   "f-kiso-shikaku": "受給資格期間が10年以上ある場合に、65歳から受け取ることができます",
@@ -6637,6 +7826,30 @@
   "f-zoyo-kiso": "基礎控除額110万円",
   "f-seisan-kazei": "限度額2,500万円",
   "f-zoyo-haigusha": "婚姻期間が20年以上の夫婦の間で",
+  "lit-a-muki-tenkan": "有期労働契約で、①有期労働契約の通算期間が5年を超えていること、②契約の更新回数が1回以上あること、③現時点で同一の使用者との間で契約していること、以上のすべてを満たす場合に、無期転換申込権が発生します",
+  "lit-a-rodo-jikan": "使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない|使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない",
+  "lit-a-kyukei": "使用者は、労働時間が六時間を超える場合においては少くとも四十五分、八時間を超える場合においては少くとも一時間の休憩時間を労働時間の途中に与えなければならない",
+  "lit-a-taiyo-shogakukin": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります",
+  "lit-a-zaikei-kikan": "勤労者が、金融機関などと契約を結んで３年以上の期間にわたって、定期的に賃金からの控除（給与天引）により、事業主を通じて積み立てていく貯蓄",
+  "lit-a-jido-teate": "児童手当は、毎年2月、4月、6月、8月、10月、12月（偶数月）に、それぞれの前月分まで（2か月分）を支給します",
+  "lit-cooling-off-8": "訪問販売法定書面を受領した日を含めて8日間",
+  "lit-cooling-off-20": "連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間",
+  "lit-hotline-188": "困ったときは、一人で悩まずに、「消費者ホットライン」188にご相談ください",
+  "lit-soryo-kisei": "貸金業者からの借入残高が年収の3分の1を超える場合は、新たな借入れはできなくなる",
+  "lit-shinyo-joho-5": "契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間",
+  "lit-c-yokin-gendo": "それ以外の預金については1金融機関ごとに預金者1人当たり元本1,000万円までとそのお利息等です",
+  "lit-c-kessai-yokin": "決済用預金（無利息、要求払い、決済サービスを提供できること、という3要件を満たす預金）に該当するものは全額",
+  "lit-c-bukka-mokuhyo": "消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました",
+  "lit-c-kawase-kainyu": "わが国では、為替介入は財務大臣の権限において実施することとされています|財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行しています",
+  "lit-d-fukuri-calc": "投資や預金などで得た収益を、当初の元本にプラスして運用することで得られる利益を「複利」と呼びます",
+  "lit-d-kessai-yokin": "当座預金や利息の付かない普通預金等（決済用預金）は、全額保護されます",
+  "lit-d-nisa-age": "NISAを利用するには、銀行や証券会社などにNISA口座を開設する必要があります|利用する年の1月1日時点で18歳以上の成人の方が対象",
+  "lit-d-kijun-kagaku": "ファンドの1口あたりの値段です|委託会社が毎営業日に計算し",
+  "lit-e-kaigo-ichigo": "被保険者は、2つの区分にわかれ、65歳以上の方は第1号被保険者、40歳から64歳の方は第2号被保険者となります",
+  "lit-e-koreisha-iryo": "75歳以上の方および65歳～74歳で一定の障害の状態にあることにつき後期高齢者医療広域連合の認定を受けた人",
+  "lit-e-kokumin-nenkin": "日本国内に住む20歳以上60歳未満の人は、全て国民年金の被保険者となる",
+  "lit-e-kokumin-futanritsu": "「国民負担率」は、租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率です",
+  "lit-e-kazei-shotoku": "それぞれの所得控除の要件に当てはまる場合には、各種所得の金額の合計額から各種所得控除の額の合計額を差し引きます",
   "r7-kiso-kojo": "令和6年分以前令和7年分令和8年分令和9年分以後令和10年分以後132万円以下48万円95万円104万円99万円",
   "r7-kyuyo-kojo": "2,200,000円まで740,000円|令和7年分給与等の収入金額(給与所得の源泉徴収票の支払金額)給与所得控除額1,900,000円まで650,000円",
   "r7-haigusha-shotoku": "令和7年分は58万円を超え133万円以下、令和2年分から令和6年分までは48万円を超え133万円以下",
@@ -8350,6 +9563,256 @@
   "expl:g2n-k01-05": "その設定後三十年以上を経過した日に借地権の目的である土地の上の建物を借地権設定者に相当の対価で譲渡する旨を定めることができる|前二項に規定する借地権の設定を目的とする契約は、公正証書によってしなければならない|存続期間を五十年以上として借地権を設定する場合においては|専ら事業の用に供する建物の所有を目的とし、かつ、存続期間を十年以上三十年未満として借地権を設定する場合には",
   "expl:g2n-k01-06": "遺産の分割により居住建物の帰属が確定した日又は相続開始の時から六箇月を経過する日のいずれか遅い日|配偶者居住権の存続期間は、配偶者の終身の間とする。ただし、遺産の分割の協議若しくは遺言に別段の定めがあるとき|配偶者居住権は、譲渡することができない",
   "expl:g2n-k01-07": "その目録については、自書することを要しない。この場合において、遺言者は、その目録の毎葉（自書によらない記載がその両面にある場合にあっては、その両面）に署名し、印を押さなければならない|十五歳に達した者は、遺言をすることができる|民法第千四条第一項の規定は、遺言書保管所に保管されている遺言書については、適用しない|第五条、第九条、第十三条及び第十七条の規定は、遺言については、適用しない",
-  "expl:g2n-k01-08": "ただし、老齢基礎年金又は障害基礎年金の支給を受けたことがある|夫の死亡の当時夫によつて生計を維持し、かつ、夫との婚姻関係（届出をしていないが、事実上婚姻関係と同様の事情にある場合を含む。）が十年以上継続した六十五歳未満の妻があるときに、その者に支給する"
+  "expl:g2n-k01-08": "ただし、老齢基礎年金又は障害基礎年金の支給を受けたことがある|夫の死亡の当時夫によつて生計を維持し、かつ、夫との婚姻関係（届出をしていないが、事実上婚姻関係と同様の事情にある場合を含む。）が十年以上継続した六十五歳未満の妻があるときに、その者に支給する",
+  "expl:lit-a01-01": "将来、どんな生活をしたいか、そのために何が必要かを考えて、目的達成のため、具体的に計画を立てること",
+  "expl:lit-a01-02": "人生には3大支出といわれる「住宅購入資金」、「教育資金」、「老後資金」があります",
+  "expl:lit-a01-03": "いつごろ、どのくらいの費用がかかりそうか、おおまかな目安でかまいません",
+  "expl:lit-a01-04": "人生には3大支出といわれる「住宅購入資金」、「教育資金」、「老後資金」があります|教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントです|頭金の準備ができない人が住宅ローンに頼り過ぎるのは危険です",
+  "expl:lit-a01-05": "「実収入」から税金、社会保険料などの「非消費支出」を差し引いた額で、いわゆる手取り収入のことである",
+  "expl:lit-a01-06": "いわゆる生活費のことであり、日常の生活を営むに当たり必要な商品やサービスを購入して実際に支払った金額である|非消費支出……税金や社会保険料など原則として世帯の自由にならない支出である",
+  "expl:lit-a01-07": "「実収入」と「実支出」との差であり、マイナスの場合は赤字ということになる",
+  "expl:lit-a01-08": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用、変動費は食費や娯楽費といったその時々で変動する費用です|総支給額ではなく、社会保険料や税金などが差し引かれた手取り収入がいくらかを確認してください",
+  "expl:lit-a01-09": "上手にお金を貯めるコツは「先取り貯蓄」をすることです。給料が入ったら、まず一定額を貯蓄し、残りで生活する方法です",
+  "expl:lit-a01-10": "上手にお金を貯めるコツは「先取り貯蓄」をすることです。給料が入ったら、まず一定額を貯蓄し、残りで生活する方法です",
+  "expl:lit-a01-11": "勤労者が、金融機関などと契約を結んで３年以上の期間にわたって、定期的に賃金からの控除（給与天引）により、事業主を通じて積み立てていく貯蓄|目的を問わない使途自由な貯蓄である一方、財形年金貯蓄や財形住宅貯蓄のような税制上の優遇措置はない",
+  "expl:lit-a01-12": "お金を「使う」「貯める」「増やす・備える」の3つの目的に分類するとともに、「貯める」お金は仕組み化で確保することで管理しやすくなる|上手にお金を貯めるコツは「先取り貯蓄」をすることです。給料が入ったら、まず一定額を貯蓄し、残りで生活する方法です|無理のない範囲で「給与天引き」や「口座引落とし」などの方法でお金を貯める仕組みを作ることが大切です",
+  "expl:lit-a01-13": "家計の状況（収支・貯蓄）やライフイベントに沿って、将来の支出額、収入額、貯蓄額を予測して時系列であらわした表のこと",
+  "expl:lit-a01-14": "家計の収支表とライフイベント表から数字を転記し",
+  "expl:lit-a01-15": "ライフプランはあくまで計画ですから、その時々に合わせて柔軟に見直しをしていくものです",
+  "expl:lit-a01-16": "「ライフイベント表」に自分や家族の今後10年、20年の予定を書き込んで、将来のイメージを具体化していきましょう|家計の状況（収支・貯蓄）やライフイベントに沿って、将来の支出額、収入額、貯蓄額を予測して時系列であらわした表のこと|資産から負債を差し引いてみると、本当の意味での資産（純資産）がわかります",
+  "expl:lit-a01-17": "病気やケガといった想定外の支出があり得ることもイメージしておきましょう",
+  "expl:lit-a01-18": "お金を、①毎月の生活費などの「日常生活に必要なお金」、②車や住宅購入費などの「近い将来に使う予定のお金」、③老後資金や大きな病気などに備える「当面使う予定のないお金」の3つに分類し、それぞれ別枠で確保しておくことも重要です",
+  "expl:lit-a01-19": "いつでも引出しが可能な状態で、銀行などの金融機関に預けているお金|病気やケガといった想定外の支出があり得ることもイメージしておきましょう",
+  "expl:lit-a01-20": "自己の雇用する労働者を、当該雇用関係の下に、かつ、他人の指揮命令を受けて、当該他人のために労働に従事させることをいい",
+  "expl:lit-a01-21": "事業主には、パートタイム労働者、有期雇用労働者といった非正規雇用労働者に対し、その待遇に関して説明する義務があります|給料の相違の内容や理由について、事業主に対して説明を求めることができます",
+  "expl:lit-a01-22": "が五年を超える労働者が、当該使用者に対し、現に締結している有期労働契約の契約期間が満了する日までの間に、当該満了する日の翌日から労務が提供される期間の定めのない労働契約の締結の申込みをしたときは、使用者は当該申込みを承諾したものとみなす|当該申込みに係る期間の定めのない労働契約の内容である労働条件は、現に締結している有期労働契約の内容である労働条件（契約期間を除く。）と同一の労働条件|有期労働契約で、①有期労働契約の通算期間が5年を超えていること、②契約の更新回数が1回以上あること、③現時点で同一の使用者との間で契約していること、以上のすべてを満たす場合に、無期転換申込権が発生します",
+  "expl:lit-a01-23": "使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない|使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない",
+  "expl:lit-a01-24": "使用者は、労働時間が六時間を超える場合においては少くとも四十五分、八時間を超える場合においては少くとも一時間の休憩時間を労働時間の途中に与えなければならない",
+  "expl:lit-a01-25": "使用者は、労働者に対して、毎週少くとも一回の休日を与えなければならない|使用者は、最低賃金の適用を受ける労働者に対し、その最低賃金額以上の賃金を支払わなければならない|明示の方法は、①から⑥までの事項（⑤の昇給に関する事項を除く）については労働者に書面を交付して明示しなければならないとされています|最低賃金額に達しない賃金を定めるものは、その部分については無効とする",
+  "expl:lit-a02-01": "税金や社会保険料を天引きされる前の額面金額のことを言います",
+  "expl:lit-a02-02": "支払った給与や報酬などから所得税および復興特別所得税を差し引いて、国に納める義務のある者を源泉徴収義務者といいます",
+  "expl:lit-a02-03": "その費用は、原則として事業主の負担する保険料によってまかなわれています",
+  "expl:lit-a02-04": "その費用は、原則として事業主の負担する保険料によってまかなわれています|支払った給与や報酬などから所得税および復興特別所得税を差し引いて、国に納める義務のある者を源泉徴収義務者といいます|税金や社会保険料を天引きされる前の額面金額のことを言います",
+  "expl:lit-a02-05": "給与を1か所から受けていて、かつ、その給与の全部が源泉徴収の対象となる場合において、各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人",
+  "expl:lit-a02-06": "各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人|大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません",
+  "expl:lit-a02-07": "退職した会社の健康保険に継続して2か月以上加入していた方は、退職日の翌日から20日以内に手続きをすると、最大2年間その健康保険を継続することができます",
+  "expl:lit-a02-08": "退職した会社の健康保険に継続して2か月以上加入していた方は、退職日の翌日から20日以内に手続きをすると、最大2年間その健康保険を継続することができます",
+  "expl:lit-a02-09": "奨学金には、「貸与型」の奨学金と「給付型」の奨学金があります|給付奨学金（返済不要）",
+  "expl:lit-a02-10": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります",
+  "expl:lit-a02-11": "奨学金の身分終了後は、いつでも繰上返還ができます|返還は、貸与終了の翌月から数えて7か月目に始まります",
+  "expl:lit-a02-12": "奨学生であった方が次に該当する場合、願出により奨学金の返還を免除する制度があります|奨学金の返還が困難になった場合、返還期限を猶予する制度です|死亡又は精神若しくは身体の障害による返還免除|毎月の返還額を2分の1、3分の1、4分の1、3分の2に減額し、減額返還適用期間に応じた分の返還期間を延長する制度です|願い出が必要です。審査があります",
+  "expl:lit-a02-13": "この初期費用は家賃の５～７カ月分となることがあり、負担は少なくありません",
+  "expl:lit-a02-14": "そのため、敷金と違って退去するときに返金されることはありません",
+  "expl:lit-a02-15": "初期費用のうち法律で上限額が明確に定められているのは仲介手数料のみです|法律で「１カ月分の家賃＋消費税を上限とする」ことが決められています|退去時に滞納や損傷がなかった場合は、使われなかった敷金はそのまま返金してもらえます",
+  "expl:lit-a02-16": "国内に住所を有する児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子をいいます。）を養育している方に支給されます",
+  "expl:lit-a02-17": "3歳以上 高校生年代まで10,000円（第3子以降は30,000円）|3歳未満15,000円（第3子以降は30,000円）",
+  "expl:lit-a02-18": "児童手当は、毎年2月、4月、6月、8月、10月、12月（偶数月）に、それぞれの前月分まで（2か月分）を支給します|公的医療保険の加入者が出産したとき、お子さん１人につき原則50万円がご加入の保険者から支給される制度です|出産育児一時金の「直接支払制度」を利用する場合、ご加入の保険者から出産施設（病院など）に直接、出産育児一時金が支給されるため、本人が施設の窓口で支払う金額は、費用の総額から出産育児一時金の支給額を差し引いた残りの額となります|国内に住所を有する児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子をいいます。）を養育している方に支給されます",
+  "expl:lit-a02-19": "【フラット３５】は、民間金融機関と住宅金融支援機構が提携して提供する最長35年の全期間固定金利の住宅ローンです",
+  "expl:lit-a02-20": "資金の受取時に返済終了までの借入金利と返済額が確定するため、長期にわたるライフプランが立てやすくなります",
+  "expl:lit-a02-21": "住宅ローン等の年末残高の合計額等を基として計算した金額を、居住の用に供した年分以後の各年分の所得税額から控除する",
+  "expl:lit-a02-22": "【フラット３５】は、民間金融機関と住宅金融支援機構が提携して提供する最長35年の全期間固定金利の住宅ローンです|住宅ローン等の年末残高の合計額等を基として計算した金額を、居住の用に供した年分以後の各年分の所得税額から控除する|資金の受取時に返済終了までの借入金利と返済額が確定するため、長期にわたるライフプランが立てやすくなります",
+  "expl:lit-a02-23": "20歳から60歳になるまでの40年間の保険料をすべて納めると、満額の老齢基礎年金を受け取ることができます",
+  "expl:lit-a02-24": "保険料納付済期間と保険料免除期間などを合算した受給資格期間が10年以上ある場合に、65歳から受け取ることができます",
+  "expl:lit-a02-25": "65歳に達して基礎年金の受給権を取得した時から繰下げ受給の申出をするまでの期間（月単位）に応じて年金が増額される|65歳に達して基礎年金の受給権を取得した時から繰下げ受給の申出をするまでの期間（月単位）に応じて年金が増額される（一月あたり＋0.7％）|希望すれば、受給開始を75歳まで遅らせることもできる。これを繰下げ受給という",
+  "expl:lit-b01-01": "契約は、契約の内容を示してその締結を申し入れる意思表示（以下「申込み」という。）に対して相手方が承諾をしたときに成立する。",
+  "expl:lit-b01-02": "契約の成立には、法令に特別の定めがある場合を除き、書面の作成その他の方式を具備することを要しない。",
+  "expl:lit-b01-03": "一度契約が成立すると、その契約に拘束され、お互いに契約を守るのが契約の原則ですが、この原則に例外を設けたのがクーリング・オフ制度です。",
+  "expl:lit-b01-04": "契約の成立には、法令に特別の定めがある場合を除き、書面の作成その他の方式を具備することを要しない。|契約は、契約の内容を示してその締結を申し入れる意思表示（以下「申込み」という。）に対して相手方が承諾をしたときに成立する。",
+  "expl:lit-b01-05": "未成年者が法律行為をするには、その法定代理人の同意を得なければならない。",
+  "expl:lit-b01-06": "前項の規定に反する法律行為は、取り消すことができる。",
+  "expl:lit-b01-07": "第一項の規定にかかわらず、法定代理人が目的を定めて処分を許した財産は、その目的の範囲内において、未成年者が自由に処分することができる。",
+  "expl:lit-b01-08": "制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。|前項の規定に反する法律行為は、取り消すことができる。|未成年者が法律行為をするには、その法定代理人の同意を得なければならない。|第一項の規定にかかわらず、法定代理人が目的を定めて処分を許した財産は、その目的の範囲内において、未成年者が自由に処分することができる。",
+  "expl:lit-b01-09": "事業者からの不当な勧誘によって、消費者が誤認したり困惑したりして締結した契約については、後から「取消し」できるものとしています。",
+  "expl:lit-b01-10": "事業者からの不当な勧誘によって、消費者が誤認したり困惑したりして締結した契約については、後から「取消し」できるものとしています。|重要事項について事実と異なる説明があった場合（不実告知）",
+  "expl:lit-b01-11": "「取消し」ができる期間を以下のように定めています。契約の締結から5年間",
+  "expl:lit-b01-12": "不確実な事項について「確実」と説明された場合（断定的判断の提供）|事業者からの不当な勧誘によって、消費者が誤認したり困惑したりして締結した契約については、後から「取消し」できるものとしています。|将来、確実に値上がりするとは限らない金融商品を、事業者が「確実に値上がりする」「必ず儲かる」などと説明して消費者に販売した。",
+  "expl:lit-b01-13": "クーリング・オフとは、特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約の解除をできる制度です。|訪問販売法定書面を受領した日を含めて8日間",
+  "expl:lit-b01-14": "書面または電磁的記録（メールやFAX、事業者のウェブサイト上のクーリング・オフ専用フォーム等。令和4年6月1日より、これら電磁的記録による通知も可能になりました。）により、事業者に通知します。",
+  "expl:lit-b01-15": "クーリング・オフとは、特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約の解除をできる制度です。|訪問販売法定書面を受領した日を含めて8日間",
+  "expl:lit-b01-16": "返品特約が表示されていない場合は、商品到着後8日以内であれば返品が可能です。|通信販売で購入したときはクーリング・オフができません。",
+  "expl:lit-b01-17": "通信販売で購入したときはクーリング・オフができません。",
+  "expl:lit-b01-18": "その消費者の申込み若しくはその承諾の意思表示を行う意思の有無について確認を求める措置を講じた場合又はその消費者から当該事業者に対して当該措置を講ずる必要がない旨の意思の表明があった場合は、この限りでない。|消費者がその使用する電子計算機を用いて送信した時に当該事業者との間で電子消費者契約の申込み又はその承諾の意思表示を行う意思がなかったとき",
+  "expl:lit-b01-19": "消費者がその使用する電子計算機を用いて送信した時に当該事業者との間で電子消費者契約の申込み又はその承諾の意思表示を行う意思がなかったとき|街頭で呼び止められて店舗に連れて行かれた（キャッチセールス）|通信販売で購入したときはクーリング・オフができません。",
+  "expl:lit-b01-20": "「無料点検に来た」と言って上がり込み、「白アリ被害がある」・「家が地震で倒壊する」・「飲料水が汚れている」・「布団にダニがいる」などと不安をあおって、新品や別の商品・サービスを契約させるものです。",
+  "expl:lit-b01-21": "身に覚えのない請求は、慌てて連絡（支払）はせず、無視しましょう。",
+  "expl:lit-b01-22": "街頭で呼び止められて店舗に連れて行かれた（キャッチセールス）|訪問販売法定書面を受領した日を含めて8日間",
+  "expl:lit-b01-23": "連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間",
+  "expl:lit-b01-24": "業者の所在地が海外であっても、日本の居住者のために又は日本の居住者を相手方として金融商品取引行為を業として行う場合は、日本で金融商品取引業の登録が必要です。",
+  "expl:lit-b01-25": "「必ずもうかる」といった甘い誘い文句を安易に信じない。|勧誘時の成功話と異なり、思うように販売できず、多額の借金と商品が残ることが多い。|友人に「商品を買って会員になり、友だちを紹介していけばマージンが入ってくる」と勧誘された等|連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間",
+  "expl:lit-b02-01": "個人であっても、反復継続する意思をもって金銭の貸付けを行うことは、貸金業法上の「貸金業」に該当します|貸金業を営む場合は、国又は都道府県の登録を受ける必要があります",
+  "expl:lit-b02-02": "個人を装ったヤミ金融業者により違法な高金利での貸付けが行われるほか、個人情報が悪用されるなどして、更なる犯罪被害やトラブルに巻き込まれる危険性があります",
+  "expl:lit-b02-03": "いわゆる「給与ファクタリング」などと称して、業として、個人（労働者）が使用者に対して有する賃金債権を買い取って金銭を交付し、当該個人を通じて当該債権に係る資金の回収を行うことは、貸金業に該当します|年利に換算すると数百～千数百％になるような法外な利息を支払わされたり、大声での恫喝や勤務先への連絡といった違法な取立ての被害を受けたりする危険性があります|貸金業登録を受けていないヤミ金融業者により、年利に換算すると数百～千数百％になるような法外な利息を支払わされたり",
+  "expl:lit-b02-04": "この法律において「個人情報」とは、生存する個人に関する情報であって、次の各号のいずれかに該当するものをいう|により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）",
+  "expl:lit-b02-05": "個人情報取扱事業者は、次に掲げる場合を除くほか、あらかじめ本人の同意を得ないで、個人データを第三者に提供してはならない",
+  "expl:lit-b02-06": "その取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう|人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実、その他政令で定めるもの|本人の人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実その他本人に対する不当な差別、偏見その他の不利益が生じないように",
+  "expl:lit-b02-07": "地方公共団体が設置している身近な消費生活センターや消費生活相談窓口をご案内します",
+  "expl:lit-b02-08": "お近くの市区町村や都道府県の消費生活センター等の消費生活相談窓口をご案内するもので、消費者庁につながるものではありません",
+  "expl:lit-b02-09": "消費者ホットラインが話中でつながらない場合、国民生活センターの「バックアップ相談」もご利用いただけます|相談窓口につながった時点から、通話料金のご負担が発生します。(相談は無料です)|郵便番号等[注1]を入力いただくことで、お近くの市区町村や都道府県の消費生活センター等の消費生活相談窓口をご案内いたします",
+  "expl:lit-b02-10": "消費者が販売会社で購入した商品等の代金をクレジット会社が立て替えて販売会社に支払い、後日、消費者がクレジット会社に支払います",
+  "expl:lit-b02-11": "カード会員本人以外は利用できません",
+  "expl:lit-b02-12": "この契約は「消費者は支払うことができる」という消費者の「信用」に基づいています|すぐに代金を支払う必要はなく、契約内容に応じて後日支払います|代金後払いで商品やサービスを手に入れることのできるシステム|有効期限や利用可能枠の範囲での利用や会員規約の遵守等",
+  "expl:lit-b02-13": "分割払いは、クレジットカード利用時に購入する商品等の代金の支払回数を選んでその都度分割で支払う方式です|利用金額や支払回数に応じた手数料がかかります",
+  "expl:lit-b02-14": "「残高」があるかぎり支払いが終わらないこと|手数料は「残高」に応じて計算されます",
+  "expl:lit-b02-15": "リボ払いでは、「支払残高」に一定の比率（手数料率）を乗じた手数料がかかります",
+  "expl:lit-b02-16": "元利均等返済は、月々の支払額が固定される返済方法です|元金と利息を含めた毎月の返済額が均等になるように計算されます",
+  "expl:lit-b02-17": "返済が進めば進むほど元金部分が減り、利息を合わせた月々の返済額も減っていきます|返済期間が同じ場合、元利均等返済に比べて元金の返済が早く進むため、返済総額は少なくなります",
+  "expl:lit-b02-18": "元金均等返済は、月々の元金の返済額が固定されたまま、利息が上乗せされる返済方法です|返済が進めば進むほど元金部分が減り、利息を合わせた月々の返済額も減っていきます",
+  "expl:lit-b02-19": "この信用情報は、クレジット会社等が、お客さまの「信用力」を判断する際の参考として利用します|信用情報とは、クレジットやローン等の契約に関する内容や支払状況といった「実際の取引の記録」をまとめた個人の情報です",
+  "expl:lit-b02-20": "各情報は、登録期間経過後に自動的に削除されます|契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間",
+  "expl:lit-b02-21": "契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間|官報に公告された破産・民事再生手続開始決定|当該決定日から7年を超えない期間",
+  "expl:lit-b02-22": "借金問題でお困りの方のために、全国各地に無料の多重債務相談窓口があります|消費者金融やクレジットカード会社などの複数の業者から借金をすることにより、いつのまにか返しきれない借金を抱えてしまう方がいます。こうした状態にある方を多重債務者といいます",
+  "expl:lit-b02-23": "一つ目は、任意整理です。弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法です|債務整理とは、支払えなくなった借金を減額したり、支払えないことを認めてもらう手続きですが、それには4つの方法があります",
+  "expl:lit-b02-24": "二つ目は、特定調停です。裁判所がお金を借りた人と金融機関の間（あいだ）に入り、債務整理を調整する方法です|弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法です|裁判所へ申し立て、借金を帳消しにする方法です。裁判所より免責が許可されれば借金から解放されますが、持ち家や自動車などの財産を失います",
+  "expl:lit-b02-25": "債務整理（借金問題）についての相談先日本司法支援センター（法テラス）、日本弁護士連合会、日本司法書士会連合会、日本貸金業協会、日本クレジットカウンセリング協会、全国銀行協会",
+  "expl:lit-c01-01": "銀行法に規定する銀行、長期信用銀行法に規定する長期信用銀行、信用金庫、信用組合、労働金庫",
+  "expl:lit-c01-02": "証券会社は「投資者保護基金」、生命・損害保険会社はそれぞれ「保険契約者保護機構」に加入しています",
+  "expl:lit-c01-03": "上記金融機関の海外支店、政府系金融機関、外国銀行の在日支店は預金保険制度の対象外です|証券会社は「投資者保護基金」、生命・損害保険会社はそれぞれ「保険契約者保護機構」に加入しています|銀行法に規定する銀行、長期信用銀行法に規定する長期信用銀行、信用金庫、信用組合、労働金庫",
+  "expl:lit-c01-04": "農林中央金庫、農業協同組合、漁業協同組合等は「農水産業協同組合貯金保険制度」により、別途、保護されています",
+  "expl:lit-c01-05": "日本銀行はわが国唯一の中央銀行です",
+  "expl:lit-c01-06": "日本銀行は株式会社ではなく、また株主総会もありません",
+  "expl:lit-c01-07": "日本銀行の通貨及び金融の調節における自主性は、尊重されなければならない",
+  "expl:lit-c01-08": "日本銀行は、2013年1月に、「物価安定の目標」を消費者物価の前年比上昇率2％と定め|日本銀行は、2013年（平成25年）1月の金融政策決定会合で、消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました",
+  "expl:lit-c01-09": "景気の過熱を抑えるために行われる金融政策は、金融引締め政策と呼ばれます|景気を上向かせるために行われる金融政策は、金融緩和政策と呼ばれます",
+  "expl:lit-c01-10": "金融機関が預金保険料を預金保険機構に支払い、万が一、金融機関が破綻した場合に、一定額の預金等を保護するための保険制度です",
+  "expl:lit-c01-11": "1金融機関ごとに合算して、預金者1人当たり元本1,000万円までと破綻日までの利息等が保護されます",
+  "expl:lit-c01-12": "1金融機関ごとに合算して、預金者1人当たり元本1,000万円までと破綻日までの利息等が保護されます|金融機関が破綻した際に、預金等の一定額しか預金保険による保護の対象にならないこと",
+  "expl:lit-c01-13": "外貨預金、譲渡性預金、金融債（募集債及び保護預り契約が終了したもの）など保護対象外|預金者は、預金保険の手続を行う必要はありません|（①決済サービスを提供できる、②預金者が払い戻しをいつでも請求できる、③利息がつかないという三つの要件を満たしている預金）に該当するものは、全額保護されます",
+  "expl:lit-c01-14": "貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法",
+  "expl:lit-c01-15": "借り手が貸し手から第三者を介さずに直接お金を供給してもらう方法",
+  "expl:lit-c01-16": "国や企業などが有価証券を発行して、証券市場を通じて投資家から資金を直接調達する証券取引などを指します|貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法|銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付けます",
+  "expl:lit-c01-17": "証券会社は仲介は行いますが、借り手が債務を返さないというリスクは貸し手が負います|貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法を「間接金融」といい、リスクは金融機関が負います|銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付けます",
+  "expl:lit-c01-18": "一定期間内に国内で産み出された物やサービスの付加価値の合計のこと|日本経済全体の景気動向を把握するためには「GDP（国内総生産）」が適しています",
+  "expl:lit-c01-19": "景気の動きに対し、一致して動く指標。景気の現状を把握するのに用いられる|景気の動きに対し、先行して動く指標。景気の先行きに対する予測を行うときに参照される",
+  "expl:lit-c01-20": "採用系列の前月と比べた変化の大きさを合成して作成した指数|景気変動の各経済部門への浸透度、波及度を把握できる",
+  "expl:lit-c01-21": "CI一致指数が上昇している時は景気の拡張局面、低下している時は後退局面であり|変化方向がプラスである系列数の割合をパーセントで示す|景気の動きに対し、遅行して動く指標。景気の転換点を確認するものとして利用される",
+  "expl:lit-c01-22": "一定期間にわたって物価の水準が上昇し続ける状態を指す",
+  "expl:lit-c01-23": "財やサービスの一般的な価格水準が持続的に低下することである",
+  "expl:lit-c01-24": "ここでいう物価とは、モノやサービスの価格を全体としてとらえたものです",
+  "expl:lit-c01-25": "企業間で取引されるサービスの物価には「企業向けサービス価格指数＜SPPI＞」があります|企業間で取引される財の物価としては「企業物価指数＜CGPI＞」があります|消費者が購入する財やサービスの物価としては「消費者物価指数＜CPI＞」があります",
+  "expl:lit-c02-01": "2024年（令和6年）3月からは、金融政策の枠組みを見直し、政策金利を無担保コールレート（オーバーナイト物）としたうえで、金融市場調節方針において、その誘導目標を定めています。|無担保コールレート（オーバーナイト物）とは、コール市場における無担保での資金貸借のうち、約定日に資金の受払を行い、翌営業日を返済期日とするものにかかる金利のことです。",
+  "expl:lit-c02-02": "資金の需要と供給のバランスを変化させ、金利を上下にコントロールしていました。|金融市場調節の主たる手段は、金融機関を相手に行う資金の貸付けや国債等の売買です。これをオペレーション（公開市場操作）といいます。",
+  "expl:lit-c02-03": "金利が上昇すると、金融機関は、以前より高い金利で資金調達しなければならず、企業や個人への貸出においても、金利を引き上げるようになります。",
+  "expl:lit-c02-04": "企業が社債発行などの形で市場から直接資金調達をする際の金利も低下します。|金利が下がると、金融機関は、低い金利で資金を調達できるので、企業や個人への貸出においても、金利を引き下げることができるようになります。",
+  "expl:lit-c02-05": "企業は、運転資金（従業員への給料の支払いや仕入れなどに必要なお金）や設備資金（工場や店舗建設など設備投資に必要なお金）を調達し易くなります。|個人も、例えば住宅の購入のための資金を借り易くなります。|物価に押し下げ圧力が働くことになります。|金利が上昇すると、金融機関は、以前より高い金利で資金調達しなければならず、企業や個人への貸出においても、金利を引き上げるようになります。",
+  "expl:lit-c02-06": "外国為替市場（単に「為替市場」ということもあります）とは、円やドルなどの異なる通貨を交換（売買）する場をいいます。|為替相場（為替レート）は、外国為替市場において異なる通貨が交換（売買）される際の交換比率です。",
+  "expl:lit-c02-07": "1ドル＝80円の場合は、1ドル＝100円の場合と比べて、同じ金額の円についてより多くのドルを取得できるので、円高ということになります。",
+  "expl:lit-c02-08": "「通貨を買いたい人（需要）」と「通貨を売りたい人（供給）」のバランスによって決められており|変動相場制においては、為替相場は、誰かが一方的、恣意的に決めるわけではなく、市場における需要と供給のバランスによって決まります。",
+  "expl:lit-c02-09": "1ドル＝80円の場合は、1ドル＝100円の場合と比べて、同じ金額の円についてより多くのドルを取得できるので、円高ということになります。|円高とは、円の他通貨に対する相対的価値、言い換えると、円1単位で交換できる他通貨の単位数が相対的に多い状態のことです。|輸入にかかるコストが安くなるため、輸入企業の利益がふえる傾向にあります。|輸出企業にとっては円建てでの売り上げが減少してしまうため、企業業績に悪影響を及ぼす可能性があります。",
+  "expl:lit-c02-10": "わが国では、為替介入は財務大臣の権限において実施することとされています。|日本銀行は、特別会計に関する法律および日本銀行法に基づき、財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行しています。|為替介入の目的は、為替相場の急激な変動を抑え、その安定化を図ることです。",
+  "expl:lit-c02-11": "平均とは変量の総和を個数で割ったものです。",
+  "expl:lit-c02-12": "変量の個数nが奇数の時は真ん中の値を取りますが、偶数のときは真ん中の2つを加えて2で割った値となります。|母集団の分布の中央にくる値のことです。",
+  "expl:lit-c02-13": "あるデータに外れ値が加わった場合、平均値は三つの指標の中で最も影響を受けるデータといってもよいでしょう。|中央値は、データを並べてちょうど真ん中にくる値なので、外れ値が増えても、多くの場合はそれほど影響ありません。",
+  "expl:lit-c02-14": "2025年（令和7年）を100とする指数に換算したもの|現在時点の価格を、基準時点（2020年）の価格を100として、指数化したものである。",
+  "expl:lit-c02-15": "グラフは、縦横の比率を変えたり、波形で省略したり、デザインを変えることで、見る人に与える印象が変わってきます。|全体に対する各項目の構成比を示す際に使う。|数値の単位を記載し、曖昧な定義や注意事項がある場合は必ず補足説明を付けましょう。|時間経過を沿って数量の変化や傾向を示す。",
+  "expl:lit-c02-16": "消費者が購入する財やサービスの物価としては「消費者物価指数＜CPI＞」があります。",
+  "expl:lit-c02-17": "企業物価指数は、企業間で取引される財の価格変動を測定するものである。|企業間で取引される財の物価としては「企業物価指数＜CGPI＞」があります。",
+  "expl:lit-c02-18": "日本銀行は、2013年（平成25年）1月の金融政策決定会合で、消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました。",
+  "expl:lit-c02-19": "企業物価指数（日本銀行）|国内銀行および信用金庫における約定時の貸出金利の集計・把握を目的として、「貸出約定平均金利の推移」という月次資料を作成し、公表しています。|短期プライムレートとは、1989年以降、都市銀行が優良企業向けの短期貸出に適用してきた最優遇金利であり",
+  "expl:lit-c02-20": "一時的な撹乱要因や特殊要因の影響を取り除いた「コア指標」がよく利用されています。|同統計の名称をマネーストック統計に変更しました。|景気、物価の動向やその先行きを判断するための一つの指標として、マネーサプライ統計を作成・公表してきました。|現在時点の価格を、基準時点（2020年）の価格を100として、指数化したものである。",
+  "expl:lit-c02-21": "景気の過熱を抑えるために行われる金融政策は、金融引締め政策と呼ばれます。|景気を上向かせるために行われる金融政策は、金融緩和政策と呼ばれます。",
+  "expl:lit-c02-22": "2001年（平成13年）には、「量的緩和政策」が開始され、金融市場調節の主たる操作目標は、無担保コールレートから日本銀行当座預金残高に変更されました。",
+  "expl:lit-c02-23": "長期金利の操作目標については、「10年物国債金利がゼロ％程度で推移するよう、長期国債の買入れを行う。」などと定められました。",
+  "expl:lit-c02-24": "企業や個人は、資金を借りにくくなり、経済活動が抑制されて、景気の過熱が抑えられることになります。|景気の過熱を抑えるために行われる金融政策は、金融引締め政策と呼ばれます。|景気を上向かせるために行われる金融政策は、金融緩和政策と呼ばれます。|金利が上昇すると、金融機関は、以前より高い金利で資金調達しなければならず、企業や個人への貸出においても、金利を引き上げるようになります。",
+  "expl:lit-c02-25": "2001年（平成13年）には、「量的緩和政策」が開始され、金融市場調節の主たる操作目標は、無担保コールレートから日本銀行当座預金残高に変更されました。|2013年（平成25年）には、「量的・質的金融緩和」が開始され、金融市場調節の主たる操作目標は、無担保コールレートからマネタリーベースに変更されました。|政策金利として、日本銀行当座預金のうち「政策金利残高」に-0.1％のマイナス金利を適用することが決定されました。",
+  "expl:lit-d01-01": "自由に預け入れや引き出しができることが特徴です",
+  "expl:lit-d01-02": "あらかじめ預入期間を指定して預ける預金口座です|満期までの間に中途解約した場合は、当初の約定利率よりも低い利率が適用されることもあるため注意が必要です",
+  "expl:lit-d01-03": "米ドルやユーロなど外国の通貨で預け入れる預金です|預け入れるときよりも円高に変動していると「為替差損」という損失を被る可能性があります",
+  "expl:lit-d01-04": "円建ての普通預金や定期預金は預金保険制度の対象ですが、外貨預金は対象外です|定期預金や利息の付く普通預金等（一般預金等）は、預金者１人当たり、１金融機関ごとに合算され、元本1,000万円までと破綻日までの利息等が保護されます|預金保険制度により、当座預金や利息の付かない普通預金等（決済用預金）は、全額保護されます",
+  "expl:lit-d01-05": "単利は常に元本のみに利子が発生します",
+  "expl:lit-d01-06": "複利では、1年分の利子を元本に組み入れ、翌年の元本として繰り越していきます",
+  "expl:lit-d01-07": "そのため運用期間が長くなると、単利よりも利子の総額が大きくなります|複利では、1年分の利子を元本に組み入れ、翌年の元本として繰り越していきます",
+  "expl:lit-d01-08": "そのため運用期間が長くなると、単利よりも利子の総額が大きくなります|単利は常に元本のみに利子が発生します|複利では、1年分の利子を元本に組み入れ、翌年の元本として繰り越していきます",
+  "expl:lit-d01-09": "物理的な現金（紙幣・硬貨）を使用しなくても活動できる状態をキャッシュレスと定義しています",
+  "expl:lit-d01-10": "主なキャッシュレスの手段として、電子マネー、コード決済、デビットカード、クレジットカードがあります",
+  "expl:lit-d01-11": "主なキャッシュレスの手段として、電子マネー、コード決済、デビットカード、クレジットカードがあります|物理的な現金（紙幣・硬貨）を使用しなくても活動できる状態をキャッシュレスと定義しています",
+  "expl:lit-d01-12": "金融機関が、ＩＤ、パスワード等をメールやＳＭＳで問い合わせることはありません",
+  "expl:lit-d01-13": "複数のサイトで同じＩＤ、パスワードを登録していると、一つでもＩＤ、パスワードを盗まれたら、銀行やＳＮＳ、インターネット通信販売サービスなど全てのサービスが乗っ取られる被害に遭ってしまいます",
+  "expl:lit-d01-14": "そのＩＤやパスワード等を利用している全てのサービスにおいて、パスワード等を速やかに変更してください|電子メールやＳＭＳ内のリンクを安易にクリックせず、あらかじめ公式サイトを「お気に入り」や「ブックマーク」に登録しておいたり、公式アプリを活用するなどして正しいサイトに接続するようにしてください|電子メール等の文面は、「個人情報の漏えい」、「不正アクセス検知」、「取引の停止」等、切迫感を煽り、ログインさせようとするものが多数確認されています",
+  "expl:lit-d01-15": "分配された利益を配当といいます|株主は持株数に応じてその利益の分配を受ける権利を有しています",
+  "expl:lit-d01-16": "株主に対して配当とは別に自社製品やサービスを無料でプレゼントする制度です|諸外国ではほとんど行われておらず、日本企業独特の施策と言えます",
+  "expl:lit-d01-17": "株主は持株数に応じてその利益の分配を受ける権利を有しています",
+  "expl:lit-d01-18": "株主に対して配当とは別に自社製品やサービスを無料でプレゼントする制度です|株主は持株数に応じてその利益の分配を受ける権利を有しています|諸外国ではほとんど行われておらず、日本企業独特の施策と言えます",
+  "expl:lit-d01-19": "国や地方公共団体、民間企業などが発行している借用証書のようなもので、保有期間中の｢利子｣と、満期日を迎えれば｢額面金額｣を受け取れます",
+  "expl:lit-d01-20": "債券の市場価格と金利の関係は、特徴として、金利が上昇すると価格は下がり、金利が低下すると価格は上がるというシーソーのような関係になっています",
+  "expl:lit-d01-21": "同じ債券でも、購入時の価格などで",
+  "expl:lit-d01-22": "倒産などによりデフォルトになると、約束が履行されない場合があります|債券の市場価格と金利の関係は、特徴として、金利が上昇すると価格は下がり、金利が低下すると価格は上がるというシーソーのような関係になっています|同じ債券でも、購入時の価格などで|投資判断をする上では、利率ではなく利回りが重要です",
+  "expl:lit-d01-23": "多くの利用者から集めた資金をまとめ、株式や債券、その他さまざまな資産で運用する金融商品のことです",
+  "expl:lit-d01-24": "投資信託の「値段」に相当する基準価額は毎日変動しており、購入時の価格に対する保証はありません",
+  "expl:lit-d01-25": "信託報酬：投資信託の保有期間中に信託財産から徴収される運用管理にかかる手数料|信託財産を「何に」「どれだけ」「どのタイミングで」投資するかを検討し、信託銀行に運用を指示します|販売会社を通して集まった資金（信託財産）を保管・管理するとともに、運用会社からの指示を受けて実際に信託財産を使って株式や債券などの売買などを行います|購入時手数料や信託財産留保額は、金融機関や購入する投資信託によってかからないものもある",
+  "expl:lit-d02-01": "1つの資産だけに投資するより、値動きが異なる複数の資産（国内／海外、株式／債券／不動産など）に分散して投資を行うことで、価格の変動をある程度抑えられ、安定的な運用を目指すことができます",
+  "expl:lit-d02-02": "株式や投資信託などの運用商品に投資することで、預貯金よりも高いリターンを期待することはできますが、元本割れのおそれもあります",
+  "expl:lit-d02-03": "3つとも◎の金融商品はありません",
+  "expl:lit-d02-04": "一括で投資するのではなく「あらかじめ決まった金額」を「続けて」投資することです|株式や投資信託などの運用商品に投資することで、預貯金よりも高いリターンを期待することはできますが、元本割れのおそれもあります|長期投資をうまく活用することで、安定した収益の確保が期待できます",
+  "expl:lit-d02-05": "NISA口座で投資した金融商品から得られる利益は非課税になります",
+  "expl:lit-d02-06": "原則60歳に到達した場合に受給することができる",
+  "expl:lit-d02-07": "加入者が拠出した掛金：全額所得控除（小規模企業共済等掛金控除）",
+  "expl:lit-d02-08": "加入は任意で、加入の申込、掛金の拠出、掛金の運用の全てをご自身で行い、掛金とその運用益との合計額をもとに給付を受け取ることができます|口座は１人につき１口座のみ開設可能です|非課税保有期間はつみたてNISAでは20年間、一般NISAでは5年間でしたが、2024年からのNISAでは無期限となりました",
+  "expl:lit-d02-09": "「元本保証」「絶対に儲かる」などと説明して勧誘することは、禁じられています",
+  "expl:lit-d02-10": "金融庁や証券取引等監視委員会の職員が、電話等により、投資に関して情報提供やアドバイスを行うことや、民間の業者等に対する投資に関与することは一切ありません",
+  "expl:lit-d02-11": "一般的に、幅広い投資家に「未公開株」や「私募債」の取引の勧誘が行われることは、考えられません|不審な勧誘を受けた場合には、金融庁金融サービス利用者相談室に情報をご提供下さい|登録や届出を行っている業者についても、金融庁・財務局が、その業者の信用力等を保証するものではありません",
+  "expl:lit-d02-12": "少しでも不審に思った場合には、取引を見合わせることを含めて、慎重に対応することをお勧めします|組合などファンドへの出資の勧誘を行えるのは、金融庁（財務局）の登録・届出を受けた業者に限られます|金融庁や証券取引等監視委員会の職員が、電話等により、投資に関して情報提供やアドバイスを行うことや、民間の業者等に対する投資に関与することは一切ありません",
+  "expl:lit-d02-13": "災害や事故などの一見偶然と思われる事象も、長い時間をかけてたくさん観察すれば、そこに一定の法則が見られるのです",
+  "expl:lit-d02-14": "保険の支払対象となるリスクを持った集団の構成員が支払う保険料の総額は支払われる保険金の総額に等しくなければならないということ",
+  "expl:lit-d02-15": "保険の仕組みにおいては、保険料は一律に設定されるのではなく、事故の確率の高低によって設定される保険料の水準も変わってきます",
+  "expl:lit-d02-16": "保険の仕組みにおいては、保険料は一律に設定されるのではなく、事故の確率の高低によって設定される保険料の水準も変わってきます|損害保険は、ふだんから多くの人々が少しずつお金を出し合って、その中の誰かが事故や災害で損害を被ったときに、出し合ったお金で補償する「相互扶助」の精神から生まれた助け合いの制度です|損害保険は、契約して保険料を支払ったときから十分な補償を得ることができます",
+  "expl:lit-d02-17": "定期保険には、貯蓄性はありません|定期保険は、終身保険や養老保険に比べて少ない保険料で多くの保険金を準備できます",
+  "expl:lit-d02-18": "保険期間は一定で、その間に死亡した場合、死亡保険金を受け取れます。生存して満期を迎えると満期保険金を受け取れます。死亡保険金と満期保険金は同額です",
+  "expl:lit-d02-19": "保険期間は、「終身」で一生涯保障が続きます|解約返戻金は期間の経過とともに増えていきますが、保険料払込期間中に解約した場合は保険料払込総額を下回ることがほとんどです",
+  "expl:lit-d02-20": "火災保険では、建物と家財を分けて契約することになっています",
+  "expl:lit-d02-21": "自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です",
+  "expl:lit-d02-22": "他人の自動車や建物などの財物に与えた損害に対して、法律上の損害賠償責任を負った場合に保険金が支払われます|他人を死亡させたり、ケガを負わせて法律上の損害賠償責任が生じた場合に、自賠責保険の補償額を超える部分に対し保険金が支払われます|偶然な事故により、自動車が損害を受けた場合に保険金が支払われます|自賠責保険の補償内容は、自動車事故に遭った他人（被害者）の人身損害のみに限定されています",
+  "expl:lit-d02-23": "生命保険は、大勢の加入者があらかじめ公平に保険料を負担しあい、「もしも」のことが現実に起きたときに給付を受ける仕組みです",
+  "expl:lit-d02-24": "保険選びのポイントは、自分の生活設計からみて、今の、そして将来の保障ニーズと保険の種類が適合していることが大切です",
+  "expl:lit-d02-25": "一般的に特約のみでは契約できません|主契約が満期や解約などによって消滅すると、特約も消滅します|保険選びのポイントは、自分の生活設計からみて、今の、そして将来の保障ニーズと保険の種類が適合していることが大切です|病気やケガで入院したり、所定の手術・放射線治療を受けたりしたときに給付金を受け取れます",
+  "expl:lit-e01-01": "被扶養者の保険料負担はありません",
+  "expl:lit-e01-02": "お住まいの市区町村により保険料額が異なります|保険料は、加入する世帯の人数や、前年の所得などによって決まります",
+  "expl:lit-e01-03": "「限度額適用（・標準負担額減額）認定証」を医療機関等の窓口で提示することによって、一医療機関ごとの医療費の負担が自己負担限度額までとなります|国民健康保険の加入者が病気やけがで医療機関にかかり、医療機関窓口において同じ月内に負担した額（一部負担金）が自己負担限度額を超えた場合、申請により、その超えた額が高額療養費として支給されます",
+  "expl:lit-e01-04": "任意継続の被保険者期間・保険料・保険給付被保険者期間■2年間です",
+  "expl:lit-e01-05": "(1)業務外の事由による病気やケガの療養のための休業であること|仕事を休んだ日から連続して3日間(待期)の後、4日目以降の仕事に就けなかった日に対して支給されます|任意継続被保険者期間中に発生した病気・ケガによる傷病手当金及び出産手当金は支給されません",
+  "expl:lit-e01-06": "日本国内にお住まいの20歳以上60歳未満の自営業者、農業者、学生および無職の方とその配偶者の方",
+  "expl:lit-e01-07": "厚生年金保険や共済組合等に加入している会社員や公務員の方|年金給付は①基礎年金と、②厚生年金（報酬比例年金）による、いわゆる「２階建て」と呼ばれる構造になっており",
+  "expl:lit-e01-08": "老齢基礎年金は、保険料納付済期間と保険料免除期間などを合算した受給資格期間が10年以上ある場合に、65歳から受け取ることができます",
+  "expl:lit-e01-09": "60歳から65歳までの間に繰上げて減額された年金を受け取る「繰上げ受給」",
+  "expl:lit-e01-10": "年金給付は①基礎年金と、②厚生年金（報酬比例年金）による、いわゆる「２階建て」と呼ばれる構造になっており|第2号被保険者（※）に扶養されている配偶者の方で、原則として年収が130万円未満の20歳以上60歳未満の方|納付猶予の期間は、保険料を追納していない場合、年金額には反映されない",
+  "expl:lit-e01-11": "雇用保険は政府が管掌する強制保険制度です。（労働者を雇用する事業は、原則として強制的に適用されます）",
+  "expl:lit-e01-12": "雇用保険料分は事業主と労働者双方で負担することになっています",
+  "expl:lit-e01-13": "労災保険料分は全額事業主負担、雇用保険料分は事業主と労働者双方で負担することになっています",
+  "expl:lit-e01-14": "その費用は、原則として事業主の負担する保険料によってまかなわれています|労災保険は、原則として一人でも労働者を使用する事業は、業種の規模の如何を問わず、すべてに適用され|労災保険制度は、労働者の業務上の事由または通勤による労働者の傷病等に対して必要な保険給付を行い",
+  "expl:lit-e01-15": "所定給付日数（基本手当の支給を受けることができる日数）は、受給資格に係る離職の日における年齢、雇用保険の被保険者であった期間及び離職の理由などによって決定され|雇用保険の受給期間は、原則として、離職した日の翌日から1年間|離職の日以前2年間に、被保険者期間（※補足2）が通算して12か月以上あること",
+  "expl:lit-e01-16": "①65歳以上の人（第１号被保険者）②40～64歳までの医療保険に加入している人（第２号被保険者）",
+  "expl:lit-e01-17": "皆様がお住まいの市区町村（保険者といいます。）が制度を運営しています",
+  "expl:lit-e01-18": "介護保険サービスを利用した場合の利用者負担は、介護サービスにかかった費用の１割（一定以上所得者の場合は２割又は３割）です",
+  "expl:lit-e01-19": "65歳以上の方は、市区町村（保険者）が実施する要介護認定において介護が必要と認定された場合|お住まいの市区町村の窓口で要介護認定（要支援認定を含む。以下同じ。）の申請をしましょう",
+  "expl:lit-e01-20": "40歳から64歳までの人は、介護保険の対象となる特定疾病により介護が必要と認定された場合は、介護サービスを受けることができます|65歳以上の方は、市区町村（保険者）が実施する要介護認定において介護が必要と認定された場合、いつでもサービスを受けることができます|私たちは40歳になると、被保険者として介護保険に加入します",
+  "expl:lit-e01-21": "所得は、その性質によって次の10種類に分かれ、それぞれの所得について、収入や必要経費の範囲あるいは所得の計算方法などが定められています",
+  "expl:lit-e01-22": "この給与所得控除額は、給与等の収入金額に応じて、次のようになります",
+  "expl:lit-e01-23": "「1年間のすべての所得金額」から「所得控除額」を差し引いた残りの金額（課税所得金額）に税率を適用して税額を計算します|所得税の税率は、所得が多くなるに従って段階的に高くなり、納税者がその支払能力に応じて公平に税を負担するしくみ（超過累進税率）となっています",
+  "expl:lit-e01-24": "一時所得は、その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計して総所得金額を求めた後、納める税額を計算します|例えば、公的年金等、非営業用貸金の利子、副業に係る所得（原稿料やシェアリングエコノミーに係る所得など）が該当します|退職所得とは、退職により勤務先から受ける退職手当などの所得をいい",
+  "expl:lit-e01-25": "1,000円から1,949,000円まで5％0円1,950,000円から3,299,000円まで10％97,500円|所得税は、個人の所得に対してかかる税金であり|（1）公的年金等収入金額-公的年金等控除額=公的年金等の雑所得",
+  "expl:lit-e02-01": "その支払の都度支払金額に応じた所得税および復興特別所得税|差し引いた所得税および復興特別所得税は、原則として、給与などを実際に支払った月の翌月10日までに国に納めなければなりません|支払った給与や報酬などから所得税および復興特別所得税を差し引いて、国に納める義務のある者を源泉徴収義務者といいます",
+  "expl:lit-e02-02": "1年間に源泉徴収をした所得税および復興特別所得税の合計額と1年間に納めるべき所得税および復興特別所得税の額を一致させる必要があります。この手続を年末調整といいます。|源泉徴収をした所得税および復興特別所得税の合計額が1年間に納めるべき所得税および復興特別所得税の額より多い場合には、その差額の税額を還付します",
+  "expl:lit-e02-03": "毎年1月1日から12月31日までの1年間に生じた所得について、翌年2月16日から3月15日までの間に確定申告を行い、所得税を納付することになっています",
+  "expl:lit-e02-04": "各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人|大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません|給与の年間収入金額が2,000万円を超える人",
+  "expl:lit-e02-05": "その年の総所得金額等が200万円未満の人は、総所得金額等の5パーセントの金額|その支払った医療費が一定額を超えるときは、その医療費の額を基に計算される金額（下記「医療費控除の対象となる金額」参照）の所得控除を受けることができます。これを医療費控除といいます。|医療費控除に関する事項その他の必要事項を記載等した確定申告書を提出してください|（実際に支払った医療費の合計額-（1）の金額）-（2）の金額",
+  "expl:lit-e02-06": "「課税所得金額」に「比例税率」（10％）を掛け、税額を求めます|前年の1月1日から12月31日までの所得で算定されます|所得割の税率は、所得に対して10％（道府県民税が4％、市町村民税が6％）",
+  "expl:lit-e02-07": "個人住民税は、その年の1月1日時点で市町村（都道府県）に住所がある方に対して課税されます",
+  "expl:lit-e02-08": "その税額は4,000円（道府県民税が1,000円、市町村民税が3,000円）|個人住民税には、所得に応じた負担を求める「所得割」と、所得にかかわらず定額の負担を求める「均等割」があります",
+  "expl:lit-e02-09": "個人住民税の納付の方法には、「普通徴収」と「特別徴収」があります|特別徴収とは、納税義務者以外の者（給与の支払をする会社など）が、納税義務者から税金を徴収して、納税義務者の代わりに納める方法をいいます|納税義務者は、この納税通知書に従って個人住民税を市町村に納めることになります",
+  "expl:lit-e02-10": "標準税率10パーセント（うち2.2パーセントは地方消費税）、軽減税率8パーセント（うち1.76パーセントは地方消費税）の税率で課税されます|消費税は、特定の物品やサービスに課税する個別消費税（酒税・たばこ税等）とは異なり、消費一般に広く公平に課税する間接税です",
+  "expl:lit-e02-11": "税金分は事業者が販売する商品やサービスの価格に含まれて、次々と転嫁され、最終的に商品を消費しまたはサービスの提供を受ける消費者が負担することとなります|納税義務者は、製造、卸、小売、サービスなどの各段階の事業者と、保税地域からの外国貨物の引取者です",
+  "expl:lit-e02-12": "消費税は、特定の物品やサービスに課税する個別消費税（酒税・たばこ税等）とは異なり、消費一般に広く公平に課税する間接税です",
+  "expl:lit-e02-13": "この仕入税額控除の適用を受けるためには、原則として適格請求書発行事業者（インボイス発行事業者）から交付を受けた適格請求書（インボイス）と一定の事項を記載した帳簿の保存が必要です|納税義務者は、製造、卸、小売、サービスなどの各段階の事業者と、保税地域からの外国貨物の引取者です|課税売上げに係る消費税額から課税仕入れ等に係る消費税額を控除し、税が累積しないしくみとなっています",
+  "expl:lit-e02-14": "国に納める税を「国税」、地方公共団体に納める税を「地方税」といい、地方税はさらに「道府県税」と「市町村税」に分けられます",
+  "expl:lit-e02-15": "これらのサービスに必要なお金をみんなで出し合うのが「税金」です|税金は、みんなが互（たが）いに支え合い、ともによりよい社会を作っていくための「会費」といえるでしょう",
+  "expl:lit-e02-16": "消費税は、消費者（買った人）が負担して、事業者（売った人）が税を納めるため、間接税に分類されます|税を納める人と負担する人が同じ税金を「直接税」といい、税を納める人と負担する人が異なるものを「間接税」といいます",
+  "expl:lit-e02-17": "国に納める税を「国税」、地方公共団体に納める税を「地方税」といい、地方税はさらに「道府県税」と「市町村税」に分けられます|国税所得税、法人税、相続税、贈与税（ぞうよぜい）など|市町村税市町村民税、固定資産税、軽自動車税など|税金の使いみちは、国民が選んだ国会議員・市区町村や都道府県の地方議会議員を通じて、国民が決めていると言えるでしょう",
+  "expl:lit-e02-18": "税金(ぜいきん)は、みんなのために役立つ活動(かつどう)や、年金(ねんきん)・医療(いりょう)・福祉(ふくし)・教育(きょういく)など社会での助け合いのための活動(かつどう)に使われています",
+  "expl:lit-e02-19": "お年寄(としよ)りの年金(ねんきん)や医療(いりょう)、福祉(ふくし)、介護(かいご)にかかる費用を支えているのが、減少している若い人たちだからです|このままだと、大勢のお年寄(としよ)りたちを支えつづけるのが難しくなります",
+  "expl:lit-e02-20": "お年寄(としよ)りの年金(ねんきん)や医療(いりょう)、福祉(ふくし)、介護(かいご)にかかる費用を支えているのが、減少している若い人たちだからです|このままだと、大勢のお年寄(としよ)りたちを支えつづけるのが難しくなります|そのためのお金は、税金(ぜいきん)だけでは足りません|不足する分は公債金(こうさいきん)という借金(しゃっきん)でおぎなっています|日本では生まれてくる子どもの数が減り、65歳以上のお年寄(としよ)りの数がどんどん増える、という＜少子・高齢化(しょうしこうれいか)＞がすすんでいるのです",
+  "expl:lit-e02-21": "そのためのお金は、税金(ぜいきん)だけでは足りません|不足する分は公債金(こうさいきん)という借金(しゃっきん)でおぎなっています|会費(かいひ)である税金(ぜいきん)は、公立学校(こうりつがっこう)や公園(こうえん)、道路(どうろ)などの公共施設(こうきょうしせつ)や警察(けいさつ)や消防(しょうぼう)、ゴミの収集などの公共(こうきょう)サービスなどのために使われています|国に入るお金（歳入(さいにゅう)）よりも、出て行くお金（歳出(さいしゅつ)）のほうが、はるかに多くなってしまっています|税金(ぜいきん)は、みんなのために役立つ活動(かつどう)や、年金(ねんきん)・医療(いりょう)・福祉(ふくし)・教育(きょういく)など社会での助け合いのための活動(かつどう)に使われています",
+  "expl:lit-e02-22": "実際には、都道府県、市区町村への「寄附」です",
+  "expl:lit-e02-23": "ふるさと納税では原則として自己負担額の2,000円を除いた全額が控除の対象となります|寄附額のうち2,000円を超える部分の金額について、一定の限度まで、所得税と個人住民税から差し引く制度をいいます",
+  "expl:lit-e02-24": "自分の生まれ故郷に限らず、どの自治体にでもふるさと納税を行うことができます",
+  "expl:lit-e02-25": "ふるさと納税では原則として自己負担額の2,000円を除いた全額が控除の対象となります|ふるさと納税を行い、所得税・住民税から控除を受けるためには、原則として確定申告を行う必要があります|ふるさと納税を行う際にあらかじめ申請することで確定申告が不要になる「ふるさと納税ワンストップ特例制度」が、平成27年の4月から始まりました|適用を受けられるのは、ふるさと納税を行う自治体の数が5団体以内である場合に限られます"
  }
 }

@@ -5,7 +5,7 @@ import { useContent } from '../content/store';
 import { db } from '../db/db';
 import { applyFilter, eligibleForPractice, type PracticeFilter } from '../domain/selection';
 import { localDate } from '../domain/srs';
-import { FIELDS } from '../domain/exam';
+import { fieldsFor } from '../domain/exam';
 import { FILTER_LABELS, startPractice } from '../state/sessions';
 import { useExamKey, useUserState } from '../ui/hooks';
 import { PageNote, PageTitle } from '../ui/Layout';
@@ -40,7 +40,7 @@ export function ReviewPage() {
       <PageTitle>苦手問題の復習</PageTitle>
       {u.weakFields.length > 0 && (
         <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-950/40 dark:text-amber-100">
-          苦手分野：{u.weakFields.map((f) => FIELDS[f].name).join('、')}
+          苦手分野：{u.weakFields.map((f) => fieldsFor(exam)[f].name).join('、')}
         </p>
       )}
       <ul className="card divide-y divide-slate-100 p-0 dark:divide-slate-800">

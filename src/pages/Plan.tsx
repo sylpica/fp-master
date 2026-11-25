@@ -2,8 +2,8 @@ import { useMemo, useState } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { FIELDS, lawBaseDateFor } from '../domain/exam';
-import { buildPlan, progressGap } from '../domain/plan';
+import { fieldIdsFor, fieldsFor, lawBaseDateFor } from '../domain/exam';
+import { buildPlan, minutesPerQuestionFor, progressGap } from '../domain/plan';
 import { eligibleForPractice } from '../domain/selection';
 import { localDate } from '../domain/srs';
 import { setSetting, useSettings } from '../state/settings';
@@ -41,6 +41,8 @@ export function PlanPage() {
           today,
           examDate: settings.examDate,
           grade: settings.grade,
+          unit: settings.unit,
+          fields: fieldIdsFor(exam),
           minutesPerDay: settings.plan.minutesPerDay,
           daysPerWeek: settings.plan.daysPerWeek,
           understanding: settings.plan.understanding,
@@ -52,7 +54,7 @@ export function PlanPage() {
   const save = async () => {
     await setSetting('examDate', f.examDate || null);
     await setSetting('plan', { minutesPerDay: f.minutesPerDay, daysPerWeek: f.daysPerWeek, understanding: f.understanding, createdAt: settings.plan?.createdAt ?? new Date().toISOString() });
-    await setSetting('dailyGoal', Math.max(5, Math.round(f.minutesPerDay / (settings.grade === 2 ? 2 : 1.5))));
+    await setSetting('dailyGoal', Math.max(5, Math.round(f.minutesPerDay / minutesPerQuestionFor(settings.unit, settings.grade))));
     setForm(null);
   };
   const lbd = f.examDate ? lawBaseDateFor(f.examDate) : null;
@@ -66,7 +68,11 @@ export function PlanPage() {
           <input type="date" className="input mt-1" value={f.examDate} min={today} onChange={(e) => setForm({ ...f, examDate: e.target.value })} />
           {f.examDate && (
             <span className="mt-1 block text-xs text-slate-600 dark:text-slate-400">
-              {lbd ? `適用される法令基準日：${lbd}（日本FP協会 試験日程より）` : '法令基準日が公表されていない期間です。'}
+              {settings.unit === 'lit'
+                ? '適用される法令基準日：2026-04-01（金融リテラシー検定）'
+                : lbd
+                  ? `適用される法令基準日：${lbd}（日本FP協会 試験日程より）`
+                  : '法令基準日が公表されていない期間です。'}
             </span>
           )}
         </label>
@@ -98,7 +104,7 @@ export function PlanPage() {
             <p>
               1日の目標：新しい問題 <b>{plan.dailyNew}問</b>＋復習（約{plan.days.find((d) => d.kind === 'study')?.reviewMinutes ?? 0}分）
             </p>
-            {u.weakFields.length > 0 && <p>苦手分野（多めに配分）：{u.weakFields.map((x) => FIELDS[x].short).join('・')}</p>}
+            {u.weakFields.length > 0 && <p>苦手分野（多めに配分）：{u.weakFields.map((x) => fieldsFor(exam)[x].short).join('・')}</p>}
             {learnedSincePlan !== undefined && settings.plan && progressGap(plan, today, learnedSincePlan) > 0 && (
               <p className="text-amber-700 dark:text-amber-300">計画より少し遅れています。今日からの目標を再計算しました。</p>
             )}
@@ -120,7 +126,7 @@ export function PlanPage() {
                     {d.kind === 'rest' && <span className="text-slate-400">休み</span>}
                     {d.kind === 'mock' && <b>模擬試験</b>}
                     {d.kind === 'final' && <b>総復習（苦手・間違えた問題）</b>}
-                    {d.kind === 'study' && `${d.fields.map((x) => FIELDS[x].short).join('・')} ${d.newQuestions}問＋復習${d.reviewMinutes}分`}
+                    {d.kind === 'study' && `${d.fields.map((x) => fieldsFor(exam)[x].short).join('・')} ${d.newQuestions}問＋復習${d.reviewMinutes}分`}
                   </span>
                 </li>
               ))}

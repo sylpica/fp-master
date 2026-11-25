@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import type { FactCard, LawChange, Question, QuestionSet, Term } from '../domain/types';
+import type { FactCard, FieldId, LawChange, Question, QuestionSet, Term, Unit } from '../domain/types';
 import { buildMatcher, type TermMatcher } from '../domain/termlink';
 import { importWithRetry, loadAllQuestionSets } from './index';
 import { clearStaleBuildGuard, recoverFromStaleBuild } from './staleBuild';
@@ -14,10 +14,17 @@ export interface StudyCard {
   front: string;
   back: string;
   field: Term['field'];
+  /** 金融リテラシー検定での分野（用語カードのみ。用語の litField を引き継ぐ） */
+  litField?: FieldId;
   grades: Term['grades'];
   kind: 'term' | 'fact';
   termId?: string;
   reviewStatus: 'verified' | 'draft';
+}
+
+/** カードの分野をユニットに応じて解決する（lit では用語の litField を優先） */
+export function cardFieldFor(card: StudyCard, unit: Unit | undefined): FieldId {
+  return unit === 'lit' ? (card.litField ?? card.field) : card.field;
 }
 
 export interface Content {
@@ -95,6 +102,7 @@ export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
       front: t.name,
       back: t.short,
       field: t.field,
+      litField: t.litField,
       grades: t.grades,
       kind: 'term' as const,
       termId: t.id,

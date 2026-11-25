@@ -5,7 +5,7 @@ import { useContent } from '../content/store';
 import { db, type StudySession } from '../db/db';
 import { recordAttempt, saveSession } from '../db/repo';
 import { buildOfficialSetMock, buildRandomMock, scoreMock, type MockBuildResult } from '../domain/mock';
-import { EXAM_SPECS, FIELD_IDS, FIELDS } from '../domain/exam';
+import { EXAM_SPECS, LIT_EXAM_SPEC_SOURCE, fieldIdsFor, fieldsFor } from '../domain/exam';
 import { newSeed } from '../domain/random';
 import { scoreQuestion, type Responses } from '../domain/scoring';
 import { ratingFromAnswer } from '../domain/srs';
@@ -58,7 +58,7 @@ export function MockHomePage() {
         </p>
       </section>
 
-      {examSets.length === 0 ? (
+      {examSets.length === 0 && exam !== 'lit' ? (
         <Empty>
           {spec.subject === 'jitsugi'
             ? '実技試験（資産設計提案業務）の検証済み問題がまだないため、模擬試験は利用できません。公式問題の取り込みと検証を進めています。'
@@ -66,22 +66,26 @@ export function MockHomePage() {
         </Empty>
       ) : (
         <>
-          <section className="space-y-2">
-            <h2 className="label">公表問題をそのまま解く（本試験と同じ構成）</h2>
-            {examSets.map((s) => {
-              const ym = s.questions[0]?.source.kind === 'official' ? s.questions[0].source.yearMonth : '';
-              const build = buildOfficialSetMock(questions, exam, ym);
-              return (
-                <button key={s.id} className="btn-secondary w-full justify-between" onClick={() => setPreview({ title: s.title, build })}>
-                  <span>{s.title}</span>
-                  <span className="text-sm text-slate-600 dark:text-slate-400">{build.questions.length}問</span>
-                </button>
-              );
-            })}
-          </section>
+          {examSets.length > 0 && (
+            <section className="space-y-2">
+              <h2 className="label">公表問題をそのまま解く（本試験と同じ構成）</h2>
+              {examSets.map((s) => {
+                const ym = s.questions[0]?.source.kind === 'official' ? s.questions[0].source.yearMonth : '';
+                const build = buildOfficialSetMock(questions, exam, ym);
+                return (
+                  <button key={s.id} className="btn-secondary w-full justify-between" onClick={() => setPreview({ title: s.title, build })}>
+                    <span>{s.title}</span>
+                    <span className="text-sm text-slate-600 dark:text-slate-400">{build.questions.length}問</span>
+                  </button>
+                );
+              })}
+            </section>
+          )}
           <section className="space-y-2">
             <h2 className="label">
-              ランダム構成（{questions.some((q) => q.exam === exam && q.source.kind === 'original' && q.status === 'verified') ? '公表問題とオリジナル問題' : '複数回の公表問題'}から分野配分どおりに出題）
+              {exam === 'lit'
+                ? 'ランダム構成（オリジナル問題から分野配分どおりに出題）'
+                : `ランダム構成（${questions.some((q) => q.exam === exam && q.source.kind === 'original' && q.status === 'verified') ? '公表問題とオリジナル問題' : '複数回の公表問題'}から分野配分どおりに出題）`}
             </h2>
             <button className="btn-secondary w-full" onClick={() => setPreview({ title: `${spec.shortLabel} ランダム模擬試験`, build: buildRandomMock(questions, exam, newSeed()) })}>
               ランダムに作成する
@@ -102,7 +106,7 @@ export function MockHomePage() {
               <ul className="list-disc pl-5">
                 {preview.build.shortages.map((x, i) => (
                   <li key={i}>
-                    {x.kind === 'any' || x.kind === 'truefalse' || x.kind === 'choice' ? `${FIELDS[x.field].short}（${{ any: '全形式', truefalse: '正誤式', choice: '択一式' }[x.kind]}）` : x.kind}：必要{x.needed}問／検証済み{x.available}問
+                    {x.kind === 'any' || x.kind === 'truefalse' || x.kind === 'choice' ? `${fieldsFor(exam)[x.field].short}（${{ any: '全形式', truefalse: '正誤式', choice: '択一式' }[x.kind]}）` : x.kind}：必要{x.needed}問／検証済み{x.available}問
                   </li>
                 ))}
               </ul>
@@ -136,8 +140,19 @@ export function MockHomePage() {
       )}
       <PageNote>
         <p>本試験の時間・問題数・合格基準に準拠し、計算問題も本試験と同様に含みます。</p>
+        {exam === 'lit' && <p>分野ごとの問題数の内訳は公式に公表されていないため、本アプリでは5分野均等（各分野 正誤7問・三択3問）で構成します（独自仕様）。</p>}
         {!spec.pointsOfficial && <p>1問あたりの配点は公表されていないため、本アプリでは均等配点（1問{spec.pointsPerQuestion}点）で採点します（独自仕様）。</p>}
-        <p>出典：日本FP協会 試験要綱（2026年10月確認）</p>
+        {exam === 'lit' ? (
+          <p>
+            出典：
+            <a className="underline" href={LIT_EXAM_SPEC_SOURCE.url} target="_blank" rel="noreferrer">
+              {LIT_EXAM_SPEC_SOURCE.title}
+            </a>
+            （{LIT_EXAM_SPEC_SOURCE.checkedAt}確認）
+          </p>
+        ) : (
+          <p>出典：日本FP協会 試験要綱（2026年10月確認）</p>
+        )}
       </PageNote>
     </div>
   );
@@ -351,11 +366,11 @@ export function MockResultPage() {
       <section className="card">
         <h2 className="mb-2 font-bold">分野別の成績</h2>
         <ul className="space-y-1.5">
-          {FIELD_IDS.filter((f) => r.byField[f].total > 0).map((f) => (
+          {fieldIdsFor(r.exam).filter((f) => r.byField[f].total > 0).map((f) => (
             <li key={f} className="flex items-center gap-2 text-sm">
-              <span className="w-16">{FIELDS[f].short}</span>
+              <span className="w-24">{fieldsFor(r.exam)[f].short}</span>
               <div className="flex-1">
-                <ProgressBar value={r.byField[f].correct} max={r.byField[f].total} label={FIELDS[f].name} />
+                <ProgressBar value={r.byField[f].correct} max={r.byField[f].total} label={fieldsFor(r.exam)[f].name} />
               </div>
               <span className="w-20 text-right tabular-nums">
                 {r.byField[f].correct}/{r.byField[f].total}（{pct(r.byField[f].correct / r.byField[f].total)}）

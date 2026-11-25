@@ -103,7 +103,11 @@ describe('解説と公式正答の整合', () => {
     for (const [id, e] of Object.entries(expl)) {
       const q = all.find((x) => x.id === id)!;
       const p = q.parts[0]!;
-      if (p.kind === 'truefalse') expect(e.explanation.short, id).toContain(p.answer ? '適切（〇）' : '不適切（×）');
+      if (p.kind === 'truefalse') {
+        // 金融リテラシー検定の解説は「正解は○／×」形式、それ以外は「適切（〇）／不適切（×）」形式
+        if (q.exam === 'lit') expect(e.explanation.short, id).toContain(p.answer ? '正解は○' : '正解は×');
+        else expect(e.explanation.short, id).toContain(p.answer ? '適切（〇）' : '不適切（×）');
+      }
       if (p.kind === 'choice') expect(e.explanation.short, id).toContain(`正解は${p.answer})`);
     }
   });

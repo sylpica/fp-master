@@ -1,14 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { useContent, type StudyCard } from '../content/store';
+import { cardFieldFor, useContent, type StudyCard } from '../content/store';
 import { db } from '../db/db';
 import { recordAttempt } from '../db/repo';
-import { FIELD_IDS, FIELDS } from '../domain/exam';
+import { contentGradeOfUnit, fieldIdsFor, fieldsFor } from '../domain/exam';
 import { createRng, newSeed, shuffle } from '../domain/random';
 import { localDate, type Rating } from '../domain/srs';
 import type { FieldId } from '../domain/types';
 import { setSetting, useSettings } from '../state/settings';
+import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
 import { Empty, ReviewBadge } from '../ui/common';
 
@@ -29,18 +30,19 @@ export function isCardSwipe(dx: number): boolean {
 export function CardsHomePage() {
   const { cards } = useContent();
   const settings = useSettings();
+  const exam = useExamKey();
   const srs = useLiveQuery(() => db.srs.where('key').startsWith('c:').toArray(), []);
   const favStates = useLiveQuery(() => db.termState.toArray(), []);
+  const token = settings ? contentGradeOfUnit(settings.unit) : 3;
   const favCount = useMemo(() => {
     const favs = new Set((favStates ?? []).filter((s) => s.favorite).map((s) => s.termId));
-    return cards.filter((c) => c.termId && favs.has(c.termId) && c.grades.includes(settings?.grade ?? 3)).length;
-  }, [cards, favStates, settings]);
+    return cards.filter((c) => c.termId && favs.has(c.termId) && c.grades.includes(token)).length;
+  }, [cards, favStates, token]);
   const [fields, setFields] = useState<FieldId[]>([]);
   const [kind, setKind] = useState<'' | 'term' | 'fact'>('');
   const nav = useNavigate();
-  const grade = settings?.grade ?? 3;
   const reversed = settings?.cardsReversed ?? false;
-  const mine = cards.filter((c) => c.grades.includes(grade));
+  const mine = cards.filter((c) => c.grades.includes(token));
   const today = localDate();
   const due = srs?.filter((s) => s.due <= today && mine.some((c) => `c:${c.id}` === s.key)).length ?? 0;
   const seen = new Set(srs?.map((s) => s.key.slice(2)));
@@ -52,7 +54,7 @@ export function CardsHomePage() {
   };
   return (
     <div className="space-y-4">
-      <PageTitle sub={`${grade}級：${mine.length}枚（用語${mine.filter((c) => c.kind === 'term').length}・数字/公式${mine.filter((c) => c.kind === 'fact').length}）`}>単語帳</PageTitle>
+      <PageTitle sub={`${token === 'lit' ? '金融リテラシー検定' : `${token}級`}：${mine.length}枚（用語${mine.filter((c) => c.kind === 'term').length}・数字/公式${mine.filter((c) => c.kind === 'fact').length}）`}>単語帳</PageTitle>
       <div className="grid gap-2">
         <button className="btn-primary" onClick={() => start('due')} disabled={!due}>
           今日の復習カード（{due}枚）
@@ -75,9 +77,9 @@ export function CardsHomePage() {
       <section className="card space-y-3">
         <h2 className="label">分野（未選択はすべて）</h2>
         <div className="flex flex-wrap gap-2">
-          {FIELD_IDS.map((f) => (
+          {fieldIdsFor(exam).map((f) => (
             <button key={f} className={`chip ${fields.includes(f) ? 'chip-on' : ''}`} onClick={() => setFields(fields.includes(f) ? fields.filter((x) => x !== f) : [...fields, f])} aria-pressed={fields.includes(f)}>
-              {FIELDS[f].short}
+              {fieldsFor(exam)[f].short}
             </button>
           ))}
         </div>
@@ -120,12 +122,12 @@ export function CardsRunPage() {
   useEffect(() => {
     if (!settings || deck) return;
     (async () => {
-      const grade = settings.grade;
+      const token = contentGradeOfUnit(settings.unit);
       const mode = (params.get('mode') ?? 'all') as Mode;
       const fields = params.get('fields')?.split(',') ?? [];
       const kind = params.get('kind');
       const termIds = params.get('term')?.split(',');
-      let pool = cards.filter((c) => c.grades.includes(grade) && (!fields.length || fields.includes(c.field)) && (!kind || c.kind === kind));
+      let pool = cards.filter((c) => c.grades.includes(token) && (!fields.length || fields.includes(cardFieldFor(c, settings.unit))) && (!kind || c.kind === kind));
       if (termIds) pool = cards.filter((c) => c.termId && termIds.includes(c.termId));
       if (params.get('fav')) {
         // お気に入り登録した用語のカード（用語カード＋その用語に紐づく数字・公式カード）
@@ -149,7 +151,7 @@ export function CardsRunPage() {
   const rate = async (r: Rating) => {
     if (!card) return;
     await recordAttempt(
-      { itemId: card.id, itemKind: 'card', field: card.field, correct: r !== 'again', unsure: r === 'hard', timeMs: Date.now() - start.current, mode: 'cards' },
+      { itemId: card.id, itemKind: 'card', field: cardFieldFor(card, settings?.unit), correct: r !== 'again', unsure: r === 'hard', timeMs: Date.now() - start.current, mode: 'cards' },
       r,
     );
     setTally((t) => ({ ...t, [r === 'easy' ? 'good' : r]: t[r === 'easy' ? 'good' : r] + 1 }));
@@ -283,7 +285,7 @@ export function CardsRunPage() {
         className="card flex min-h-72 flex-1 touch-pan-y select-none flex-col items-center justify-center gap-3 p-6 text-center"
       >
         <span className="text-xs text-slate-600 dark:text-slate-400">
-          {FIELDS[card.field].short}・{card.kind === 'term' ? '用語' : '数字・公式'}
+          {fieldsFor(settings?.unit === 'lit' ? 'lit' : undefined)[cardFieldFor(card, settings?.unit)].short}・{card.kind === 'term' ? '用語' : '数字・公式'}
         </span>
         {!flipped ? (
           <span className={reversed ? 'text-xl font-bold leading-relaxed' : 'text-2xl font-bold leading-relaxed'}>{sides?.prompt}</span>

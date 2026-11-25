@@ -199,7 +199,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -236,6 +237,7 @@
    "name": "可処分所得",
    "tex": "\\text{実収入} - \\text{非消費支出}"
   },
+  "litField": "A",
   "example": "実収入が600万円で、税金と社会保険料（非消費支出）が120万円の世帯の可処分所得は、600万円－120万円＝480万円となる。"
  },
  {
@@ -251,7 +253,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -276,6 +279,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "A",
   "example": "家計の収支表から毎年の収入と支出を、ライフイベント表から子の進学やマイホーム購入の費用を転記し、将来のどの年に家計が苦しくなるかを確かめる。"
  },
  {
@@ -367,7 +371,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -388,6 +393,7 @@
    "name": "年金額",
    "tex": "\\text{満額} \\times \\frac{\\text{保険料納付済月数等}}{480}"
   },
+  "litField": "E",
   "example": "受給資格期間が10年以上あり、保険料納付済月数が400月の人の老齢基礎年金は、満額×400／480で計算した額を65歳から受け取る。"
  },
  {
@@ -544,7 +550,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -585,6 +592,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "A",
   "example": "退職日まで継続して2か月以上被保険者だった人は、資格を喪失した日から20日以内に申し出れば、退職前の健康保険に最長2年間加入し続けられる。"
  },
  {
@@ -600,7 +608,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -622,6 +631,7 @@
    "ｉＤｅＣｏ",
    "個人型年金"
   ],
+  "litField": "D",
   "example": "会社員が毎月の掛金を拠出し、自分で選んだ投資信託や定期預金などで運用して、高齢期にその運用の結果に基づいた給付を受け取る。"
  },
  {
@@ -693,7 +703,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -722,6 +733,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "B",
   "example": "借入額・金利・返済期間が同じであれば、毎月の返済額（元金＋利息）は完済まで同じ額となるため、家計の返済計画を立てやすい。"
  },
  {
@@ -737,7 +749,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -766,6 +779,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "B",
   "example": "3,000万円を360回払いで借りると、毎回返済する元金は約8.3万円で一定となり、利息は残高に応じて減るため、返済額は回を追うごとに少なくなる。"
  },
  {
@@ -781,7 +795,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -829,6 +844,7 @@
   "aliases": [
    "フラット３５"
   ],
+  "litField": "A",
   "example": "35年返済でフラット35を利用すると、世の中の金利が上がっても借入金利と毎月の返済額は完済まで変わらないため、将来の返済額を見通しやすい。"
  },
  {
@@ -880,7 +896,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -921,6 +938,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "D",
   "example": "1人の人が1年以内に死亡するかどうかは予測できないが、多数の人を観察すると死亡率はほぼ一定の値に近づくため、保険会社は過去の統計データから得た死亡率をもとに保険料を算定する。"
  },
  {
@@ -1208,7 +1226,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1225,6 +1244,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "B",
   "example": "自宅を訪れた募集人の勧誘で保険を申し込んだ人は、法律で定められた一定期間内であれば、その申込みの撤回や契約の解除ができる。"
  },
  {
@@ -1240,7 +1260,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1269,6 +1290,7 @@
    "name": "単利の元利合計",
    "tex": "\\text{元本} \\times (1 + r n)"
   },
+  "litField": "D",
   "example": "100万円を年2％の単利で3年間運用すると、利息は毎年2万円ずつで、元利合計は100万円×(1＋0.02×3)＝106万円となる。"
  },
  {
@@ -1285,7 +1307,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1322,6 +1345,7 @@
    "name": "1年複利の元利合計",
    "tex": "\\text{元本} \\times (1 + r)^{n}"
   },
+  "litField": "D",
   "example": "100万円を年2％の1年複利で3年間運用すると、元利合計は100万円×1.02の3乗＝106万1,208円となり、単利の106万円より1,208円多くなる。"
  },
  {
@@ -1713,7 +1737,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1730,6 +1755,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "C",
   "example": "預金保険制度の対象金融機関が破綻した場合、普通預金や定期預金などは、1金融機関につき預金者1人当たり元本1,000万円までと破綻日までの利息等が保護される。"
  },
  {
@@ -1743,7 +1769,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1774,6 +1801,7 @@
    "成長投資枠",
    "つみたて投資枠"
   ],
+  "litField": "D",
   "example": "2024年からのNISAでは、つみたて投資枠で年間120万円、成長投資枠で年間240万円まで投資でき、非課税で保有できる限度額は1,800万円（うち成長投資枠は1,200万円）である。"
  },
  {
@@ -1921,7 +1949,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -1952,6 +1981,7 @@
    "ＴＴＳ",
    "ＴＴＢ"
   ],
+  "litField": "C",
   "example": "TTMが150円で為替手数料が1円の場合、円を米ドルに換えるときのTTSは151円、米ドルを円に換えるときのTTBは149円となる。"
  },
  {
@@ -2233,7 +2263,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -2250,6 +2281,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "E",
   "example": "令和7年分の給与等の収入金額が150万円の人は、給与所得控除額が65万円となり、給与所得の金額は150万円－65万円＝85万円となる。"
  },
  {
@@ -3458,7 +3490,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -3483,6 +3516,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "A",
   "example": "子の小学校入学、マイホームの購入、車の買い替えなどの予定を、家族の年齢とあわせて年ごとに書き込み、いつごろ、どのくらいの費用がかかりそうかの目安も記入する。"
  },
  {
@@ -4215,7 +4249,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -4276,6 +4311,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "E",
   "example": "東京都の特別区に住む人の介護保険は、国ではなく住所地の区が保険者として運営している。"
  },
  {
@@ -4289,7 +4325,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -4326,6 +4363,7 @@
    "基本手当",
    "失業給付"
   ],
+  "litField": "E",
   "example": "一般の離職者は、離職の日以前2年間に被保険者期間が通算して12か月以上あれば基本手当の受給資格があり、倒産などによる特定受給資格者は、離職の日以前1年間に6か月以上でもよい。"
  },
  {
@@ -4339,7 +4377,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -4383,6 +4422,7 @@
   "aliases": [
    "労働者災害補償保険"
   ],
+  "litField": "E",
   "example": "会社員が通勤の途中の事故でけがをした場合は、業務上の負傷ではないが、通勤による負傷として労災保険の給付を受けられる。"
  },
  {
@@ -4648,7 +4688,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -4681,6 +4722,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "D",
   "example": "40歳で保険期間10年の定期保険に加入すると、50歳までに死亡した場合は死亡保険金を受け取れるが、50歳まで生存しても満期保険金はない。"
  },
  {
@@ -4697,7 +4739,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -4722,6 +4765,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "D",
   "example": "30歳で加入した終身保険は、何歳で亡くなっても死亡保険金が支払われる。満期保険金はないが、期間の経過とともに解約返戻金が増えていく。"
  },
  {
@@ -5525,7 +5569,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -5546,6 +5591,7 @@
    "投信",
    "基準価額"
   ],
+  "litField": "D",
   "example": "多くの投資家から集めた資金を運用会社が国内外の株式や債券に分散して投資し、その運用の成果を投資家の保有口数に応じて分配する。"
  },
  {
@@ -5979,7 +6025,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -6003,6 +6050,7 @@
   "aliases": [
    "仲値"
   ],
+  "litField": "C",
   "example": "ある日の米ドルのTTSが151円、TTBが149円の場合、その平均値であるTTM（仲値）は150円となる。"
  },
  {
@@ -6122,7 +6170,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -6175,6 +6224,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "B",
   "example": "事業者が商品の重要事項について事実と異なることを告げ、消費者がその内容を事実と誤認して契約の申込みをした場合は、消費者はその申込みを取り消すことができる。"
  },
  {
@@ -6190,7 +6240,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -6211,6 +6262,7 @@
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "lawBaseDate": "2026-04-01",
+  "litField": "C",
   "example": "証券会社が破綻し、顧客から預かっていた資産が返還されない場合、日本投資者保護基金が一般顧客の請求に基づいて一定額まで補償する。"
  },
  {
@@ -7336,7 +7388,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -7377,6 +7430,7 @@
    "所得の種類",
    "10種類の所得"
   ],
+  "litField": "E",
   "example": "預金の利子は利子所得、株式の配当は配当所得、アパートの家賃は不動産所得、会社の給料は給与所得、退職金は退職所得、懸賞の賞金は一時所得に区分される。"
  },
  {
@@ -7580,7 +7634,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -7620,6 +7675,7 @@
   "aliases": [
    "ふるさと納税"
   ],
+  "litField": "E",
   "example": "ふるさと納税で自治体に3万円を寄附した場合、寄附額のうち2,000円を超える2万8,000円の部分について、所得税と個人住民税からそれぞれ控除を受けられる。"
  },
  {
@@ -7677,7 +7733,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -7714,6 +7771,7 @@
    "確定申告",
    "年末調整"
   ],
+  "litField": "E",
   "example": "給与所得者の多くは勤務先の年末調整で所得税額が確定し納税も完了するが、給与の年間収入金額が2,000万円を超える人は確定申告が必要となる。"
  },
  {
@@ -7806,7 +7864,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -7839,6 +7898,7 @@
    "消費税",
    "軽減税率"
   ],
+  "litField": "E",
   "example": "税抜1,000円の飲食料品（軽減税率8％）にかかる消費税等は80円で、そのうち消費税が62.4円（6.24％）、地方消費税が17.6円（1.76％）となる。"
  },
  {
@@ -8629,7 +8689,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -8665,6 +8726,7 @@
   "aliases": [
    "瑕疵担保責任"
   ],
+  "litField": "B",
   "example": "購入した中古住宅に契約で予定していなかった雨漏りがあった場合、買主は売主に修補を請求でき、相当の期間を定めて催告しても修補されなければ、不適合の程度に応じて代金の減額を請求できる。"
  },
  {
@@ -10066,7 +10128,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10105,7 +10168,8 @@
   ],
   "topics": [
    "A4.2-3"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "koki-koreisha-iryo-seido",
@@ -10122,7 +10186,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10161,7 +10226,8 @@
   ],
   "topics": [
    "A4.2-4"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "shussan-ikuji-ichijikin",
@@ -10176,7 +10242,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10207,7 +10274,8 @@
   ],
   "topics": [
    "A4.2-2"
-  ]
+  ],
+  "litField": "A"
  },
  {
   "id": "shussan-teatekin",
@@ -10224,7 +10292,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10260,7 +10329,8 @@
   ],
   "topics": [
    "A4.2-2"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "kogaku-kaigo-gassan-ryoyohi",
@@ -10325,7 +10395,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10360,7 +10431,8 @@
   ],
   "topics": [
    "A4.4-2"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "shusseigo-kyugyo-shien-kyufukin",
@@ -10636,7 +10708,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10671,7 +10744,8 @@
   ],
   "topics": [
    "A3.1-2"
-  ]
+  ],
+  "litField": "A"
  },
  {
   "id": "yokaigo-nintei",
@@ -10687,7 +10761,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10728,7 +10803,8 @@
   ],
   "topics": [
    "A4.2-5"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "kaigo-hoken-jiko-futan",
@@ -10850,7 +10926,8 @@
   "related": [],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10892,7 +10969,8 @@
   "topics": [
    "A6.7-1",
    "A6.7-2"
-  ]
+  ],
+  "litField": "A"
  },
  {
   "id": "shogakukin",
@@ -10907,7 +10985,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -10946,7 +11025,8 @@
   ],
   "topics": [
    "A8.2-3"
-  ]
+  ],
+  "litField": "A"
  },
  {
   "id": "danshin",
@@ -11070,7 +11150,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -11092,7 +11173,8 @@
   "topics": [
    "B3.1-1",
    "B4.1-1"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "hoken-keiyakusha",
@@ -11147,7 +11229,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -11176,7 +11259,8 @@
   "topics": [
    "B3.1-4",
    "B4.1-3"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "hokenkin-juryonin",
@@ -11917,7 +12001,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -11948,7 +12033,8 @@
   ],
   "topics": [
    "B5-1"
-  ]
+  ],
+  "litField": "D"
  },
  {
   "id": "gan-hoken",
@@ -12792,7 +12878,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -12829,7 +12916,8 @@
   "topics": [
    "C2.1-1",
    "C11-2"
-  ]
+  ],
+  "litField": "C"
  },
  {
   "id": "tanigata-tsuikagata",
@@ -13968,7 +14056,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -14005,7 +14094,8 @@
   ],
   "topics": [
    "C1.1-2"
-  ]
+  ],
+  "litField": "C"
  },
  {
   "id": "keiki-doko",
@@ -14020,7 +14110,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -14059,7 +14150,8 @@
   "topics": [
    "C1.1-2",
    "C1.2-4"
-  ]
+  ],
+  "litField": "C"
  },
  {
   "id": "benchmark",
@@ -14779,7 +14871,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -14817,7 +14910,8 @@
   "topics": [
    "D7.1-1",
    "D7.1-2"
-  ]
+  ],
+  "litField": "A"
  },
  {
   "id": "yotei-nozei",
@@ -15544,7 +15638,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -15585,7 +15680,8 @@
   "topics": [
    "D8-1",
    "D8-2"
-  ]
+  ],
+  "litField": "E"
  },
  {
   "id": "kintowari",
@@ -17779,7 +17875,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -17813,7 +17910,8 @@
   ],
   "topics": [
    "F3.1-6"
-  ]
+  ],
+  "litField": "B"
  },
  {
   "id": "tokubetsu-yoshi",
@@ -19721,7 +19819,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -19757,7 +19856,8 @@
   ],
   "topics": [
    "C9.1-2"
-  ]
+  ],
+  "litField": "D"
  },
  {
   "id": "kabunushi-yutai",
@@ -19774,7 +19874,8 @@
   ],
   "grades": [
    2,
-   3
+   3,
+   "lit"
   ],
   "sources": [
    {
@@ -19806,7 +19907,8 @@
   ],
   "topics": [
    "C5.1-1"
-  ]
+  ],
+  "litField": "D"
  },
  {
   "id": "kawase-saeki",
@@ -20973,5 +21075,5195 @@
   "topics": [
    "F4.4-5"
   ]
+ },
+ {
+  "id": "life-planning",
+  "name": "ライフプランニング（生活設計）",
+  "reading": "らいふぷらんにんぐ",
+  "field": "A",
+  "importance": 3,
+  "short": "将来、どんな生活をしたいか、そのために何が必要かを考えて、目的達成のため、具体的に計画を立てること。",
+  "detail": "消費生活の安定・向上、健康づくり、子供の教育・自立、自己実現、余暇活動、老後生活への準備などへの計画が含まれる。将来どのような人生を送りたいかについて構想を描くことを「生活設計（ライフプランニング）」といい、ライフイベント表やキャッシュフロー表を使って具体化していく。ライフプランはあくまで計画であり、その時々に合わせて柔軟に見直しをしていくものとされる。",
+  "related": [
+   "life-event-hyo",
+   "cashflow-hyo",
+   "sandai-shishutsu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "J-FLEC 用語・金融商品解説 ライフプランニング（生活設計）",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/r_life_planning/"
+   },
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   },
+   {
+    "title": "日本FP協会 便利ツールで家計をチェック",
+    "url": "https://www.jafp.or.jp/know/fp/sheet/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/r_life_planning/",
+    "quote": "将来、どんな生活をしたいか、そのために何が必要かを考えて、目的達成のため、具体的に計画を立てること"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/r_life_planning/",
+    "quote": "消費生活の安定・向上、健康づくり、子供の教育・自立、自己実現、余暇活動、老後生活への準備などへの計画が含まれる"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "将来どのような人生を送りたいかについて構想を描くことを「生活設計（ライフプランニング）」といいます"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "ライフプランはあくまで計画ですから、その時々に合わせて柔軟に見直しをしていくものです"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "25歳で結婚、30歳で住宅購入、老後は夫婦で旅行を楽しむといった将来像と、必要になる資金を書き出して計画に落とし込む。",
+  "aliases": [
+   "ライフプラン",
+   "生活設計"
+  ],
+  "topics": [
+   "A1-1",
+   "A1-4"
+  ]
+ },
+ {
+  "id": "sandai-shishutsu",
+  "name": "人生の3大支出",
+  "reading": "じんせいのさんだいししゅつ",
+  "field": "A",
+  "importance": 3,
+  "short": "住宅購入資金、教育資金、老後資金の3つをいう。人生で特に大きな支出のまとまり。",
+  "detail": "教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントとされる。老後資金は誰にでも必要となるもので、住宅購入資金とあわせ、いずれも金額が大きいため、若いうちからの計画的な準備が欠かせない。なお、医療費は3大支出には含まれない。",
+  "related": [
+   "life-planning",
+   "rogo-shikin",
+   "atamakin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "人生には3大支出といわれる「住宅購入資金」、「教育資金」、「老後資金」があります"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントです"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "誰にでも必要となるのが老後資金です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "郊外の新築戸建ての購入資金、子どもの幼稚園から大学までの教育費、老後の生活費が代表例。",
+  "aliases": [
+   "3大支出"
+  ],
+  "cautions": [
+   "医療費は3大支出には含まれない。病気やケガへの備えは緊急予備資金や保険で別に考える"
+  ],
+  "topics": [
+   "A1-1"
+  ]
+ },
+ {
+  "id": "kakei-kanri",
+  "name": "家計管理",
+  "reading": "かけいかんり",
+  "field": "A",
+  "importance": 2,
+  "short": "普段生活するうえで、家計の収入と支出のバランスを管理すること。",
+  "detail": "支出は収入の範囲内に収めることが重要であり、お金を「使う」「貯める」「増やす・備える」の3つの目的に分類するとともに、「貯める」お金は仕組み化で確保することで管理しやすくなる。まずは給与明細で手取り収入を確認し、固定費と変動費の内訳を把握することから始める。",
+  "related": [
+   "kotei-hi",
+   "hendo-hi",
+   "sakidori-chokin",
+   "kashobun-shotoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "J-FLEC 用語・金融商品解説 家計管理",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/k_kakei_kanri/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/k_kakei_kanri/",
+    "quote": "普段生活するうえで、家計の収入と支出のバランスを管理すること"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/k_kakei_kanri/",
+    "quote": "支出は収入の範囲内に収めることが重要であり、お金を「使う」「貯める」「増やす・備える」の3つの目的に分類するとともに、「貯める」お金は仕組み化で確保することで管理しやすくなる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "手取り21万円のうち家賃7万円・食費3万5,000円など項目別に支出を把握し、毎月2万円を先取り貯蓄に回す。",
+  "topics": [
+   "A1-2"
+  ]
+ },
+ {
+  "id": "kotei-hi",
+  "name": "固定費",
+  "reading": "こていひ",
+  "field": "A",
+  "importance": 3,
+  "short": "家賃やスマホ代といった、毎月発生する一定額の費用。",
+  "detail": "住居費、水道光熱費、通信費、保険料、サブスクなどが例に挙げられる。固定費は一度見直すと毎月安定して支出を削減することができるため、家計見直しの優先対象になる。新社会人の家計では家賃や光熱費などの固定費の割合が大きいことにも注意したい。",
+  "related": [
+   "hendo-hi",
+   "kakei-kanri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   },
+   {
+    "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用、変動費は食費や娯楽費といったその時々で変動する費用です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "固定費（住居費・通信費、保険料など）は一度見直すと毎月安定して支出を削減することができます"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "家賃や光熱費などの固定費の割合が大きいため、早い段階から家計管理を意識することが大事です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "家賃7万円、通信費8,000円、保険料1万円、サブスク2,000円が毎月ほぼ同額で出ていく。",
+  "facts": [
+   "固定費の例：住居費、水道光熱費、通信費、保険料、サブスクなど"
+  ],
+  "topics": [
+   "A1-2"
+  ]
+ },
+ {
+  "id": "hendo-hi",
+  "name": "変動費",
+  "reading": "へんどうひ",
+  "field": "A",
+  "importance": 2,
+  "short": "食費や娯楽費といった、その時々で変動する費用。",
+  "detail": "食費、交通費、交際費などが例に挙げられる。毎月の金額が一定ではないため、家計簿などで実際の支出額を把握し、必要なもの（ニーズ）と欲しいもの（ウォンツ）に分けて優先順位をつけて調整する。毎月ほぼ一定額が発生する固定費と対になる概念である。",
+  "related": [
+   "kotei-hi",
+   "kakei-kanri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "固定費は、家賃やスマホ代といった毎月発生する一定額の費用、変動費は食費や娯楽費といったその時々で変動する費用です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "外食が多い月は食費が5万円、少ない月は3万円というように、月によって金額が変わる。",
+  "compare": [
+   "固定費は毎月ほぼ一定額が発生する費用であり、変動費は月ごとに金額が変わる費用である"
+  ],
+  "topics": [
+   "A1-2"
+  ]
+ },
+ {
+  "id": "sakidori-chokin",
+  "name": "先取り貯蓄",
+  "reading": "さきどりちょちく",
+  "field": "A",
+  "importance": 3,
+  "short": "給料が入ったら、まず一定額を貯蓄し、残りで生活する方法。",
+  "detail": "上手にお金を貯めるコツとされる方法で、「残ったら貯める」のではなく収入が入った時点で先に貯蓄分を確保する点が特徴。無理のない範囲で「給与天引き」や「口座引落とし」などの方法でお金を貯める仕組みを作ることが大切とされ、銀行の自動積立などを活用すれば無理なく仕組みを作ることができる。",
+  "related": [
+   "kakei-kanri",
+   "zaikei-chochiku",
+   "kinkyu-yobi-shikin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+   },
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "上手にお金を貯めるコツは「先取り貯蓄」をすることです。給料が入ったら、まず一定額を貯蓄し、残りで生活する方法です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "無理のない範囲で「給与天引き」や「口座引落とし」などの方法でお金を貯める仕組みを作ることが大切です"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "銀行の自動積立や、NISA（少額投資非課税制度）などを活用すれば無理なくお金を貯める仕組みを作ることができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "給料日に手取りのうち2万円が自動で積立口座へ移るよう設定し、残りの範囲で生活する。",
+  "topics": [
+   "A1-3"
+  ]
+ },
+ {
+  "id": "kakeibo",
+  "name": "家計簿",
+  "reading": "かけいぼ",
+  "field": "A",
+  "importance": 1,
+  "short": "家計の収入と支出を記録し、支出の把握や見直しに使う帳簿やアプリ。",
+  "detail": "支出を把握できていないという人には、家計簿をつけることがすすめられる。最近では銀行口座やクレジットカードと連携した家計簿アプリなど便利なものもある。家計簿は継続することが大切であり、記録した支出を固定費と変動費に分けて見ることで、家計管理や見直しに活かすことができる。",
+  "related": [
+   "kakei-kanri",
+   "kotei-hi",
+   "hendo-hi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "もし支出を把握できていないという人は、家計簿をつけることをおすすめします"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "最近では銀行口座やクレジットカードと連携した家計簿アプリなど便利なものもあります"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "家計簿は継続することが大切です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "家計簿アプリに食費や交際費を記録し、月末に変動費の使いすぎを確認する。",
+  "topics": [
+   "A1-2"
+  ]
+ },
+ {
+  "id": "needs-wants",
+  "name": "ニーズとウォンツ",
+  "reading": "にーずとうぉんつ",
+  "field": "A",
+  "importance": 1,
+  "short": "ニーズは生活に必要なもの・こと、ウォンツは欲しいもの・やりたいことをいう。支出に優先順位をつけるための区別。",
+  "detail": "支出について、必要なもの・こと（Needs：ニーズ）か、欲しいもの・やりたいこと（Wants：ウォンツ）かに区別する考え方。ウォンツはあったらいいけど、なくても困らないものであり、ウォンツの中でもさらに優先順位をつけることで、支出を収入の範囲内に収めやすくなる。",
+  "related": [
+   "kakei-kanri",
+   "hendo-hi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "必要なもの・こと（Needs：ニーズ）か、欲しいもの・やりたいこと（Wants：ウォンツ）かに区別しましょう"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "ウォンツはあったらいいけど、なくても困らないものです"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "ウォンツの中でもさらに優先順位をつけます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "家賃や食費はニーズ、外食での贅沢や新しいゲームはウォンツに分け、ウォンツの支出から見直す。",
+  "topics": [
+   "A1-2"
+  ]
+ },
+ {
+  "id": "kinkyu-yobi-shikin",
+  "name": "緊急予備資金",
+  "reading": "きんきゅうよびしきん",
+  "field": "A",
+  "importance": 3,
+  "short": "病気やケガといった想定外の支出に備えるための資金。",
+  "detail": "ライフプランを考える際は、結婚や住宅購入などの予定できる支出だけでなく、病気やケガといった想定外の支出があり得ることもイメージしておく必要がある。お金は「日常生活に必要なお金」「近い将来に使う予定のお金」「当面使う予定のないお金」の3つに分類してそれぞれ別枠で確保し、緊急予備資金は普通預金のようにいつでも引出しが可能な形で持つのが基本である。",
+  "related": [
+   "sakidori-chokin",
+   "life-planning"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   },
+   {
+    "title": "J-FLEC 用語・金融商品解説 普通預貯金",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/h_futsu_yochokin/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "病気やケガといった想定外の支出があり得ることもイメージしておきましょう"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "お金を、①毎月の生活費などの「日常生活に必要なお金」、②車や住宅購入費などの「近い将来に使う予定のお金」、③老後資金や大きな病気などに備える「当面使う予定のないお金」の3つに分類し、それぞれ別枠で確保しておくことも重要です"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/h_futsu_yochokin/",
+    "quote": "いつでも引出しが可能な状態で、銀行などの金融機関に預けているお金"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "急な入院に備え、生活費用の口座とは別の普通預金にまとまった額を分けて置いておく。",
+  "topics": [
+   "A1-5"
+  ]
+ },
+ {
+  "id": "kyoiku-shikin",
+  "name": "教育資金",
+  "reading": "きょういくしきん",
+  "field": "A",
+  "importance": 2,
+  "short": "子どもの進学・在学に必要となる資金。人生の3大支出の一つ。",
+  "detail": "教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントとされる。教育費の確保に悩んだときは、家計の教育費の負担を軽減し、こどもたちの進学・在学を応援する「国の教育ローン」の利用も選択肢になる。奨学金制度の利用とあわせて、早い時期から計画を立てて備えることが大切である。",
+  "related": [
+   "sandai-shishutsu",
+   "shogakukin",
+   "sakidori-chokin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "教育費は、こどもの成長とともにお金のかかる時期がはっきりとしているため、早めに貯め始めることがポイントです"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "もし、教育費の確保に悩んだときは、家計の教育費の負担を軽減し、こどもたちの進学・在学を応援する「国の教育ローン」もご検討ください"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "子どもが小さいうちから毎月積み立てを始め、大学進学の時期に必要となる資金に備える。",
+  "topics": [
+   "A1-1",
+   "A3-2"
+  ]
+ },
+ {
+  "id": "kyuyo-meisai",
+  "name": "給与明細",
+  "reading": "きゅうよめいさい",
+  "field": "A",
+  "importance": 3,
+  "short": "給与の支給額と控除額の内訳を示した明細。支給（もらうお金）と控除（引かれるお金）で構成される。",
+  "detail": "求人票などに記載される総支給額から、社会保険料（雇用保険・健康保険・厚生年金保険など。介護保険料は40歳から納付）と税金が差し引かれたものが手取り収入になる。所得税は給与から毎月天引きされる「源泉徴収」という仕組みで差し引かれる。住民税は前年の所得に対して課税されるため、新卒1年目は原則かからず、2年目の6月から天引きが始まる点にも注意したい。",
+  "related": [
+   "gensen-choshu",
+   "kashobun-shotoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "J-FLEC コラム 初任給の手取り額はいくら？給与明細の見方と社会人の1年目から始めたい家計管理の基本",
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "給与明細は企業ごとに形式は異なりますが、基本は支給（もらうお金）と控除（引かれるお金）で構成されています"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "求人票などに記載されている金額は「総支給額」であり、ここから社会保険料や税金が差し引かれます"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "社会保険料には、雇用保険・健康保険・厚生年金保険が含まれます（介護保険料は40歳から納付）"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "所得税は給与から毎月天引きされる「源泉徴収」という仕組みで差し引かれます"
+   },
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/columns/026_columns/",
+    "quote": "「住民税」は前年の所得に対して課税されるため、新卒1年目は原則かからず、2年目の6月から天引きが始まります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "総支給額27万円から社会保険料4万1,000円と税金1万4,000円が差し引かれ、手取りは21万5,000円になる。",
+  "formula": {
+   "name": "手取り収入",
+   "tex": "\\text{総支給額} - \\text{社会保険料} - \\text{税金}"
+  },
+  "topics": [
+   "A2-3"
+  ]
+ },
+ {
+  "id": "rodo-haken",
+  "name": "労働者派遣",
+  "reading": "ろうどうしゃはけん",
+  "field": "A",
+  "importance": 2,
+  "short": "派遣元の事業主が雇用する労働者を、派遣先の指揮命令を受けて働かせる仕組み。",
+  "detail": "労働者派遣とは、自己の雇用する労働者を、雇用関係の下に、他人の指揮命令を受けて、その他人のために労働に従事させることをいう。派遣労働者は派遣元（派遣会社）と雇用契約を結ぶが、日々の仕事の指示は派遣先から受ける点が、通常の雇用と異なる特徴である。",
+  "related": [
+   "hiseiki-koyo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 労働者派遣法",
+    "url": "https://laws.e-gov.go.jp/law/360AC0000000088"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/360AC0000000088",
+    "quote": "自己の雇用する労働者を、当該雇用関係の下に、かつ、他人の指揮命令を受けて、当該他人のために労働に従事させることをいい"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "人材派遣会社に雇用され、派遣先の企業のオフィスで、その企業の担当者の指示を受けて働く。",
+  "topics": [
+   "A2-1"
+  ]
+ },
+ {
+  "id": "muki-tenkan",
+  "name": "無期転換ルール",
+  "reading": "むきてんかんるーる",
+  "field": "A",
+  "importance": 3,
+  "short": "有期労働契約の通算期間が5年を超えた労働者が申し込むと、期間の定めのない労働契約に転換するルール。",
+  "detail": "同一の使用者との有期労働契約の通算期間が5年を超える労働者が、契約期間が満了する日までの間に無期契約への転換を申し込むと、使用者は申込みを承諾したものとみなされる。申込権の発生には、通算期間が5年を超えていること、契約の更新回数が1回以上あることなど、要件をすべて満たす必要がある。転換後の労働条件は、原則として直前の有期労働契約の内容と同一（契約期間を除く）であり、正社員と全く同じ条件に自動で変わるわけではない。",
+  "related": [
+   "rodo-joken-meiji",
+   "hiseiki-koyo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 労働契約法",
+    "url": "https://laws.e-gov.go.jp/law/419AC0000000128"
+   },
+   {
+    "title": "厚生労働省 確かめよう労働条件 Q&A 採用時にはどのような労働条件が明示されるのでしょうか？",
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/419AC0000000128",
+    "quote": "が五年を超える労働者が、当該使用者に対し、現に締結している有期労働契約の契約期間が満了する日までの間に、当該満了する日の翌日から労務が提供される期間の定めのない労働契約の締結の申込みをしたときは、使用者は当該申込みを承諾したものとみなす"
+   },
+   {
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html",
+    "quote": "有期労働契約で、①有期労働契約の通算期間が5年を超えていること、②契約の更新回数が1回以上あること、③現時点で同一の使用者との間で契約していること、以上のすべてを満たす場合に、無期転換申込権が発生します"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/419AC0000000128",
+    "quote": "当該申込みに係る期間の定めのない労働契約の内容である労働条件は、現に締結している有期労働契約の内容である労働条件（契約期間を除く。）と同一の労働条件"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "契約社員として1年契約を繰り返し更新し、通算5年を超えた労働者が申し込むと、期間の定めのない契約に切り替わる。",
+  "topics": [
+   "A2-2"
+  ]
+ },
+ {
+  "id": "saitei-chingin",
+  "name": "最低賃金",
+  "reading": "さいていちんぎん",
+  "field": "A",
+  "importance": 3,
+  "short": "使用者が労働者に支払わなければならない賃金の最低限度額。",
+  "detail": "使用者は、最低賃金の適用を受ける労働者に対し、その最低賃金額以上の賃金を支払わなければならない。最低賃金額に達しない賃金を定める労働契約は、その部分については無効となる。正社員だけでなく、パートタイムやアルバイトなど雇用形態を問わず適用される賃金の下限である。",
+  "related": [
+   "hotei-rodo-jikan"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 最低賃金法",
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000137"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000137",
+    "quote": "使用者は、最低賃金の適用を受ける労働者に対し、その最低賃金額以上の賃金を支払わなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000137",
+    "quote": "最低賃金額に達しない賃金を定めるものは、その部分については無効とする"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "時給で働くアルバイトの賃金も、適用される最低賃金額を下回る金額で契約することはできない。",
+  "topics": [
+   "A2-2"
+  ]
+ },
+ {
+  "id": "hotei-rodo-jikan",
+  "name": "法定労働時間",
+  "reading": "ほうていろうどうじかん",
+  "field": "A",
+  "importance": 2,
+  "short": "法律で定められた労働時間の上限。休憩時間を除き、1週間について40時間、1日について8時間。",
+  "detail": "使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、また一週間の各日については一日について八時間を超えて、労働させてはならないのが原則である。これを超えて労働させる場合には、別途の手続きが必要になる。",
+  "related": [
+   "saitei-chingin",
+   "rodo-joken-meiji"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 労働基準法",
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、労働時間が六時間を超える場合においては少くとも四十五分、八時間を超える場合においては少くとも一時間の休憩時間を労働時間の途中に与えなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "quote": "使用者は、労働者に対して、毎週少くとも一回の休日を与えなければならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "1日8時間・週5日勤務で週40時間となる働き方は、法定労働時間の枠内に収まる働き方の例。",
+  "facts": [
+   "休憩時間：労働時間が6時間を超える場合は少なくとも45分、8時間を超える場合は少なくとも1時間の休憩時間を、労働時間の途中に与えなければならない",
+   "休日：使用者は、労働者に対して、毎週少なくとも1回の休日を与えなければならない"
+  ],
+  "topics": [
+   "A2-2"
+  ]
+ },
+ {
+  "id": "rodo-joken-meiji",
+  "name": "労働条件の明示",
+  "reading": "ろうどうじょうけんのめいじ",
+  "field": "A",
+  "importance": 2,
+  "short": "労働契約の締結時に、賃金や労働時間などの労働条件を使用者が労働者に明示すること。",
+  "detail": "労働契約の期間や賃金、始業・終業の時刻などの主要な事項については、労働者に書面を交付して明示しなければならないとされている。口頭だけの説明では足りないため、採用時には労働条件通知書などの書面で、契約期間・賃金・労働時間の内容を必ず確認することが大切である。",
+  "related": [
+   "hotei-rodo-jikan",
+   "muki-tenkan"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 確かめよう労働条件 Q&A 採用時にはどのような労働条件が明示されるのでしょうか？",
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/koyou/q1.html",
+    "quote": "明示の方法は、①から⑥までの事項（⑤の昇給に関する事項を除く）については労働者に書面を交付して明示しなければならないとされています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "入社時に労働条件通知書を受け取り、契約期間・勤務地・賃金・労働時間を書面で確認する。",
+  "topics": [
+   "A2-2"
+  ]
+ },
+ {
+  "id": "hiseiki-koyo",
+  "name": "非正規雇用",
+  "reading": "ひせいきこよう",
+  "field": "A",
+  "importance": 1,
+  "short": "パートタイム労働者や有期雇用労働者など、正社員以外の雇用形態で働くこと。",
+  "detail": "事業主には、パートタイム労働者、有期雇用労働者といった非正規雇用労働者に対し、その待遇に関して説明する義務がある。非正規雇用労働者は、正社員との給料の相違の内容や理由について、事業主に対して説明を求めることができる。",
+  "related": [
+   "rodo-haken",
+   "muki-tenkan"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 確かめよう労働条件 Q&A 正社員とパートの賃金格差について説明を求めることができますか？",
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/parttime/q1.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/parttime/q1.html",
+    "quote": "事業主には、パートタイム労働者、有期雇用労働者といった非正規雇用労働者に対し、その待遇に関して説明する義務があります"
+   },
+   {
+    "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/parttime/q1.html",
+    "quote": "給料の相違の内容や理由について、事業主に対して説明を求めることができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "パート勤務の人が、正社員との手当の違いの内容や理由について、会社に説明を求める。",
+  "topics": [
+   "A2-1"
+  ]
+ },
+ {
+  "id": "fukugyo",
+  "name": "副業・兼業",
+  "reading": "ふくぎょうけんぎょう",
+  "field": "A",
+  "importance": 2,
+  "short": "本業のほかに、別の仕事で収入を得る働き方。",
+  "detail": "厚生労働省は、副業・兼業について、企業や働く方が現行の法令のもとでどういう事項に留意すべきかをまとめたガイドラインを作成している。モデル就業規則でも、労働者の遵守事項にあった「許可なく他の会社等の業務に従事しないこと」という規定が削除され、副業・兼業についての規定が新設された。副業・兼業を希望する労働者が多様なキャリア形成を図ることを促進する方向に制度が整えられている。",
+  "related": [
+   "kakutei-shinkoku",
+   "kyuyo-meisai"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 副業・兼業",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html"
+   },
+   {
+    "title": "国税庁 タックスアンサー No.1900 給与所得者で確定申告が必要な人",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html",
+    "quote": "副業・兼業について、企業や働く方が現行の法令のもとでどういう事項に留意すべきかをまとめたガイドラインを作成しました"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html",
+    "quote": "労働者の遵守事項の「許可なく他の会社等の業務に従事しないこと。」という規定を削除し、副業・兼業について規定を新設しました"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html",
+    "quote": "副業・兼業を希望する労働者が、適切な職業選択を通じ、多様なキャリア形成を図っていくことを促進するため"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "給与を1か所から受けていて、かつ、その給与の全部が源泉徴収の対象となる場合において、各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員が休日にフリーランスのデザイン業務で年間25万円の所得を得た場合、確定申告が必要になる。",
+  "facts": [
+   "給与を1か所から受けていて、その給与の全部が源泉徴収の対象となる場合、給与所得・退職所得以外の所得の合計額が20万円を超えると確定申告が必要になる"
+  ],
+  "topics": [
+   "A2-4"
+  ]
+ },
+ {
+  "id": "taiyo-shogakukin",
+  "name": "貸与奨学金",
+  "reading": "たいよしょうがくきん",
+  "field": "A",
+  "importance": 3,
+  "short": "返還義務のある奨学金。利子の付かない第一種奨学金と、利子の付く第二種奨学金がある。",
+  "detail": "日本学生支援機構の貸与奨学金には、第一種奨学金（無利子）と第二種奨学金（有利子）の2種類がある。返還は貸与終了後に始まるため在学中の返還負担はないが、借りすぎると卒業後の返還が重くなる。必要な額を見極め、返還計画まで見据えて借入額を決めることが大切である。",
+  "related": [
+   "shogakukin",
+   "shogakukin-henkan"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本学生支援機構 貸与奨学金",
+    "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html",
+    "quote": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "無利子の第一種と有利子の第二種を併用して借り、卒業後に合わせて返還していく。",
+  "topics": [
+   "A2-5"
+  ]
+ },
+ {
+  "id": "shogakukin-henkan",
+  "name": "奨学金の返還",
+  "reading": "しょうがくきんのへんかん",
+  "field": "A",
+  "importance": 2,
+  "short": "貸与奨学金の返還は、貸与終了の翌月から数えて7か月目に始まる。",
+  "detail": "返還が困難になった場合には、毎月の返還額を2分の1などに減額して返還期間を延長する減額返還や、返還期限を猶予する制度があり、いずれも願い出と審査が必要である。奨学金の身分終了後は、いつでも繰上返還ができる。また、本人が死亡した場合や、精神・身体の障害により働けなくなった場合などには、願出により返還が免除される制度がある。",
+  "related": [
+   "taiyo-shogakukin",
+   "shogakukin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本学生支援機構 返還までの流れ",
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/flow/index.html"
+   },
+   {
+    "title": "日本学生支援機構 奨学金の返還について",
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html"
+   },
+   {
+    "title": "日本学生支援機構 返還が免除となる場合（返還免除）",
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/menjo/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/flow/index.html",
+    "quote": "返還は、貸与終了の翌月から数えて7か月目に始まります"
+   },
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html",
+    "quote": "毎月の返還額を2分の1、3分の1、4分の1、3分の2に減額し、減額返還適用期間に応じた分の返還期間を延長する制度です"
+   },
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html",
+    "quote": "奨学金の返還が困難になった場合、返還期限を猶予する制度です"
+   },
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/houhou/index.html",
+    "quote": "奨学金の身分終了後は、いつでも繰上返還ができます"
+   },
+   {
+    "url": "https://www.jasso.go.jp/shogakukin/henkan/menjo/index.html",
+    "quote": "死亡又は精神若しくは身体の障害による返還免除"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "卒業後の収入が少ない間は減額返還を申請し、余裕ができた年には繰上返還して返還期間を短くする。",
+  "topics": [
+   "A2-5"
+  ]
+ },
+ {
+  "id": "hitorigurashi-shokihi",
+  "name": "一人暮らしの初期費用",
+  "reading": "ひとりぐらしのしょきひよう",
+  "field": "A",
+  "importance": 2,
+  "short": "賃貸住宅を借りる際に必要な、敷金・礼金・仲介手数料・前家賃などの初期費用。家賃の5〜7か月分となることがある。",
+  "detail": "初期費用のうち法律で上限額が明確に定められているのは仲介手数料のみであり、「1か月分の家賃＋消費税を上限とする」ことが決められている。敷金は、退去時に滞納や損傷がなかった場合は使われなかった分が返金されるが、礼金は敷金と違って退去するときに返金されることはない。引っ越し前に総額を見積もり、資金を用意しておく必要がある。",
+  "related": [
+   "shikikin",
+   "baikai-hoshu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "UR都市機構 URくらしのカレッジ 一人暮らしの初期費用の目安とは？",
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html",
+    "quote": "この初期費用は家賃の５～７カ月分となることがあり、負担は少なくありません"
+   },
+   {
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html",
+    "quote": "初期費用のうち法律で上限額が明確に定められているのは仲介手数料のみです"
+   },
+   {
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html",
+    "quote": "法律で「１カ月分の家賃＋消費税を上限とする」ことが決められています"
+   },
+   {
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html",
+    "quote": "退去時に滞納や損傷がなかった場合は、使われなかった敷金はそのまま返金してもらえます"
+   },
+   {
+    "url": "https://www.ur-net.go.jp/chintai/college/202304/001045.html",
+    "quote": "そのため、敷金と違って退去するときに返金されることはありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "家賃6万円の物件では、敷金・礼金各1か月分、仲介手数料1か月分、前家賃などを合わせて30万円を超える初期費用を用意する。",
+  "topics": [
+   "A3-1"
+  ]
+ },
+ {
+  "id": "rogo-shikin",
+  "name": "老後資金",
+  "reading": "ろうごしきん",
+  "field": "A",
+  "importance": 2,
+  "short": "老後の生活を支えるために、現役時代から準備しておく資金。人生の3大支出の一つ。",
+  "detail": "誰にでも必要となるのが老後資金である。将来どのくらい年金がもらえるのか、年金以外でいくら必要かを今から確認してイメージしておくことが大切とされる。老後の生活に足りない分は、今から貯蓄や私的年金制度（iDeCoなど）も活用しながら準備しておく。",
+  "related": [
+   "sandai-shishutsu",
+   "life-planning",
+   "rorei-kiso-nenkin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "誰にでも必要となるのが老後資金です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "将来どのくらい年金がもらえるのか、年金以外でいくら必要かを今から確認してイメージしておきましょう"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "老後の生活に足りない分は今から貯蓄や私的年金制度（iDeCoなど）も活用しながら準備しておきましょう"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "年金見込額を確認し、老後の生活費との差額を現役時代の積立で備える。",
+  "topics": [
+   "A3-4"
+  ]
+ },
+ {
+  "id": "atamakin",
+  "name": "頭金",
+  "reading": "あたまきん",
+  "field": "A",
+  "importance": 2,
+  "short": "住宅購入などの際に、ローンに頼らず、購入時に現金で支払う部分のお金。",
+  "detail": "昨今の住宅ローンには、物件価格と同額（100％）を融資してくれるものもあるが、頭金の準備ができない人が住宅ローンに頼り過ぎるのは危険とされる。頭金を入れた分だけ借入額が減り、その後の返済負担や利息の負担が軽くなる。住宅購入では、物件価格のほかに諸費用も必要になる点にも注意したい。",
+  "related": [
+   "flat35",
+   "ganri-kinto",
+   "sandai-shishutsu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン お金の勉強をしませんか？社会人として知っておきたいお金の話",
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/202412/entry-6812.html",
+    "quote": "昨今の住宅ローンには、物件価格と同額（100％）を融資してくれるものもありますが、頭金の準備ができない人が住宅ローンに頼り過ぎるのは危険です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "3,000万円の住宅の購入に頭金600万円を入れ、住宅ローンの借入額を2,400万円に抑える。",
+  "topics": [
+   "A3-3"
+  ]
+ },
+ {
+  "id": "keiyaku-seiritsu",
+  "name": "契約の成立",
+  "reading": "けいやくのせいりつ",
+  "field": "B",
+  "importance": 3,
+  "short": "契約は、契約の内容を示してその締結を申し入れる意思表示（申込み）に対して、相手方が承諾をしたときに成立する。",
+  "detail": "契約の成立には、法令に特別の定めがある場合を除き、書面の作成その他の方式を具備することを要しないため、口頭の合意でも契約は成立する。成立した契約は当事者を拘束し、原則として一方の都合だけで撤回したり解除したりはできない。",
+  "related": [
+   "seigen-koui-noryokusha",
+   "denshi-shohisha-keiyakuho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "契約は、契約の内容を示してその締結を申し入れる意思表示（以下「申込み」という。）に対して相手方が承諾をしたときに成立する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "契約の成立には、法令に特別の定めがある場合を除き、書面の作成その他の方式を具備することを要しない。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "口頭で「中古自転車を3万円で売る」「買う」と合意しただけでも、売買契約は成立する",
+  "topics": [
+   "B1-1"
+  ]
+ },
+ {
+  "id": "seigen-koui-noryokusha",
+  "name": "制限行為能力者",
+  "reading": "せいげんこういのうりょくしゃ",
+  "field": "B",
+  "importance": 2,
+  "short": "判断能力が不十分であるため法律行為の能力が制限され、保護を受ける人。未成年者、成年被後見人、被保佐人、被補助人が該当する。",
+  "detail": "未成年者が法律行為をするには法定代理人の同意が必要である。成年被後見人は後見開始の審判を受けた者、被保佐人は保佐開始の審判を受けた者、被補助人は補助開始の審判を受けた者をいう。なお、制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。",
+  "related": [
+   "miseinensha-torikeshiken",
+   "seinen-koken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "未成年者が法律行為をするには、その法定代理人の同意を得なければならない。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "後見開始の審判を受けた者は、成年被後見人とし、これに成年後見人を付する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "保佐開始の審判を受けた者は、被保佐人とし、これに保佐人を付する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "補助開始の審判を受けた者は、被補助人とし、これに補助人を付する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "未成年者や成年被後見人が結んだ契約は、原則として取り消すことができる",
+  "facts": [
+   "成年被後見人：精神上の障害により事理を弁識する能力を欠く常況にある者について、家庭裁判所が後見開始の審判をした人",
+   "被保佐人：事理を弁識する能力が著しく不十分である者について、保佐開始の審判をした人",
+   "被補助人：事理を弁識する能力が不十分である者について、補助開始の審判をした人"
+  ],
+  "topics": [
+   "B1-2"
+  ]
+ },
+ {
+  "id": "miseinensha-torikeshiken",
+  "name": "未成年者取消権",
+  "reading": "みせいねんしゃとりけしけん",
+  "field": "B",
+  "importance": 3,
+  "short": "未成年者が法定代理人（親など）の同意を得ずに結んだ契約を、未成年者本人や法定代理人が取り消すことができる権利。",
+  "detail": "同意を得ないでした法律行為は、はじめから無効なのではなく「取り消すことができる」もので、取り消されると契約ははじめから無効だったことになる。ただし、法定代理人が目的を定めて処分を許した財産の範囲内の処分や、未成年者が詐術を用いた場合は取り消すことができない。成年年齢は2022年4月1日から18歳となり、18歳・19歳は未成年者取消権を行使できなくなった。",
+  "related": [
+   "seigen-koui-noryokusha"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   },
+   {
+    "title": "法務省 民法（成年年齢関係）改正Q＆A",
+    "url": "https://www.moj.go.jp/MINJI/minji07_00238.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "未成年者が法律行為をするには、その法定代理人の同意を得なければならない。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "前項の規定に反する法律行為は、取り消すことができる。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00238.html",
+    "quote": "未成年者が親の同意を得ずに契約した場合には，原則として，契約を取り消すことができるとされています（未成年者取消権）"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00238.html",
+    "quote": "成年年齢を１８歳に引き下げることを内容とする「民法の一部を改正する法律」は，２０２２年４月１日から施行されます"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00238.html",
+    "quote": "民法の成年年齢が１８歳に引き下げられても，お酒やたばこに関する年齢制限については，２０歳のまま維持されます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "17歳の高校生が親の同意なくスマートフォンを分割払いで購入した場合、契約を取り消せることがある",
+  "cautions": [
+   "未成年者が自分を成年者だと信じさせるため詐術を用いたときは、取り消すことができない",
+   "お酒やたばこに関する年齢制限は、成年年齢が18歳に引き下げられた後も20歳のまま維持されている"
+  ],
+  "topics": [
+   "B1-2"
+  ]
+ },
+ {
+  "id": "fujitsu-kokuchi",
+  "name": "不実告知",
+  "reading": "ふじつこくち",
+  "field": "B",
+  "importance": 3,
+  "short": "事業者が契約の重要事項について事実と異なることを告げること。これにより消費者が誤認して結んだ契約は、消費者契約法で取り消すことができる。",
+  "detail": "消費者契約法の取消事由である「誤認」の類型の一つ。ほかに、将来の変動が不確実な事項について断定的判断を提供すること、消費者に不利益となる事実を告げないこと（不利益事実の不告知）も誤認の類型とされる。取消権を行使できる期間は、原則として契約の締結から5年間（霊感などによる知見を用いた告知の場合は10年間）。",
+  "related": [
+   "danteki-handan",
+   "shohisha-keiyaku-ho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン 知っておきたい「消費者契約法」",
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "重要事項について事実と異なる説明があった場合（不実告知）"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "事業者からの不当な勧誘によって、消費者が誤認したり困惑したりして締結した契約については、後から「取消し」できるものとしています。"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "消費者に不利な情報を告げなかった場合（不利益事実の不告知）"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "「取消し」ができる期間を以下のように定めています。契約の締結から5年間"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "霊感などによる知見を用いた告知の場合は10年間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "中古車の走行距離を実際より少なく告げられて購入した場合は、不実告知に当たることがある",
+  "topics": [
+   "B1-3"
+  ]
+ },
+ {
+  "id": "danteki-handan",
+  "name": "断定的判断の提供",
+  "reading": "だんていてきはんだんのていきょう",
+  "field": "B",
+  "importance": 2,
+  "short": "将来における変動が不確実な事項について、事業者が「確実」であると断定して告げること。消費者契約法の取消事由（誤認の類型）になる。",
+  "detail": "将来、確実に値上がりするとは限らない金融商品を「確実に値上がりする」「必ず儲かる」などと説明して販売するケースが典型例である。消費者がその内容が確実であると誤認して契約を締結した場合は、消費者契約法により取り消すことができる。",
+  "related": [
+   "fujitsu-kokuchi",
+   "shohisha-keiyaku-ho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン 知っておきたい「消費者契約法」",
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "不確実な事項について「確実」と説明された場合（断定的判断の提供）"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html",
+    "quote": "将来、確実に値上がりするとは限らない金融商品を、事業者が「確実に値上がりする」「必ず儲かる」などと説明して消費者に販売した。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「この投資信託は必ず儲かる」と断定されて購入した場合は、断定的判断の提供に当たることがある",
+  "topics": [
+   "B1-3"
+  ]
+ },
+ {
+  "id": "tokutei-shotorihiki-ho",
+  "name": "特定商取引法",
+  "reading": "とくていしょうとりひきほう",
+  "field": "B",
+  "importance": 3,
+  "short": "訪問販売、通信販売、連鎖販売取引など、消費者トラブルを生じやすい特定の取引形態を対象として、消費者保護のためのルールを定めた法律。",
+  "detail": "事業者の不適正な勧誘・取引を取り締まるための「行為規制」と、トラブル防止・解決のための「民事ルール」（クーリング・オフ等）を定めている。対象となる取引には、訪問販売、通信販売、電話勧誘販売、連鎖販売取引、特定継続的役務提供、業務提供誘引販売取引、訪問購入がある。",
+  "related": [
+   "homon-hanbai",
+   "tsushin-hanbai",
+   "maruchi-shoho",
+   "cooling-off-tokushoho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "消費者庁 特定商取引法",
+    "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+    "quote": "訪問販売、通信販売、連鎖販売取引等といった消費者トラブルを生じやすい特定の取引形態を対象として"
+   },
+   {
+    "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+    "quote": "特定商取引法では、事業者の不適正な勧誘・取引を取り締まるための「行為規制」やトラブル防止・解決のための「民事ルール」(クーリング・オフ等)を定めています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "訪問販売で契約した商品をクーリング・オフできるのは、特定商取引法が定めているためである",
+  "topics": [
+   "B1-4"
+  ]
+ },
+ {
+  "id": "cooling-off-tokushoho",
+  "name": "特定商取引法のクーリング・オフ",
+  "reading": "くーりんぐおふ",
+  "field": "B",
+  "importance": 3,
+  "short": "特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約の解除をできる制度。",
+  "detail": "期間は取引の種類によって異なり、訪問販売などは法定書面を受領した日を含めて8日間、連鎖販売取引は20日間である。通知は書面のほか、電子メールや事業者のウェブサイト上の専用フォームなどの電磁的記録でも可能になった（2022年6月1日から）。通信販売にはクーリング・オフはない。",
+  "related": [
+   "tokutei-shotorihiki-ho",
+   "homon-hanbai",
+   "tsushin-hanbai",
+   "cooling-off"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "クーリング・オフとは、特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約の解除をできる制度です。"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "訪問販売法定書面を受領した日を含めて8日間"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "書面または電磁的記録（メールやFAX、事業者のウェブサイト上のクーリング・オフ専用フォーム等。令和4年6月1日より、これら電磁的記録による通知も可能になりました。）により、事業者に通知します。"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "通信販売で購入したときはクーリング・オフができません。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "訪問販売で浄水器を契約しても、書面を受け取った日を含めて8日間は理由を問わず解除できる",
+  "facts": [
+   "訪問販売・電話勧誘販売など：法定書面を受領した日を含めて8日間",
+   "連鎖販売取引：法定書面を受領した日を含めて20日間"
+  ],
+  "cautions": [
+   "通信販売で購入したときはクーリング・オフができない（返品は広告の返品特約の表示に従う）"
+  ],
+  "topics": [
+   "B1-4"
+  ]
+ },
+ {
+  "id": "homon-hanbai",
+  "name": "訪問販売",
+  "reading": "ほうもんはんばい",
+  "field": "B",
+  "importance": 2,
+  "short": "販売業者等が、営業所等以外の場所（例えば消費者の自宅）で契約を締結等して行う商品等の販売。特定商取引法の規制対象で、クーリング・オフができる。",
+  "detail": "街頭で呼び止められて店舗に連れて行かれた場合（キャッチセールス）や、販売目的を告げずに呼び出された場合も訪問販売に含まれる。不意打ち的な勧誘になりやすいため、書面交付義務やクーリング・オフなどの規制がある。",
+  "related": [
+   "tokutei-shotorihiki-ho",
+   "cooling-off-tokushoho",
+   "tenken-shoho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "特定商取引法ガイド（消費者庁） 訪問販売",
+    "url": "https://www.no-trouble.caa.go.jp/what/doortodoorsales/"
+   },
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.no-trouble.caa.go.jp/what/doortodoorsales/",
+    "quote": "「訪問販売」とは、販売業者又は役務提供事業者(※)が、営業所等以外の場所（例えば、消費者の自宅）で契約を締結等して行う商品、特定権利の販売又は役務の提供等のことをいいます"
+   },
+   {
+    "url": "https://www.no-trouble.caa.go.jp/what/doortodoorsales/",
+    "quote": "キャッチセールス、アポイントメントセールスを含みます"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "街頭で呼び止められて店舗に連れて行かれた（キャッチセールス）"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "自宅を訪れた業者に勧められて契約した浄水器の販売は、訪問販売に当たる",
+  "topics": [
+   "B1-4"
+  ]
+ },
+ {
+  "id": "tsushin-hanbai",
+  "name": "通信販売",
+  "reading": "つうしんはんばい",
+  "field": "B",
+  "importance": 2,
+  "short": "事業者が新聞、雑誌、インターネット等で広告し、郵便、電話等の通信手段により申込みを受ける取引。インターネット通販もこれに当たる。",
+  "detail": "特定商取引法の規制対象だが、クーリング・オフ制度はない。返品できるかどうかは広告に表示された返品特約の内容による。返品特約が表示されていない場合は、商品到着後8日以内であれば返品が可能である。広告には、返品特約の内容などの表示義務がある。",
+  "related": [
+   "tokutei-shotorihiki-ho",
+   "denshi-shohisha-keiyakuho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "特定商取引法ガイド（消費者庁） 通信販売",
+    "url": "https://www.no-trouble.caa.go.jp/what/mailorder/"
+   },
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.no-trouble.caa.go.jp/what/mailorder/",
+    "quote": "通信販売事業者が新聞、雑誌、インターネット等で広告し、郵便、電話等の通信手段により申込みを受ける取引のこと"
+   },
+   {
+    "url": "https://www.no-trouble.caa.go.jp/what/mailorder/",
+    "quote": "契約の申込みの撤回又は解除に関する事項（売買契約に係る返品特約がある場合はその内容を含む。）"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "通信販売で購入したときはクーリング・オフができません。"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "返品特約が表示されていない場合は、商品到着後8日以内であれば返品が可能です。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "ネット通販で買った洋服がイメージと違っても、クーリング・オフはできず、返品特約の確認が必要になる",
+  "topics": [
+   "B1-4",
+   "B1-5"
+  ]
+ },
+ {
+  "id": "denshi-shohisha-keiyakuho",
+  "name": "電子消費者契約法",
+  "reading": "でんししょうひしゃけいやくほう",
+  "field": "B",
+  "importance": 2,
+  "short": "インターネット通販などの電子消費者契約について、操作ミスによる申込みの錯誤に関する民法の特例を定めた法律。正式名称は「電子消費者契約に関する民法の特例に関する法律」。",
+  "detail": "電子消費者契約とは、消費者と事業者との間で電磁的方法により電子計算機の映像面を介して締結される契約をいう。消費者が申込みをする意思がなかった場合などに、事業者が申込みの意思の有無について確認を求める措置を講じていないときは、消費者は錯誤による無効を主張できる（民法の重過失に関する規定が適用されない）。",
+  "related": [
+   "tsushin-hanbai",
+   "keiyaku-seiritsu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 電子消費者契約に関する民法の特例に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000095"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000095",
+    "quote": "この法律において「電子消費者契約」とは、消費者と事業者との間で電磁的方法により電子計算機の映像面を介して締結される契約であって、事業者又はその委託を受けた者が当該映像面に表示する手続に従って消費者がその使用する電子計算機を用いて送信することによってその申込み又はその承諾の意思表示を行うものをいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000095",
+    "quote": "消費者がその使用する電子計算機を用いて送信した時に当該事業者との間で電子消費者契約の申込み又はその承諾の意思表示を行う意思がなかったとき"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000095",
+    "quote": "その消費者の申込み若しくはその承諾の意思表示を行う意思の有無について確認を求める措置を講じた場合又はその消費者から当該事業者に対して当該措置を講ずる必要がない旨の意思の表明があった場合は、この限りでない。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "確認画面が表示されない通販サイトで誤って注文してしまった場合、錯誤の無効を主張できることがある",
+  "aliases": [
+   "電子消費者契約に関する民法の特例に関する法律"
+  ],
+  "topics": [
+   "B1-5"
+  ]
+ },
+ {
+  "id": "akushitsu-shoho",
+  "name": "悪質商法",
+  "reading": "あくしつしょうほう",
+  "field": "B",
+  "importance": 3,
+  "short": "消費者をだましたり不安をあおったりして商品やサービスを契約させる、悪質な販売手口の総称。",
+  "detail": "点検商法、架空請求、キャッチセールス、催眠商法（SF商法）、モニター商法、内職商法、資格商法、デート商法、マルチ商法など、多くの類型がある。手口によっては特定商取引法のクーリング・オフや消費者契約法による取消しの対象になる。被害にあったら消費者ホットライン188に相談する。",
+  "related": [
+   "tenken-shoho",
+   "kaku-seikyu",
+   "maruchi-shoho",
+   "shohisha-hotline"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "「無料点検に来た」と言って上がり込み、「白アリ被害がある」・「家が地震で倒壊する」・「飲料水が汚れている」・「布団にダニがいる」などと不安をあおって、新品や別の商品・サービスを契約させるものです。"
+   },
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "身に覚えのない請求は、慌てて連絡（支払）はせず、無視しましょう。"
+   },
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "電話やメールで突然見知らぬ異性から会おうと誘われたとき→デート商法"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「無料点検」と言って家に上がり込み、不安をあおって高額な工事を契約させるのは悪質商法の典型である",
+  "topics": [
+   "B2-1"
+  ]
+ },
+ {
+  "id": "tenken-shoho",
+  "name": "点検商法",
+  "reading": "てんけんしょうほう",
+  "field": "B",
+  "importance": 2,
+  "short": "「無料点検に来た」と言って家に上がり込み、不安をあおって新品や別の商品・サービスを契約させる悪質商法の手口。",
+  "detail": "白アリ被害がある、家が地震で倒壊する、飲料水が汚れている、布団にダニがいるなどと不安をあおるのが典型である。訪問販売に当たる契約はクーリング・オフの対象になる。見知らぬ業者を安易に家に上げないことが対策になる。",
+  "related": [
+   "akushitsu-shoho",
+   "homon-hanbai"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "「無料点検に来た」と言って上がり込み、「白アリ被害がある」・「家が地震で倒壊する」・「飲料水が汚れている」・「布団にダニがいる」などと不安をあおって、新品や別の商品・サービスを契約させるものです。"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「無料で床下を点検する」と訪問し、「白アリ被害がある」と言って駆除契約を迫る手口",
+  "topics": [
+   "B2-1"
+  ]
+ },
+ {
+  "id": "kaku-seikyu",
+  "name": "架空請求",
+  "reading": "かくうせいきゅう",
+  "field": "B",
+  "importance": 2,
+  "short": "利用した覚えのない料金について、ハガキや封書、電子メールなどで請求し、金銭をだまし取ろうとする詐欺の手口。",
+  "detail": "請求内容も不明な未納料金に係る訴訟の取り下げを引き受けるなどとして、弁護士費用の名目で金銭をだまし取ろうとするものなどがある。身に覚えのない請求は、慌てて連絡（支払）はせず、無視するのが基本的な対処法である。",
+  "related": [
+   "akushitsu-shoho",
+   "shohisha-hotline"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "ハガキや封書、電子メールによる架空の請求で、請求内容も不明な未納料金に係る訴訟の取り下げを引き受けるなどとして、弁護士費用の名目で金銭をだまし取ろうとするもの"
+   },
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "身に覚えのない請求は、慌てて連絡（支払）はせず、無視しましょう。"
+   },
+   {
+    "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html",
+    "quote": "裁判所からの「特別送達」と記載された封書（受取の際に郵便職員から押印又は署名を求められる封書）の場合には、放置しておくと、不利益になる恐れがあり"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "覚えのない「未納料金がある」というメールが届いても、記載された連絡先には電話しない",
+  "cautions": [
+   "裁判所からの「特別送達」と記載された封書は、放置しておくと不利益になるおそれがあるため、無視せず消費生活センター等に相談する"
+  ],
+  "topics": [
+   "B2-1"
+  ]
+ },
+ {
+  "id": "maruchi-shoho",
+  "name": "マルチ商法（連鎖販売取引）",
+  "reading": "まるちしょうほう",
+  "field": "B",
+  "importance": 3,
+  "short": "商品等を買って会員になり、再販売や販売のあっせんをする者を勧誘して特定利益が得られると誘引し、特定負担を伴う取引。特定商取引法の「連鎖販売取引」として規制される。",
+  "detail": "友人などから「商品を買って会員になり、友だちを紹介していけばマージンが入ってくる」と勧誘されるのが典型例である。勧誘時の成功話と異なり、思うように販売できず、多額の借金と商品が残ることが多い。連鎖販売取引にはクーリング・オフがあり、法定書面を受領した日を含めて20日間は無条件で解除できる。",
+  "related": [
+   "nezumiko",
+   "cooling-off-tokushoho",
+   "akushitsu-shoho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "特定商取引法ガイド（消費者庁） 連鎖販売取引",
+    "url": "https://www.no-trouble.caa.go.jp/what/multilevelmarketing/"
+   },
+   {
+    "title": "滋賀県消費生活センター クーリング・オフについて",
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.no-trouble.caa.go.jp/what/multilevelmarketing/",
+    "quote": "物品（施設を利用し又は役務の提供を受ける権利を含む。）の販売（又は役務の提供など）の事業であって再販売、受託販売若しくは販売のあっせん（又は同種役務の提供若しくは役務提供のあっせん）をする者を特定利益が得られると誘引し特定負担を伴う取引（取引条件の変更を含む。）をするもの"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "友人に「商品を買って会員になり、友だちを紹介していけばマージンが入ってくる」と勧誘された等"
+   },
+   {
+    "url": "https://www.pref.shiga.lg.jp/shohi/17169.html",
+    "quote": "連鎖販売取引法定書面を受領した日（商品の再販売がある場合で最初の商品の引き渡しを受けた日が書面より後の場合はその日）を含めて20日間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "先輩から「健康食品を買って会員になり、友人を紹介すればマージンが入る」と誘われるケース",
+  "compare": [
+   "無限連鎖講（ねずみ講）は商品が介在しない金品の配当組織であり、仕組み自体が法律で禁止されている"
+  ],
+  "topics": [
+   "B2-2"
+  ]
+ },
+ {
+  "id": "nezumiko",
+  "name": "無限連鎖講（ねずみ講）",
+  "reading": "むげんれんさこう",
+  "field": "B",
+  "importance": 2,
+  "short": "先に加入した者が、後に加入した者の出えんする金品から、自己の出えんした金品を上回る金品を受領することを内容とする金品の配当組織。",
+  "detail": "加入者が無限に増加することを前提とするため、終局において破たんすべき性質のものである。無限連鎖講の防止に関する法律により、何人も、無限連鎖講を開設し、運営し、加入し、加入を勧誘し、又はこれらの行為を助長する行為をしてはならないとされ、仕組み自体が禁止されている。",
+  "related": [
+   "maruchi-shoho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 無限連鎖講の防止に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/353AC1000000101"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/353AC1000000101",
+    "quote": "順次先順位者が後順位者の出えんする金品から自己の出えんした金品の価額又は数量を上回る価額又は数量の金品を受領することを内容とする金品の配当組織をいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/353AC1000000101",
+    "quote": "何人も、無限連鎖講を開設し、若しくは運営し、無限連鎖講に加入し、若しくは加入することを勧誘し、又はこれらの行為を助長する行為をしてはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/353AC1000000101",
+    "quote": "無限連鎖講が、終局において破たんすべき性質のものである"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「先に参加した人が、後から参加した人のお金を受け取る」仕組みの組織への勧誘は、ねずみ講として違法になる",
+  "aliases": [
+   "ねずみ講"
+  ],
+  "topics": [
+   "B2-2"
+  ]
+ },
+ {
+  "id": "yami-kinyu",
+  "name": "闇金融",
+  "reading": "やみきんゆう",
+  "field": "B",
+  "importance": 3,
+  "short": "貸金業の登録を受けずに金銭の貸付けを行う違法な業者（ヤミ金融）。違法な高金利での貸付けや悪質な取立てなどの被害が生じる。",
+  "detail": "個人であっても、反復継続する意思をもって金銭の貸付けを行うことは貸金業法上の「貸金業」に該当し、国又は都道府県の登録を受ける必要がある。SNSで個人を装って融資を持ちかける「個人間融資」では、個人を装ったヤミ金融業者により違法な高金利での貸付けが行われるほか、個人情報が悪用される危険性がある。",
+  "related": [
+   "soryo-kisei",
+   "tajusaimu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 SNS等を利用した「個人間融資」にご注意ください！",
+    "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html",
+    "quote": "個人であっても、反復継続する意思をもって金銭の貸付けを行うことは、貸金業法上の「貸金業」に該当します"
+   },
+   {
+    "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html",
+    "quote": "貸金業を営む場合は、国又は都道府県の登録を受ける必要があります"
+   },
+   {
+    "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html",
+    "quote": "個人を装ったヤミ金融業者により違法な高金利での貸付けが行われるほか、個人情報が悪用されるなどして、更なる犯罪被害やトラブルに巻き込まれる危険性があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "SNSで「個人融資します」と持ちかける相手は、登録を受けた貸金業者ではないヤミ金融のことがある",
+  "aliases": [
+   "ヤミ金融"
+  ],
+  "topics": [
+   "B2-3"
+  ]
+ },
+ {
+  "id": "kojinjoho-hogo-ho",
+  "name": "個人情報保護法",
+  "reading": "こじんじょうほうほごほう",
+  "field": "B",
+  "importance": 3,
+  "short": "個人情報の取扱いに関するルールを定めた法律。「個人情報」の定義や、事業者による第三者提供の制限などを定める。正式名称は「個人情報の保護に関する法律」。",
+  "detail": "この法律において「個人情報」とは、生存する個人に関する情報で、氏名・生年月日その他の記述等により特定の個人を識別できるものをいう（他の情報と容易に照合でき、それにより特定の個人を識別できるものを含む）。個人情報取扱事業者は、法令に基づく場合などの例外を除くほか、あらかじめ本人の同意を得ないで、個人データを第三者に提供してはならない。",
+  "related": [
+   "yohairyo-kojinjoho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 個人情報の保護に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "この法律において「個人情報」とは、生存する個人に関する情報であって、次の各号のいずれかに該当するものをいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "個人情報取扱事業者は、次に掲げる場合を除くほか、あらかじめ本人の同意を得ないで、個人データを第三者に提供してはならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会員登録で集めた氏名・住所を、本人の同意なく別の会社に提供することは、原則としてできない",
+  "aliases": [
+   "個人情報の保護に関する法律"
+  ],
+  "topics": [
+   "B2-4"
+  ]
+ },
+ {
+  "id": "yohairyo-kojinjoho",
+  "name": "要配慮個人情報",
+  "reading": "ようはいりょこじんじょうほう",
+  "field": "B",
+  "importance": 2,
+  "short": "本人の人種、信条、社会的身分、病歴、犯罪の経歴など、本人に対する不当な差別や偏見が生じないように、その取扱いに特に配慮を要する個人情報。",
+  "detail": "個人情報保護法に定められるもので、犯罪により害を被った事実その他政令で定める記述等が含まれる個人情報をいう。事業者は、法令に基づく場合などの例外を除き、あらかじめ本人の同意を得ないで要配慮個人情報を取得してはならない。",
+  "related": [
+   "kojinjoho-hogo-ho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 個人情報の保護に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "本人の人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実その他本人に対する不当な差別、偏見その他の不利益が生じないように"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "その取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+    "quote": "個人情報取扱事業者は、次に掲げる場合を除くほか、あらかじめ本人の同意を得ないで、要配慮個人情報を取得してはならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "病歴や犯罪の経歴は、要配慮個人情報に当たる",
+  "topics": [
+   "B2-4"
+  ]
+ },
+ {
+  "id": "shohisha-hotline",
+  "name": "消費者ホットライン",
+  "reading": "しょうひしゃほっとらいん",
+  "field": "B",
+  "importance": 3,
+  "short": "全国共通の電話番号「188」で、地方公共団体が設置している身近な消費生活センターや消費生活相談窓口を案内する仕組み。",
+  "detail": "消費者庁に直接つながるものではなく、お近くの市区町村や都道府県の消費生活センター等の相談窓口を案内するものである。悪質商法や契約トラブルなどで困ったときは、一人で悩まずに188に相談することが呼びかけられている。",
+  "related": [
+   "akushitsu-shoho",
+   "tajusaimu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "消費者庁 消費者ホットライン",
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+    "quote": "困ったときは、一人で悩まずに、「消費者ホットライン」188にご相談ください"
+   },
+   {
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+    "quote": "地方公共団体が設置している身近な消費生活センターや消費生活相談窓口をご案内します"
+   },
+   {
+    "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+    "quote": "お近くの市区町村や都道府県の消費生活センター等の消費生活相談窓口をご案内するもので、消費者庁につながるものではありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "訪問販売で高額な契約をしてしまったら、まず188に電話して身近な消費生活センターを案内してもらう",
+  "facts": [
+   "電話番号は188で、「いやや」と覚える",
+   "案内されるのは地方の消費生活センター等の相談窓口であり、消費者庁につながるものではない"
+  ],
+  "topics": [
+   "B2-5"
+  ]
+ },
+ {
+  "id": "credit-card-shikumi",
+  "name": "クレジットカードの仕組み",
+  "reading": "くれじっとかーどのしくみ",
+  "field": "B",
+  "importance": 3,
+  "short": "消費者の「信用」に基づき、クレジット会社が商品等の代金を立て替えて販売会社に支払い、後日、消費者がクレジット会社に支払う仕組み（3者間契約）。",
+  "detail": "クレジットは、代金後払いで商品やサービスを手に入れることができるシステムである。支払方法には1回払いのほか分割払いやリボルビング払いがあり、現金を借りるキャッシングの機能を持つカードもある。クレジットカードはカード会員本人以外は利用できず、家族であっても名義人以外の利用は認められない。",
+  "related": [
+   "bunkatsubarai",
+   "revolving-barai",
+   "shinyo-joho-kikan"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本クレジット協会 クレジットの契約関係",
+    "url": "https://www.j-credit.or.jp/customer/basis/classification.html"
+   },
+   {
+    "title": "日本クレジット協会 クレジットの特徴",
+    "url": "https://www.j-credit.or.jp/customer/basis/characteristic.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/classification.html",
+    "quote": "消費者が販売会社で購入した商品等の代金をクレジット会社が立て替えて販売会社に支払い、後日、消費者がクレジット会社に支払います"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/classification.html",
+    "quote": "カード会員本人以外は利用できません"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/characteristic.html",
+    "quote": "代金後払いで商品やサービスを手に入れることのできるシステム"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/characteristic.html",
+    "quote": "この契約は「消費者は支払うことができる」という消費者の「信用」に基づいています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "店舗でカード払いをすると、代金はクレジット会社が店舗に立て替え払いし、後日、自分の口座から引き落とされる",
+  "topics": [
+   "B3-1"
+  ]
+ },
+ {
+  "id": "bunkatsubarai",
+  "name": "分割払い",
+  "reading": "ぶんかつばらい",
+  "field": "B",
+  "importance": 2,
+  "short": "クレジットカード利用時に、購入する商品等の代金の支払回数を選んで、その都度分割で支払う方式。利用金額や支払回数に応じた手数料がかかる。",
+  "detail": "利用の際、商品等の金額等を考慮して、支払回数や月々の支払額を決めて支払っていく。支払回数を多くすれば月々の支払いを少なくすることができるが、手数料の負担は増える。利用ごとに支払回数を自分で決められる点が、リボルビング払いと異なる。",
+  "related": [
+   "revolving-barai",
+   "credit-card-shikumi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本クレジット協会 リボ払いの特徴と利用上の注意",
+    "url": "https://www.j-credit.or.jp/customer/basis/revolving.html"
+   },
+   {
+    "title": "日本クレジット協会 クレジットの支払方式の種類",
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/revolving.html",
+    "quote": "分割払いは、クレジットカード利用時に購入する商品等の代金の支払回数を選んでその都度分割で支払う方式です"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html",
+    "quote": "分割払い利用の際、商品等の金額等を考慮して、支払回数、月々の支払額を決めて支払っていく方式です"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html",
+    "quote": "利用金額や支払回数に応じた手数料がかかります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "10万円の家電を10回払いで買うと、月々の支払額は小さくなるが、手数料が上乗せされる",
+  "topics": [
+   "B3-2"
+  ]
+ },
+ {
+  "id": "revolving-barai",
+  "name": "リボルビング払い",
+  "reading": "りぼるびんぐばらい",
+  "field": "B",
+  "importance": 3,
+  "short": "月々の支払金額を一定額または「（支払）残高」に対する一定率に決めておき、その額を支払っていく方式。リボ払いともいう。",
+  "detail": "利用の仕方にかかわらず月々の支払いが常に一定であることが特徴だが、「残高」があるかぎり支払いが終わらず、手数料は「残高」に応じて計算される。リボ払いの支払期間は、分割払いとは異なり、自分で決めることはできない。残高の大きさに応じて毎月の支払額が段階的に増減する残高スライド方式もある。",
+  "related": [
+   "bunkatsubarai",
+   "credit-card-shikumi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本クレジット協会 クレジットの支払方式の種類",
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html"
+   },
+   {
+    "title": "日本クレジット協会 リボ払いの特徴と利用上の注意",
+    "url": "https://www.j-credit.or.jp/customer/basis/revolving.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html",
+    "quote": "月々の支払金額を一定額または「（支払）残高」に対する一定率に決めておき、その額を支払っていく方式です"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html",
+    "quote": "特徴は、利用の仕方にかかわらず月々の支払いが常に一定であること、「残高」があるかぎり支払いが終わらないことです"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/payment.html",
+    "quote": "この支払方式には手数料がかかり、手数料は「残高」に応じて計算されます"
+   },
+   {
+    "url": "https://www.j-credit.or.jp/customer/basis/revolving.html",
+    "quote": "リボ払いの支払期間は、分割払いとは異なり、自分で決めることはできません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "毎月1万円のリボ払いで買い物を続けると、支払いがなかなか終わらず、手数料がかさむことがある",
+  "aliases": [
+   "リボ払い"
+  ],
+  "cautions": [
+   "残高があるかぎり支払いが終わらないため、利用残高と手数料の総額を把握して利用することが大切である"
+  ],
+  "topics": [
+   "B3-2"
+  ]
+ },
+ {
+  "id": "shinyo-joho-kikan",
+  "name": "個人信用情報機関",
+  "reading": "こじんしんようじょうほうきかん",
+  "field": "B",
+  "importance": 3,
+  "short": "クレジットやローン等の契約内容や支払状況といった信用情報を保有し、加盟するクレジット会社等に提供する機関。CICや全国銀行個人信用情報センターなどがある。",
+  "detail": "信用情報とは、クレジットやローン等の契約に関する内容や支払状況といった「実際の取引の記録」をまとめた個人の情報で、クレジット会社等が顧客の「信用力」を判断する際の参考として利用される。登録される情報には登録期間が定められており、各情報は登録期間経過後に自動的に削除される。",
+  "related": [
+   "credit-card-shikumi",
+   "tajusaimu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "CIC 信用情報とは",
+    "url": "https://www.cic.co.jp/guide/credit-information/"
+   },
+   {
+    "title": "全国銀行個人信用情報センター 登録情報と登録期間",
+    "url": "https://www.zenginkyo.or.jp/pcic/about/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.cic.co.jp/guide/credit-information/",
+    "quote": "信用情報とは、クレジットやローン等の契約に関する内容や支払状況といった「実際の取引の記録」をまとめた個人の情報です"
+   },
+   {
+    "url": "https://www.cic.co.jp/guide/credit-information/",
+    "quote": "この信用情報は、クレジット会社等が、お客さまの「信用力」を判断する際の参考として利用します"
+   },
+   {
+    "url": "https://www.zenginkyo.or.jp/pcic/about/",
+    "quote": "各情報は、登録期間経過後に自動的に削除されます"
+   },
+   {
+    "url": "https://www.zenginkyo.or.jp/pcic/about/",
+    "quote": "契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "カードの支払いを延滞すると信用情報に記録され、新しいカードやローンの審査に影響することがある",
+  "facts": [
+   "全国銀行個人信用情報センターの取引情報は、契約期間中および契約終了日（完済されていない場合は完済日）から5年を超えない期間登録される"
+  ],
+  "topics": [
+   "B3-4"
+  ]
+ },
+ {
+  "id": "tajusaimu",
+  "name": "多重債務",
+  "reading": "たじゅうさいむ",
+  "field": "B",
+  "importance": 3,
+  "short": "消費者金融やクレジットカード会社などの複数の業者から借金をすることにより、返しきれない借金を抱えてしまう状態。そうした状態にある人を多重債務者という。",
+  "detail": "借金問題で困った方のために、全国各地に無料の多重債務相談窓口がある。一人で悩まず、消費生活センターや債務整理の相談先に早めに相談することが解決につながる。",
+  "related": [
+   "saimu-seiri",
+   "soryo-kisei",
+   "shohisha-hotline"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン 多重債務相談窓口のご紹介",
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "消費者金融やクレジットカード会社などの複数の業者から借金をすることにより、いつのまにか返しきれない借金を抱えてしまう方がいます。こうした状態にある方を多重債務者といいます"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "借金問題でお困りの方のために、全国各地に無料の多重債務相談窓口があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "複数の消費者金融からの借入れが膨らみ、返済のために新たな借入れを繰り返してしまう状態",
+  "topics": [
+   "B3-5"
+  ]
+ },
+ {
+  "id": "saimu-seiri",
+  "name": "債務整理",
+  "reading": "さいむせいり",
+  "field": "B",
+  "importance": 3,
+  "short": "支払えなくなった借金を減額したり、支払えないことを認めてもらう手続き。任意整理、特定調停、個人版民事再生、自己破産の4つの方法がある。",
+  "detail": "任意整理は、弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法。特定調停は、裁判所がお金を借りた人と金融機関の間に入り、債務整理を調整する方法。個人版民事再生は、裁判所の関与の下、再生計画を立て、計画に沿って借金を返済する方法で、住宅を維持したまま債務整理できる。自己破産は、裁判所へ申し立て、免責が許可されれば借金から解放されるが、持ち家や自動車などの財産を失う。相談先として、日本司法支援センター（法テラス）、日本弁護士連合会、日本司法書士会連合会などが挙げられている。",
+  "related": [
+   "tajusaimu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "政府広報オンライン 多重債務相談窓口のご紹介",
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html"
+   },
+   {
+    "title": "金融庁 多重債務についての相談窓口",
+    "url": "https://www.fsa.go.jp/soudan/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "債務整理とは、支払えなくなった借金を減額したり、支払えないことを認めてもらう手続きですが、それには4つの方法があります"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "一つ目は、任意整理です。弁護士や司法書士が金融機関と利息のカットや長期の分割返済を交渉し、今後の返済計画を決める方法です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "二つ目は、特定調停です。裁判所がお金を借りた人と金融機関の間（あいだ）に入り、債務整理を調整する方法です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "三つ目は、個人版民事再生です。裁判所の関与の下、再生計画を立て、計画に沿って借金を返済する方法です"
+   },
+   {
+    "url": "https://www.gov-online.go.jp/pr/media/cd/202109/202109_05.html",
+    "quote": "裁判所へ申し立て、借金を帳消しにする方法です。裁判所より免責が許可されれば借金から解放されますが、持ち家や自動車などの財産を失います"
+   },
+   {
+    "url": "https://www.fsa.go.jp/soudan/index.html",
+    "quote": "債務整理（借金問題）についての相談先日本司法支援センター（法テラス）、日本弁護士連合会、日本司法書士会連合会、日本貸金業協会、日本クレジットカウンセリング協会、全国銀行協会"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "返済が行き詰まったら、法テラスなどに相談して、自分に合った債務整理の方法を選ぶ",
+  "topics": [
+   "B3-5"
+  ]
+ },
+ {
+  "id": "soryo-kisei",
+  "name": "総量規制",
+  "reading": "そうりょうきせい",
+  "field": "B",
+  "importance": 2,
+  "short": "貸金業法の規制で、貸金業者からの借入残高が年収の3分の1を超える場合は、新たな借入れはできなくなるというルール。",
+  "detail": "借り過ぎ・貸し過ぎを防ぐために設けられた規制である。複数の貸金業者から借りている場合、全ての貸金業者からの借入れの合計が年収の3分の1以内であることが必要で、例えば年収300万円の方は、貸金業者から100万円までしか借りることができない。",
+  "related": [
+   "yami-kinyu",
+   "tajusaimu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 貸金業法Q＆A",
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html",
+    "quote": "借り過ぎ・貸し過ぎを防ぐために設けられた新しい規制です"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html",
+    "quote": "貸金業者からの借入残高が年収の3分の1を超える場合は、新たな借入れはできなくなる"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html",
+    "quote": "例えば、年収300万円の方は、貸金業者から100万円までしか借りることができないということになります"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/kashikin/qa.html",
+    "quote": "複数の貸金業者から借りている場合、全ての貸金業者からの借入れの合計が、年収の3分の1以内であることが必要です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "年収300万円の人が貸金業者からすでに100万円を借りている場合、新たな借入れはできない",
+  "formula": {
+   "name": "総量規制の上限",
+   "tex": "\\text{年収} \\times \\frac{1}{3}"
+  },
+  "topics": [
+   "B3-5"
+  ]
+ },
+ {
+  "id": "ginko",
+  "name": "銀行",
+  "reading": "ぎんこう",
+  "field": "C",
+  "importance": 3,
+  "short": "預金の受入れと資金の貸付けを併せ行うこと、または為替取引を行うことを営業とする金融機関。",
+  "detail": "銀行法では「銀行」は内閣総理大臣の免許を受けて銀行業を営む者とされ、「銀行業」は預金・定期積金の受入れと資金の貸付け・手形の割引を併せ行うこと、または為替取引を行うことと定義される。預金・貸出・為替が銀行の基本業務である。",
+  "related": [
+   "shinkin-shinkumi",
+   "nippon-ginko",
+   "kansetsu-kinyu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 銀行法",
+    "url": "https://laws.e-gov.go.jp/law/356AC0000000059"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/356AC0000000059",
+    "quote": "この法律において「銀行」とは、第四条第一項の内閣総理大臣の免許を受けて銀行業を営む者をいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/356AC0000000059",
+    "quote": "この法律において「銀行業」とは、次に掲げる行為のいずれかを行う営業をいう"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/356AC0000000059",
+    "quote": "預金又は定期積金の受入れと資金の貸付け又は手形の割引とを併せ行うこと"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/356AC0000000059",
+    "quote": "為替取引を行うこと"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "都市銀行や地方銀行、信託銀行などが銀行にあたる"
+ },
+ {
+  "id": "shinkin-shinkumi",
+  "name": "信用金庫・信用組合",
+  "reading": "しんようきんこ・しんようくみあい",
+  "field": "C",
+  "importance": 2,
+  "short": "会員・組合員の出資で運営される協同組織の金融機関。融資は原則として会員・組合員が対象になる。",
+  "detail": "信用金庫は会員の出資による非営利の金融仲介機関で、預金・与信・為替の業務を行うが、与信（融資）は原則として会員に対してのみ行う。信用協同組合（信用組合）も組合員の出資によって運営される非営利の金融仲介機関で、預金業務と与信業務を行えるのは原則として組合員に限定される。株式会社である銀行と異なり、構成員の相互扶助を基盤とする点が特徴である。",
+  "related": [
+   "ginko",
+   "yokin-hoken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "一橋大学 ファイナンス用語集 銀行貸付（信用金庫・信用協同組合）",
+    "url": "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc",
+    "quote": "信用金庫とは、協同組織金融機関の1つであり、会員の出資による非営利の金融仲介機関である"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc",
+    "quote": "同様の主要業務を行う銀行との大きな違いは、与信業務を行えるのが原則、会員に対してのみとなることである"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc",
+    "quote": "信用協同組合（一般的に、信用組合と呼ばれている）とは、協同組織金融機関の1つであり、組合員の出資によって運営される非営利の金融仲介機関である"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/category/show/52/?page=2&sort=sort_important&sort_order=desc",
+    "quote": "同様の主要業務を行う銀行との大きな違いは、預金業務と与信業務を行えるのが原則、組合員に限定されることである"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "地元の中小企業や個人が会員となって信用金庫を利用する"
+ },
+ {
+  "id": "shoken-gaisha",
+  "name": "証券会社",
+  "reading": "しょうけんがいしゃ",
+  "field": "C",
+  "importance": 2,
+  "short": "有価証券の売買の窓口となる会社。投資家と証券取引所の間の取次ぎや、新規発行証券の引受けなどを行う。",
+  "detail": "証券会社は、株式や債券などの有価証券を売買するときの窓口になる会社である。主な業務には、有価証券の売買を取引所に取り次ぐブローキングや、有価証券の引受けを行うアンダーライティングなどがある。金融商品取引法に基づき、内閣総理大臣の登録を受ける必要がある。銀行と異なり、預金の受入れは行わない。",
+  "related": [
+   "chokusetsu-kinyu",
+   "toshisha-hogo-kikin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "時事通信社 用語集「証券会社」（LINE証券 投資用語集）",
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806",
+    "quote": "有価証券を売買するときの窓口になる会社のこと"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806",
+    "quote": "有価証券の売買を取引所に取り次ぐ「ブローキング」"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806",
+    "quote": "有価証券の引き受けを行う「アンダーライティング」"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST0806",
+    "quote": "金融商品取引法に基づき、内閣総理大臣の登録を受ける必要があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "株式を買うときは、証券会社に注文を出して取引所に取り次いでもらう"
+ },
+ {
+  "id": "nippon-ginko",
+  "name": "日本銀行",
+  "reading": "にっぽんぎんこう",
+  "field": "C",
+  "importance": 3,
+  "short": "わが国唯一の中央銀行。日本銀行券の発行、金融政策の運営、金融システムの安定維持などを担う認可法人。",
+  "detail": "日本銀行は日本銀行法に基づく認可法人で、株式会社ではなく、株主総会もない。物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として金融政策を運営し、2013年1月に消費者物価の前年比上昇率2％の「物価安定の目標」を導入した。一般の個人や企業とは直接取引せず、金融機関や政府を相手方とする（発券銀行・銀行の銀行・政府の銀行）。",
+  "related": [
+   "kinyu-seisaku",
+   "seisaku-kinri",
+   "ginko"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行「日本銀行の概要」",
+    "url": "https://www.boj.or.jp/about/outline/index.htm"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行は株式会社ですか？ 株主総会がありますか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/outline/a11.htm"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行の『物価の安定』についての考え方および『物価安定の目標』について教えてください」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/outline/index.htm",
+    "quote": "日本銀行はわが国唯一の中央銀行です"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/outline/a11.htm",
+    "quote": "日本銀行は株式会社ではなく、また株主総会もありません"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm",
+    "quote": "日本銀行は、物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として、金融政策を運営している"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm",
+    "quote": "日本銀行は、2013年（平成25年）1月の金融政策決定会合で、消費者物価の前年比上昇率2％の「物価安定の目標」を導入しました"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "紙幣に「日本銀行券」と印刷されているのは、日本銀行が発行しているためである"
+ },
+ {
+  "id": "kinyu-seisaku",
+  "name": "金融政策",
+  "reading": "きんゆうせいさく",
+  "field": "C",
+  "importance": 3,
+  "short": "中央銀行が、金利や資金供給の調節を通じて、物価の安定や景気の安定を図る政策。",
+  "detail": "日本銀行が行う金融政策では、物価（モノやサービスの価格を全体としてとらえたもの）の安定が目的とされる。景気を上向かせるために行われる金融政策は金融緩和政策、景気の過熱を抑えるために行われる金融政策は金融引締め政策と呼ばれる。日本銀行の通貨及び金融の調節における自主性は尊重されなければならないとされ、政府から独立した立場で運営される。",
+  "related": [
+   "nippon-ginko",
+   "seisaku-kinri",
+   "kokai-shijo-sosa",
+   "ryoteki-kanwa"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+   },
+   {
+    "title": "日本銀行「金融政策の概要」",
+    "url": "https://www.boj.or.jp/mopo/outline/index.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm",
+    "quote": "景気を上向かせるために行われる金融政策は、金融緩和政策と呼ばれます"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm",
+    "quote": "景気の過熱を抑えるために行われる金融政策は、金融引締め政策と呼ばれます"
+   },
+   {
+    "url": "https://www.boj.or.jp/mopo/outline/index.htm",
+    "quote": "ここでいう物価とは、モノやサービスの価格を全体としてとらえたものです"
+   },
+   {
+    "url": "https://www.boj.or.jp/mopo/outline/index.htm",
+    "quote": "日本銀行の通貨及び金融の調節における自主性は、尊重されなければならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "景気が悪いときは金利を引き下げて金融を緩和し、物価が上がりすぎるときは金利を引き上げて引き締める"
+ },
+ {
+  "id": "seisaku-kinri",
+  "name": "政策金利",
+  "reading": "せいさくきんり",
+  "field": "C",
+  "importance": 3,
+  "short": "中央銀行が金融政策の操作目標とする短期金利。現在の日本銀行では無担保コールレート（オーバーナイト物）が政策金利である。",
+  "detail": "無担保コールレート（オーバーナイト物）とは、コール市場における無担保での資金貸借のうち、約定日に資金の受払を行い、翌営業日を返済期日とするものにかかる金利のことである。2024年3月からは、金融政策の枠組みが見直され、政策金利を無担保コールレート（オーバーナイト物）としたうえで、金融市場調節方針において、その誘導目標が定められている。ニュースでいう「利上げ」「利下げ」は、この政策金利の引上げ・引下げを指すことが多い。",
+  "related": [
+   "kinyu-seisaku",
+   "kokai-shijo-sosa",
+   "kinri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「無担保コールレート（オーバーナイト物）とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm",
+    "quote": "無担保コールレート（オーバーナイト物）とは、コール市場における無担保での資金貸借のうち、約定日に資金の受払を行い、翌営業日を返済期日とするものにかかる金利のことです"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm",
+    "quote": "2024年（令和6年）3月からは、金融政策の枠組みを見直し、政策金利を無担保コールレート（オーバーナイト物）としたうえで、金融市場調節方針において、その誘導目標を定めています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "日本銀行が政策金利を引き上げると、市場金利や貸出金利も上昇しやすくなる"
+ },
+ {
+  "id": "kokai-shijo-sosa",
+  "name": "公開市場操作",
+  "reading": "こうかいしじょうそうさ",
+  "field": "C",
+  "importance": 2,
+  "short": "中央銀行が金融機関を相手に国債等の売買や資金の貸付けを行い、市場の資金量や金利を調節する手段。オペレーションともいう。",
+  "detail": "金融市場調節の主たる手段は、金融機関を相手に行う資金の貸付けや国債等の売買であり、これをオペレーション（公開市場操作）という。日本銀行が国債等を買い入れると金融機関に資金が供給され、売却すると資金が吸収されるため、短期金利の誘導に用いられる。",
+  "related": [
+   "kinyu-seisaku",
+   "seisaku-kinri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「金融市場調節とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b31.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b31.htm",
+    "quote": "金融市場調節の主たる手段は、金融機関を相手に行う資金の貸付けや国債等の売買です。これをオペレーション（公開市場操作）といいます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "日本銀行が銀行から国債を買い入れると、銀行の手元資金が増えて貸出余力が生まれる",
+  "aliases": [
+   "オペレーション"
+  ]
+ },
+ {
+  "id": "payoff",
+  "name": "ペイオフ",
+  "reading": "ぺいおふ",
+  "field": "C",
+  "importance": 3,
+  "short": "金融機関が破綻した際に、預金保険による保護が一定額までにとどまる仕組みを指す言葉。",
+  "detail": "ペイオフとは、金融機関が破綻した際に、預金等の一定額しか預金保険による保護の対象にならないことをいう。一般預金等は、決済用預金に該当するものは全額保護され、それ以外は1金融機関ごとに預金者1人当たり元本1,000万円までとその利息等が保護される。1,000万円を超える部分は、破綻した金融機関の財産の状況に応じて支払われる。",
+  "related": [
+   "yokin-hoken",
+   "kessai-yokin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「ペイオフとは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/pfsys/e28.htm"
+   },
+   {
+    "title": "三菱UFJ銀行「預金保険制度について」",
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/pfsys/e28.htm",
+    "quote": "金融機関が破綻した際に、預金等の一定額しか預金保険による保護の対象にならないこと"
+   },
+   {
+    "url": "https://www.bk.mufg.jp/ippan/yokinhoken/index.html?link_id=p_top_comp_yokinhoken",
+    "quote": "決済用預金（無利息、要求払い、決済サービスを提供できること、という3要件を満たす預金）に該当するものは全額、それ以外の預金については1金融機関ごとに預金者1人当たり元本1,000万円までとそのお利息等です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "1つの銀行に1,500万円の定期預金がある場合、ペイオフでは元本1,000万円とその利息までが確実に保護される"
+ },
+ {
+  "id": "chokusetsu-kinyu",
+  "name": "直接金融",
+  "reading": "ちょくせつきんゆう",
+  "field": "C",
+  "importance": 3,
+  "short": "資金の借り手が、第三者を介さず、市場を通じて貸し手から直接資金を調達する方法。株式や社債の発行が代表例。",
+  "detail": "直接金融とは、借り手が貸し手から第三者を介さずに直接お金を供給してもらう方法で、国や企業などが有価証券を発行して、証券市場を通じて投資家から資金を直接調達する証券取引などを指す。証券会社は仲介は行うが、借り手が債務を返さないというリスクは貸し手（投資家）が負う点が、間接金融との大きな違いである。",
+  "related": [
+   "kansetsu-kinyu",
+   "shoken-gaisha"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "時事通信社 用語集「直接金融」（LINE証券 投資用語集）",
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255",
+    "quote": "借り手が貸し手から第三者を介さずに直接お金を供給してもらう方法"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255",
+    "quote": "国や企業などが有価証券を発行して、証券市場を通じて投資家から資金を直接調達する証券取引などを指します"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255",
+    "quote": "証券会社は仲介は行いますが、借り手が債務を返さないというリスクは貸し手が負います"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "企業が株式や社債を発行して投資家から資金を集めるのは直接金融である",
+  "compare": [
+   "間接金融では金融機関が仲介し、借り手が返済できないリスクは金融機関が負う。直接金融では投資家自身がそのリスクを負う"
+  ]
+ },
+ {
+  "id": "kansetsu-kinyu",
+  "name": "間接金融",
+  "reading": "かんせつきんゆう",
+  "field": "C",
+  "importance": 3,
+  "short": "銀行などの金融機関が仲介し、預金などで集めた資金を金融機関の責任で貸し付ける資金調達の方法。",
+  "detail": "間接金融とは、貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法である。銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付けるため、借り手が返済できない場合のリスクは金融機関が負う。家計の預金が銀行を通じて企業への貸出に回る流れが典型例である。",
+  "related": [
+   "chokusetsu-kinyu",
+   "ginko"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "時事通信社 用語集「間接金融」（投信用語集）",
+    "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335"
+   },
+   {
+    "title": "時事通信社 用語集「直接金融」（LINE証券 投資用語集）",
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335",
+    "quote": "貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335",
+    "quote": "銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付けます"
+   },
+   {
+    "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255",
+    "quote": "貸し手と借り手の間を金融機関が仲介して、間接的に資金調達する方法を「間接金融」といい、リスクは金融機関が負います"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "銀行預金が銀行の貸出を通じて企業の設備投資に使われるのは間接金融である"
+ },
+ {
+  "id": "gdp",
+  "name": "GDP（国内総生産）",
+  "reading": "じーでぃーぴー",
+  "field": "C",
+  "importance": 3,
+  "short": "一定期間内に国内で産み出された物やサービスの付加価値の合計。国の経済規模や景気動向を把握するための代表的な指標。",
+  "detail": "GDP（国内総生産）は、一定期間内に国内で産み出された物やサービスの付加価値の合計のことであり、その国内領土に居住する経済主体を基準にした数値で、居住者たる生産者による国内生産活動の結果、生み出された付加価値の総額をいう。日本経済全体の景気動向を把握するためにはGDP（国内総生産）が適しているとされ、GDPの伸び率が経済成長率として報じられる。",
+  "related": [
+   "keiki-junkan",
+   "keiki-doko"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "Wikipedia「国内総生産」",
+    "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E7%B7%8F%E7%94%9F%E7%94%A3"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行は、景気をみるときに、何を判断材料にしていますか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b43.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E7%B7%8F%E7%94%9F%E7%94%A3",
+    "quote": "一定期間内に国内で産み出された物やサービスの付加価値の合計のこと"
+   },
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E7%B7%8F%E7%94%9F%E7%94%A3",
+    "quote": "居住者たる生産者による国内生産活動の結果、生み出された付加価値の総額"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b43.htm",
+    "quote": "日本経済全体の景気動向を把握するためには「GDP（国内総生産）」が適しています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "海外に進出した日本企業の現地法人が海外で生み出した付加価値は、日本のGDPには含まれない",
+  "aliases": [
+   "国内総生産"
+  ]
+ },
+ {
+  "id": "keiki-junkan",
+  "name": "景気循環",
+  "reading": "けいきじゅんかん",
+  "field": "C",
+  "importance": 2,
+  "short": "景気が拡張（回復・好況）と後退（不況）を繰り返す、波のような動き。",
+  "detail": "景気には拡張局面と後退局面があり、CI一致指数が上昇している時は景気の拡張局面、低下している時は後退局面とされる。景気動向指数では、景気の動きに対し先行して動く指標（先行指数）、一致して動く指標（一致指数）、遅行して動く指標（遅行指数）を組み合わせて、景気の現状把握や先行きの予測、転換点の確認を行う。",
+  "related": [
+   "keiki-doko",
+   "gdp"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "内閣府経済社会総合研究所「景気動向指数の利用の手引」",
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/di3.html"
+   },
+   {
+    "title": "内閣府経済社会総合研究所「用語の解説（景気動向指数）」",
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/di3.html",
+    "quote": "CI一致指数が上昇している時は景気の拡張局面、低下している時は後退局面であり"
+   },
+   {
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html",
+    "quote": "景気の動きに対し、一致して動く指標。景気の現状を把握するのに用いられる"
+   },
+   {
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html",
+    "quote": "景気の動きに対し、先行して動く指標。景気の先行きに対する予測を行うときに参照される"
+   },
+   {
+    "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html",
+    "quote": "景気の動きに対し、遅行して動く指標。景気の転換点を確認するものとして利用される"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "景気の山（拡張から後退への転換点）と谷（後退から拡張への転換点）を繰り返すのが景気循環である"
+ },
+ {
+  "id": "inflation",
+  "name": "インフレーション",
+  "reading": "いんふれーしょん",
+  "field": "C",
+  "importance": 3,
+  "short": "物価の水準が一定期間にわたって上昇し続ける状態。お金の価値が下がることと表裏の関係にある。",
+  "detail": "インフレーション（インフレ）とは、一定期間にわたって物価の水準が上昇し続ける状態を指す。ここでいう物価とは、個別の商品の価格ではなく、モノやサービスの価格を全体としてとらえたものである。物価が上がり続けると、同じ金額で買える物やサービスの量が減り、通貨の実質的な価値は下がる。",
+  "related": [
+   "deflation",
+   "cpi",
+   "kinyu-seisaku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "Wikipedia「インフレーション」",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+   },
+   {
+    "title": "日本銀行「金融政策の概要」",
+    "url": "https://www.boj.or.jp/mopo/outline/index.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
+    "quote": "一定期間にわたって物価の水準が上昇し続ける状態を指す"
+   },
+   {
+    "url": "https://www.boj.or.jp/mopo/outline/index.htm",
+    "quote": "ここでいう物価とは、モノやサービスの価格を全体としてとらえたものです"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "毎年物価が上がり続ける状況では、現金のまま保有していると実質的な価値が目減りする",
+  "aliases": [
+   "インフレ"
+  ]
+ },
+ {
+  "id": "deflation",
+  "name": "デフレーション",
+  "reading": "でふれーしょん",
+  "field": "C",
+  "importance": 3,
+  "short": "財やサービスの一般的な価格水準（物価）が持続的に低下する状態。景気悪化と結びつきやすい。",
+  "detail": "デフレーション（デフレ）とは、財やサービスの一般的な価格水準が持続的に低下することである。物価の下落が続くと、消費者の買い控えや企業収益の悪化を通じて景気の悪化を招きやすい。日本銀行は、物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として金融政策を運営している。",
+  "related": [
+   "inflation",
+   "cpi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "Wikipedia「インフレーション」",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行の『物価の安定』についての考え方および『物価安定の目標』について教えてください」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
+    "quote": "財やサービスの一般的な価格水準が持続的に低下することである"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm",
+    "quote": "日本銀行は、物価の安定を図ることを通じて国民経済の健全な発展に資することを理念として、金融政策を運営している"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "物価が下がり続けると消費者が買い控えをし、企業の売上が減って景気がさらに冷え込む悪循環が起こりうる",
+  "aliases": [
+   "デフレ"
+  ],
+  "compare": [
+   "インフレーションは物価が持続的に上昇する状態、デフレーションは物価が持続的に低下する状態である"
+  ]
+ },
+ {
+  "id": "kinri",
+  "name": "金利",
+  "reading": "きんり",
+  "field": "C",
+  "importance": 3,
+  "short": "元本に対して発生する利息の割合。ふつう年単位の割合で、％で表される。お金の貸し借りの「値段」にあたる。",
+  "detail": "金利とは、預金や借入などにおいて、元本に対してどのくらいの割合で利息が発生するのかを示したもので、一般的にパーセント（％）で表される。利息は、基本的に「元本 × 金利 × 期間」をもとに計算する。金利が下がると、企業は運転資金や設備資金を調達し易くなり、個人も住宅購入の資金などを借り易くなる。逆に金利が上がると、企業や個人は資金を借りにくくなり、経済活動が抑制される。",
+  "related": [
+   "seisaku-kinri",
+   "fukuri",
+   "tanri",
+   "kashidashi-yakujo-kinri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三菱UFJ銀行「金利とは？利息の計算方法など仕組みや注意点をわかりやすく解説！」",
+    "url": "https://www.bk.mufg.jp/column/keizai/b0051.html?link_id=r_UPU_20231228_kojintop_column2"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.bk.mufg.jp/column/keizai/b0051.html?link_id=r_UPU_20231228_kojintop_column2",
+    "quote": "「金利」とは、預金や借入などにおいて、元本に対してどのくらいの割合で利息が発生するのかを示したもので、一般的にパーセント（％）で表されます"
+   },
+   {
+    "url": "https://www.bk.mufg.jp/column/keizai/b0051.html?link_id=r_UPU_20231228_kojintop_column2",
+    "quote": "利息は、基本的に「元本 × 金利 × 期間」をもとに計算します"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm",
+    "quote": "企業は、運転資金（従業員への給料の支払いや仕入れなどに必要なお金）や設備資金（工場や店舗建設など設備投資に必要なお金）を調達し易くなります"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm",
+    "quote": "企業や個人は、資金を借りにくくなり、経済活動が抑制されて、景気の過熱が抑えられることになります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "100万円を年利1％で1年間預けると、利息は1万円になる",
+  "formula": {
+   "name": "利息",
+   "tex": "\\text{元本} \\times \\text{金利} \\times \\text{期間}"
+  }
+ },
+ {
+  "id": "kashidashi-yakujo-kinri",
+  "name": "貸出約定平均金利",
+  "reading": "かしだしやくじょうへいきんきんり",
+  "field": "C",
+  "importance": 1,
+  "short": "国内銀行と信用金庫の貸出金利を集計した、日本銀行の月次統計。実際の貸出金利の水準の推移を見る指標。",
+  "detail": "日本銀行は、国内銀行および信用金庫における約定時の貸出金利の集計・把握を目的として、「貸出約定平均金利の推移」という月次資料を作成し、公表している。政策金利の変更が、企業や個人が実際に借りる金利にどう波及したかを確認する手がかりになる。",
+  "related": [
+   "kinri",
+   "seisaku-kinri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行「『貸出約定平均金利の推移』の解説」",
+    "url": "https://www.boj.or.jp/statistics/outline/exp/exyaku.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/exyaku.htm",
+    "quote": "国内銀行および信用金庫における約定時の貸出金利の集計・把握を目的として、「貸出約定平均金利の推移」という月次資料を作成し、公表しています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "貸出約定平均金利の低下が報じられれば、企業が実際に借りる金利が下がっていることを意味する"
+ },
+ {
+  "id": "kawase-soba",
+  "name": "為替相場",
+  "reading": "かわせそうば",
+  "field": "C",
+  "importance": 3,
+  "short": "外国為替市場で異なる通貨が交換（売買）される際の交換比率。為替レートともいう。",
+  "detail": "為替相場（為替レート）は、外国為替市場において異なる通貨が交換（売買）される際の交換比率である。外国為替市場とは、円やドルなどの異なる通貨を交換（売買）する場をいう。変動相場制においては、為替相場は、誰かが一方的・恣意的に決めるわけではなく、市場における需要と供給のバランスによって決まる。",
+  "related": [
+   "endaka-enyasu",
+   "kawase-kainyu",
+   "ttm"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「為替相場（為替レート）とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「外国為替市場とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g16.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm",
+    "quote": "為替相場（為替レート）は、外国為替市場において異なる通貨が交換（売買）される際の交換比率です"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g16.htm",
+    "quote": "外国為替市場（単に「為替市場」ということもあります）とは、円やドルなどの異なる通貨を交換（売買）する場をいいます"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g17.htm",
+    "quote": "変動相場制においては、為替相場は、誰かが一方的、恣意的に決めるわけではなく、市場における需要と供給のバランスによって決まります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「1ドル＝150円」は、ドルと円の為替相場（交換比率）を表す",
+  "aliases": [
+   "為替レート"
+  ]
+ },
+ {
+  "id": "endaka-enyasu",
+  "name": "円高・円安",
+  "reading": "えんだか・えんやす",
+  "field": "C",
+  "importance": 3,
+  "short": "円の他通貨に対する相対的価値が高い状態が円高、低い状態が円安。同じ外貨をより少ない円で買えれば円高である。",
+  "detail": "円高とは、円の他通貨に対する相対的価値、言い換えると、円1単位で交換できる他通貨の単位数が相対的に多い状態のことである。たとえば1ドル＝80円の場合は、1ドル＝100円の場合と比べて、同じ金額の円についてより多くのドルを取得できるので、円高ということになる。円高では輸入にかかるコストが安くなる一方、輸出企業にとっては円建てでの売り上げが減少してしまうため、企業業績に悪影響を及ぼす可能性がある。",
+  "related": [
+   "kawase-soba",
+   "kawase-kainyu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「円高、円安とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm"
+   },
+   {
+    "title": "三菱UFJ銀行「円高・円安とは？メリット・デメリットや覚え方をわかりやすく解説！」",
+    "url": "https://www.bk.mufg.jp/column/keizai/b0052.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm",
+    "quote": "円高とは、円の他通貨に対する相対的価値、言い換えると、円1単位で交換できる他通貨の単位数が相対的に多い状態のことです"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm",
+    "quote": "1ドル＝80円の場合は、1ドル＝100円の場合と比べて、同じ金額の円についてより多くのドルを取得できるので、円高ということになります"
+   },
+   {
+    "url": "https://www.bk.mufg.jp/column/keizai/b0052.html",
+    "quote": "輸入にかかるコストが安くなるため、輸入企業の利益がふえる傾向にあります"
+   },
+   {
+    "url": "https://www.bk.mufg.jp/column/keizai/b0052.html",
+    "quote": "輸出企業にとっては円建てでの売り上げが減少してしまうため、企業業績に悪影響を及ぼす可能性があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "為替相場が1ドル＝160円から1ドル＝140円になれば、円の価値が上がったので円高である"
+ },
+ {
+  "id": "kawase-kainyu",
+  "name": "為替介入",
+  "reading": "かわせかいにゅう",
+  "field": "C",
+  "importance": 2,
+  "short": "為替相場の急激な変動を抑えるため、財務大臣の権限で外国為替市場に介入すること。実務は日本銀行が遂行する。",
+  "detail": "為替介入の目的は、為替相場の急激な変動を抑え、その安定化を図ることである。わが国では、為替介入は財務大臣の権限において実施することとされており、日本銀行は、特別会計に関する法律および日本銀行法に基づき、財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行している。介入には、円を売って外貨を買う方向と、円を買って外貨を売る方向がある。",
+  "related": [
+   "kawase-soba",
+   "endaka-enyasu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「為替介入（外国為替市場介入）とは何ですか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm",
+    "quote": "為替介入の目的は、為替相場の急激な変動を抑え、その安定化を図ることです"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm",
+    "quote": "わが国では、為替介入は財務大臣の権限において実施することとされています"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm",
+    "quote": "日本銀行は、特別会計に関する法律および日本銀行法に基づき、財務大臣の代理人として、その指示に基づいて為替介入の実務を遂行しています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "急激な円安が進んだ場面で、政府・日本銀行が円買い介入を行うことがある",
+  "aliases": [
+   "外国為替市場介入"
+  ]
+ },
+ {
+  "id": "heikinchi",
+  "name": "平均値",
+  "reading": "へいきんち",
+  "field": "C",
+  "importance": 2,
+  "short": "変量の総和を個数で割った値。データの中心を表す代表値のひとつだが、外れ値の影響を最も受けやすい。",
+  "detail": "平均とは変量の総和を個数で割ったものである。あるデータに外れ値が加わった場合、平均値は三つの指標（平均値・中央値・最頻値）の中で最も影響を受ける。このため、平均値だけを見ると実態とずれることがあり、中央値などとあわせて見ることが大切である。",
+  "related": [
+   "chuochi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "総務省統計局 なるほど統計学園「中心的な傾向を捉える」",
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+    "quote": "平均とは変量の総和を個数で割ったものです"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+    "quote": "あるデータに外れ値が加わった場合、平均値は三つの指標の中で最も影響を受けるデータといってもよいでしょう"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "5人のテストの点数が60点、70点、80点、90点、300点なら、平均は120点となり、大半の人の実感とずれる",
+  "formula": {
+   "name": "平均値",
+   "tex": "\\frac{\\text{変量の総和}}{\\text{個数}}"
+  }
+ },
+ {
+  "id": "chuochi",
+  "name": "中央値",
+  "reading": "ちゅうおうち",
+  "field": "C",
+  "importance": 2,
+  "short": "データを小さい順に並べたときに中央にくる値。外れ値の影響を受けにくい代表値。",
+  "detail": "中央値とは、母集団の分布の中央にくる値のことである。変量の個数が奇数のときは真ん中の値を取り、偶数のときは真ん中の2つを加えて2で割った値となる。中央値は、データを並べてちょうど真ん中にくる値なので、外れ値が増えても、多くの場合はそれほど影響を受けない。所得などの分布を見る際に、平均値とあわせて用いられる。",
+  "related": [
+   "heikinchi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "総務省統計局 なるほど統計学園「中心的な傾向を捉える」",
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+    "quote": "母集団の分布の中央にくる値のことです"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+    "quote": "変量の個数nが奇数の時は真ん中の値を取りますが、偶数のときは真ん中の2つを加えて2で割った値となります"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+    "quote": "中央値は、データを並べてちょうど真ん中にくる値なので、外れ値が増えても、多くの場合はそれほど影響ありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "年収の分布のように一部の高額所得者が平均を引き上げる場合、中央値の方が「真ん中の人」の姿に近い",
+  "aliases": [
+   "メディアン"
+  ]
+ },
+ {
+  "id": "kigyo-bukka-shisu",
+  "name": "企業物価指数",
+  "reading": "きぎょうぶっかしすう",
+  "field": "C",
+  "importance": 2,
+  "short": "企業間で取引される財の価格変動を測定する物価指数。日本銀行が作成・公表する。",
+  "detail": "企業物価指数は、企業間で取引される財の価格変動を測定するもので、現在時点の価格を、基準時点（2020年）の価格を100として指数化したものである。消費者が購入する財やサービスの物価を示す消費者物価指数＜CPI＞に対し、企業間で取引される財の物価としては企業物価指数＜CGPI＞があり、原材料価格の変動が消費者物価に先行して表れやすい。",
+  "related": [
+   "cpi",
+   "inflation"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行「企業物価指数（2020年基準）の概要」",
+    "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm"
+   },
+   {
+    "title": "日本銀行 おしえて！にちぎん「日本銀行は、物価をみるときに、何を判断材料にしていますか？」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm",
+    "quote": "企業物価指数は、企業間で取引される財の価格変動を測定するものである"
+   },
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm",
+    "quote": "現在時点の価格を、基準時点（2020年）の価格を100として、指数化したものである"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm",
+    "quote": "企業間で取引される財の物価としては「企業物価指数＜CGPI＞」があります"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm",
+    "quote": "消費者が購入する財やサービスの物価としては「消費者物価指数＜CPI＞」があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "原材料価格が上がると、まず企業物価指数が上昇し、その後に消費者物価へ波及することがある",
+  "aliases": [
+   "CGPI"
+  ]
+ },
+ {
+  "id": "money-stock",
+  "name": "マネーストック",
+  "reading": "まねーすとっく",
+  "field": "C",
+  "importance": 2,
+  "short": "金融部門から経済全体に供給されている通貨の総量。M1・M2・M3・広義流動性の指標があり、日本銀行が公表する。",
+  "detail": "マネーストック統計とは、「金融部門から経済全体に供給されている通貨の総量」を示す統計で、一般法人、個人、地方公共団体などの通貨保有主体が保有する通貨量の残高を集計している。対象とする通貨の範囲に応じて、M1、M2、M3、広義流動性といった4つの指標が作成・公表されている。景気や物価の動向を判断する材料のひとつとされる。",
+  "related": [
+   "kinyu-seisaku",
+   "ginko"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行「マネーストック統計のFAQ」",
+    "url": "https://www.boj.or.jp/statistics/outline/exp/faqms.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/faqms.htm",
+    "quote": "マネーストック統計とは、「金融部門から経済全体に供給されている通貨の総量」を示す統計です"
+   },
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/faqms.htm",
+    "quote": "具体的には、一般法人、個人、地方公共団体などの通貨保有主体が保有する通貨量の残高を集計しています"
+   },
+   {
+    "url": "https://www.boj.or.jp/statistics/outline/exp/faqms.htm",
+    "quote": "対象とする通貨の範囲に応じて、M1、M2、M3、広義流動性といった4つの指標を作成・公表しています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "銀行の貸出が増えると預金通貨が増え、マネーストックも増加する方向に働く",
+  "aliases": [
+   "マネーサプライ"
+  ]
+ },
+ {
+  "id": "kanzen-shitsugyoritsu",
+  "name": "完全失業率",
+  "reading": "かんぜんしつぎょうりつ",
+  "field": "C",
+  "importance": 1,
+  "short": "労働力人口に占める完全失業者の割合。労働力調査（総務省）で公表される雇用の代表指標。",
+  "detail": "完全失業率とは、労働力人口に占める完全失業者の割合である。完全失業者とは、仕事がなくて調査期間中に少しも仕事をしなかったこと、仕事があればすぐ就くことができること、調査期間中に仕事を探す活動や事業を始める準備をしていたこと（過去の求職活動の結果を待っている場合を含む）の3つの要件を満たす者をいう。家事や通学などで仕事を探していない人は労働力人口に含まれないため、分母に入らない点に注意する。",
+  "related": [
+   "keiki-doko",
+   "gdp"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "大阪府「労働力調査地方集計結果 用語の解説・利用上の注意」（総務省統計局の定義に基づく）",
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html",
+    "quote": "完全失業率（労働力人口に占める完全失業者の割合）"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html",
+    "quote": "完全失業者は次の3つの要件を満たす者"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html",
+    "quote": "仕事がなくて調査期間中に少しも仕事をしなかった"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html",
+    "quote": "仕事があればすぐ就くことができる"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o040090/toukei/roucho_n/roucho_n-chuui.html",
+    "quote": "調査期間中に仕事を探す活動や事業を始める準備をしていた（過去の求職活動の結果を待っている場合を含む）"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "仕事を辞めて求職活動をやめてしまうと、完全失業者ではなく非労働力人口になるため、失業率は下がることがある",
+  "formula": {
+   "name": "完全失業率",
+   "tex": "\\frac{\\text{完全失業者数}}{\\text{労働力人口}} \\times 100"
+  }
+ },
+ {
+  "id": "ryoteki-kanwa",
+  "name": "量的・質的金融緩和",
+  "reading": "りょうてき・しつてきかんわ",
+  "field": "C",
+  "importance": 2,
+  "short": "2013年に開始された大規模な金融緩和。操作目標を金利からマネタリーベース（資金供給量）に移し、国債等の買入れを拡大した。",
+  "detail": "2013年（平成25年）には「量的・質的金融緩和」が開始され、金融市場調節の主たる操作目標は、無担保コールレートからマネタリーベースに変更された。これに先立つ2001年（平成13年）には「量的緩和政策」が開始され、操作目標が日本銀行当座預金残高に変更された経緯がある。政策金利の引下げ余地が乏しい状況で、資金の「量」に働きかける点が通常の金融緩和と異なる。",
+  "related": [
+   "kinyu-seisaku",
+   "kokai-shijo-sosa",
+   "money-stock"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本銀行 おしえて！にちぎん「金融市場調節方針の変遷を教えてください。」",
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm",
+    "quote": "2013年（平成25年）には、「量的・質的金融緩和」が開始され、金融市場調節の主たる操作目標は、無担保コールレートからマネタリーベースに変更されました"
+   },
+   {
+    "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b42.htm",
+    "quote": "2001年（平成13年）には、「量的緩和政策」が開始され、金融市場調節の主たる操作目標は、無担保コールレートから日本銀行当座預金残高に変更されました"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "量的・質的金融緩和のもとで、日本銀行は長期国債を大量に買い入れて資金供給量を拡大した"
+ },
+ {
+  "id": "futsu-yokin",
+  "name": "普通預金",
+  "reading": "ふつうよきん",
+  "field": "D",
+  "importance": 3,
+  "short": "いつでも自由に預け入れや引き出しができる預金。給与の受取りや公共料金の引落しなど、日常の資金管理に使われる。",
+  "detail": "銀行口座の中で最も広く使われている預金で、ATMや窓口でいつでも入出金や振込ができる利便性がある。定期預金に比べると金利は低いことが多い。生活費など、すぐ使うお金の置き場所に向いている。",
+  "related": [
+   "teiki-yokin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三井住友銀行 Money VIVA 銀行の預金口座の種類を解説",
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/",
+    "quote": "自由に預け入れや引き出しができることが特徴です"
+   },
+   {
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/",
+    "quote": "給与・年金の受取口座や公共料金の引き落とし口座としても活用でき、日常の資金管理に適した口座です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "給与が振り込まれ、家賃やクレジットカードの引落しが行われる口座。",
+  "compare": [
+   "定期預金は預入期間を定めて預ける預金で、普通預金より金利が高めだが、満期まで引き出しにくい"
+  ],
+  "topics": [
+   "D1-1"
+  ]
+ },
+ {
+  "id": "teiki-yokin",
+  "name": "定期預金",
+  "reading": "ていきよきん",
+  "field": "D",
+  "importance": 3,
+  "short": "あらかじめ預入期間を指定して預ける預金。普通預金より金利が高めで、一定期間使う予定のないお金の置き場所に適している。",
+  "detail": "満期までの期間は1ヵ月から10年などさまざまで、目的に合わせて選べる。金利は預入期間が長くなるほど高くなることが一般的。満期前に中途解約すると、当初の約定利率より低い利率が適用されることもある。外貨で預ける外貨預金は定期預金の一種だが、為替変動で元本割れすることがあり、預金保険の対象外である点が円預金と異なる。",
+  "related": [
+   "futsu-yokin",
+   "tanri",
+   "fukuri"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "三井住友銀行 Money VIVA 銀行の預金口座の種類を解説",
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/",
+    "quote": "あらかじめ預入期間を指定して預ける預金口座です"
+   },
+   {
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/",
+    "quote": "預金金利は預入期間が長くなるほど高くなることが一般的で、一定期間使う予定のないお金の置き場所として適しています"
+   },
+   {
+    "url": "https://www.smbc.co.jp/kojin/money-viva/olive-times/0004/",
+    "quote": "満期までの間に中途解約した場合は、当初の約定利率よりも低い利率が適用されることもあるため注意が必要です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "来年の自動車購入のために、100万円を期間1年の定期預金に預ける。",
+  "cautions": [
+   "満期までの間に中途解約した場合は、当初の約定利率よりも低い利率が適用されることもある"
+  ],
+  "topics": [
+   "D1-1"
+  ]
+ },
+ {
+  "id": "cashless-kessai",
+  "name": "キャッシュレス決済",
+  "reading": "きゃっしゅれすけっさい",
+  "field": "D",
+  "importance": 2,
+  "short": "紙幣・硬貨などの現金を使わずに代金を支払うこと。電子マネー、コード決済、デビットカード、クレジットカードが主な手段。",
+  "detail": "支払いのタイミングが手段で異なる。前払い（電子マネーへのチャージ）、即時払い（デビットカードは預金口座から即時に引き落とされる）、後払い（クレジットカードは後日まとめて引き落とされる）の違いを押さえると、使い過ぎの防止にもつながる。現金を持ち歩かずに済み、利用履歴が残るため家計管理に役立つ一方、残高や利用額を意識しにくい面もある。",
+  "related": [
+   "futsu-yokin"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "経済産業省 キャッシュレス",
+    "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html",
+    "quote": "物理的な現金（紙幣・硬貨）を使用しなくても活動できる状態をキャッシュレスと定義しています"
+   },
+   {
+    "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/index.html",
+    "quote": "主なキャッシュレスの手段として、電子マネー、コード決済、デビットカード、クレジットカードがあります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "コンビニでスマートフォンのコード決済を使って支払う。電車に交通系ICカードで乗る。",
+  "topics": [
+   "D1-3"
+  ]
+ },
+ {
+  "id": "tokushu-sagi",
+  "name": "特殊詐欺",
+  "reading": "とくしゅさぎ",
+  "field": "D",
+  "importance": 3,
+  "short": "被害者と対面することなく、電話やSNS等で信頼させ、指定した口座への振込などの方法で現金等をだまし取る犯罪の総称。旧称は振り込め詐欺。",
+  "detail": "オレオレ詐欺、預貯金詐欺、還付金詐欺、架空料金請求詐欺、SNS型投資詐欺など多様な手口がある。警察官や銀行協会職員を装ってキャッシュカードをだまし取る手口も含まれる。対策の基本は、犯人からの電話に出ない・話をしないことであり、電話でお金の話が出たら詐欺を疑い、家族や警察に相談する。",
+  "related": [
+   "phishing",
+   "toshi-sagi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "警察庁・SOS47特殊詐欺対策ページ 手口一覧と今日からできる対策",
+    "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+    "quote": "被害者に電話やＳＮＳ等を通じて、対面することなく信頼させ又は関係を深めて信用させ、指定した預貯金口座への振込その他の方法により、現金等をだまし取る犯罪を特殊詐欺といいます"
+   },
+   {
+    "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+    "quote": "親族、警察官、弁護士等を装い、親族が起こした事件・事故に対する示談金等を名目に金銭等をだまし取る（脅し取る）手口です"
+   },
+   {
+    "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+    "quote": "特殊詐欺対策では、何よりも「犯人と話をしない」ことが大切です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "息子を名乗る電話で「会社のお金を使い込んだ」と言われ、示談金を振り込まされるオレオレ詐欺。",
+  "aliases": [
+   "振り込め詐欺"
+  ],
+  "facts": [
+   "特殊詐欺対策では、何よりも「犯人と話をしない」ことが大切とされる"
+  ],
+  "topics": [
+   "D1-4"
+  ]
+ },
+ {
+  "id": "phishing",
+  "name": "フィッシング",
+  "reading": "ふぃっしんぐ",
+  "field": "D",
+  "importance": 3,
+  "short": "実在のサービスや企業をかたり、偽のメールやSMSで偽サイトに誘導し、IDやパスワードなどの情報を盗む手口。",
+  "detail": "盗まれたID・パスワードでアカウントを乗っ取られ、不正送金や勝手な買物の被害に遭うことがある。対策は、メールやSMS内のリンクを安易にクリックせず、公式サイトのブックマークや公式アプリから接続すること。金融機関がメールやSMSでID・パスワード等を問い合わせることはない。",
+  "related": [
+   "one-time-password",
+   "tokushu-sagi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "警察庁 フィッシング対策",
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html",
+    "quote": "実在のサービスや企業をかたり、偽のメールやＳＭＳ（携帯電話のショートメッセージ）で偽サイトに誘導し、ＩＤやパスワードなどの情報を盗んだり、マルウェアに感染させたりする手口です"
+   },
+   {
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html",
+    "quote": "電子メールやＳＭＳ内のリンクを安易にクリックせず、あらかじめ公式サイトを「お気に入り」や「ブックマーク」に登録しておいたり、公式アプリを活用するなどして正しいサイトに接続するようにしてください"
+   },
+   {
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html",
+    "quote": "金融機関が、ＩＤ、パスワード等をメールやＳＭＳで問い合わせることはありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "銀行を装ったSMSのリンクから偽のログイン画面に進み、口座番号と暗証番号を入力してしまう。",
+  "aliases": [
+   "フィッシング詐欺"
+  ],
+  "cautions": [
+   "金融機関が、ID、パスワード等をメールやSMSで問い合わせることはない"
+  ],
+  "topics": [
+   "D1-4"
+  ]
+ },
+ {
+  "id": "one-time-password",
+  "name": "ワンタイムパスワード",
+  "reading": "わんたいむぱすわーど",
+  "field": "D",
+  "importance": 2,
+  "short": "ログイン時などに一度だけ使える使い捨てのパスワード。メールやSMSで通知され、通常のパスワードと組み合わせて本人確認を強くする。",
+  "detail": "銀行やインターネット通信販売サービスで提供されており、IDやパスワードが盗まれた場合でも、不正ログインの防止に役立つ。指紋や顔認証などの生体認証とあわせるとより安全になる。パスワード自体も、サイトごとに違うものを使い、使い回しをしないことが大切。",
+  "related": [
+   "phishing"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "警察庁 フィッシング対策",
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html",
+    "quote": "パスワードに加え、メールやＳＭＳに通知されるワンタイムパスワードを入力しなければログインすることができないサービス（ワンタイムパスワードサービス）が提供されています"
+   },
+   {
+    "url": "https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html",
+    "quote": "ＩＤやパスワードが盗まれた時のため、ワンタイムパスワードサービスを活用してください"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "ネットバンキングの振込時に、スマートフォンに届いた6桁の数字を入力して手続きを確定する。",
+  "topics": [
+   "D1-4"
+  ]
+ },
+ {
+  "id": "kabushiki",
+  "name": "株式",
+  "reading": "かぶしき",
+  "field": "D",
+  "importance": 3,
+  "short": "株式会社が事業資金を集めるために発行する有価証券。買った人は株主となり、出資の割合に応じて会社の権利を持つ。",
+  "detail": "株主は、利益の分配である配当や株主優待を受ける権利を持ち、株価が上がれば売却益も期待できる。一方、株価は会社の業績や景気で変動し、預金のような元本保証はない。証券取引所を通じて売買でき、売買単位は原則100株（単元株）に統一されている。",
+  "related": [
+   "haito",
+   "kabunushi-yutai",
+   "risk-return"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "株式会社が事業資金を集めるために発行する有価証券"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "証券会社を通じて、ある会社の株式を100株、1株1,500円で購入する。",
+  "topics": [
+   "D2-1"
+  ]
+ },
+ {
+  "id": "haito",
+  "name": "配当",
+  "reading": "はいとう",
+  "field": "D",
+  "importance": 2,
+  "short": "株式会社が得た利益の中から、持株数に応じて株主に分配されるお金。",
+  "detail": "配当は会社の利益が出た場合に支払われ、金額は業績によって変わり、支払われないこともある。株価に対する配当の割合を配当利回りという。株主優待とは別の、現金による利益の分配である。",
+  "related": [
+   "kabushiki",
+   "kabunushi-yutai"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 配当",
+    "url": "https://www.jpx.co.jp/glossary/ha/556.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/556.html",
+    "quote": "株主は持株数に応じてその利益の分配を受ける権利を有しています。分配された利益を配当といいます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "100株を保有する会社から、1株あたり30円、合計3,000円の配当を受け取る。",
+  "topics": [
+   "D2-1"
+  ]
+ },
+ {
+  "id": "saiken",
+  "name": "債券",
+  "reading": "さいけん",
+  "field": "D",
+  "importance": 3,
+  "short": "国や地方公共団体、企業などがお金を借りるために発行する有価証券。保有中は利子を受け取れ、満期には額面金額が戻る。",
+  "detail": "発行体によって国債、地方債、社債などに分かれる。途中で売却することもできるが、価格は市場金利で変動し、一般的に市場金利が上昇すると債券価格は下落する。発行体の信用力が低い債券ほど利回りは高いが、利子や元本が支払われないリスクも高くなる。",
+  "related": [
+   "rimawari",
+   "risk-return"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   },
+   {
+    "title": "SBI証券 債券用語集",
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "発行体がお金を借りるために発行する有価証券"
+   },
+   {
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html",
+    "quote": "債券の額面金額に対して1年間に支払われる利子のこと"
+   },
+   {
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html",
+    "quote": "債券の価格は、債券利回りと反対方向に動きます。利回りが上昇すると、債券価格は下落して、逆に利回りが低下すると債券価格は上昇します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "国が発行する個人向け国債を購入し、半年ごとに利子を受け取り、満期に額面が戻る。",
+  "topics": [
+   "D2-2"
+  ]
+ },
+ {
+  "id": "rimawari",
+  "name": "利回り",
+  "reading": "りまわり",
+  "field": "D",
+  "importance": 3,
+  "short": "投資元本に対する収益の割合。利息だけでなく、償還差損益なども含めて投資の効果を測る物差し。",
+  "detail": "債券の利率（表面利率）は額面金額に対する利息の割合をいい、利回りとは異なる。同じ利率の債券でも、購入価格が額面より安ければ償還差益が生じて利回りは高くなり、高ければ利回りは低くなる。利率は額面を基準にするため実際の投資効果を表さず、投資の効果は利回りで比べる。",
+  "related": [
+   "saiken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "SBI証券 債券用語集",
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html",
+    "quote": "債券の購入から償還までに受け取る利払いと償還時の差損益の合計を年換算して投資元本に対して年率何％の利回りになるかが計算されたものです"
+   },
+   {
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html",
+    "quote": "額面金額に対しての割合である表面利率（利率・クーポンレート）を指す場合もあります"
+   },
+   {
+    "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&getFlg=on&_ControlID=WPLETmgR001Control&burl=search_bond&cat1=bond&cat2=none&dir=info&file=bond_glossary.html",
+    "quote": "債券は通常額面金額で償還される為、アンダーパーで購入した場合、償還時には償還差益が発生することになります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "額面100万円・利率2％の債券を99万円で買うと、利息に償還差益が加わるため、利回りは2％より高くなる。",
+  "formula": {
+   "name": "利回り",
+   "tex": "\\frac{\\text{1年間に受け取れる利息額}+\\text{1年当たりの償還差損益}}{\\text{購入金額}}"
+  },
+  "compare": [
+   "利率は債券の額面金額に対して利息をいくら受け取れるか計算するための割合であり、購入金額を基準にする利回りとは基準が異なる"
+  ],
+  "topics": [
+   "D2-2"
+  ]
+ },
+ {
+  "id": "risk-return",
+  "name": "リスクとリターン",
+  "reading": "りすくとりたーん",
+  "field": "D",
+  "importance": 3,
+  "short": "リターンは投資で期待できる収益、リスクは収益の振れ幅（不確実さ）のこと。一般に、高いリターンが期待できる商品ほどリスクも大きい。",
+  "detail": "金融商品には安全性・収益性・流動性という3つの性質がある。安全性は元本や利子の支払いが確実かの度合い、収益性はどのくらいの収益が期待できるかの度合い、流動性は必要になったときにすぐ換金できるかの度合いをいい、3つとも優れた金融商品はない。預貯金は安全性・流動性が高いが収益性は低く、株式や投資信託は高いリターンを期待できる反面、元本割れのおそれがある。",
+  "related": [
+   "bunsan-toshi",
+   "choki-toshi",
+   "genpon-hosho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "株式や投資信託などの運用商品に投資することで、預貯金よりも高いリターンを期待することはできますが、元本割れのおそれもあります"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "安全性：元本および利子の支払いが確実かの度合い"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "収益性：どのくらいの収益が期待できるかの度合い"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "流動性：必要になったときにすぐ換金できるかの度合い"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "3つとも◎の金融商品はありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "定期預金は元本割れしないが利息はわずか。一方、株式は大きく増える可能性がある反面、半値になる可能性もある。",
+  "facts": [
+   "金融商品の3つの性質は安全性・収益性・流動性であり、3つとも◎の金融商品はない"
+  ],
+  "topics": [
+   "D2-4"
+  ]
+ },
+ {
+  "id": "choki-toshi",
+  "name": "長期投資",
+  "reading": "ちょうきとうし",
+  "field": "D",
+  "importance": 2,
+  "short": "長い期間、投資を続けること。期間が長いほど複利の効果が大きくなり、価格変動の影響も受けにくくなる。",
+  "detail": "得た収益を元本に加えて再び運用する複利の効果は、期間が長いほど雪だるま式に大きくなる。また、短期間の値動きに一喜一憂せず続けることで、安定した収益の確保が期待できるとされる。老後資金など、使う時期が遠いお金の運用に向いている。",
+  "related": [
+   "tsumitate-toshi",
+   "fukuri",
+   "bunsan-toshi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "長い期間投資を続けると複利※の効果が大きくなります"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "長期投資をうまく活用することで、安定した収益の確保が期待できます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "25歳から65歳まで40年間、つみたて投資を続けて老後資金を準備する。",
+  "topics": [
+   "D2-4"
+  ]
+ },
+ {
+  "id": "tsumitate-toshi",
+  "name": "積立投資",
+  "reading": "つみたてとうし",
+  "field": "D",
+  "importance": 2,
+  "short": "一括で投資するのではなく、あらかじめ決まった金額を続けて投資する方法。少額から始められる。",
+  "detail": "価格が安いときには多く、高いときには少なく買うことになるため、買うタイミングを分散でき、高いときにだけ買ってしまうことを避けられる。一定額ずつ買い続ける方法はドルコスト平均法とも呼ばれる。給与からの自動積立にすれば、無理なく続けやすい。",
+  "related": [
+   "choki-toshi",
+   "nisa"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト 資産形成の基本",
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "一括で投資するのではなく「あらかじめ決まった金額」を「続けて」投資することです"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "少ない金額からコツコツ始めることができます"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+    "quote": "積立投資することで安いときに買わなかったり、高いときにだけ買ってしまうことを避けられます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "毎月の給料日に、給与口座から自動で1万円ずつ投資信託を買い付ける。",
+  "topics": [
+   "D2-4"
+  ]
+ },
+ {
+  "id": "genpon-hosho",
+  "name": "元本保証",
+  "reading": "げんぽんほしょう",
+  "field": "D",
+  "importance": 3,
+  "short": "投資した元本が減らないことが保証されていること。預金には預金保険による保護があるが、株式や投資信託などの運用商品に元本保証はない。",
+  "detail": "預金は、金融機関が破綻しても預金保険制度によって一定範囲が保護される。これに対し、運用商品の価格は変動し、元本割れがあり得るのが前提である。そのため、登録を受けた業者であっても「元本保証」「絶対に儲かる」と説明して勧誘することは禁じられており、そうしたうたい文句は詐欺的な勧誘を疑うサインになる。",
+  "related": [
+   "toshi-sagi",
+   "risk-return",
+   "yokin-hoken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 アクセスFSA 詐欺的な投資勧誘等への注意喚起",
+    "url": "https://www.fsa.go.jp/access/27/152b.html"
+   },
+   {
+    "title": "金融庁 預金保険制度",
+    "url": "https://www.fsa.go.jp/policy/payoff/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/access/27/152b.html",
+    "quote": "「元本保証」「絶対に儲かる」などと説明して勧誘することは、禁じられています"
+   },
+   {
+    "url": "https://www.fsa.go.jp/policy/payoff/",
+    "quote": "預金保険制度は、万が一金融機関が破綻した場合に、預金者等の保護や資金決済の履行の確保を図ることによって、信用秩序を維持することを目的としています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "「元本保証で年利10％」とSNSで勧誘された投資話は、詐欺の可能性が高い。",
+  "cautions": [
+   "「元本保証」「絶対に儲かる」などと説明して勧誘することは、禁じられている"
+  ],
+  "topics": [
+   "D2-6"
+  ]
+ },
+ {
+  "id": "toshi-sagi",
+  "name": "詐欺的な投資勧誘",
+  "reading": "さぎてきなとうしかんゆう",
+  "field": "D",
+  "importance": 2,
+  "short": "未公開株やファンドなどを装い、「確実にもうかる」などと偽ってお金をだまし取る投資勧誘。",
+  "detail": "金融庁や証券取引等監視委員会の職員を装う劇場型の手口や、SNSで知り合った相手から投資に誘われる手口もある。勧誘する業者が金融庁（財務局）の登録を受けているかを確認し、取引内容を十分に理解できないものには手を出さない。不審に思ったら、取引を見合わせ、金融庁の相談室や消費生活センターに相談する。",
+  "related": [
+   "genpon-hosho",
+   "tokushu-sagi"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "金融庁 アクセスFSA 詐欺的な投資勧誘等への注意喚起",
+    "url": "https://www.fsa.go.jp/access/27/152b.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/access/27/152b.html",
+    "quote": "「未公開株」や「ファンド」取引に関する詐欺的な投資勧誘が多発しています"
+   },
+   {
+    "url": "https://www.fsa.go.jp/access/27/152b.html",
+    "quote": "実際に投資を行うかどうかの判断は、取引内容を十分に理解した上で行うことが重要です"
+   },
+   {
+    "url": "https://www.fsa.go.jp/access/27/152b.html",
+    "quote": "少しでも不審に思った場合には、取引を見合わせることを含めて、慎重に対応することをお勧めします"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "著名人を名乗るSNS広告から偽の投資アプリに誘導され、入金したお金が引き出せなくなる。",
+  "topics": [
+   "D2-6"
+  ]
+ },
+ {
+  "id": "seimei-hoken",
+  "name": "生命保険",
+  "reading": "せいめいほけん",
+  "field": "D",
+  "importance": 3,
+  "short": "大勢の加入者があらかじめ公平に保険料を負担しあい、死亡や病気・ケガなどの「もしも」が起きたときに給付を受ける仕組み。",
+  "detail": "自分や家族を守る「生活保障」の手段で、死亡や病気・ケガ、介護など、いつ起きるかわからないが起きるとまとまったお金が必要になる場合に備える。主な種類に、一定期間の死亡保障である定期保険、一生涯の終身保険、死亡保障と満期保険金を組み合わせた養老保険、入院・手術に備える医療保険がある。子どもの教育費や老後の生活資金など、将来の資金の準備にも利用できる。",
+  "related": [
+   "teiki-hoken",
+   "shushin-hoken",
+   "iryo-hoken",
+   "hoken-ryo",
+   "taisu-no-hosoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "生命保険文化センター 生命保険とは",
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "生命保険は、大勢の加入者があらかじめ公平に保険料を負担しあい、「もしも」のことが現実に起きたときに給付を受ける仕組みです"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "このようないつ起きるかわからないけれども、いったん起きるとまとまったお金が必要となるような場合に備えておくのが生命保険なのです"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "生命保険は自分や家族を守る「生活保障」の手段です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "子どもが生まれたのを機に、一家の大黒柱の死亡に備えて定期保険に加入する。",
+  "topics": [
+   "D3-2"
+  ]
+ },
+ {
+  "id": "hoken-ryo",
+  "name": "保険料",
+  "reading": "ほけんりょう",
+  "field": "D",
+  "importance": 3,
+  "short": "契約者が保障を得る対価として保険会社に払い込むお金。万一のときには、保険金や給付金として受け取る側に回る。",
+  "detail": "生命保険では、被保険者が死亡・高度障害状態のとき、または満期まで生存したときに支払われるお金を保険金、入院や手術のときに支払われるお金を給付金という。保険料は、事故や病気の起こりやすさ（リスク）の大きさなどに応じて決められ、リスクが高いほど高くなる（公平の原則）。集められた保険料の総額と支払われる保険金の総額が等しくなるように計算される（収支相等の原則）。",
+  "related": [
+   "seimei-hoken",
+   "shushi-soto",
+   "taisu-no-hosoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "生命保険文化センター 生命保険とは",
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "契約者が保障を得る対価として生命保険会社に払い込むお金"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "被保険者が死亡・高度障害状態のとき、または満期まで生存したときに生命保険会社から受取人に支払われるお金"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "被保険者が入院したとき、手術をしたときなどに生命保険会社から受取人に支払われるお金"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "月5,000円の保険料を払い続け、入院したときに給付金を受け取る。",
+  "topics": [
+   "D3-1"
+  ]
+ },
+ {
+  "id": "shushi-soto",
+  "name": "収支相等の原則",
+  "reading": "しゅうしそうとうのげんそく",
+  "field": "D",
+  "importance": 3,
+  "short": "集団全体で支払う保険料の総額と、支払われる保険金の総額が等しくなるように保険料を算出する原則。",
+  "detail": "保険は、加入者全員が支払った保険料の総額（収入）と、事故によって支払う保険金の総額（支出）が等しくなるように設計される。実際の運営では、これに保険会社の経費などが加わる。あわせて、保険料は一律ではなく、事故の確率の高低によって水準を変える公平の原則も、保険の仕組みを支えている。",
+  "related": [
+   "taisu-no-hosoku",
+   "hoken-ryo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "総務省消防庁 防災危機管理eカレッジ 保険のしくみの5つの法則",
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html",
+    "quote": "「収支相等の原則」とは、保険の支払対象となるリスクを持った集団の構成員が支払う保険料の総額は支払われる保険金の総額に等しくなければならないということ"
+   },
+   {
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html",
+    "quote": "保険に加入している人すべてが支払った保険料の総額（収入）と保険会社が事故によって支払う補償（これを保険金といいます。）の総額（支出）が等しくなるように算出されています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "年間に支払う保険金の見込みが総額10億円の集団では、加入者全員の保険料の総額も10億円になるように設定される。",
+  "formula": {
+   "name": "収支相等の原則",
+   "tex": "\\text{保険料の総額} = \\text{保険金の総額}"
+  },
+  "topics": [
+   "D3-1"
+  ]
+ },
+ {
+  "id": "songai-hoken",
+  "name": "損害保険",
+  "reading": "そんがいほけん",
+  "field": "D",
+  "importance": 3,
+  "short": "多くの人が少しずつお金を出し合い、事故や災害で損害を被ったときに補償する「相互扶助」の制度。火災保険や自動車保険が代表例。",
+  "detail": "生命保険が人の生死や病気・ケガに備えるのに対し、損害保険は偶然な事故による財産や賠償の損害に備える。契約して保険料を支払ったときから十分な補償を得られる点が、少しずつ積み立てる貯蓄との違いである（「貯蓄は三角、保険は四角」）。火災保険は、火災のほか落雷・風災・水災など住宅を取り巻くさまざまなリスクを補償する。",
+  "related": [
+   "jidousha-hoken",
+   "taisu-no-hosoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "総務省消防庁 防災危機管理eカレッジ 保険のしくみの5つの法則",
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+   },
+   {
+    "title": "日本損害保険協会 火災保険",
+    "url": "https://www.sonpo.or.jp/insurance/kasai/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html",
+    "quote": "損害保険は、ふだんから多くの人々が少しずつお金を出し合って、その中の誰かが事故や災害で損害を被ったときに、出し合ったお金で補償する「相互扶助」の精神から生まれた助け合いの制度です"
+   },
+   {
+    "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html",
+    "quote": "損害保険は、契約して保険料を支払ったときから十分な補償を得ることができます"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/kasai/index.html",
+    "quote": "火災保険は、住宅を取り巻くさまざまなリスクを総合的に補償するタイプ（住宅総合保険）とベーシックな補償のタイプ（住宅火災保険）に大きく分かれます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "台風で自宅の屋根が壊れたときに、火災保険から修理費用が支払われる。",
+  "topics": [
+   "D3-3"
+  ]
+ },
+ {
+  "id": "jidousha-hoken",
+  "name": "任意自動車保険",
+  "reading": "にんいじどうしゃほけん",
+  "field": "D",
+  "importance": 3,
+  "short": "法律で加入が義務付けられている自賠責保険（強制保険）と、任意に加入する任意保険を組み合わせて備える保険。",
+  "detail": "自賠責保険は交通事故の被害者救済のための公的な保険で、補償は他人（被害者）の人身損害のみに限られ、金額にも限度がある。その不足を補うのが任意保険で、対人賠償保険は自賠責の補償額を超える部分を、対物賠償保険は他人の財物への損害を、車両保険は自分の車の損害を補償する。自分や同乗者のケガは人身傷害補償保険などで備える。",
+  "related": [
+   "songai-hoken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本損害保険協会 自賠責保険",
+    "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
+   },
+   {
+    "title": "日本損害保険協会 自動車保険",
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+    "quote": "自賠責保険は、交通事故による被害者を救済するため法律に基づき、すべての自動車に加入することが義務付けられている強制保険です"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+    "quote": "自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "自賠責保険の補償内容は、自動車事故に遭った他人（被害者）の人身損害のみに限定されています"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "他人を死亡させたり、ケガを負わせて法律上の損害賠償責任が生じた場合に、自賠責保険の補償額を超える部分に対し保険金が支払われます"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "偶然な事故により、自動車が損害を受けた場合に保険金が支払われます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "事故で相手をケガさせた場合、まず自賠責保険から支払われ、限度を超えた分は対人賠償保険から支払われる。",
+  "facts": [
+   "自賠責保険の補償内容は、自動車事故に遭った他人（被害者）の人身損害のみに限定されている"
+  ],
+  "topics": [
+   "D3-3"
+  ]
+ },
+ {
+  "id": "minkan-hoken",
+  "name": "民間保険",
+  "reading": "みんかんほけん",
+  "field": "D",
+  "importance": 2,
+  "short": "生命保険会社や損害保険会社が扱う保険。加入が義務の公的保険と違い、自分の必要に応じて任意に加入し、保障を上乗せする。",
+  "detail": "公的保険（社会保険）は、国民が加入を義務付けられた基礎的な保障であり、給付には一定の基準や限度がある。民間保険は、公的保険だけでは不足する分を、自分の生活設計や保障ニーズに合わせて選んで備えるためのもの。結婚・出産・子どもの独立など、ライフステージが変われば必要な保障も変わるため、加入して終わりにせず、節目ごとに見直すことが大切とされる。",
+  "related": [
+   "seimei-hoken",
+   "songai-hoken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "生命保険文化センター 保障ニーズから選ぶ生命保険",
+    "url": "https://www.jili.or.jp/knows_learns/basic/needs.html"
+   },
+   {
+    "title": "生命保険文化センター 生命保険とは",
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/needs.html",
+    "quote": "保険選びのポイントは、自分の生活設計からみて、今の、そして将来の保障ニーズと保険の種類が適合していることが大切です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/needs.html",
+    "quote": "まず、どんな保障が必要か確認することが先決です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html",
+    "quote": "生命保険は自分や家族を守る「生活保障」の手段です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "公的な医療保険で医療費の自己負担は3割に抑えられるが、入院中の収入減少に備えて民間の医療保険で上乗せする。",
+  "topics": [
+   "D3-4"
+  ]
+ },
+ {
+  "id": "shakai-hoken",
+  "name": "社会保険",
+  "reading": "しゃかいほけん",
+  "field": "E",
+  "importance": 3,
+  "short": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合って給付を受ける強制加入の公的保険制度の総称。",
+  "detail": "社会保障制度の中核をなす仕組み。医療保険（健康保険・国民健康保険）、年金保険（国民年金・厚生年金）、介護保険が代表的な柱で、雇用保険・労災保険（労働保険）とあわせて働く人と家族の生活を支える。保険料の負担を前提に給付を行う点が、税を財源とする公的扶助と異なる。",
+  "related": [
+   "shakai-hosho",
+   "kenko-hoken",
+   "kouteki-nenkin-seido",
+   "kaigo-hihokensha",
+   "koyo-hoken",
+   "rosai-hoken"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "国が管理・運営する公的年金には「国民年金」と「厚生年金」があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員は給与から健康保険料と厚生年金保険料が天引きされ、病気のときは医療の給付、老後は年金の給付を受ける",
+  "facts": [
+   "社会保障制度は社会保険・社会福祉・公的扶助・保健医療・公衆衛生の4つの分野から構成され、社会保険はその中心である"
+  ],
+  "cautions": [
+   "税金でまかなう生活保護（公的扶助）とは、財源も考え方も異なる"
+  ]
+ },
+ {
+  "id": "kenko-hoken",
+  "name": "健康保険",
+  "reading": "けんこうほけん",
+  "field": "E",
+  "importance": 3,
+  "short": "会社員などが加入する公的医療保険。業務外の病気・けが、出産、死亡に給付を行う。",
+  "detail": "日本の医療保険制度は職域によって加入する制度が異なり、会社や工場、商店などで働く人が加入するのが健康保険で、自営業者などが加入する国民健康保険と並ぶ柱である。被保険者の疾病又は負傷に関しては、診察、薬剤又は治療材料の支給、処置、手術その他の治療などの療養の給付（現物給付）が行われる。療養の給付を受ける者は、保険医療機関又は保険薬局の窓口で一部負担金を支払う。傷病手当金や出産手当金などの現金給付もある。",
+  "related": [
+   "kokumin-kenko-hoken",
+   "koki-koreisha-iryo-seido",
+   "shobyo-teatekin",
+   "shussan-teatekin",
+   "hokensha"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "全国健康保険協会（協会けんぽ） 健康保険制度の概要",
+    "url": "https://www.kyoukaikenpo.or.jp/about/business/overview/"
+   },
+   {
+    "title": "Wikipedia「療養の給付」（健康保険法63条・74条の条文に基づく解説。2026-11-25時点で協会けんぽ・e-Gov法令ページに到達できなかったため条文引用で裏づける）",
+    "url": "https://ja.wikipedia.org/wiki/%E7%99%82%E9%A4%8A%E3%81%AE%E7%B5%A6%E4%BB%98"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.kyoukaikenpo.or.jp/about/business/overview/",
+    "quote": "大きく分けると、農業や自営業を営む人たちが加入する「国民健康保険」と、会社や工場、商店などで働く人が加入する『健康保険』になります"
+   },
+   {
+    "url": "https://www.kyoukaikenpo.or.jp/about/business/overview/",
+    "quote": "業務外の病気・けが、出産、死亡"
+   },
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E7%99%82%E9%A4%8A%E3%81%AE%E7%B5%A6%E4%BB%98",
+    "quote": "被保険者の疾病又は負傷に関しては、次に掲げる療養の給付（現物給付）を行う（第63条1項）"
+   },
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E7%99%82%E9%A4%8A%E3%81%AE%E7%B5%A6%E4%BB%98",
+    "quote": "薬剤又は治療材料の支給処置、手術その他の治療"
+   },
+   {
+    "url": "https://ja.wikipedia.org/wiki/%E7%99%82%E9%A4%8A%E3%81%AE%E7%B5%A6%E4%BB%98",
+    "quote": "療養の給付を受ける者は、その給付を受ける際、以下の区分に応じ、当該給付につき所定の算定額に当該各号に定める割合を乗じて得た額を、一部負担金として、当該保険医療機関又は保険薬局に支払わなければならない（第74条、施行令第34条）"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員のAさんが休日にけがをして病院にかかったとき、窓口で一部負担金を払い、残りの医療費は健康保険が負担する",
+  "facts": [
+   "運営する保険者は全国健康保険協会（協会けんぽ）と健康保険組合である"
+  ],
+  "cautions": [
+   "業務上・通勤途中のけがは労災保険の対象で、健康保険の給付対象（業務外）にはならない"
+  ]
+ },
+ {
+  "id": "kouteki-nenkin-seido",
+  "name": "公的年金制度",
+  "reading": "こうてきねんきんせいど",
+  "field": "E",
+  "importance": 3,
+  "short": "国民年金（1階）と厚生年金（2階）の「2階建て」で、老後・障害・死亡に備える公的年金。",
+  "detail": "我が国の公的年金制度は「国民皆年金」という特徴を持ち、20歳以上の人が共通して加入する国民年金と、会社員や公務員等が加入する厚生年金による、いわゆる「2階建て」と呼ばれる構造になっている。老後には、全ての人が老齢基礎年金を、厚生年金に加入していた人はそれに加えて老齢厚生年金を受けることができる。専業主婦（夫）などの国民年金の第3号被保険者は、自ら保険料を納める必要はなく、その費用は第3号被保険者の配偶者が加入する厚生年金から拠出される。",
+  "related": [
+   "kokumin-nenkin",
+   "kosei-nenkin-hoken",
+   "rorei-kiso-nenkin",
+   "rorei-kosei-nenkin",
+   "hihokensha-shubetsu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 年金制度の仕組みと考え方 第3 公的年金制度の体系",
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "我が国の公的年金制度は、「国民皆年金」という特徴を持っており、①20歳以上の人が共通して加入する国民年金と、②会社員や公務員等が加入する厚生年金による、いわゆる「２階建て」と呼ばれる構造になっている"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "老後には、全ての人が老齢基礎年金を、厚生年金に加入していた人は、それに加えて、老齢厚生年金を受けることができる"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "専業主婦（夫）などの国民年金の第３号被保険者は、自ら保険料を納める必要はなく、その費用は第３号被保険者の配偶者が加入する厚生年金から拠出される"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員の老後の年金は、国民年金の老齢基礎年金に厚生年金の老齢厚生年金が上乗せされる",
+  "compare": [
+   "1階＝国民年金（基礎年金）：日本国内に住む20歳以上60歳未満の全ての人が加入",
+   "2階＝厚生年金：適用事業所で働く会社員・公務員等が加入"
+  ]
+ },
+ {
+  "id": "kokumin-nenkin",
+  "name": "国民年金",
+  "reading": "こくみんねんきん",
+  "field": "E",
+  "importance": 3,
+  "short": "日本国内に住む20歳以上60歳未満の全ての人が加入する、公的年金の基礎（1階）部分。",
+  "detail": "日本国内に住んでいる20歳以上60歳未満の方で、厚生年金保険に加入していない方は、すべて国民年金の第1号被保険者または第3号被保険者となる。国民年金第1号被保険者は毎月、保険料を納める必要がある。60歳以上で老齢基礎年金の受給資格期間を満たしていない方などは、65歳になるまで国民年金に任意加入することができる場合がある。",
+  "related": [
+   "kouteki-nenkin-seido",
+   "kosei-nenkin-hoken",
+   "rorei-kiso-nenkin",
+   "hihokensha-shubetsu",
+   "hihokensha"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 国民年金の加入手続き",
+    "url": "https://www.nenkin.go.jp/service/kokunen/kanyu/20140710-04.html"
+   },
+   {
+    "title": "厚生労働省 年金制度の仕組みと考え方 第3 公的年金制度の体系",
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/kanyu/20140710-04.html",
+    "quote": "日本国内に住んでいる20歳以上60歳未満の方で、厚生年金保険に加入していない方は、すべて国民年金の第1号被保険者または第3号被保険者となります"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/kanyu/20140710-04.html",
+    "quote": "国民年金第1号被保険者は毎月、保険料を納める必要があります"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "日本国内に住む20歳以上60歳未満の人は、全て国民年金の被保険者となる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "大学生も20歳になると国民年金の被保険者になり、保険料の納付（または学生納付特例の申請）が必要になる",
+  "cautions": [
+   "第3号被保険者（第2号被保険者の被扶養配偶者）は自分で保険料を納めなくてよい"
+  ]
+ },
+ {
+  "id": "kosei-nenkin-hoken",
+  "name": "厚生年金保険",
+  "reading": "こうせいねんきんほけん",
+  "field": "E",
+  "importance": 3,
+  "short": "会社員・公務員等が国民年金に上乗せして加入する公的年金（2階部分）。",
+  "detail": "適用事業所において使用されている人が厚生年金の被保険者となる。保険料は、給与や賞与に、定められた厚生年金保険料率（18.3％）で計算した額を事業主と折半で負担する。加入していた人は、老後に老齢基礎年金に加えて老齢厚生年金を受けることができる。",
+  "related": [
+   "kokumin-nenkin",
+   "kouteki-nenkin-seido",
+   "rorei-kosei-nenkin",
+   "hihokensha-shubetsu"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "厚生労働省 年金制度の仕組みと考え方 第3 公的年金制度の体系",
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "適用事業所において使用されている人が厚生年金の被保険者となる"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/nenkin_shikumi_03.html",
+    "quote": "定められた厚生年金保険料率（18.3％）で計算した額を事業主と折半で負担する"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員の給与明細では厚生年金保険料が天引きされ、同額を会社も負担している",
+  "facts": [
+   "保険料は事業主と被保険者が折半で負担する（労使折半）"
+  ]
+ },
+ {
+  "id": "kaigo-hihokensha",
+  "name": "介護保険の被保険者（第1号・第2号）",
+  "reading": "かいごひほけんしゃ",
+  "field": "E",
+  "importance": 2,
+  "short": "65歳以上の方が第1号被保険者、40歳から64歳の方が第2号被保険者。",
+  "detail": "介護保険は、介護が必要な状態になった高齢者が、自立した生活ができるよう高齢者の介護を社会全体で支え合うことを目的に始まった制度で、介護保険制度の運営は各市町村が行う。被保険者は2つの区分に分かれ、65歳以上の方は第1号被保険者、40歳から64歳の方は第2号被保険者となる。介護を社会全体で支えるため、原則として加入者全員が保険料を納める。",
+  "related": [
+   "kaigo-hoken",
+   "yokaigo-nintei"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "大阪府 介護保険FAQ 介護保険制度の概要",
+    "url": "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html"
+   },
+   {
+    "title": "長野県 介護保険制度の概要",
+    "url": "https://www.pref.nagano.lg.jp/kaigo-shien/kenko/koureisha/kaigo/kaigo.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html",
+    "quote": "介護保険は、介護が必要な状態になった高齢者が、自立した生活ができるよう高齢者の介護を社会全体で支え合うことを目的に平成12年4月から始まった制度で、介護保険制度の運営は、各市町村が行います"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/faq/o090090/faq_000446.html",
+    "quote": "被保険者は、2つの区分にわかれ、65歳以上の方は第1号被保険者、40歳から64歳の方は第2号被保険者となります"
+   },
+   {
+    "url": "https://www.pref.nagano.lg.jp/kaigo-shien/kenko/koureisha/kaigo/kaigo.html",
+    "quote": "介護を社会全体で支えるため、原則として加入者全員が保険料を納めます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "40歳になると介護保険の第2号被保険者となり、医療保険の保険料とあわせて介護保険料を納め始める",
+  "cautions": [
+   "第2号被保険者が介護サービスを受けられるのは、老化に起因する特定疾病が原因で介護が必要になった場合に限られる"
+  ]
+ },
+ {
+  "id": "shotokuzei",
+  "name": "所得税",
+  "reading": "しょとくぜい",
+  "field": "E",
+  "importance": 3,
+  "short": "個人の1年間の所得にかかる国税。所得が高いほど税率が高くなる累進税率を採用している。",
+  "detail": "所得税は、会社からもらう給料や、自分で商売をして稼いだお金などにかかる税金である。1年分の収入から必要経費などにあたる額を差し引いた残りの金額が所得税の額を計算するもとになる「所得」で、家族構成など本人を取り巻く状況に応じて所得控除を差し引いた後の金額（課税所得）に税率をかける。所得税の税率は、分離課税に対するものなどを除くと、5パーセントから45パーセントの7段階に区分されており、控除後の所得が高い部分ほど、適用される税率は高くなる仕組み（累進税率）になっている。",
+  "related": [
+   "shotoku-kojo",
+   "shotoku-10shu",
+   "chouka-ruishin-zeiritsu",
+   "kyuyo-shotoku",
+   "kakutei-shinkoku"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "財務省 税に関するQ&A 所得税",
+    "url": "http://www.mof.go.jp/tax_information/qanda018.html"
+   },
+   {
+    "title": "国税庁 No.2260 所得税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "http://www.mof.go.jp/tax_information/qanda018.html",
+    "quote": "所得税は、会社からもらう給料や、自分で商売をして稼いだお金などにかかる税金です"
+   },
+   {
+    "url": "http://www.mof.go.jp/tax_information/qanda018.html",
+    "quote": "控除後の所得が高い部分ほど、適用される税率は高くなる仕組みになっています（「累進税率」といいます）"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "所得税の税率は、分離課税に対するものなどを除くと、5パーセントから45パーセントの7段階に区分されています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "給与収入600万円の会社員は、給与所得控除と所得控除を差し引いた残りの金額に税率をかけて所得税を計算する",
+  "formula": {
+   "name": "課税所得金額",
+   "tex": "\\text{所得金額} - \\text{所得控除の額}"
+  }
+ },
+ {
+  "id": "shotoku-kojo",
+  "name": "所得控除",
+  "reading": "しょとくこうじょ",
+  "field": "E",
+  "importance": 2,
+  "short": "所得税額の計算で、所得金額から差し引くことができる控除の総称。",
+  "detail": "所得税法では所得控除の制度を設けている。これは、所得税額を計算するうえで、社会政策上の要請によるもの、各納税者の個人的事情への考慮や最低生活費を保障するためのものなど、税負担面での調整を行う趣旨から設けられているものである。それぞれの所得控除の要件に当てはまる場合には、各種所得の金額の合計額から各種所得控除の額の合計額を差し引き、所得税額はその残りの金額を基礎として計算される。基礎控除・配偶者控除・社会保険料控除・医療費控除などが代表例である。",
+  "related": [
+   "shotokuzei",
+   "kiso-kojo",
+   "iryohi-kojo",
+   "shakai-hoken-ryo-kojo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1100 所得控除のあらまし",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+    "quote": "所得税法では所得控除の制度を設けています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+    "quote": "これは、所得税額を計算するうえで、社会政策上の要請によるもの、各納税者の個人的事情への考慮や最低生活費を保障するためのものなど、税負担面での調整を行う趣旨から設けられているものです"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+    "quote": "それぞれの所得控除の要件に当てはまる場合には、各種所得の金額の合計額から各種所得控除の額の合計額を差し引きます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "年末調整で社会保険料控除や配偶者控除が適用されると、課税される所得が小さくなり所得税も少なくなる",
+  "cautions": [
+   "控除を受けるには、それぞれの所得控除の要件に当てはまる必要がある"
+  ]
+ },
+ {
+  "id": "kokuzei-to-chihouzei",
+  "name": "国税と地方税",
+  "reading": "こくぜいとちほうぜい",
+  "field": "E",
+  "importance": 2,
+  "short": "税金は、納める先によって国に納める国税と、地方公共団体に納める地方税に分けられる。",
+  "detail": "国税には、所得税（給与所得者や個人事業者などの個人の所得にかかる税）、法人税（株式会社などの会社の所得にかかる税）、消費税、酒税などがある。地方税は、道府県税と市町村税に大きく分かれ、住民税や固定資産税が代表例である。固定資産税は、固定資産の所有者が、その資産価値に応じて算定された税額を、固定資産の所在する市町村に納める市町村税である。",
+  "related": [
+   "chokusetsuzei-kansetsuzei",
+   "shotokuzei",
+   "kojin-juminzei",
+   "kotei-shisanzei"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国税庁 税金の分類（租税教育用教材）",
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html"
+   },
+   {
+    "title": "総務省 地方税制度 固定資産税",
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html",
+    "quote": "国税には、所得税（給与所得者や個人事業者などの個人の所得にかかる税）、法人税（株式会社などの会社の所得にかかる税）、消費税、酒税などがあります"
+   },
+   {
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html",
+    "quote": "地方税は、道府県税と市町村税に大きく分かれます"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html",
+    "quote": "固定資産税とは、こうした固定資産にかかる税金です。固定資産の所有者が、その資産価値に応じて算定された税額を、固定資産の所在する市町村に納めます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "所得税は国税、住民税は地方税（道府県民税と市町村民税）である"
+ },
+ {
+  "id": "chokusetsuzei-kansetsuzei",
+  "name": "直接税と間接税",
+  "reading": "ちょくせつぜいとかんせつぜい",
+  "field": "E",
+  "importance": 2,
+  "short": "税を負担する人と納める人が同じかどうかによる税金の分類。",
+  "detail": "直接税は、所得税や法人税のように、税を負担する人が直接、国や地方公共団体に納める税である（負担する人＝納める人）。間接税は、消費税や酒税のように、実質的に税を負担する人と、それを納める人が異なる税である（負担する人≠納める人）。このほか課税対象による分類もあり、所得課税は、所得税や法人税のように、個人や会社の利益（所得）を対象として課税される税をいう。",
+  "related": [
+   "kokuzei-to-chihouzei",
+   "shohizei",
+   "shotokuzei"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国税庁 税金の分類（租税教育用教材）",
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html",
+    "quote": "直接税は、所得税や法人税のように、税を負担する人が直接、国や地方公共団体に納める税です（負担する人＝納める人）"
+   },
+   {
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html",
+    "quote": "間接税は、消費税や酒税のように、実質的に税を負担する人と、それを納める人が異なる税です（負担する人≠納める人）"
+   },
+   {
+    "url": "https://www.nta.go.jp/about/organization/kumamoto/education/kyozai_chugaku/kagoshima/02-02zei-bunrui.html",
+    "quote": "所得課税は、所得税や法人税のように、個人や会社の利益（所得）を対象として課税される税です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "消費税は買い物をする人が負担し、お店が納める間接税の代表例である"
+ },
+ {
+  "id": "shakai-hosho",
+  "name": "社会保障",
+  "reading": "しゃかいほしょう",
+  "field": "E",
+  "importance": 3,
+  "short": "国が国民の生活を支えるためにつくられた制度の総称。年金・医療・介護・子育てなどが柱。",
+  "detail": "社会保障制度は、国民生活の安定や健康の確保を目的として、所得の保障や医療・福祉サービスの提供を行う制度の総称で、社会保険、社会福祉、公的扶助、保健医療・公衆衛生の4つの分野から構成される。中心となる社会保険は、病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度である。",
+  "related": [
+   "shakai-hoken",
+   "shotoku-saibunpai",
+   "seikatsu-hogo",
+   "kokumin-futanritsu",
+   "zeikin-no-tsukawarekata"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "「社会保障制度」は、国民生活の安定や健康の確保を目的として、所得の保障や医療・福祉サービスの提供を行う制度の総称です。社会保険、社会福祉、公的扶助、保健医療・公衆衛生の4つの分野から構成されます"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "高齢者が年金を受け取り、病院で医療を受け、介護サービスを利用できるのは社会保障の働きによる"
+ },
+ {
+  "id": "shotoku-saibunpai",
+  "name": "所得再分配",
+  "reading": "しょとくさいぶんぱい",
+  "field": "E",
+  "importance": 2,
+  "short": "税や社会保険料を集め、必要とする人に給付することで、所得の格差を縮小する働き。",
+  "detail": "税には、財源を確保する機能のほかに、所得再分配機能があり、所得の格差を縮小する役割を持つ。社会保障の分野でも、保険料を負担し合いながら医療・年金・介護などの給付を受ける社会保険や、生活に困窮する人に対し健康で文化的な最低限度の生活を保障し、自立を支援する公的扶助（生活保護）などを通じて、所得の移転（再分配）が行われている。",
+  "related": [
+   "shakai-hosho",
+   "kokumin-futanritsu",
+   "seikatsu-hogo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "財務省 広報誌ファイナンス2023年12月号 日本の財政について",
+    "url": "https://www.mof.go.jp/public_relations/finance/denshi/202312/pageindices/index15.html"
+   },
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mof.go.jp/public_relations/finance/denshi/202312/pageindices/index15.html",
+    "quote": "税にはこうした財源確保機能の他、所得再分配機能や経済安定化機能といった大切な役割もあります"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "所得の多い人が多く税を負担し、生活に困る人が生活保護を受けるのは所得再分配の一例である"
+ },
+ {
+  "id": "kokumin-futanritsu",
+  "name": "国民負担率",
+  "reading": "こくみんふたんりつ",
+  "field": "E",
+  "importance": 2,
+  "short": "租税負担と社会保障負担を合わせた義務的な公的負担の、国民所得に対する比率。",
+  "detail": "「国民負担率」は、租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率である。「財政赤字を含む国民負担率」は、これに将来世代の潜在的な負担として財政赤字を加えたものである。社会保障の給付水準と負担のバランスを考えるときの代表的な指標として使われる。",
+  "related": [
+   "shakai-hosho",
+   "shotoku-saibunpai",
+   "shoshi-koreika"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "財務省 税制の資料 負担率に関する資料",
+    "url": "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm",
+    "quote": "「国民負担率」は、租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率です"
+   },
+   {
+    "url": "https://www.mof.go.jp/tax_policy/summary/condition/a04.htm",
+    "quote": "「財政赤字を含む国民負担率」は、これに将来世代の潜在的な負担として財政赤字を加えたものです"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "給付の手厚い国は国民負担率も高くなる傾向があり、「高福祉・高負担」か「低福祉・低負担」かが議論になる",
+  "formula": {
+   "name": "国民負担率",
+   "tex": "\\frac{\\text{租税負担} + \\text{社会保障負担}}{\\text{国民所得}} \\times 100"
+  }
+ },
+ {
+  "id": "shoshi-koreika",
+  "name": "少子高齢化",
+  "reading": "しょうしこうれいか",
+  "field": "E",
+  "importance": 2,
+  "short": "子どもの数が減り（少子化）、高齢者の割合が増える（高齢化）という人口構造の変化。",
+  "detail": "我が国は既に人口減少時代に突入し、かつて経験したことのない人口減少・少子高齢化が進行しつつある。高齢化による医療・社会保障関係費の急増、財政赤字の深刻化と相まって、生産年齢人口の減少等による供給制約が顕在化し、社会保障の給付と負担のバランスを難しくしている。",
+  "related": [
+   "shakai-hosho",
+   "kokumin-futanritsu",
+   "kouteki-nenkin-seido"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "環境省 平成29年版 環境・循環型社会・生物多様性白書 我が国が直面する社会経済の課題",
+    "url": "https://www.env.go.jp/policy/hakusyo/h29/html/hj17010301.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.env.go.jp/policy/hakusyo/h29/html/hj17010301.html",
+    "quote": "我が国は既に人口減少時代に突入し、かつて経験したことのない人口減少・少子高齢化が進行しつつあります"
+   },
+   {
+    "url": "https://www.env.go.jp/policy/hakusyo/h29/html/hj17010301.html",
+    "quote": "高齢化による医療・社会保障関係費の急増、財政赤字の深刻化と相まって、生産年齢人口の減少等による供給制約が顕在化し"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "少子高齢化が進むと、年金を支える現役世代が減り、給付を受ける高齢者が増える"
+ },
+ {
+  "id": "seikatsu-hogo",
+  "name": "生活保護",
+  "reading": "せいかつほご",
+  "field": "E",
+  "importance": 2,
+  "short": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する公的扶助の制度。",
+  "detail": "日本国憲法は「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」と定めている。生活保護では、厚生労働大臣の定める基準に基づいて計算される世帯の最低生活費と収入を比較して、収入が最低生活費に満たない場合に、不足分が保護費として支給される。生活扶助は衣食、光熱水費などの日常生活に必要な費用に対する扶助である。税を財源とし、保険料の負担を前提としない点で社会保険と異なる「公助」の制度である。",
+  "related": [
+   "shakai-hosho",
+   "shotoku-saibunpai"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "仙台市 生活保護",
+    "url": "https://www.city.sendai.jp/hogoshien/kurashi/tetsuzuki/sekatsu/sekatsu/sekatsuhogo.html"
+   },
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.city.sendai.jp/hogoshien/kurashi/tetsuzuki/sekatsu/sekatsu/sekatsuhogo.html",
+    "quote": "日本国憲法は「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」と定めており"
+   },
+   {
+    "url": "https://www.city.sendai.jp/hogoshien/kurashi/tetsuzuki/sekatsu/sekatsu/sekatsuhogo.html",
+    "quote": "厚生労働大臣の定める基準に基づいて計算される世帯の最低生活費と収入を比較して、収入が最低生活費に満たない場合に、不足分が保護費として支給されます"
+   },
+   {
+    "url": "https://www.city.sendai.jp/hogoshien/kurashi/tetsuzuki/sekatsu/sekatsu/sekatsuhogo.html",
+    "quote": "生活扶助……衣食、光熱水費などの日常生活に必要な費用"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "病気で働けず収入が最低生活費を下回る世帯には、不足分が生活保護費として支給される"
+ },
+ {
+  "id": "zeikin-no-tsukawarekata",
+  "name": "税金の使われ方",
+  "reading": "ぜいきんのつかわれかた",
+  "field": "E",
+  "importance": 1,
+  "short": "国の支出の約7割は社会保障関係費・国債費・地方交付税交付金等。社会保障関係費は年金・医療・介護などの費用。",
+  "detail": "国の予算の使い方は、国会で決められており、全て国民のために税金を使っている。国の支出の約7割を、社会保障関係費・国債費（借金の返済と利子の支払い）・地方交付税交付金等で占めている。社会保障関係費は、年金・医療・介護など社会保障のための費用である。税金はこのほか公共事業や教育、防衛など、国や地方公共団体が国民のために行う活動全般を支えている。",
+  "related": [
+   "shakai-hosho",
+   "kokuzei-to-chihouzei"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国税庁 税の学習コーナー これからの社会と税 国の財政（3）",
+    "url": "https://www.nta.go.jp/taxes/kids/oyo/page13.htm"
+   },
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/kids/oyo/page13.htm",
+    "quote": "国の予算の使い方は、国会で決めれられており、全て国民のために税金を使っています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/kids/oyo/page13.htm",
+    "quote": "国の支出の約7割を、社会保障関係費・国債費（借金の返済と利子の支払い）・地方交付税交付金等で占めています"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "納めた税金は、年金や医療などの社会保障を通じて、形を変えて国民の生活に戻ってくる"
+ },
+ {
+  "id": "shakai-fukushi",
+  "name": "社会福祉",
+  "reading": "しゃかいふくし",
+  "field": "E",
+  "importance": 2,
+  "short": "高齢者、障害者、子ども、ひとり親家庭など、生活上の困難を抱える人が安心して暮らせるよう公的な支援・サービスを提供する分野。",
+  "detail": "社会保障制度を構成する4つの分野（社会保険、社会福祉、公的扶助、保健医療・公衆衛生）のひとつ。保険料の負担を前提とする社会保険や、最低限度の生活を保障する公的扶助と並び、支援を必要とする人への福祉サービスを担う。",
+  "related": [
+   "shakai-hosho",
+   "seikatsu-hogo",
+   "kouteki-fujo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "高齢者、障害者、子ども、ひとり親家庭など、生活上の困難を抱える人が安心して暮らせるよう公的な支援・サービスを提供する制度"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "社会保険、社会福祉、公的扶助、保健医療・公衆衛生の4つの分野から構成されます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "障害のある人への福祉サービスの提供や、ひとり親家庭への支援などが社会福祉にあたる"
+ },
+ {
+  "id": "kouteki-fujo",
+  "name": "公的扶助",
+  "reading": "こうてきふじょ",
+  "field": "E",
+  "importance": 2,
+  "short": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する分野。代表例は生活保護制度。",
+  "detail": "社会保障制度を構成する4つの分野のひとつ。税金を財源とし、保険料の負担を前提としない点で社会保険と異なる。生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度であり、具体的な制度として生活保護制度がある。",
+  "related": [
+   "seikatsu-hogo",
+   "shakai-hosho",
+   "kyosai-to-kojo"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "生活保護制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "収入が最低生活費に満たない世帯に不足分を支給する生活保護は、公的扶助の代表例である"
+ },
+ {
+  "id": "kyosai-to-kojo",
+  "name": "共助と公助",
+  "reading": "きょうじょとこうじょ",
+  "field": "E",
+  "importance": 1,
+  "short": "社会保障を支える考え方。共助は保険料を負担し合って共同でリスクに備える仕組み、公助は生活困窮者に最低限度の生活を保障する仕組み。",
+  "detail": "「共助」の中心は社会保険で、病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度である。加入者が保険料を出し合って共同でリスクに備える点が共助の特徴である。「公助」の代表は公的扶助で、生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度であり、具体的な制度として生活保護制度がある。自分自身で備える「自助」とあわせ、社会保障制度を支える基本的な考え方とされる。",
+  "related": [
+   "shakai-hoken",
+   "seikatsu-hogo",
+   "shakai-hosho"
+  ],
+  "grades": [
+   "lit"
+  ],
+  "sources": [
+   {
+    "title": "国立国会図書館 レファレンス協同データベース 社会保障制度・社会保険について調べる",
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "病気・けが・老後・失業などのリスクに備え、保険料を負担し合いながら医療・年金・介護などの給付を受ける強制加入の制度"
+   },
+   {
+    "url": "https://crd.ndl.go.jp/reference/entry/manual/show?asc=desc&id=2000029121&lsmp=1&mcmd=25&page=man_view&rnk=1&st=update",
+    "quote": "生活に困窮する人に対し、健康で文化的な最低限度の生活を保障し、自立を支援する制度"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-11-25",
+  "lawBaseDate": "2026-04-01",
+  "example": "会社員が保険料を出し合って病気や老後に備える健康保険・年金は共助、税金で最低限度の生活を保障する生活保護は公助である"
  }
 ]

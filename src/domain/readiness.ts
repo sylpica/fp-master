@@ -17,6 +17,8 @@ export interface ReadinessInput {
   reviewCompletion: number | null;
   /** 合格基準の得点率（学科 0.6、実技 0.6） */
   passRate: number;
+  /** 対象分野（未指定はFPの6分野） */
+  fields?: FieldId[];
 }
 
 export type ReadinessLevel = 'insufficient' | 'early' | 'building' | 'near' | 'ready';
@@ -35,8 +37,10 @@ export const MIN_RECENT = 30;
 const MIN_FIELD = 5;
 
 export function estimateReadiness(inp: ReadinessInput): ReadinessResult {
+  const fieldIds = inp.fields ?? FIELD_IDS;
   const fieldRates = {} as Record<FieldId, number | null>;
-  for (const f of FIELD_IDS) {
+  for (const f of FIELD_IDS) fieldRates[f] = null;
+  for (const f of fieldIds) {
     const xs = inp.recent.filter((r) => r.field === f);
     fieldRates[f] = xs.length >= MIN_FIELD ? xs.filter((x) => x.correct).length / xs.length : null;
   }
@@ -46,7 +50,7 @@ export function estimateReadiness(inp: ReadinessInput): ReadinessResult {
     return { level: 'insufficient', label: 'データ不足', score: null, fieldRates, weakFields: [], notes };
   }
   const recentRate = inp.recent.filter((r) => r.correct).length / inp.recent.length;
-  const cov = FIELD_IDS.reduce((s, f) => s + inp.coverage[f], 0) / FIELD_IDS.length;
+  const cov = fieldIds.reduce((s, f) => s + (inp.coverage[f] ?? 0), 0) / fieldIds.length;
   const mock = inp.mockRates.length ? inp.mockRates.slice(0, 3).reduce((a, b) => a + b, 0) / Math.min(3, inp.mockRates.length) : null;
 
   // 加重平均（重みは独自設定）。模擬試験がなければ正答率と網羅率のみ
@@ -57,8 +61,8 @@ export function estimateReadiness(inp: ReadinessInput): ReadinessResult {
   }
   score = Math.max(0, Math.min(1, score));
 
-  const weakFields = FIELD_IDS.filter((f) => fieldRates[f] !== null && fieldRates[f]! < inp.passRate);
-  const unlearned = FIELD_IDS.filter((f) => inp.coverage[f] < 0.2);
+  const weakFields = fieldIds.filter((f) => fieldRates[f] !== null && fieldRates[f]! < inp.passRate);
+  const unlearned = fieldIds.filter((f) => (inp.coverage[f] ?? 0) < 0.2);
   if (unlearned.length) notes.push(`学習が進んでいない分野があります：${unlearned.join('・')}`);
   if (mock === null) notes.push('模擬試験の成績がないため、演習の正答率と網羅率のみで推定しています。');
   notes.push('この到達度は学習データからの目安であり、合格確率ではありません。');

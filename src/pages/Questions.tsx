@@ -7,7 +7,7 @@ import { recordAttempt, toggleFlag } from '../db/repo';
 import { ratingFromAnswer } from '../domain/srs';
 import { scoreQuestion, type Responses } from '../domain/scoring';
 import { compareQuestionOrder } from '../domain/selection';
-import { EXAM_SPECS, FIELD_IDS, FIELDS } from '../domain/exam';
+import { EXAM_SPECS, fieldIdsFor, fieldsFor } from '../domain/exam';
 import type { FieldId } from '../domain/types';
 import { useSettings } from '../state/settings';
 import { useExamKey, useUserState } from '../ui/hooks';
@@ -39,7 +39,7 @@ export function QuestionListPage() {
   const examSets = sets.filter((s) => s.exam === exam);
   return (
     <div className="space-y-4">
-      <PageTitle sub={`${EXAM_SPECS[exam].label}：${list.length}問`}>過去問一覧</PageTitle>
+      <PageTitle sub={`${EXAM_SPECS[exam].label}：${list.length}問`}>{exam === 'lit' ? '問題一覧' : '過去問一覧'}</PageTitle>
       <div className="grid gap-2 sm:grid-cols-3">
         <select className="input" value={set} onChange={(e) => setSet(e.target.value)} aria-label="公表回">
           <option value="">すべての回</option>
@@ -51,9 +51,9 @@ export function QuestionListPage() {
         </select>
         <select className="input" value={field} onChange={(e) => setField(e.target.value as FieldId | '')} aria-label="分野">
           <option value="">すべての分野</option>
-          {FIELD_IDS.map((f) => (
+          {fieldIdsFor(exam).map((f) => (
             <option key={f} value={f}>
-              {FIELDS[f].name}
+              {fieldsFor(exam)[f].name}
             </option>
           ))}
         </select>
@@ -70,7 +70,7 @@ export function QuestionListPage() {
                 <Link to={`/q/${x.id}`} className="block min-h-14 px-4 py-3">
                   <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
                     <span>{x.source.kind === 'official' ? `${x.source.yearMonth} 問${x.source.number}` : 'オリジナル'}</span>
-                    <FieldBadge field={x.field} />
+                    <FieldBadge field={x.field} exam={x.exam} />
                     {x.requiresCalculation && <span className="badge bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100">計算</span>}
                     {x.status !== 'verified' && <span className="badge bg-rose-100 text-rose-800">隔離中</span>}
                     {st && <span className={st.lastCorrect ? 'text-emerald-700' : 'text-rose-700'}>{st.lastCorrect ? '○' : '×'} {st.correct}/{st.attempts}</span>}

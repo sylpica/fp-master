@@ -1,0 +1,852 @@
+{
+ "id": "lit_e02",
+ "exam": "lit",
+ "title": "金融リテラシー検定 E 社会保険・税金②",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-e02-01",
+   "exam": "lit",
+   "field": "E",
+   "theme": "源泉徴収と年末調整・確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.2502 源泉徴収義務者とは",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "会社が従業員に給与を支払うときは、その支払の都度、支払金額に応じた所得税等を差し引き、原則として支払った月の翌月10日までに国に納めることとされている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-2"
+  },
+  {
+   "id": "lit-e02-02",
+   "exam": "lit",
+   "field": "E",
+   "theme": "源泉徴収と年末調整・確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.2662 年末調整のしかた",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2662.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "年末調整とは、1年間に源泉徴収をした所得税等の合計額と、その人が1年間に納めるべき所得税等の額を一致させるための手続である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-2"
+  },
+  {
+   "id": "lit-e02-03",
+   "exam": "lit",
+   "field": "E",
+   "theme": "源泉徴収と年末調整・確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.2024 確定申告を忘れたとき",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "所得税の確定申告は、毎年1月1日から12月31日までの1年間に生じた所得について、翌年の2月16日から3月15日までの間に行うこととされている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-2"
+  },
+  {
+   "id": "lit-e02-04",
+   "exam": "lit",
+   "field": "E",
+   "theme": "源泉徴収と年末調整・確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1900 給与所得者で確定申告が必要な人",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "給与所得者であっても確定申告をしなければならない場合の説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "給与の年間収入金額が2,000万円を超える人は、年末調整の対象とならないため確定申告が必要である"
+      },
+      {
+       "id": "2",
+       "text": "年末調整を受けた給与所得者は、どのような場合でも確定申告をする必要はない"
+      },
+      {
+       "id": "3",
+       "text": "給与以外の所得が少額であれば金額にかかわらず確定申告は不要であり、副業の所得が30万円あっても申告しなくてよい"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-2"
+  },
+  {
+   "id": "lit-e02-05",
+   "exam": "lit",
+   "field": "E",
+   "theme": "源泉徴収と年末調整・確定申告",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.1120 医療費を支払ったとき（医療費控除）",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "Aさん（総所得金額等150万円）は、その年に自分と家族のために医療費20万円を支払い、保険金などで補てんされた金額は2万円であった。Aさんの医療費控除の額に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "総所得金額等が200万円未満の人は、差し引く金額は10万円ではなく総所得金額等の5パーセントの金額である"
+      },
+      {
+       "id": "2",
+       "text": "医療費控除を受けるためには、控除に関する事項を記載した確定申告書を提出する必要がある"
+      },
+      {
+       "id": "3",
+       "text": "控除額は8万円である。医療費から保険金等を差し引いた18万円から、さらに10万円を差し引いて計算する"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 4,
+   "topic": "E2-2",
+   "calcReason": "医療費控除額の計算（保険金等の差引きと、総所得金額等200万円未満の場合の5パーセントの差引き）が必要なため"
+  },
+  {
+   "id": "lit-e02-06",
+   "exam": "lit",
+   "field": "E",
+   "theme": "住民税の仕組みと納付",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 地方税制度 個人住民税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人住民税の所得割は、課税所得金額に一律10パーセントの税率を掛けて計算するため、課税所得金額が200万円の人の所得割額は20万円となる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-3",
+   "calcReason": "課税所得金額に税率10パーセントを掛ける計算が必要なため"
+  },
+  {
+   "id": "lit-e02-07",
+   "exam": "lit",
+   "field": "E",
+   "theme": "住民税の仕組みと納付",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 地方税制度 個人住民税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人住民税は、その年の12月31日時点で住所がある市町村（都道府県）によって課税される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-3"
+  },
+  {
+   "id": "lit-e02-08",
+   "exam": "lit",
+   "field": "E",
+   "theme": "住民税の仕組みと納付",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 地方税制度 個人住民税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人住民税の均等割は、所得の多い人ほど金額が高くなる仕組みであり、所得に応じて金額が変わる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-3"
+  },
+  {
+   "id": "lit-e02-09",
+   "exam": "lit",
+   "field": "E",
+   "theme": "住民税の仕組みと納付",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 地方税制度 個人住民税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人住民税の特別徴収に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "個人住民税の納付方法は特別徴収のみであり、普通徴収という方法はない"
+      },
+      {
+       "id": "2",
+       "text": "納税義務者本人が、自治体から送られてくる納税通知書に従って、直接市町村に納める方法である"
+      },
+      {
+       "id": "3",
+       "text": "給与の支払をする会社などが、納税義務者から税金を徴収して、その人に代わって納める方法である"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-3"
+  },
+  {
+   "id": "lit-e02-10",
+   "exam": "lit",
+   "field": "E",
+   "theme": "消費税とその他の身近な税金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.6101 消費税の基本的なしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費税は消費一般に広く公平に課税する間接税であり、標準税率は10パーセント、飲食料品などに適用される軽減税率は8パーセントである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E2-4"
+  },
+  {
+   "id": "lit-e02-11",
+   "exam": "lit",
+   "field": "E",
+   "theme": "消費税とその他の身近な税金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.6101 消費税の基本的なしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費税は、買い物をした消費者が、買うたびに税務署へ直接申告して納める仕組みの税金である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E2-4"
+  },
+  {
+   "id": "lit-e02-12",
+   "exam": "lit",
+   "field": "E",
+   "theme": "消費税とその他の身近な税金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.6101 消費税の基本的なしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "酒税やたばこ税は、消費一般に広く課税する税金であり、個別消費税には当たらない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E2-4"
+  },
+  {
+   "id": "lit-e02-13",
+   "exam": "lit",
+   "field": "E",
+   "theme": "消費税とその他の身近な税金",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁タックスアンサー No.6101 消費税の基本的なしくみ",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費税の仕入税額控除とインボイス制度に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "仕入税額控除の適用を受けるためには、原則として適格請求書発行事業者から交付を受けた適格請求書（インボイス）と帳簿の保存が必要である"
+      },
+      {
+       "id": "2",
+       "text": "仕入税額控除とは、課税売上げに係る消費税額に、課税仕入れ等に係る消費税額を上乗せして納税額を増やす仕組みである"
+      },
+      {
+       "id": "3",
+       "text": "インボイス制度が始まったことにより、事業者は消費税の申告・納付をしなくてよくなった"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E2-4"
+  },
+  {
+   "id": "lit-e02-14",
+   "exam": "lit",
+   "field": "E",
+   "theme": "税金の種類と使われ方（国税と地方税）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど 税金ってなんのためにあるの？",
+      "url": "https://www.mof.go.jp/kids/2018/gakusyu_y/tax_gakusyu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "税金は、納める先によって、国に納める「国税」と、地方公共団体に納める「地方税」に分けられ、地方税はさらに道府県税と市町村税に分けられる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E3-1"
+  },
+  {
+   "id": "lit-e02-15",
+   "exam": "lit",
+   "field": "E",
+   "theme": "税金の種類と使われ方（国税と地方税）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど 税金ってなんのためにあるの？",
+      "url": "https://www.mof.go.jp/kids/2018/gakusyu_y/tax_gakusyu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "税金は、警察や消防、学校、道路の整備など、公共施設や公共サービスを提供するために必要なお金を、みんなで出し合うものである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E3-1"
+  },
+  {
+   "id": "lit-e02-16",
+   "exam": "lit",
+   "field": "E",
+   "theme": "税金の種類と使われ方（国税と地方税）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど 税金ってなんのためにあるの？",
+      "url": "https://www.mof.go.jp/kids/2018/gakusyu_y/tax_gakusyu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費税は、税を納める人と負担する人が同じであるため、直接税に分類される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E3-1"
+  },
+  {
+   "id": "lit-e02-17",
+   "exam": "lit",
+   "field": "E",
+   "theme": "税金の種類と使われ方（国税と地方税）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど 税金ってなんのためにあるの？",
+      "url": "https://www.mof.go.jp/kids/2018/gakusyu_y/tax_gakusyu.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "税金の種類と使われ方に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "所得税や法人税は、国に納める国税である"
+      },
+      {
+       "id": "2",
+       "text": "固定資産税は、国に納める国税の一つである"
+      },
+      {
+       "id": "3",
+       "text": "税金の使いみちは、国民が選挙で選んだ議員を通じて、国民が決めていると言える"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E3-1"
+  },
+  {
+   "id": "lit-e02-18",
+   "exam": "lit",
+   "field": "E",
+   "theme": "社会保障給付と負担の考え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど",
+      "url": "https://www.mof.go.jp/kids/gakusyu_a_html/jp_01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "税金は、年金・医療・福祉・教育など、社会での助け合いのための活動にも使われている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E3-2"
+  },
+  {
+   "id": "lit-e02-19",
+   "exam": "lit",
+   "field": "E",
+   "theme": "社会保障給付と負担の考え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど",
+      "url": "https://www.mof.go.jp/kids/gakusyu_a_html/jp_01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "少子高齢化が進んでも、年金や医療・介護にかかる費用を支える現役世代の人数は変わらないため、社会保障制度の維持に影響はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E3-2"
+  },
+  {
+   "id": "lit-e02-20",
+   "exam": "lit",
+   "field": "E",
+   "theme": "社会保障給付と負担の考え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど",
+      "url": "https://www.mof.go.jp/kids/gakusyu_a_html/jp_01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "少子高齢化と社会保障の関係に関する説明として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "生まれてくる子どもの数が減り高齢者が増えると、年金や医療・介護の費用を支える若い世代の負担が重くなり、制度を支え続けることが難しくなる"
+      },
+      {
+       "id": "2",
+       "text": "少子高齢化が進むと高齢者の数が減っていくため、社会保障にかかる費用は自然に減少する"
+      },
+      {
+       "id": "3",
+       "text": "社会保障などの事業に必要なお金は税金だけで十分にまかなえるため、財源の心配はない"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E3-2"
+  },
+  {
+   "id": "lit-e02-21",
+   "exam": "lit",
+   "field": "E",
+   "theme": "社会保障給付と負担の考え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省キッズコーナー ファイナンスらんど",
+      "url": "https://www.mof.go.jp/kids/gakusyu_a_html/jp_01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "社会保障の給付と負担に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "税金は、年金・医療・福祉・教育など社会での助け合いのための活動にも使われている"
+      },
+      {
+       "id": "2",
+       "text": "社会保障などの事業に必要なお金は税金だけで十分にまかなえており、国の借金で補うことはない"
+      },
+      {
+       "id": "3",
+       "text": "税金は、公立学校や公園、道路などの公共施設や、警察・消防、ゴミの収集などの公共サービスのためにも使われている"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E3-2"
+  },
+  {
+   "id": "lit-e02-22",
+   "exam": "lit",
+   "field": "E",
+   "theme": "ふるさと納税の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 ふるさと納税ポータル よくわかる！ふるさと納税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ふるさと納税は、「納税」という言葉がついているが、実際には都道府県や市区町村への寄附である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E3-3"
+  },
+  {
+   "id": "lit-e02-23",
+   "exam": "lit",
+   "field": "E",
+   "theme": "ふるさと納税の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 ふるさと納税ポータル よくわかる！ふるさと納税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/"
+     },
+     {
+      "title": "総務省 地方税制度 個人住民税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ふるさと納税をすれば、寄附した金額の全額が所得税・住民税から控除され、自己負担は一切生じない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "E3-3"
+  },
+  {
+   "id": "lit-e02-24",
+   "exam": "lit",
+   "field": "E",
+   "theme": "ふるさと納税の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 ふるさと納税ポータル よくわかる！ふるさと納税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ふるさと納税は、自分の生まれ故郷の自治体に対してのみ行うことができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "E3-3"
+  },
+  {
+   "id": "lit-e02-25",
+   "exam": "lit",
+   "field": "E",
+   "theme": "ふるさと納税の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省 ふるさと納税ポータル よくわかる！ふるさと納税",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ふるさと納税ワンストップ特例制度に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ふるさと納税で控除を受けるには、ワンストップ特例制度を利用する場合であっても、必ず確定申告を行わなければならない"
+      },
+      {
+       "id": "2",
+       "text": "本来確定申告を行う必要がなかった給与所得者等は、ふるさと納税先の自治体数が5団体以内であれば、あらかじめ申請することで確定申告をせずに控除を受けられる"
+      },
+      {
+       "id": "3",
+       "text": "ワンストップ特例制度を利用すれば、自己負担額の2,000円も含めて寄附額の全額が控除される"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "E3-3"
+  }
+ ]
+}

@@ -1,0 +1,856 @@
+{
+ "id": "lit_c01",
+ "exam": "lit",
+ "title": "金融リテラシー検定 C 金融・経済①",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-c01-01",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融機関の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "預金保険制度の対象となる金融機関には、銀行のほか、信用金庫、信用組合、労働金庫が含まれる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-1"
+  },
+  {
+   "id": "lit-c01-02",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融機関と保護制度",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "証券会社や保険会社に預けた資金も、預金保険制度によって保護される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-1"
+  },
+  {
+   "id": "lit-c01-03",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融機関の種類と対象範囲",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融機関の種類と預金保険制度の対象について、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信用金庫や信用組合は、預金保険制度の対象金融機関に含まれる。"
+      },
+      {
+       "id": "2",
+       "text": "証券会社は、預金保険制度の対象金融機関である。"
+      },
+      {
+       "id": "3",
+       "text": "外国銀行の在日支店は、預金保険制度の対象金融機関である。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-1"
+  },
+  {
+   "id": "lit-c01-04",
+   "exam": "lit",
+   "field": "C",
+   "theme": "協同組合金融機関と保護制度",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "農業協同組合に預けた貯金は、預金保険制度によって保護される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C1-1"
+  },
+  {
+   "id": "lit-c01-05",
+   "exam": "lit",
+   "field": "C",
+   "theme": "中央銀行",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「日本銀行の概要」",
+      "url": "https://www.boj.or.jp/about/outline/index.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行は、わが国唯一の中央銀行である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-2"
+  },
+  {
+   "id": "lit-c01-06",
+   "exam": "lit",
+   "field": "C",
+   "theme": "日本銀行の組織",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 おしえて！にちぎん「日本銀行は株式会社ですか？ 株主総会がありますか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/outline/a11.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行は株式会社ではなく、株主総会もない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-2"
+  },
+  {
+   "id": "lit-c01-07",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融政策の独立性",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「金融政策の概要」",
+      "url": "https://www.boj.or.jp/mopo/outline/index.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行の金融政策は、政府の指示に従って決定されなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-2"
+  },
+  {
+   "id": "lit-c01-08",
+   "exam": "lit",
+   "field": "C",
+   "theme": "物価安定の目標",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「金融政策の概要」",
+      "url": "https://www.boj.or.jp/mopo/outline/index.htm"
+     },
+     {
+      "title": "日本銀行 おしえて！にちぎん「日本銀行の『物価の安定』についての考え方および『物価安定の目標』について教えてください」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b29.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日本銀行の「物価安定の目標」について、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "消費者物価の前年比上昇率2％を目標としている。"
+      },
+      {
+       "id": "2",
+       "text": "消費者物価の前年比上昇率0％を目標としている。"
+      },
+      {
+       "id": "3",
+       "text": "株価指数の前年比上昇率2％を目標としている。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-2"
+  },
+  {
+   "id": "lit-c01-09",
+   "exam": "lit",
+   "field": "C",
+   "theme": "金融緩和と金融引締め",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 おしえて！にちぎん「金融政策は景気や物価にどのように影響を及ぼすのですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b28.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融引締め政策とは、金利を引き下げて企業や個人が資金を借りやすくし、景気を刺激する政策である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C1-2"
+  },
+  {
+   "id": "lit-c01-10",
+   "exam": "lit",
+   "field": "C",
+   "theme": "預金保険制度の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "預金保険制度は、金融機関が破綻した場合に、一定額の預金等を保護するための保険制度である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-3"
+  },
+  {
+   "id": "lit-c01-11",
+   "exam": "lit",
+   "field": "C",
+   "theme": "預金保険の保護範囲",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "利息のつく普通預金や定期預金は、1つの金融機関ごとに合算して、預金者1人当たり元本1,000万円までと破綻日までの利息等が保護される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-3"
+  },
+  {
+   "id": "lit-c01-12",
+   "exam": "lit",
+   "field": "C",
+   "theme": "ペイオフ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 おしえて！にちぎん「ペイオフとは何ですか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/pfsys/e28.htm"
+     },
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ペイオフとは、金融機関が破綻した場合に、預金保険機構が預金を全額保護する仕組みのことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-3"
+  },
+  {
+   "id": "lit-c01-13",
+   "exam": "lit",
+   "field": "C",
+   "theme": "預金保険の手続と対象範囲",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "預金保険機構「預金保険制度の概要」",
+      "url": "https://www.dic.go.jp/yokinsha/gaiyo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "預金保険制度について、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "外貨預金は、預金保険の対象外である。"
+      },
+      {
+       "id": "2",
+       "text": "決済用預金は、預金保険によって全額保護される。"
+      },
+      {
+       "id": "3",
+       "text": "預金者は、預金をする際に預金保険の手続を行う必要がある。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C1-3"
+  },
+  {
+   "id": "lit-c01-14",
+   "exam": "lit",
+   "field": "C",
+   "theme": "間接金融の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "時事通信社 用語集「間接金融」（投信用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "間接金融とは、貸し手と借り手の間を金融機関が仲介して、間接的に資金を調達する方法である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C1-4"
+  },
+  {
+   "id": "lit-c01-15",
+   "exam": "lit",
+   "field": "C",
+   "theme": "直接金融の意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "時事通信社 用語集「直接金融」（LINE証券 投資用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "直接金融とは、企業や政府が、銀行などの金融機関からの借入れによって資金を調達する方法である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-4"
+  },
+  {
+   "id": "lit-c01-16",
+   "exam": "lit",
+   "field": "C",
+   "theme": "直接金融の仕組み",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "時事通信社 用語集「直接金融」（LINE証券 投資用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255"
+     },
+     {
+      "title": "時事通信社 用語集「間接金融」（投信用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "直接金融の説明として、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "銀行などの金融機関が預金などの形で貸し手から資金を集めて、金融機関の責任で貸し付ける。"
+      },
+      {
+       "id": "2",
+       "text": "企業や政府が必要な資金を、銀行などの金融機関からの借入れで調達する。"
+      },
+      {
+       "id": "3",
+       "text": "国や企業などが有価証券を発行して、証券市場を通じて投資家から資金を直接調達する。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C1-4"
+  },
+  {
+   "id": "lit-c01-17",
+   "exam": "lit",
+   "field": "C",
+   "theme": "直接金融と間接金融の違い",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "時事通信社 用語集「直接金融」（LINE証券 投資用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=line-sec&pageID=LB2601_FUND_GLOSSARY_SUMMARY&wordID=YST1255"
+     },
+     {
+      "title": "時事通信社 用語集「間接金融」（投信用語集）",
+      "url": "https://t2.jiji.com/linkbox?userID=pwm-sec_v2&pageID=LB1612_FUND_GLOSSARY_SUMMARY&wordID=YST0335"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "直接金融と間接金融の違いについて、不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "間接金融では、預金者は自分の預金がどの企業に貸し出されるかを個別に指定できる。"
+      },
+      {
+       "id": "2",
+       "text": "間接金融では、借り手が債務を返さないというリスクは金融機関が負う。"
+      },
+      {
+       "id": "3",
+       "text": "直接金融では、借り手が債務を返さないというリスクは貸し手が負う。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C1-4"
+  },
+  {
+   "id": "lit-c01-18",
+   "exam": "lit",
+   "field": "C",
+   "theme": "GDPの意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia「国内総生産」",
+      "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E7%B7%8F%E7%94%9F%E7%94%A3"
+     },
+     {
+      "title": "日本銀行 おしえて！にちぎん「日本銀行は、景気をみるときに、何を判断材料にしていますか？ 判断材料の見方を教えてください」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b43.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "GDP（国内総生産）は、一定期間内に国内で産み出された物やサービスの付加価値の合計である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-1"
+  },
+  {
+   "id": "lit-c01-19",
+   "exam": "lit",
+   "field": "C",
+   "theme": "景気動向指数の種類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "内閣府経済社会総合研究所「用語の解説（景気動向指数）」",
+      "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "景気動向指数の一致指数は、景気の先行きに対する予測を行うときに参照される。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-1"
+  },
+  {
+   "id": "lit-c01-20",
+   "exam": "lit",
+   "field": "C",
+   "theme": "CIとDI",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "内閣府経済社会総合研究所「用語の解説（景気動向指数）」",
+      "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "景気動向指数には、景気変動の量感を把握するCI（コンポジット・インデックス）と、波及度を把握するDI（ディフュージョン・インデックス）がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-1"
+  },
+  {
+   "id": "lit-c01-21",
+   "exam": "lit",
+   "field": "C",
+   "theme": "景気動向指数の見方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "内閣府経済社会総合研究所「景気動向指数の利用の手引」",
+      "url": "https://www.esri.cao.go.jp/jp/stat/di/di3.html"
+     },
+     {
+      "title": "内閣府経済社会総合研究所「用語の解説（景気動向指数）」",
+      "url": "https://www.esri.cao.go.jp/jp/stat/di/yogo.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "景気動向指数について、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "遅行指数は、景気の動きに先行して動く指標である。"
+      },
+      {
+       "id": "2",
+       "text": "CI一致指数が上昇している時は景気の拡張局面、低下している時は後退局面とみることができる。"
+      },
+      {
+       "id": "3",
+       "text": "DI（ディフュージョン・インデックス）は、景気変動の大きさやテンポといった量感を測定する指数である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C2-1"
+  },
+  {
+   "id": "lit-c01-22",
+   "exam": "lit",
+   "field": "C",
+   "theme": "インフレーションの意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia「インフレーション」",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "インフレーションとは、一定期間にわたって物価の水準が上昇し続ける状態をいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C2-2"
+  },
+  {
+   "id": "lit-c01-23",
+   "exam": "lit",
+   "field": "C",
+   "theme": "デフレーションの意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia「インフレーション」",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "デフレーションとは、一定期間にわたって物価の水準が上昇し続ける状態をいう。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-2"
+  },
+  {
+   "id": "lit-c01-24",
+   "exam": "lit",
+   "field": "C",
+   "theme": "物価の意味",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行「金融政策の概要」",
+      "url": "https://www.boj.or.jp/mopo/outline/index.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融政策でいう「物価」とは、特定の商品1つの価格のことである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "C2-2"
+  },
+  {
+   "id": "lit-c01-25",
+   "exam": "lit",
+   "field": "C",
+   "theme": "物価に関する指数",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本銀行 おしえて！にちぎん「日本銀行は、物価をみるときに、何を判断材料にしていますか？」",
+      "url": "https://www.boj.or.jp/about/education/oshiete/seisaku/b45.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "物価に関する指数について、適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "企業向けサービス価格指数は、家計が消費するサービスの物価を示す指数である。"
+      },
+      {
+       "id": "2",
+       "text": "消費者物価指数は、消費者が購入する財やサービスの物価を示す指数である。"
+      },
+      {
+       "id": "3",
+       "text": "企業物価指数は、消費者が購入する財やサービスの物価を示す指数である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C2-2"
+  }
+ ]
+}

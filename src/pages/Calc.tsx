@@ -61,6 +61,17 @@ export function CalcHomePage() {
       .slice(0, 5);
   }, [stats]);
 
+  if (settings?.unit === 'lit') {
+    return (
+      <div className="space-y-4">
+        <PageTitle>計算トレーニング</PageTitle>
+        <p className="rounded-xl border border-dashed border-slate-300 p-6 text-center text-sm text-slate-600 dark:text-slate-400 dark:border-slate-700">
+          計算トレーニングはFP技能検定向けの内容です。金融リテラシー検定の学習には通常演習をご利用ください。
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-4">
       <PageTitle>計算トレーニング</PageTitle>
@@ -190,6 +201,18 @@ export function CalcRunPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [settings]);
 
+  if (settings?.unit === 'lit') {
+    return (
+      <div className="space-y-3 pt-4">
+        <p className="rounded-xl border border-dashed border-slate-300 p-6 text-center text-sm text-slate-600 dark:text-slate-400 dark:border-slate-700">
+          計算トレーニングはFP技能検定向けの内容です。
+        </p>
+        <Link to="/calc" className="btn-secondary w-full">
+          戻る
+        </Link>
+      </div>
+    );
+  }
   if (!problem) return <p role="status">問題を生成中…</p>;
   const generator = getGenerator(problem.generatorId)!;
   const value = parseNumericInput(input);

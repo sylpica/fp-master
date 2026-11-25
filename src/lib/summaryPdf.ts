@@ -4,9 +4,10 @@
  * public/pdf64/ に同梱し、開くときに復元して表示する（AI総合マスターと同方式）。
  * Drive保存分とバイト列が一致することはMD5で確認済み。
  */
-export const SUMMARY_PDF_B64: Record<2 | 3, string> = {
+export const SUMMARY_PDF_B64: Record<2 | 3 | 'lit', string> = {
   2: `${import.meta.env.BASE_URL}pdf64/fp2-summary.b64`,
   3: `${import.meta.env.BASE_URL}pdf64/fp3-summary.b64`,
+  lit: `${import.meta.env.BASE_URL}pdf64/lit-summary.b64`,
 };
 
 /** Base64テキスト（空白含む）をバイト列へ復元する */
@@ -18,7 +19,7 @@ export function decodeBase64ToBytes(text: string): Uint8Array {
 }
 
 /** 同梱の要点まとめPDFを新しいタブで開く */
-export async function openSummaryPdf(grade: 2 | 3): Promise<void> {
+export async function openSummaryPdf(grade: 2 | 3 | 'lit'): Promise<void> {
   const w = window.open('', '_blank'); // ポップアップブロック回避のため先に空タブを開く
   try {
     const text = await (await fetch(SUMMARY_PDF_B64[grade])).text();

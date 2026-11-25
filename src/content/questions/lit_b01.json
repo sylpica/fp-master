@@ -1,0 +1,840 @@
+{
+ "id": "lit_b01",
+ "exam": "lit",
+ "title": "金融リテラシー検定 B 消費者トラブル・消費者信用①",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-b01-01",
+   "exam": "lit",
+   "field": "B",
+   "theme": "契約の成立と効力",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "契約は、契約の内容を示してその締結を申し入れる意思表示（申込み）に対して、相手方が承諾をしたときに成立する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-1"
+  },
+  {
+   "id": "lit-b01-02",
+   "exam": "lit",
+   "field": "B",
+   "theme": "契約の成立と効力",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "契約を成立させるためには、原則として契約書を作成し、双方が署名しなければならず、口頭だけの合意では契約は成立しない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-1"
+  },
+  {
+   "id": "lit-b01-03",
+   "exam": "lit",
+   "field": "B",
+   "theme": "契約の成立と効力",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "一度成立した契約は、原則として当事者を拘束し、当事者は約束した内容を守らなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-1"
+  },
+  {
+   "id": "lit-b01-04",
+   "exam": "lit",
+   "field": "B",
+   "theme": "契約の成立と効力",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "Aさんは近所のBさんと、口頭で中古自転車を3万円で売買する約束をした。この売買契約に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "口頭の合意でも契約は成立し、原則として契約書の作成は必要ない"
+      },
+      {
+       "id": "2",
+       "text": "契約書を作成していない以上、代金を支払う前であれば理由なく撤回できる"
+      },
+      {
+       "id": "3",
+       "text": "申込みの意思表示をしただけでは足りず、公証人の確認を受けて初めて成立する"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-1"
+  },
+  {
+   "id": "lit-b01-05",
+   "exam": "lit",
+   "field": "B",
+   "theme": "未成年者と契約",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "未成年者が法律行為をするには、原則として法定代理人の同意を得なければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-2"
+  },
+  {
+   "id": "lit-b01-06",
+   "exam": "lit",
+   "field": "B",
+   "theme": "未成年者と契約",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "未成年者が法定代理人の同意を得ずに結んだ契約は、はじめから無効であり、取り消すまでもなく効力を生じない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-2"
+  },
+  {
+   "id": "lit-b01-07",
+   "exam": "lit",
+   "field": "B",
+   "theme": "未成年者と契約",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "未成年者であっても、法定代理人が目的を定めて処分を許した財産については、その目的の範囲内において自由に処分することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B1-2"
+  },
+  {
+   "id": "lit-b01-08",
+   "exam": "lit",
+   "field": "B",
+   "theme": "未成年者と契約",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 民法",
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "17歳の高校生Cさんは、親の同意を得ずにスマートフォンを分割払いで購入した。この契約に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "未成年者が結んだ契約は、内容や金額にかかわらず、例外なくすべて取り消すことができる"
+      },
+      {
+       "id": "2",
+       "text": "親の同意を得ていない以上、Cさんや親はこの契約を取り消すことができる"
+      },
+      {
+       "id": "3",
+       "text": "Cさんが自分を成年者だと信じさせるために詐術を用いていた場合、その行為を取り消すことはできない"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-2"
+  },
+  {
+   "id": "lit-b01-09",
+   "exam": "lit",
+   "field": "B",
+   "theme": "消費者契約法による取消し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン 契約トラブルから身を守るために、知っておきたい「消費者契約法」",
+      "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者契約法によって契約を取り消せるのは、事業者の説明を誤認した場合に限られ、帰ってほしいと伝えても居座る事業者と結んだ契約は取り消すことができない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-3"
+  },
+  {
+   "id": "lit-b01-10",
+   "exam": "lit",
+   "field": "B",
+   "theme": "消費者契約法による取消し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン 契約トラブルから身を守るために、知っておきたい「消費者契約法」",
+      "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "事業者が重要事項について事実と異なる説明をし、消費者がその内容を事実であると誤認して契約した場合、消費者は消費者契約法によりその契約を取り消すことができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-3"
+  },
+  {
+   "id": "lit-b01-11",
+   "exam": "lit",
+   "field": "B",
+   "theme": "消費者契約法による取消し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン 契約トラブルから身を守るために、知っておきたい「消費者契約法」",
+      "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "消費者契約法に基づく取消権は、原則として、契約を締結したときから10年間行使することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B1-3"
+  },
+  {
+   "id": "lit-b01-12",
+   "exam": "lit",
+   "field": "B",
+   "theme": "消費者契約法による取消し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "政府広報オンライン 契約トラブルから身を守るために、知っておきたい「消費者契約法」",
+      "url": "https://www.gov-online.go.jp/article/201803/entry-8412.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "Dさんは事業者から「この金融商品は確実に値上がりする」と説明されて投資信託を購入したが、その後値下がりして損失が出た。消費者契約法に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "損失が出た以上、勧誘時の説明の内容にかかわらず、契約を取り消すことができる"
+      },
+      {
+       "id": "2",
+       "text": "金融商品に関する契約は消費者契約法の対象外であり、どのような勧誘を受けても取り消すことはできない"
+      },
+      {
+       "id": "3",
+       "text": "将来の変動が不確実な事項について確実であると告げられた場合は、断定的判断の提供として契約を取り消せる可能性がある"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B1-3"
+  },
+  {
+   "id": "lit-b01-13",
+   "exam": "lit",
+   "field": "B",
+   "theme": "特定商取引法とクーリング・オフ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "訪問販売で契約した場合、法定書面を受け取った日を含めて8日間は、クーリング・オフによって無条件で契約を解除することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-4"
+  },
+  {
+   "id": "lit-b01-14",
+   "exam": "lit",
+   "field": "B",
+   "theme": "特定商取引法とクーリング・オフ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "クーリング・オフの通知は書面でしなければならず、電子メールで通知しても効力は認められない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-4"
+  },
+  {
+   "id": "lit-b01-15",
+   "exam": "lit",
+   "field": "B",
+   "theme": "特定商取引法とクーリング・オフ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "クーリング・オフ制度に関する説明として正しいものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "クーリング・オフをするには、事業者が解除に承諾することが必要である"
+      },
+      {
+       "id": "2",
+       "text": "クーリング・オフができる期間は、対象となる取引の種類にかかわらず一律14日間である"
+      },
+      {
+       "id": "3",
+       "text": "特定の販売方法での取引について、定められた期間内であれば、無条件で消費者が契約を解除できる制度である"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-4"
+  },
+  {
+   "id": "lit-b01-16",
+   "exam": "lit",
+   "field": "B",
+   "theme": "特定商取引法とクーリング・オフ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "Eさんは通信販売で洋服を購入したが、届いた商品がイメージと違ったため返品したいと考えている。この場合に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "返品特約が表示されていない場合は、商品が到着してから8日以内であれば返品することができる"
+      },
+      {
+       "id": "2",
+       "text": "通信販売であっても訪問販売と同様に、8日間はクーリング・オフにより理由を問わず無条件で解除できる"
+      },
+      {
+       "id": "3",
+       "text": "通信販売にはクーリング・オフ制度がないため、返品の可否は広告に表示された返品特約の内容による"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B1-4"
+  },
+  {
+   "id": "lit-b01-17",
+   "exam": "lit",
+   "field": "B",
+   "theme": "電子契約・インターネット取引",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "インターネット通販で商品を購入した場合も、訪問販売と同様にクーリング・オフが認められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B1-5"
+  },
+  {
+   "id": "lit-b01-18",
+   "exam": "lit",
+   "field": "B",
+   "theme": "電子契約・インターネット取引",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 電子消費者契約に関する民法の特例に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/413AC0000000095"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "インターネット通販で、消費者が申込みをする意思がなかったのに操作ミスで申込みを送信してしまい、事業者が申込み内容の確認を求める措置を講じていなかった場合、消費者は錯誤による無効を主張できることがある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B1-5"
+  },
+  {
+   "id": "lit-b01-19",
+   "exam": "lit",
+   "field": "B",
+   "theme": "電子契約・インターネット取引",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 電子消費者契約に関する民法の特例に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/413AC0000000095"
+     },
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "Fさんは、確認画面が表示されない通販サイトで誤って商品を注文した。また別の日には、街頭でアンケート調査と声をかけられ、店舗に連れて行かれてエステティックの契約をした。Fさんの救済に関する説明として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "通販の注文は通信販売として、8日間はクーリング・オフにより無条件で解除できる"
+      },
+      {
+       "id": "2",
+       "text": "通販の注文は、事業者が確認を求める措置を講じていなかったため、操作ミスによる錯誤の無効を主張できる可能性がある"
+      },
+      {
+       "id": "3",
+       "text": "街頭で呼び止められて店舗に連れて行かれた契約は、訪問販売に当たりクーリング・オフの対象となる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "B1-5"
+  },
+  {
+   "id": "lit-b01-20",
+   "exam": "lit",
+   "field": "B",
+   "theme": "悪質商法の手口",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+      "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "「無料で点検する」と言って家に上がり込み、不安をあおって商品やサービスを契約させる手口は、点検商法と呼ばれる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-1"
+  },
+  {
+   "id": "lit-b01-21",
+   "exam": "lit",
+   "field": "B",
+   "theme": "悪質商法の手口",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+      "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "身に覚えのない未納料金の請求メールが届いたら、記載された連絡先にすぐに電話をして、身に覚えがないことを伝えなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-1"
+  },
+  {
+   "id": "lit-b01-22",
+   "exam": "lit",
+   "field": "B",
+   "theme": "悪質商法の手口",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "街頭でアンケート調査を装って声をかけられ、店舗に連れて行かれて契約した場合は、店舗で結んだ契約であるからクーリング・オフはできない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-1"
+  },
+  {
+   "id": "lit-b01-23",
+   "exam": "lit",
+   "field": "B",
+   "theme": "マルチ商法・投資勧誘トラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "マルチ商法（連鎖販売取引）で契約した場合、法定書面を受け取った日を含めて20日間は、クーリング・オフをすることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "B2-2"
+  },
+  {
+   "id": "lit-b01-24",
+   "exam": "lit",
+   "field": "B",
+   "theme": "マルチ商法・投資勧誘トラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 詐欺的な投資勧誘等にご注意ください！",
+      "url": "https://www.fsa.go.jp/ordinary/chuui/attention.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "海外に所在地がある業者であれば、日本の居住者を相手に金融商品取引の勧誘を行っても、日本の金融商品取引業の登録を受ける必要はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "B2-2"
+  },
+  {
+   "id": "lit-b01-25",
+   "exam": "lit",
+   "field": "B",
+   "theme": "マルチ商法・投資勧誘トラブル",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "山梨県県民生活センター 悪質商法の手口と対処法",
+      "url": "https://www.pref.yamanashi.jp/kenminskt-c/67027136377.html"
+     },
+     {
+      "title": "滋賀県消費生活センター クーリング・オフについて",
+      "url": "https://www.pref.shiga.lg.jp/shohi/17169.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "大学生のGさんは先輩から「健康食品を買って会員になり、友人を紹介していけばマージンが入って必ずもうかる」と誘われ、商品を購入して販売組織に入った。Gさんへの助言として誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "連鎖販売取引にはクーリング・オフがあり、法定書面を受け取った日を含めて20日間は解除できる"
+      },
+      {
+       "id": "2",
+       "text": "知人からの勧誘で始めた取引は、クーリング・オフなどの消費者保護の対象にはならない"
+      },
+      {
+       "id": "3",
+       "text": "「必ずもうかる」といった甘い誘い文句を安易に信じず、勧誘時の成功話どおりに販売できるとは限らないと考えるべきだ"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "B2-2"
+  }
+ ]
+}

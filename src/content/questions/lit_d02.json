@@ -1,0 +1,858 @@
+{
+ "id": "lit_d02",
+ "exam": "lit",
+ "title": "金融リテラシー検定 D 金融商品・保険②",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "lit-d02-01",
+   "exam": "lit",
+   "field": "D",
+   "theme": "分散投資の効果",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「資産形成の基本」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "値動きが異なる複数の資産に分散して投資を行うことで、価格の変動をある程度抑えることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-4"
+  },
+  {
+   "id": "lit-d02-02",
+   "exam": "lit",
+   "field": "D",
+   "theme": "リスクとリターンの関係",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「資産形成の基本」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "預貯金よりも高いリターンが期待できる運用商品であれば、元本割れのおそれはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-4"
+  },
+  {
+   "id": "lit-d02-03",
+   "exam": "lit",
+   "field": "D",
+   "theme": "金融商品の3つの性質",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「資産形成の基本」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融商品の中には、安全性・収益性・流動性の3つすべてに優れた商品が存在する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D2-4"
+  },
+  {
+   "id": "lit-d02-04",
+   "exam": "lit",
+   "field": "D",
+   "theme": "長期・積立投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「資産形成の基本」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "長期投資や積立投資に関する説明として、最も適切なものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "積立投資とは、一度にまとまった金額を一括で投資する方法である"
+      },
+      {
+       "id": "2",
+       "text": "長期投資をうまく活用することで、安定した収益の確保が期待できる"
+      },
+      {
+       "id": "3",
+       "text": "長期投資を行えば、元本割れのおそれは完全になくなり、必ず利益が得られる"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-4"
+  },
+  {
+   "id": "lit-d02-05",
+   "exam": "lit",
+   "field": "D",
+   "theme": "NISAの非課税",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「NISAを知る」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "NISA口座で投資した金融商品から得られる利益は、非課税になる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-5"
+  },
+  {
+   "id": "lit-d02-06",
+   "exam": "lit",
+   "field": "D",
+   "theme": "iDeCoの引き出し制限",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省「iDeCoの概要」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/kyoshutsu/ideco.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "iDeCo（個人型確定拠出年金）は私的年金制度であるため、60歳になる前でも資産を自由に引き出すことができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-5"
+  },
+  {
+   "id": "lit-d02-07",
+   "exam": "lit",
+   "field": "D",
+   "theme": "iDeCoの税制優遇",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "厚生労働省「iDeCoの概要」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/kyoshutsu/ideco.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "iDeCoの掛金は、全額が所得控除の対象になる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-5"
+  },
+  {
+   "id": "lit-d02-08",
+   "exam": "lit",
+   "field": "D",
+   "theme": "NISAとiDeCoの制度比較",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 NISA特設ウェブサイト「NISAを知る」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html"
+     },
+     {
+      "title": "厚生労働省「iDeCoの概要」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/kyoshutsu/ideco.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "NISAとiDeCoに関する説明として、誤っているものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "2024年からのNISAでは、非課税で保有できる期間は最長20年間に限られる"
+      },
+      {
+       "id": "2",
+       "text": "iDeCoは、加入の申込、掛金の拠出、掛金の運用の全てを自分で行う制度である"
+      },
+      {
+       "id": "3",
+       "text": "NISAの口座は、1人につき1口座のみ開設可能である"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D2-5"
+  },
+  {
+   "id": "lit-d02-09",
+   "exam": "lit",
+   "field": "D",
+   "theme": "元本保証のうたい文句",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 アクセスFSA第152号「その『もうけ話』、大丈夫ですか？詐欺的な投資勧誘にご注意を！」",
+      "url": "https://www.fsa.go.jp/access/27/152b.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融庁（財務局）の登録を受けた業者であれば、「元本保証」や「絶対に儲かる」と説明して投資を勧誘することが認められている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-6"
+  },
+  {
+   "id": "lit-d02-10",
+   "exam": "lit",
+   "field": "D",
+   "theme": "公的機関を装う勧誘",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 アクセスFSA第152号「その『もうけ話』、大丈夫ですか？詐欺的な投資勧誘にご注意を！」",
+      "url": "https://www.fsa.go.jp/access/27/152b.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融庁や証券取引等監視委員会の職員が、電話で投資に関する情報提供やアドバイスを行うことはない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-6"
+  },
+  {
+   "id": "lit-d02-11",
+   "exam": "lit",
+   "field": "D",
+   "theme": "詐欺的な勧誘への対応",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 アクセスFSA第152号「その『もうけ話』、大丈夫ですか？詐欺的な投資勧誘にご注意を！」",
+      "url": "https://www.fsa.go.jp/access/27/152b.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "詐欺的な投資勧誘への対応として、最も適切なものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "未公開株の勧誘は幅広い投資家に一般的に行われているので、応じても問題ない"
+      },
+      {
+       "id": "2",
+       "text": "登録を受けた業者であれば、その信用力は金融庁が保証しているので安心できる"
+      },
+      {
+       "id": "3",
+       "text": "不審な勧誘を受けた場合は、金融庁の金融サービス利用者相談室に情報を提供する"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D2-6"
+  },
+  {
+   "id": "lit-d02-12",
+   "exam": "lit",
+   "field": "D",
+   "theme": "勧誘を受けたときの確認",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融庁 アクセスFSA第152号「その『もうけ話』、大丈夫ですか？詐欺的な投資勧誘にご注意を！」",
+      "url": "https://www.fsa.go.jp/access/27/152b.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資の勧誘を受けたときの対応として、誤っているものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "金融庁の職員を名乗る人から電話で勧められた投資話は、公的機関の話なので信用してよい"
+      },
+      {
+       "id": "2",
+       "text": "ファンドへの出資の勧誘では、金融庁（財務局）の登録・届出を受けた業者かどうかを確認する"
+      },
+      {
+       "id": "3",
+       "text": "少しでも不審に思った場合は、取引を見合わせることを含めて慎重に対応する"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D2-6"
+  },
+  {
+   "id": "lit-d02-13",
+   "exam": "lit",
+   "field": "D",
+   "theme": "大数の法則",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省消防庁 防災危機管理eカレッジ「損害保険の基礎知識 保険のしくみの5つの法則」",
+      "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "保険は、災害や事故などの一見偶然と思われる事象も、たくさん観察すれば一定の法則が見られるという「大数の法則」に基づいて成り立っている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D3-1"
+  },
+  {
+   "id": "lit-d02-14",
+   "exam": "lit",
+   "field": "D",
+   "theme": "収支相等の原則",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省消防庁 防災危機管理eカレッジ「損害保険の基礎知識 保険のしくみの5つの法則」",
+      "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "収支相等の原則とは、保険会社が利益を確保するため、集めた保険料の総額が支払う保険金の総額を大きく上回るようにしなければならないという原則である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D3-1"
+  },
+  {
+   "id": "lit-d02-15",
+   "exam": "lit",
+   "field": "D",
+   "theme": "公平の原則",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省消防庁 防災危機管理eカレッジ「損害保険の基礎知識 保険のしくみの5つの法則」",
+      "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "保険の仕組みでは、保険料はすべての加入者に一律ではなく、事故の確率の高低によって水準が変わる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D3-1"
+  },
+  {
+   "id": "lit-d02-16",
+   "exam": "lit",
+   "field": "D",
+   "theme": "保険の仕組み（相互扶助）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "総務省消防庁 防災危機管理eカレッジ「損害保険の基礎知識 保険のしくみの5つの法則」",
+      "url": "https://www.fdma.go.jp/relocation/e-college/cat65/cat63/cat41/25.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "保険の仕組みに関する説明として、最も適切なものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "保険料は、事故の確率にかかわらず、すべての加入者で一律の金額に設定される"
+      },
+      {
+       "id": "2",
+       "text": "損害保険は、多くの人々が少しずつお金を出し合い、損害を被った人を補償する相互扶助の制度である"
+      },
+      {
+       "id": "3",
+       "text": "保険は貯蓄と同じ仕組みであり、契約して間もない時期には積み立てた額の範囲でしか補償を受けられない"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D3-1"
+  },
+  {
+   "id": "lit-d02-17",
+   "exam": "lit",
+   "field": "D",
+   "theme": "定期保険の特徴",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「定期保険」",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/41.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "定期保険には貯蓄性があり、保険期間の満期まで生存すると満期保険金を受け取ることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D3-2"
+  },
+  {
+   "id": "lit-d02-18",
+   "exam": "lit",
+   "field": "D",
+   "theme": "養老保険の特徴",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「養老保険」",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/38.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "養老保険では、保険期間中に死亡した場合の死亡保険金と、満期まで生存した場合の満期保険金は同額である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D3-2"
+  },
+  {
+   "id": "lit-d02-19",
+   "exam": "lit",
+   "field": "D",
+   "theme": "終身保険の特徴",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「終身保険」",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/37.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "終身保険に関する説明として、誤っているものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "終身保険には満期があり、満期を迎えると満期保険金が支払われる"
+      },
+      {
+       "id": "2",
+       "text": "終身保険を保険料払込期間中に解約すると、解約返戻金が保険料払込総額を下回ることがほとんどである"
+      },
+      {
+       "id": "3",
+       "text": "終身保険の保険期間は終身であり、一生涯にわたって保障が続く"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D3-2"
+  },
+  {
+   "id": "lit-d02-20",
+   "exam": "lit",
+   "field": "D",
+   "theme": "火災保険の契約単位",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本損害保険協会「火災保険」",
+      "url": "https://www.sonpo.or.jp/insurance/kasai/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "火災保険では、建物と家財を分けて契約することになっている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D3-3"
+  },
+  {
+   "id": "lit-d02-21",
+   "exam": "lit",
+   "field": "D",
+   "theme": "自賠責保険の補償範囲",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本損害保険協会「自賠責保険」",
+      "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "自賠責保険は、交通事故で他人にケガをさせた場合のほか、相手の自動車の修理代など物の損害も補償する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "D3-3"
+  },
+  {
+   "id": "lit-d02-22",
+   "exam": "lit",
+   "field": "D",
+   "theme": "自賠責保険と任意保険の組合せ",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本損害保険協会「自動車保険」",
+      "url": "https://www.sonpo.or.jp/insurance/car/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "自動車事故への備えに関する説明として、最も適切なものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "車両保険に加入すれば、自分の車の損害に加えて、他人に負わせた損害賠償もあわせて補償される"
+      },
+      {
+       "id": "2",
+       "text": "対物賠償保険は、事故で自分がケガをしたときの治療費を補償する保険である"
+      },
+      {
+       "id": "3",
+       "text": "自賠責保険は人身損害のみが対象で補償額にも限度があるため、限度を超える部分は対人賠償保険で備える"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "D3-3"
+  },
+  {
+   "id": "lit-d02-23",
+   "exam": "lit",
+   "field": "D",
+   "theme": "民間保険の役割（相互扶助）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「生命保険とは」",
+      "url": "https://www.jili.or.jp/knows_learns/basic/whatis.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "生命保険は、大勢の加入者があらかじめ公平に保険料を負担しあい、「もしも」のことが現実に起きたときに給付を受ける仕組みである。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D3-4"
+  },
+  {
+   "id": "lit-d02-24",
+   "exam": "lit",
+   "field": "D",
+   "theme": "保険の見直し",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「保障ニーズから選ぶ生命保険」",
+      "url": "https://www.jili.or.jp/knows_learns/basic/needs.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "生命保険は一度契約すれば、結婚や子どもの誕生などで生活が変化しても、保障内容を見直す必要はない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "D3-4"
+  },
+  {
+   "id": "lit-d02-25",
+   "exam": "lit",
+   "field": "D",
+   "theme": "保険選びと見直しの考え方",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（金融リテラシー検定の出題範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター「生命保険の種類（主契約・特約・その他）」",
+      "url": "https://www.jili.or.jp/knows_learns/kind/index.html"
+     },
+     {
+      "title": "生命保険文化センター「医療保険」",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/35.html"
+     },
+     {
+      "title": "生命保険文化センター「保障ニーズから選ぶ生命保険」",
+      "url": "https://www.jili.or.jp/knows_learns/basic/needs.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "民間保険の選び方や見直しに関する説明として、最も適切なものはどれですか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "医療保険は死亡保障を中心とする保険であり、入院や手術に対する給付はない"
+      },
+      {
+       "id": "2",
+       "text": "保険を選ぶときは、今と将来の保障ニーズに保険の種類が適合しているかを確認する"
+      },
+      {
+       "id": "3",
+       "text": "特約は主契約とは別に単独で契約でき、主契約が消滅した後も特約だけを残して保障を続けることができる"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 1,
+   "topic": "D3-4"
+  }
+ ]
+}
